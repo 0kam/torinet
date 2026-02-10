@@ -1,0 +1,691 @@
+﻿checklist8_order,part,species_num,scientific_name,japanese_name,order,family,ebird_matched,ebird_sciname,ebird_common_name,ebird_species_code,birdnet_matched,birdnet_sciname,birdnet_common_name_en,birdnet_common_name_ja
+4,A,1,Dendrocygna javanica,リュウキュウガモ,ANSERIFORMES,ANATIDAE,True,Dendrocygna javanica,Lesser Whistling-Duck,lewduc1,True,Dendrocygna javanica,Lesser Whistling-Duck,リュウキュウガモ
+6,A,2,Branta bernicla,コクガン,ANSERIFORMES,ANATIDAE,True,Branta bernicla,Brant,brant,True,Branta bernicla,Brent Goose,コクガン
+8,A,3,Branta ruficollis,アオガン,ANSERIFORMES,ANATIDAE,True,Branta ruficollis,Red-breasted Goose,rebgoo1,False,,,
+9,A,4,Branta canadensis,カナダガン,ANSERIFORMES,ANATIDAE,True,Branta canadensis,Canada Goose,cangoo,True,Branta canadensis,Canada Goose,カナダガン
+11,A,5,Branta hutchinsii,シジュウカラガン,ANSERIFORMES,ANATIDAE,True,Branta hutchinsii,Cackling Goose,cacgoo1,True,Branta hutchinsii,Cackling Goose,シジュウカラガン
+16,A,6,Anser indicus,インドガン,ANSERIFORMES,ANATIDAE,True,Anser indicus,Bar-headed Goose,bahgoo,True,Anser indicus,Bar-headed Goose,インドガン
+17,A,7,Anser canagicus,ミカドガン,ANSERIFORMES,ANATIDAE,True,Anser canagicus,Emperor Goose,empgoo,True,Anser canagicus,Emperor Goose,ミカドガン
+18,A,8,Anser caerulescens,ハクガン,ANSERIFORMES,ANATIDAE,True,Anser caerulescens,Snow Goose,snogoo,True,Anser caerulescens,Snow Goose,ハクガン
+20,A,9,Anser anser,ハイイロガン,ANSERIFORMES,ANATIDAE,True,Anser anser,Graylag Goose,gragoo,True,Anser anser,Greylag Goose,ハイイロガン
+22,A,10,Anser cygnoid,サカツラガン,ANSERIFORMES,ANATIDAE,True,Anser cygnoides,Swan Goose,swagoo1,True,Anser cygnoides,Swan Goose,サカツラガン
+23,A,11,Anser fabalis,ヒシクイ,ANSERIFORMES,ANATIDAE,True,Anser fabalis,Taiga Bean-Goose,taibeg1,True,Anser fabalis,Taiga Bean Goose,オオヒシクイ
+27,A,12,Anser albifrons,マガン,ANSERIFORMES,ANATIDAE,True,Anser albifrons,Greater White-fronted Goose,gwfgoo,True,Anser albifrons,Greater White-fronted Goose,マガン
+30,A,13,Anser erythropus,カリガネ,ANSERIFORMES,ANATIDAE,True,Anser erythropus,Lesser White-fronted Goose,lwfgoo,True,Anser erythropus,Lesser White-fronted Goose,カリガネ
+32,A,14,Cygnus olor,コブハクチョウ,ANSERIFORMES,ANATIDAE,True,Cygnus olor,Mute Swan,mutswa,True,Cygnus olor,Mute Swan,コブハクチョウ
+33,A,15,Cygnus buccinator,ナキハクチョウ,ANSERIFORMES,ANATIDAE,True,Cygnus buccinator,Trumpeter Swan,truswa,True,Cygnus buccinator,Trumpeter Swan,ナキハクチョウ
+34,A,16,Cygnus columbianus,コハクチョウ,ANSERIFORMES,ANATIDAE,True,Cygnus columbianus,Tundra Swan,tunswa,True,Cygnus columbianus,Bewick's Swan,コハクチョウ
+37,A,17,Cygnus cygnus,オオハクチョウ,ANSERIFORMES,ANATIDAE,True,Cygnus cygnus,Whooper Swan,whoswa,True,Cygnus cygnus,Whooper Swan,オオハクチョウ
+39,A,18,Tadorna tadorna,ツクシガモ,ANSERIFORMES,ANATIDAE,True,Tadorna tadorna,Common Shelduck,comshe,True,Tadorna tadorna,Common Shelduck,ツクシガモ
+40,A,19,Tadorna ferruginea,アカツクシガモ,ANSERIFORMES,ANATIDAE,True,Tadorna ferruginea,Ruddy Shelduck,rudshe,True,Tadorna ferruginea,Ruddy Shelduck,アカツクシガモ
+41,A,20,Tadorna cristata,カンムリツクシガモ,ANSERIFORMES,ANATIDAE,True,Tadorna cristata,Crested Shelduck,creshe1,False,,,
+43,A,21,Aix galericulata,オシドリ,ANSERIFORMES,ANATIDAE,True,Aix galericulata,Mandarin Duck,manduc,True,Aix galericulata,Mandarin Duck,オシドリ
+45,A,22,Nettapus coromandelianus,ナンキンオシ,ANSERIFORMES,ANATIDAE,True,Nettapus coromandelianus,Cotton Pygmy-Goose,copgoo1,True,Nettapus coromandelianus,Cotton Pygmy-Goose,ナンキンオシ
+48,A,23,Sibirionetta formosa,トモエガモ,ANSERIFORMES,ANATIDAE,True,Sibirionetta formosa,Baikal Teal,baitea,False,,,
+50,A,24,Spatula querquedula,シマアジ,ANSERIFORMES,ANATIDAE,True,Spatula querquedula,Garganey,gargan,True,Spatula querquedula,Garganey,シマアジ
+51,A,25,Spatula discors,ミカヅキシマアジ,ANSERIFORMES,ANATIDAE,True,Spatula discors,Blue-winged Teal,buwtea,True,Spatula discors,Blue-winged Teal,ミカヅキシマアジ
+52,A,26,Spatula clypeata,ハシビロガモ,ANSERIFORMES,ANATIDAE,True,Spatula clypeata,Northern Shoveler,norsho,True,Spatula clypeata,Northern Shoveler,ハシビロガモ
+54,A,27,Mareca strepera,オカヨシガモ,ANSERIFORMES,ANATIDAE,True,Mareca strepera,Gadwall,gadwal,True,Mareca strepera,Gadwall,オカヨシガモ
+56,A,28,Mareca falcata,ヨシガモ,ANSERIFORMES,ANATIDAE,True,Mareca falcata,Falcated Duck,falduc,True,Mareca falcata,Falcated Duck,ヨシガモ
+57,A,29,Mareca penelope,ヒドリガモ,ANSERIFORMES,ANATIDAE,True,Mareca penelope,Eurasian Wigeon,eurwig,True,Mareca penelope,Eurasian Wigeon,ヒドリガモ
+58,A,30,Mareca americana,アメリカヒドリ,ANSERIFORMES,ANATIDAE,True,Mareca americana,American Wigeon,amewig,True,Mareca americana,American Wigeon,アメリカヒドリ
+60,A,31,Anas luzonica,アカノドカルガモ,ANSERIFORMES,ANATIDAE,True,Anas luzonica,Philippine Duck,phiduc1,False,,,
+61,A,32,Anas zonorhyncha,カルガモ,ANSERIFORMES,ANATIDAE,True,Anas zonorhyncha,Eastern Spot-billed Duck,spbduc,True,Anas zonorhyncha,Eastern Spot-billed Duck,カルガモ
+62,A,33,Anas platyrhynchos,マガモ,ANSERIFORMES,ANATIDAE,True,Anas platyrhynchos,Mallard,mallar3,True,Anas platyrhynchos,Mallard,マガモ
+64,A,34,Anas acuta,オナガガモ,ANSERIFORMES,ANATIDAE,True,Anas acuta,Northern Pintail,norpin,True,Anas acuta,Northern Pintail,オナガガモ
+65,A,35,Anas crecca,コガモ,ANSERIFORMES,ANATIDAE,True,Anas crecca,Green-winged Teal,gnwtea,True,Anas crecca,Eurasian/Green-winged Teal,コガモ
+69,A,36,Netta rufina,アカハシハジロ,ANSERIFORMES,ANATIDAE,True,Netta rufina,Red-crested Pochard,recpoc,True,Netta rufina,Red-crested Pochard,アカハシハジロ
+71,A,37,Aythya valisineria,オオホシハジロ,ANSERIFORMES,ANATIDAE,True,Aythya valisineria,Canvasback,canvas,True,Aythya valisineria,Canvasback,オオホシハジロ
+72,A,38,Aythya americana,アメリカホシハジロ,ANSERIFORMES,ANATIDAE,True,Aythya americana,Redhead,redhea,True,Aythya americana,Redhead,アメリカホシハジロ
+73,A,39,Aythya ferina,ホシハジロ,ANSERIFORMES,ANATIDAE,True,Aythya ferina,Common Pochard,compoc,True,Aythya ferina,Common Pochard,ホシハジロ
+74,A,40,Aythya baeri,アカハジロ,ANSERIFORMES,ANATIDAE,True,Aythya baeri,Baer's Pochard,baepoc1,False,,,
+75,A,41,Aythya nyroca,メジロガモ,ANSERIFORMES,ANATIDAE,True,Aythya nyroca,Ferruginous Duck,ferduc,True,Aythya nyroca,Ferruginous Duck,メジロガモ
+76,A,42,Aythya collaris,クビワキンクロ,ANSERIFORMES,ANATIDAE,True,Aythya collaris,Ring-necked Duck,rinduc,True,Aythya collaris,Ring-necked Duck,クビワキンクロ
+77,A,43,Aythya fuligula,キンクロハジロ,ANSERIFORMES,ANATIDAE,True,Aythya fuligula,Tufted Duck,tufduc,True,Aythya fuligula,Tufted Duck,キンクロハジロ
+78,A,44,Aythya marila,スズガモ,ANSERIFORMES,ANATIDAE,True,Aythya marila,Greater Scaup,gresca,True,Aythya marila,Greater Scaup,スズガモ
+80,A,45,Aythya affinis,コスズガモ,ANSERIFORMES,ANATIDAE,True,Aythya affinis,Lesser Scaup,lessca,True,Aythya affinis,Lesser Scaup,コスズガモ
+82,A,46,Polysticta stelleri,コケワタガモ,ANSERIFORMES,ANATIDAE,True,Polysticta stelleri,Steller's Eider,steeid,False,,,
+84,A,47,Somateria spectabilis,ケワタガモ,ANSERIFORMES,ANATIDAE,True,Somateria spectabilis,King Eider,kineid,True,Somateria spectabilis,King Eider,ケワタガモ
+86,A,48,Histrionicus histrionicus,シノリガモ,ANSERIFORMES,ANATIDAE,True,Histrionicus histrionicus,Harlequin Duck,harduc,True,Histrionicus histrionicus,Harlequin Duck,シノリガモ
+88,A,49,Melanitta perspicillata,アラナミキンクロ,ANSERIFORMES,ANATIDAE,True,Melanitta perspicillata,Surf Scoter,sursco,True,Melanitta perspicillata,Surf Scoter,アラナミキンクロ
+89,A,50,Melanitta deglandi,アメリカビロードキンクロ,ANSERIFORMES,ANATIDAE,True,Melanitta deglandi,White-winged Scoter,whwsco2,False,,,
+90,A,51,Melanitta stejnegeri,ビロードキンクロ,ANSERIFORMES,ANATIDAE,True,Melanitta stejnegeri,Stejneger's Scoter,whwsco1,False,,,
+91,A,52,Melanitta americana,クロガモ,ANSERIFORMES,ANATIDAE,True,Melanitta americana,Black Scoter,blksco2,True,Melanitta americana,Black Scoter,クロガモ
+93,A,53,Clangula hyemalis,コオリガモ,ANSERIFORMES,ANATIDAE,True,Clangula hyemalis,Long-tailed Duck,lotduc,True,Clangula hyemalis,Long-tailed Duck,コオリガモ
+95,A,54,Bucephala albeola,ヒメハジロ,ANSERIFORMES,ANATIDAE,True,Bucephala albeola,Bufflehead,buffle,True,Bucephala albeola,Bufflehead,ヒメハジロ
+96,A,55,Bucephala clangula,ホオジロガモ,ANSERIFORMES,ANATIDAE,True,Bucephala clangula,Common Goldeneye,comgol,True,Bucephala clangula,Common Goldeneye,ホオジロガモ
+99,A,56,Mergellus albellus,ミコアイサ,ANSERIFORMES,ANATIDAE,True,Mergellus albellus,Smew,smew,True,Mergellus albellus,Smew,ミコアイサ
+101,A,57,Lophodytes cucullatus,オウギアイサ,ANSERIFORMES,ANATIDAE,True,Lophodytes cucullatus,Hooded Merganser,hoomer,True,Lophodytes cucullatus,Hooded Merganser,オウギアイサ
+103,A,58,Mergus merganser,カワアイサ,ANSERIFORMES,ANATIDAE,True,Mergus merganser,Common Merganser,commer,True,Mergus merganser,Goosander,カワアイサ
+106,A,59,Mergus serrator,ウミアイサ,ANSERIFORMES,ANATIDAE,True,Mergus serrator,Red-breasted Merganser,rebmer,True,Mergus serrator,Red-breasted Merganser,ウミアイサ
+107,A,60,Mergus squamatus,コウライアイサ,ANSERIFORMES,ANATIDAE,True,Mergus squamatus,Scaly-sided Merganser,scsmer1,False,,,
+111,A,61,Tetrastes bonasia,エゾライチョウ,GALLIFORMES,PHASIANIDAE,True,Tetrastes bonasia,Hazel Grouse,hazgro1,True,Tetrastes bonasia,Hazel Grouse,エゾライチョウ
+114,A,62,Lagopus muta,ライチョウ,GALLIFORMES,PHASIANIDAE,True,Lagopus muta,Rock Ptarmigan,rocpta1,True,Lagopus muta,Rock Ptarmigan,ライチョウ
+117,A,63,Syrmaticus soemmerringii,ヤマドリ,GALLIFORMES,PHASIANIDAE,True,Syrmaticus soemmerringii,Copper Pheasant,copphe1,False,,,
+125,A,64,Phasianus versicolor,キジ,GALLIFORMES,PHASIANIDAE,True,Phasianus versicolor,Green Pheasant,rinphe2,False,,,
+132,A,65,Coturnix japonica,ウズラ,GALLIFORMES,PHASIANIDAE,True,Coturnix japonica,Japanese Quail,japqua,True,Coturnix japonica,Japanese Quail,ウズラ
+136,A,66,Caprimulgus jotaka,ヨタカ,CAPRIMULGIFORMES,CAPRIMULGIDAE,True,Caprimulgus jotaka,Gray Nightjar,grynig1,True,Caprimulgus jotaka,Grey Nightjar,ヨタカ
+141,A,67,Hirundapus caudacutus,ハリオアマツバメ,APODIFORMES,APODIDAE,True,Hirundapus caudacutus,White-throated Needletail,whtnee,True,Hirundapus caudacutus,White-throated Needletail,ハリオアマツバメ
+143,A,68,Hirundapus cochinchinensis,クロビタイハリオアマツバメ,APODIFORMES,APODIDAE,True,Hirundapus cochinchinensis,Silver-backed Needletail,sibnee1,False,,,
+145,A,69,Apus pacificus,アマツバメ,APODIFORMES,APODIDAE,True,Apus pacificus,Pacific Swift,fotswi,True,Apus pacificus,Pacific Swift,アマツバメ
+148,A,70,Apus nipalensis,ヒメアマツバメ,APODIFORMES,APODIDAE,True,Apus nipalensis,House Swift,houswi1,True,Apus nipalensis,House Swift,ヒメアマツバメ
+153,A,71,Otis tarda,ノガン,OTIDIFORMES,OTIDIDAE,True,Otis tarda,Great Bustard,grebus1,False,,,
+156,A,72,Tetrax tetrax,ヒメノガン,OTIDIFORMES,OTIDIDAE,True,Tetrax tetrax,Little Bustard,litbus1,True,Tetrax tetrax,Little Bustard,ヒメノガン
+160,A,73,Centropus bengalensis,バンケン,CUCULIFORMES,CUCULIDAE,True,Centropus bengalensis,Lesser Coucal,lescou1,True,Centropus bengalensis,Lesser Coucal,バンケン
+163,A,74,Clamator coromandus,カンムリカッコウ,CUCULIFORMES,CUCULIDAE,True,Clamator coromandus,Chestnut-winged Cuckoo,chwcuc1,True,Clamator coromandus,Chestnut-winged Cuckoo,カンムリカッコウ
+165,A,75,Eudynamys scolopaceus,オニカッコウ,CUCULIFORMES,CUCULIDAE,True,Eudynamys scolopaceus,Asian Koel,asikoe2,True,Eudynamys scolopaceus,Asian Koel,オニカッコウ
+168,A,76,Urodynamis taitensis,キジカッコウ,CUCULIFORMES,CUCULIDAE,True,Urodynamis taitensis,Long-tailed Koel,lotkoe1,True,Urodynamis taitensis,Long-tailed Koel,キジカッコウ
+170,A,77,Cacomantis merulinus,ヒメカッコウ,CUCULIFORMES,CUCULIDAE,True,Cacomantis merulinus,Plaintive Cuckoo,placuc1,True,Cacomantis merulinus,Plaintive Cuckoo,ヒメカッコウ
+173,A,78,Hierococcyx sparverioides,オオジュウイチ,CUCULIFORMES,CUCULIDAE,True,Hierococcyx sparverioides,Large Hawk-Cuckoo,larhac2,True,Hierococcyx sparverioides,Large Hawk-Cuckoo,オオジュウイチ
+174,A,79,Hierococcyx hyperythrus,ジュウイチ,CUCULIFORMES,CUCULIDAE,True,Hierococcyx hyperythrus,Northern Hawk-Cuckoo,nohcuc1,True,Hierococcyx hyperythrus,Northern Hawk-Cuckoo,ジュウイチ
+176,A,80,Cuculus poliocephalus,ホトトギス,CUCULIFORMES,CUCULIDAE,True,Cuculus poliocephalus,Lesser Cuckoo,lescuc1,True,Cuculus poliocephalus,Lesser Cuckoo,ホトトギス
+177,A,81,Cuculus micropterus,セグロカッコウ,CUCULIFORMES,CUCULIDAE,True,Cuculus micropterus,Indian Cuckoo,indcuc1,True,Cuculus micropterus,Indian Cuckoo,セグロカッコウ
+179,A,82,Cuculus optatus,ツツドリ,CUCULIFORMES,CUCULIDAE,True,Cuculus optatus,Oriental Cuckoo,oricuc2,True,Cuculus optatus,Oriental Cuckoo,ツツドリ
+180,A,83,Cuculus canorus,カッコウ,CUCULIFORMES,CUCULIDAE,True,Cuculus canorus,Common Cuckoo,comcuc,True,Cuculus canorus,Common Cuckoo,カッコウ
+185,A,84,Syrrhaptes paradoxus,サケイ,PTEROCLIFORMES,PTEROCLIDAE,True,Syrrhaptes paradoxus,Pallas's Sandgrouse,palsan1,True,Syrrhaptes paradoxus,Pallas's Sandgrouse,サケイ
+189,A,85,Columba oenas,ヒメモリバト,COLUMBIFORMES,COLUMBIDAE,True,Columba oenas,Stock Dove,stodov1,True,Columba oenas,Stock Dove,ヒメモリバト
+191,A,86,Columba janthina,カラスバト,COLUMBIFORMES,COLUMBIDAE,True,Columba janthina,Black Wood-Pigeon,jawpig1,True,Columba janthina,Japanese Woodpigeon,カラスバト
+196,A,87,Columba versicolor,オガサワラカラスバト,COLUMBIFORMES,COLUMBIDAE,True,Columba versicolor,Bonin Pigeon,bonpig1,False,,,
+197,A,88,Columba jouyi,リュウキュウカラスバト,COLUMBIFORMES,COLUMBIDAE,True,Columba jouyi,Ryukyu Pigeon,ryupig1,False,,,
+199,A,89,Streptopelia orientalis,キジバト,COLUMBIFORMES,COLUMBIDAE,True,Streptopelia orientalis,Oriental Turtle-Dove,ortdov,True,Streptopelia orientalis,Rufous Turtle Dove,キジバト
+203,A,90,Streptopelia decaocto,シラコバト,COLUMBIFORMES,COLUMBIDAE,True,Streptopelia decaocto,Eurasian Collared-Dove,eucdov,True,Streptopelia decaocto,Collared Dove,シラコバト
+204,A,91,Streptopelia tranquebarica,ベニバト,COLUMBIFORMES,COLUMBIDAE,True,Streptopelia tranquebarica,Red Collared-Dove,recdov1,True,Streptopelia tranquebarica,Red Collared Dove,ベニバト
+207,A,92,Chalcophaps indica,キンバト,COLUMBIFORMES,COLUMBIDAE,True,Chalcophaps indica,Asian Emerald Dove,emedov2,True,Chalcophaps indica,Asian Emerald Dove,キンバト
+210,A,93,Treron sieboldii,アオバト,COLUMBIFORMES,COLUMBIDAE,True,Treron sieboldii,White-bellied Green-Pigeon,whbpig1,True,Treron sieboldii,White-bellied Green-Pigeon,アオバト
+212,A,94,Treron formosae,ズアカアオバト,COLUMBIFORMES,COLUMBIDAE,True,Treron formosae,Whistling Green-Pigeon,whgpig1,True,Treron formosae,Whistling Green-Pigeon,ズアカアオバト
+217,A,95,Ptilinopus leclancheri,クロアゴヒメアオバト,COLUMBIFORMES,COLUMBIDAE,True,Ptilinopus leclancheri,Black-chinned Fruit-Dove,bcfdov1,False,,,
+222,A,96,Rallus indicus,クイナ,GRUIFORMES,RALLIDAE,True,Rallus indicus,Brown-cheeked Rail,bncrai1,True,Rallus indicus,Brown-cheeked Rail,クイナ
+224,A,97,Crex crex,ウズラクイナ,GRUIFORMES,RALLIDAE,True,Crex crex,Corn Crake,corcra,True,Crex crex,Corncrake,ウズラクイナ
+226,A,98,Lewinia striata,ミナミクイナ,GRUIFORMES,RALLIDAE,True,Lewinia striata,Slaty-breasted Rail,slbrai1,True,Lewinia striata,Slaty-breasted Rail,ハシナガクイナ
+229,A,99,Hypotaenidia okinawae,ヤンバルクイナ,GRUIFORMES,RALLIDAE,True,Gallirallus okinawae,Okinawa Rail,okirai1,False,,,
+231,A,100,Gallinula chloropus,バン,GRUIFORMES,RALLIDAE,True,Gallinula chloropus,Eurasian Moorhen,commoo3,True,Gallinula chloropus,Common Moorhen,バン
+234,A,101,Fulica atra,オオバン,GRUIFORMES,RALLIDAE,True,Fulica atra,Eurasian Coot,eurcoo,True,Fulica atra,Eurasian Coot,オオバン
+237,A,102,Coturnicops exquisitus,シマクイナ,GRUIFORMES,RALLIDAE,True,Coturnicops exquisitus,Swinhoe's Rail,swirai1,False,,,
+239,A,103,Zapornia fusca,ヒクイナ,GRUIFORMES,RALLIDAE,True,Zapornia fusca,Ruddy-breasted Crake,rubcra1,True,Zapornia fusca,Ruddy-breasted Crake,ヒクイナ
+242,A,104,Zapornia paykullii,コウライクイナ,GRUIFORMES,RALLIDAE,True,Zapornia paykullii,Band-bellied Crake,babcra1,True,Zapornia paykullii,Band-bellied Crake,コウライクイナ
+243,A,105,Zapornia pusilla,ヒメクイナ,GRUIFORMES,RALLIDAE,True,Zapornia pusilla,Baillon's Crake,baicra1,True,Zapornia pusilla,Baillon's Crake,ヒメクイナ
+246,A,106,Rallina eurizonoides,オオクイナ,GRUIFORMES,RALLIDAE,True,Rallina eurizonoides,Slaty-legged Crake,sllcra1,True,Rallina eurizonoides,Slaty-legged Crake,オオクイナ
+249,A,107,Poliolimnas cinereus,マミジロクイナ,GRUIFORMES,RALLIDAE,True,Poliolimnas cinereus,White-browed Crake,whbcra1,True,Poliolimnas cinereus,White-browed Crake,マミジロクイナ
+252,A,108,Gallicrex cinerea,ツルクイナ,GRUIFORMES,RALLIDAE,True,Gallicrex cinerea,Watercock,waterc1,True,Gallicrex cinerea,Watercock,ツルクイナ
+254,A,109,Amaurornis phoenicurus,シロハラクイナ,GRUIFORMES,RALLIDAE,True,Amaurornis phoenicurus,White-breasted Waterhen,whbwat1,True,Amaurornis phoenicurus,White-breasted Waterhen,シロハラクイナ
+258,A,110,Leucogeranus leucogeranus,ソデグロヅル,GRUIFORMES,GRUIDAE,True,Leucogeranus leucogeranus,Siberian Crane,sibcra1,True,Leucogeranus leucogeranus,Siberian Crane,ソデグロヅル
+260,A,111,Antigone canadensis,カナダヅル,GRUIFORMES,GRUIDAE,True,Antigone canadensis,Sandhill Crane,sancra,True,Antigone canadensis,Sandhill Crane,カナダヅル
+262,A,112,Antigone vipio,マナヅル,GRUIFORMES,GRUIDAE,True,Antigone vipio,White-naped Crane,whncra1,True,Antigone vipio,White-naped Crane,マナヅル
+264,A,113,Anthropoides virgo,アネハヅル,GRUIFORMES,GRUIDAE,True,Anthropoides virgo,Demoiselle Crane,demcra1,True,Anthropoides virgo,Demoiselle Crane,アネハヅル
+266,A,114,Grus japonensis,タンチョウ,GRUIFORMES,GRUIDAE,True,Grus japonensis,Red-crowned Crane,reccra1,True,Grus japonensis,Red-crowned Crane,タンチョウ
+267,A,115,Grus grus,クロヅル,GRUIFORMES,GRUIDAE,True,Grus grus,Common Crane,comcra,True,Grus grus,Common Crane,クロヅル
+269,A,116,Grus monacha,ナベヅル,GRUIFORMES,GRUIDAE,True,Grus monacha,Hooded Crane,hoocra1,True,Grus monacha,Hooded Crane,ナベヅル
+273,A,117,Tachybaptus ruficollis,カイツブリ,PODICIPEDIFORMES,PODICIPEDIDAE,True,Tachybaptus ruficollis,Little Grebe,litgre1,True,Tachybaptus ruficollis,Little Grebe,カイツブリ
+277,A,118,Podiceps grisegena,アカエリカイツブリ,PODICIPEDIFORMES,PODICIPEDIDAE,True,Podiceps grisegena,Red-necked Grebe,rengre,True,Podiceps grisegena,Red-necked Grebe,アカエリカイツブリ
+279,A,119,Podiceps cristatus,カンムリカイツブリ,PODICIPEDIFORMES,PODICIPEDIDAE,True,Podiceps cristatus,Great Crested Grebe,grcgre1,True,Podiceps cristatus,Great Crested Grebe,カンムリカイツブリ
+281,A,120,Podiceps auritus,ミミカイツブリ,PODICIPEDIFORMES,PODICIPEDIDAE,True,Podiceps auritus,Horned Grebe,horgre,True,Podiceps auritus,Slavonian Grebe,ミミカイツブリ
+283,A,121,Podiceps nigricollis,ハジロカイツブリ,PODICIPEDIFORMES,PODICIPEDIDAE,True,Podiceps nigricollis,Eared Grebe,eargre,True,Podiceps nigricollis,Black-necked Grebe,ハジロカイツブリ
+288,A,122,Turnix suscitator,ミフウズラ,CHARADRIIFORMES,TURNICIDAE,True,Turnix suscitator,Barred Buttonquail,barbut1,True,Turnix suscitator,Barred Buttonquail,ミフウズラ
+292,A,123,Haematopus ostralegus,ミヤコドリ,CHARADRIIFORMES,HAEMATOPODIDAE,True,Haematopus ostralegus,Eurasian Oystercatcher,euroys1,True,Haematopus ostralegus,Eurasian Oystercatcher,ミヤコドリ
+296,A,124,Himantopus himantopus,セイタカシギ,CHARADRIIFORMES,RECURVIROSTRIDAE,True,Himantopus himantopus,Black-winged Stilt,bkwsti,True,Himantopus himantopus,Black-winged Stilt,セイタカシギ
+297,A,125,Himantopus leucocephalus,オーストラリアセイタカシギ,CHARADRIIFORMES,RECURVIROSTRIDAE,True,Himantopus leucocephalus,Pied Stilt,piesti1,True,Himantopus leucocephalus,Pied Stilt,オーストラリアセイタカシギ
+299,A,126,Recurvirostra avosetta,ソリハシセイタカシギ,CHARADRIIFORMES,RECURVIROSTRIDAE,True,Recurvirostra avosetta,Pied Avocet,pieavo1,True,Recurvirostra avosetta,Pied Avocet,ソリハシセイタカシギ
+302,A,127,Vanellus vanellus,タゲリ,CHARADRIIFORMES,CHARADRIIDAE,True,Vanellus vanellus,Northern Lapwing,norlap,True,Vanellus vanellus,Northern Lapwing,タゲリ
+303,A,128,Vanellus cinereus,ケリ,CHARADRIIFORMES,CHARADRIIDAE,True,Vanellus cinereus,Gray-headed Lapwing,gyhlap1,True,Vanellus cinereus,Grey-headed Lapwing,ケリ
+305,A,129,Pluvialis apricaria,ヨーロッパムナグロ,CHARADRIIFORMES,CHARADRIIDAE,True,Pluvialis apricaria,European Golden-Plover,eugplo,True,Pluvialis apricaria,European Golden Plover,ヨーロッパムナグロ
+307,A,130,Pluvialis fulva,ムナグロ,CHARADRIIFORMES,CHARADRIIDAE,True,Pluvialis fulva,Pacific Golden-Plover,pagplo,True,Pluvialis fulva,Pacific Golden Plover,ムナグロ
+308,A,131,Pluvialis squatarola,ダイゼン,CHARADRIIFORMES,CHARADRIIDAE,True,Pluvialis squatarola,Black-bellied Plover,bkbplo,True,Pluvialis squatarola,Grey Plover,ダイゼン
+310,A,132,Charadrius hiaticula,ハジロコチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Charadrius hiaticula,Common Ringed Plover,corplo,True,Charadrius hiaticula,Common Ringed Plover,ハジロコチドリ
+312,A,133,Charadrius semipalmatus,ミズカキチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Charadrius semipalmatus,Semipalmated Plover,semplo,True,Charadrius semipalmatus,Semipalmated Plover,ミズカキチドリ
+313,A,134,Charadrius placidus,イカルチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Thinornis placidus,Long-billed Plover,lobplo1,True,Charadrius placidus,Long-billed Plover,イカルチドリ
+314,A,135,Charadrius dubius,コチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Thinornis dubius,Little Ringed Plover,lirplo,True,Charadrius dubius,Little Ringed Plover,コチドリ
+316,A,136,Charadrius alexandrinus,シロチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Anarhynchus alexandrinus,Kentish Plover,kenplo1,True,Charadrius alexandrinus,Kentish Plover,シロチドリ
+319,A,137,Charadrius leschenaultii,オオメダイチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Anarhynchus leschenaultii,Greater Sand-Plover,grsplo,True,Charadrius leschenaultii,Greater Sand-Plover,オオメダイチドリ
+321,A,138,Charadrius mongolus,メダイチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Anarhynchus mongolus,Siberian Sand-Plover,lessap2,True,Charadrius mongolus,Lesser Sand-Plover,メダイチドリ
+324,A,139,Charadrius veredus,オオチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Anarhynchus veredus,Oriental Plover,oriplo1,True,Charadrius veredus,Oriental Plover,オオチドリ
+326,A,140,Eudromias morinellus,コバシチドリ,CHARADRIIFORMES,CHARADRIIDAE,True,Eudromias morinellus,Eurasian Dotterel,eurdot,False,,,
+329,A,141,Rostratula benghalensis,タマシギ,CHARADRIIFORMES,ROSTRATULIDAE,True,Rostratula benghalensis,Greater Painted-Snipe,grpsni1,True,Rostratula benghalensis,Greater Painted-Snipe,タマシギ
+332,A,142,Hydrophasianus chirurgus,レンカク,CHARADRIIFORMES,JACANIDAE,True,Hydrophasianus chirurgus,Pheasant-tailed Jacana,phtjac1,True,Hydrophasianus chirurgus,Pheasant-tailed Jacana,レンカク
+335,A,143,Numenius tahitiensis,ハリモモチュウシャク,CHARADRIIFORMES,SCOLOPACIDAE,True,Numenius tahitiensis,Bristle-thighed Curlew,brtcur,True,Numenius tahitiensis,Bristle-thighed Curlew,ハリモモチュウシャク
+336,A,144,Numenius phaeopus,チュウシャクシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Numenius phaeopus,Whimbrel,whimbr,True,Numenius phaeopus,Whimbrel,チュウシャクシギ
+338,A,145,Numenius minutus,コシャクシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Numenius minutus,Little Curlew,litcur,True,Numenius minutus,Little Whimbrel,コシャクシギ
+339,A,146,Numenius madagascariensis,ホウロクシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Numenius madagascariensis,Far Eastern Curlew,faecur,True,Numenius madagascariensis,Far Eastern Curlew,ホウロクシギ
+340,A,147,Numenius tenuirostris,シロハラチュウシャクシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Numenius tenuirostris,Slender-billed Curlew,slbcur,False,,,
+341,A,148,Numenius arquata,ダイシャクシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Numenius arquata,Eurasian Curlew,eurcur,True,Numenius arquata,Eurasian Curlew,ダイシャクシギ
+344,A,149,Limosa lapponica,オオソリハシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Limosa lapponica,Bar-tailed Godwit,batgod,True,Limosa lapponica,Bar-tailed Godwit,オオソリハシシギ
+347,A,150,Limosa limosa,オグロシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Limosa limosa,Black-tailed Godwit,bktgod,True,Limosa limosa,Black-tailed Godwit,オグロシギ
+349,A,151,Limosa haemastica,アメリカオグロシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Limosa haemastica,Hudsonian Godwit,hudgod,True,Limosa haemastica,Hudsonian Godwit,アメリカオグロシギ
+351,A,152,Arenaria interpres,キョウジョシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Arenaria interpres,Ruddy Turnstone,rudtur,True,Arenaria interpres,Ruddy Turnstone,キョウジョシギ
+354,A,153,Calidris tenuirostris,オバシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris tenuirostris,Great Knot,grekno,True,Calidris tenuirostris,Great Knot,オバシギ
+355,A,154,Calidris canutus,コオバシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris canutus,Red Knot,redkno,True,Calidris canutus,Red Knot,コオバシギ
+358,A,155,Calidris pugnax,エリマキシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris pugnax,Ruff,ruff,True,Calidris pugnax,Ruff,エリマキシギ
+359,A,156,Calidris falcinellus,キリアイ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris falcinellus,Broad-billed Sandpiper,brbsan,True,Calidris falcinellus,Broad-billed Sandpiper,キリアイ
+361,A,157,Calidris acuminata,ウズラシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris acuminata,Sharp-tailed Sandpiper,shtsan,True,Calidris acuminata,Sharp-tailed Sandpiper,ウズラシギ
+362,A,158,Calidris himantopus,アシナガシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris himantopus,Stilt Sandpiper,stisan,True,Calidris himantopus,Stilt Sandpiper,アシナガシギ
+363,A,159,Calidris ferruginea,サルハマシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris ferruginea,Curlew Sandpiper,cursan,True,Calidris ferruginea,Curlew Sandpiper,サルハマシギ
+364,A,160,Calidris temminckii,オジロトウネン,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris temminckii,Temminck's Stint,temsti,True,Calidris temminckii,Temminck's Stint,オジロトウネン
+365,A,161,Calidris subminuta,ヒバリシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris subminuta,Long-toed Stint,lotsti,True,Calidris subminuta,Long-toed Stint,ヒバリシギ
+366,A,162,Calidris pygmaea,ヘラシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris pygmaea,Spoon-billed Sandpiper,spbsan1,True,Calidris pygmaea,Spoon-billed Sandpiper,ヘラシギ
+367,A,163,Calidris ruficollis,トウネン,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris ruficollis,Red-necked Stint,rensti,True,Calidris ruficollis,Red-necked Stint,トウネン
+368,A,164,Calidris alba,ミユビシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris alba,Sanderling,sander,True,Calidris alba,Sanderling,ミユビシギ
+369,A,165,Calidris alpina,ハマシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris alpina,Dunlin,dunlin,True,Calidris alpina,Dunlin,ハマシギ
+373,A,166,Calidris ptilocnemis,チシマシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris ptilocnemis,Rock Sandpiper,rocsan,True,Calidris ptilocnemis,Rock Sandpiper,チシマシギ
+375,A,167,Calidris bairdii,ヒメウズラシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris bairdii,Baird's Sandpiper,baisan,True,Calidris bairdii,Baird's Sandpiper,ヒメウズラシギ
+376,A,168,Calidris minuta,ヨーロッパトウネン,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris minuta,Little Stint,litsti,True,Calidris minuta,Little Stint,ヨーロッパトウネン
+377,A,169,Calidris fuscicollis,コシジロウズラシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris fuscicollis,White-rumped Sandpiper,whrsan,True,Calidris fuscicollis,White-rumped Sandpiper,コシジロウズラシギ
+378,A,170,Calidris subruficollis,コモンシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris subruficollis,Buff-breasted Sandpiper,bubsan,True,Calidris subruficollis,Buff-breasted Sandpiper,コモンシギ
+379,A,171,Calidris melanotos,アメリカウズラシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris melanotos,Pectoral Sandpiper,pecsan,True,Calidris melanotos,Pectoral Sandpiper,アメリカウズラシギ
+380,A,172,Calidris mauri,ヒメハマシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Calidris mauri,Western Sandpiper,wessan,True,Calidris mauri,Western Sandpiper,ヒメハマシギ
+382,A,173,Limnodromus semipalmatus,シベリアオオハシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Limnodromus semipalmatus,Asian Dowitcher,asidow1,True,Limnodromus semipalmatus,Asian Dowitcher,シベリアオオハシシギ
+383,A,174,Limnodromus scolopaceus,オオハシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Limnodromus scolopaceus,Long-billed Dowitcher,lobdow,True,Limnodromus scolopaceus,Long-billed Dowitcher,オオハシシギ
+384,A,175,Limnodromus griseus,アメリカオオハシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Limnodromus griseus,Short-billed Dowitcher,shbdow,True,Limnodromus griseus,Short-billed Dowitcher,アメリカオオハシシギ
+387,A,176,Scolopax rusticola,ヤマシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Scolopax rusticola,Eurasian Woodcock,eurwoo,True,Scolopax rusticola,Eurasian Woodcock,ヤマシギ
+388,A,177,Scolopax mira,アマミヤマシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Scolopax mira,Amami Woodcock,amawoo1,False,,,
+390,A,178,Lymnocryptes minimus,コシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Lymnocryptes minimus,Jack Snipe,jacsni,True,Lymnocryptes minimus,Jack Snipe,コシギ
+392,A,179,Gallinago solitaria,アオシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Gallinago solitaria,Solitary Snipe,solsni1,False,,,
+394,A,180,Gallinago hardwickii,オオジシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Gallinago hardwickii,Latham's Snipe,latsni1,True,Gallinago hardwickii,Latham's Snipe,オオジシギ
+395,A,181,Gallinago stenura,ハリオシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Gallinago stenura,Pin-tailed Snipe,pitsni,True,Gallinago stenura,Pin-tailed Snipe,ハリオシギ
+396,A,182,Gallinago megala,チュウジシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Gallinago megala,Swinhoe's Snipe,swisni1,True,Gallinago megala,Swinhoe's Snipe,チュウジシギ
+397,A,183,Gallinago gallinago,タシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Gallinago gallinago,Common Snipe,comsni,True,Gallinago gallinago,Common Snipe,タシギ
+400,A,184,Xenus cinereus,ソリハシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Xenus cinereus,Terek Sandpiper,tersan,True,Xenus cinereus,Terek Sandpiper,ソリハシシギ
+402,A,185,Phalaropus tricolor,アメリカヒレアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Phalaropus tricolor,Wilson's Phalarope,wilpha,True,Phalaropus tricolor,Wilson's Phalarope,アメリカヒレアシシギ
+403,A,186,Phalaropus lobatus,アカエリヒレアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Phalaropus lobatus,Red-necked Phalarope,renpha,True,Phalaropus lobatus,Red-necked Phalarope,アカエリヒレアシシギ
+404,A,187,Phalaropus fulicarius,ハイイロヒレアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Phalaropus fulicarius,Red Phalarope,redpha1,True,Phalaropus fulicarius,Grey Phalarope,ハイイロヒレアシシギ
+406,A,188,Actitis hypoleucos,イソシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Actitis hypoleucos,Common Sandpiper,comsan,True,Actitis hypoleucos,Common Sandpiper,イソシギ
+407,A,189,Actitis macularius,アメリカイソシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Actitis macularius,Spotted Sandpiper,sposan,True,Actitis macularius,Spotted Sandpiper,アメリカイソシギ
+409,A,190,Tringa ochropus,クサシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa ochropus,Green Sandpiper,grnsan,True,Tringa ochropus,Green Sandpiper,クサシギ
+410,A,191,Tringa incana,メリケンキアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa incana,Wandering Tattler,wantat1,True,Tringa incana,Wandering Tattler,メリケンキアシシギ
+411,A,192,Tringa brevipes,キアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa brevipes,Gray-tailed Tattler,gyttat1,True,Tringa brevipes,Grey-tailed Tattler,キアシシギ
+412,A,193,Tringa flavipes,コキアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa flavipes,Lesser Yellowlegs,lesyel,True,Tringa flavipes,Lesser Yellowlegs,コキアシシギ
+413,A,194,Tringa totanus,アカアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa totanus,Common Redshank,comred1,True,Tringa totanus,Common Redshank,アカアシシギ
+415,A,195,Tringa stagnatilis,コアオアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa stagnatilis,Marsh Sandpiper,marsan,True,Tringa stagnatilis,Marsh Sandpiper,コアオアシシギ
+416,A,196,Tringa glareola,タカブシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa glareola,Wood Sandpiper,woosan,True,Tringa glareola,Wood Sandpiper,タカブシギ
+417,A,197,Tringa erythropus,ツルシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa erythropus,Spotted Redshank,spored,True,Tringa erythropus,Spotted Redshank,ツルシギ
+418,A,198,Tringa nebularia,アオアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa nebularia,Common Greenshank,comgre,True,Tringa nebularia,Common Greenshank,アオアシシギ
+419,A,199,Tringa guttifer,カラフトアオアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa guttifer,Nordmann's Greenshank,norgre1,True,Tringa guttifer,Nordmann's Greenshank,カラフトアオアシシギ
+420,A,200,Tringa melanoleuca,オオキアシシギ,CHARADRIIFORMES,SCOLOPACIDAE,True,Tringa melanoleuca,Greater Yellowlegs,greyel,True,Tringa melanoleuca,Greater Yellowlegs,オオキアシシギ
+423,A,201,Glareola maldivarum,ツバメチドリ,CHARADRIIFORMES,GLAREOLIDAE,True,Glareola maldivarum,Oriental Pratincole,oripra,True,Glareola maldivarum,Oriental Pratincole,ツバメチドリ
+426,A,202,Anous stolidus,クロアジサシ,CHARADRIIFORMES,LARIDAE,True,Anous stolidus,Brown Noddy,brnnod,True,Anous stolidus,Brown Noddy,クロアジサシ
+430,A,203,Anous minutus,ヒメクロアジサシ,CHARADRIIFORMES,LARIDAE,True,Anous minutus,Black Noddy,blknod,True,Anous minutus,Black Noddy,ヒメクロアジサシ
+432,A,204,Anous ceruleus,ハイイロアジサシ,CHARADRIIFORMES,LARIDAE,True,Anous ceruleus,Blue-gray Noddy,bugnod,True,Anous ceruleus,Blue-grey Noddy,ソライロアジサシ
+435,A,205,Gygis alba,シロアジサシ,CHARADRIIFORMES,LARIDAE,True,Gygis alba,White Tern,whiter,True,Gygis alba,White Tern,シロアジサシ
+438,A,206,Rissa tridactyla,ミツユビカモメ,CHARADRIIFORMES,LARIDAE,True,Rissa tridactyla,Black-legged Kittiwake,bklkit,True,Rissa tridactyla,Black-legged Kittiwake,ミツユビカモメ
+440,A,207,Rissa brevirostris,アカアシミツユビカモメ,CHARADRIIFORMES,LARIDAE,True,Rissa brevirostris,Red-legged Kittiwake,relkit,False,,,
+442,A,208,Pagophila eburnea,ゾウゲカモメ,CHARADRIIFORMES,LARIDAE,True,Pagophila eburnea,Ivory Gull,ivogul,False,,,
+444,A,209,Xema sabini,クビワカモメ,CHARADRIIFORMES,LARIDAE,True,Xema sabini,Sabine's Gull,sabgul,True,Xema sabini,Sabine's Gull,クビワカモメ
+446,A,210,Chroicocephalus genei,ハシボソカモメ,CHARADRIIFORMES,LARIDAE,True,Chroicocephalus genei,Slender-billed Gull,slbgul1,True,Chroicocephalus genei,Slender-billed Gull,ハシボソカモメ
+447,A,211,Chroicocephalus philadelphia,ボナパルトカモメ,CHARADRIIFORMES,LARIDAE,True,Chroicocephalus philadelphia,Bonaparte's Gull,bongul,True,Chroicocephalus philadelphia,Bonaparte's Gull,ボナパルトカモメ
+448,A,212,Chroicocephalus brunnicephalus,チャガシラカモメ,CHARADRIIFORMES,LARIDAE,True,Chroicocephalus brunnicephalus,Brown-headed Gull,bnhgul1,True,Chroicocephalus brunnicephalus,Brown-headed Gull,チャガシラカモメ
+449,A,213,Chroicocephalus ridibundus,ユリカモメ,CHARADRIIFORMES,LARIDAE,True,Chroicocephalus ridibundus,Black-headed Gull,bkhgul,True,Chroicocephalus ridibundus,Black-headed Gull,ユリカモメ
+451,A,214,Saundersilarus saundersi,ズグロカモメ,CHARADRIIFORMES,LARIDAE,True,Saundersilarus saundersi,Saunders's Gull,saugul2,True,Saundersilarus saundersi,Saunders's Gull,ズグロカモメ
+453,A,215,Hydrocoloeus minutus,ヒメカモメ,CHARADRIIFORMES,LARIDAE,True,Hydrocoloeus minutus,Little Gull,litgul,True,Hydrocoloeus minutus,Little Gull,ヒメカモメ
+455,A,216,Rhodostethia rosea,ヒメクビワカモメ,CHARADRIIFORMES,LARIDAE,True,Rhodostethia rosea,Ross's Gull,rosgul,True,Rhodostethia rosea,Ross's Gull,ヒメクビワカモメ
+457,A,217,Leucophaeus atricilla,ワライカモメ,CHARADRIIFORMES,LARIDAE,True,Leucophaeus atricilla,Laughing Gull,laugul,True,Leucophaeus atricilla,Laughing Gull,ワライカモメ
+459,A,218,Leucophaeus pipixcan,アメリカズグロカモメ,CHARADRIIFORMES,LARIDAE,True,Leucophaeus pipixcan,Franklin's Gull,fragul,True,Leucophaeus pipixcan,Franklin's Gull,アメリカズグロカモメ
+461,A,219,Ichthyaetus relictus,ゴビズキンカモメ,CHARADRIIFORMES,LARIDAE,True,Ichthyaetus relictus,Relict Gull,relgul2,False,,,
+462,A,220,Ichthyaetus ichthyaetus,オオズグロカモメ,CHARADRIIFORMES,LARIDAE,True,Ichthyaetus ichthyaetus,Pallas's Gull,gbhgul2,False,,,
+464,A,221,Larus crassirostris,ウミネコ,CHARADRIIFORMES,LARIDAE,True,Larus crassirostris,Black-tailed Gull,bktgul,True,Larus crassirostris,Black-tailed Gull,ウミネコ
+465,A,222,Larus canus,カモメ,CHARADRIIFORMES,LARIDAE,True,Larus canus,Common Gull,mewgul,True,Larus canus,Common Gull,カモメ
+467,A,223,Larus glaucescens,ワシカモメ,CHARADRIIFORMES,LARIDAE,True,Larus glaucescens,Glaucous-winged Gull,glwgul,True,Larus glaucescens,Glaucous-winged Gull,ワシカモメ
+468,A,224,Larus hyperboreus,シロカモメ,CHARADRIIFORMES,LARIDAE,True,Larus hyperboreus,Glaucous Gull,glagul,True,Larus hyperboreus,Glaucous Gull,シロカモメ
+471,A,225,Larus glaucoides,アイスランドカモメ,CHARADRIIFORMES,LARIDAE,True,Larus glaucoides,Iceland Gull,y00478,True,Larus glaucoides,Iceland Gull,アイスランドカモメ
+475,A,226,Larus vegae,セグロカモメ,CHARADRIIFORMES,LARIDAE,True,Larus vegae,Vega Gull,veggul1,False,,,
+479,A,227,Larus schistisagus,オオセグロカモメ,CHARADRIIFORMES,LARIDAE,True,Larus schistisagus,Slaty-backed Gull,slbgul,True,Larus schistisagus,Slaty-backed Gull,オオセグロカモメ
+480,A,228,Larus fuscus,ニシセグロカモメ,CHARADRIIFORMES,LARIDAE,True,Larus fuscus,Lesser Black-backed Gull,lbbgul,True,Larus fuscus,Lesser Black-backed Gull,ニシセグロカモメ
+483,A,229,Gelochelidon nilotica,ハシブトアジサシ,CHARADRIIFORMES,LARIDAE,True,Gelochelidon nilotica,Gull-billed Tern,gubter2,True,Gelochelidon nilotica,Gull-billed Tern,ハシブトアジサシ
+486,A,230,Hydroprogne caspia,オニアジサシ,CHARADRIIFORMES,LARIDAE,True,Hydroprogne caspia,Caspian Tern,caster1,True,Hydroprogne caspia,Caspian Tern,オニアジサシ
+488,A,231,Thalasseus bergii,オオアジサシ,CHARADRIIFORMES,LARIDAE,True,Thalasseus bergii,Great Crested Tern,grcter1,True,Thalasseus bergii,Great Crested Tern,オオアジサシ
+490,A,232,Thalasseus bengalensis,ベンガルアジサシ,CHARADRIIFORMES,LARIDAE,True,Thalasseus bengalensis,Lesser Crested Tern,lecter2,True,Thalasseus bengalensis,Lesser Crested Tern,ベンガルアジサシ
+493,A,233,Sternula albifrons,コアジサシ,CHARADRIIFORMES,LARIDAE,True,Sternula albifrons,Little Tern,litter1,True,Sternula albifrons,Little Tern,コアジサシ
+495,A,234,Sternula antillarum,アメリカコアジサシ,CHARADRIIFORMES,LARIDAE,True,Sternula antillarum,Least Tern,leater1,True,Sternula antillarum,Least Tern,アメリカコアジサシ
+499,A,235,Onychoprion aleuticus,コシジロアジサシ,CHARADRIIFORMES,LARIDAE,True,Onychoprion aleuticus,Aleutian Tern,aleter1,True,Onychoprion aleuticus,Aleutian Tern,コシジロアジサシ
+500,A,236,Onychoprion lunatus,ナンヨウマミジロアジサシ,CHARADRIIFORMES,LARIDAE,True,Onychoprion lunatus,Gray-backed Tern,gybter1,True,Onychoprion lunatus,Grey-backed Tern,ナンヨウマミジロアジサシ
+501,A,237,Onychoprion anaethetus,マミジロアジサシ,CHARADRIIFORMES,LARIDAE,True,Onychoprion anaethetus,Bridled Tern,briter1,True,Onychoprion anaethetus,Bridled Tern,マミジロアジサシ
+504,A,238,Onychoprion fuscatus,セグロアジサシ,CHARADRIIFORMES,LARIDAE,True,Onychoprion fuscatus,Sooty Tern,sooter1,True,Onychoprion fuscatus,Sooty Tern,セグロアジサシ
+509,A,239,Sterna dougallii,ベニアジサシ,CHARADRIIFORMES,LARIDAE,True,Sterna dougallii,Roseate Tern,roster,True,Sterna dougallii,Roseate Tern,ベニアジサシ
+511,A,240,Sterna sumatrana,エリグロアジサシ,CHARADRIIFORMES,LARIDAE,True,Sterna sumatrana,Black-naped Tern,blnter1,True,Sterna sumatrana,Black-naped Tern,エリグロアジサシ
+513,A,241,Sterna hirundo,アジサシ,CHARADRIIFORMES,LARIDAE,True,Sterna hirundo,Common Tern,comter,True,Sterna hirundo,Common Tern,アジサシ
+516,A,242,Sterna paradisaea,キョクアジサシ,CHARADRIIFORMES,LARIDAE,True,Sterna paradisaea,Arctic Tern,arcter,True,Sterna paradisaea,Arctic Tern,キョクアジサシ
+518,A,243,Chlidonias hybrida,クロハラアジサシ,CHARADRIIFORMES,LARIDAE,True,Chlidonias hybrida,Whiskered Tern,whiter2,True,Chlidonias hybrida,Whiskered Tern,クロハラアジサシ
+520,A,244,Chlidonias leucopterus,ハジロクロハラアジサシ,CHARADRIIFORMES,LARIDAE,True,Chlidonias leucopterus,White-winged Tern,whwter,True,Chlidonias leucopterus,White-winged Black Tern,ハジロクロハラアジサシ
+521,A,245,Chlidonias niger,ハシグロクロハラアジサシ,CHARADRIIFORMES,LARIDAE,True,Chlidonias niger,Black Tern,blkter,True,Chlidonias niger,Black Tern,ハシグロクロハラアジサシ
+526,A,246,Stercorarius maccormicki,オオトウゾクカモメ,CHARADRIIFORMES,STERCORARIIDAE,True,Stercorarius maccormicki,South Polar Skua,sopsku1,True,Stercorarius maccormicki,South Polar Skua,オオトウゾクカモメ
+527,A,247,Stercorarius pomarinus,トウゾクカモメ,CHARADRIIFORMES,STERCORARIIDAE,True,Stercorarius pomarinus,Pomarine Jaeger,pomjae,True,Stercorarius pomarinus,Pomarine Skua,トウゾクカモメ
+528,A,248,Stercorarius parasiticus,クロトウゾクカモメ,CHARADRIIFORMES,STERCORARIIDAE,True,Stercorarius parasiticus,Parasitic Jaeger,parjae,True,Stercorarius parasiticus,Arctic Skua,クロトウゾクカモメ
+529,A,249,Stercorarius longicaudus,シロハラトウゾクカモメ,CHARADRIIFORMES,STERCORARIIDAE,True,Stercorarius longicaudus,Long-tailed Jaeger,lotjae,True,Stercorarius longicaudus,Long-tailed Skua,シロハラトウゾクカモメ
+533,A,250,Alle alle,ヒメウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Alle alle,Dovekie,doveki,False,,,
+536,A,251,Uria lomvia,ハシブトウミガラス,CHARADRIIFORMES,ALCIDAE,True,Uria lomvia,Thick-billed Murre,thbmur,True,Uria lomvia,Brünnich's Guillemot,ハシブトウミガラス
+538,A,252,Uria aalge,ウミガラス,CHARADRIIFORMES,ALCIDAE,True,Uria aalge,Common Murre,commur,True,Uria aalge,Common Guillemot,ウミガラス
+541,A,253,Cepphus columba,ウミバト,CHARADRIIFORMES,ALCIDAE,True,Cepphus columba,Pigeon Guillemot,piggui,True,Cepphus columba,Pigeon Guillemot,ウミバト
+544,A,254,Cepphus carbo,ケイマフリ,CHARADRIIFORMES,ALCIDAE,True,Cepphus carbo,Spectacled Guillemot,spegui1,False,,,
+546,A,255,Brachyramphus perdix,マダラウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Brachyramphus perdix,Long-billed Murrelet,lobmur,False,,,
+548,A,256,Synthliboramphus antiquus,ウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Synthliboramphus antiquus,Ancient Murrelet,ancmur,False,,,
+550,A,257,Synthliboramphus wumizusume,カンムリウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Synthliboramphus wumizusume,Japanese Murrelet,japmur1,False,,,
+552,A,258,Ptychoramphus aleuticus,アメリカウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Ptychoramphus aleuticus,Cassin's Auklet,casauk,False,,,
+555,A,259,Aethia psittacula,ウミオウム,CHARADRIIFORMES,ALCIDAE,True,Aethia psittacula,Parakeet Auklet,parauk,False,,,
+556,A,260,Aethia pusilla,コウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Aethia pusilla,Least Auklet,leaauk,True,Aethia pusilla,Least Auklet,コウミスズメ
+557,A,261,Aethia pygmaea,シラヒゲウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Aethia pygmaea,Whiskered Auklet,whiauk,True,Aethia pygmaea,Whiskered Auklet,シラヒゲウミスズメ
+558,A,262,Aethia cristatella,エトロフウミスズメ,CHARADRIIFORMES,ALCIDAE,True,Aethia cristatella,Crested Auklet,creauk,False,,,
+560,A,263,Cerorhinca monocerata,ウトウ,CHARADRIIFORMES,ALCIDAE,True,Cerorhinca monocerata,Rhinoceros Auklet,rhiauk,False,,,
+562,A,264,Fratercula corniculata,ツノメドリ,CHARADRIIFORMES,ALCIDAE,True,Fratercula corniculata,Horned Puffin,horpuf,False,,,
+563,A,265,Fratercula cirrhata,エトピリカ,CHARADRIIFORMES,ALCIDAE,True,Fratercula cirrhata,Tufted Puffin,tufpuf,False,,,
+567,A,266,Phaethon rubricauda,アカオネッタイチョウ,PHAETHONTIFORMES,PHAETHONTIDAE,True,Phaethon rubricauda,Red-tailed Tropicbird,rettro,True,Phaethon rubricauda,Red-tailed Tropicbird,アカオネッタイチョウ
+569,A,267,Phaethon lepturus,シラオネッタイチョウ,PHAETHONTIFORMES,PHAETHONTIDAE,True,Phaethon lepturus,White-tailed Tropicbird,whttro,True,Phaethon lepturus,White-tailed Tropicbird,シラオネッタイチョウ
+574,A,268,Gavia stellata,アビ,GAVIIFORMES,GAVIIDAE,True,Gavia stellata,Red-throated Loon,retloo,True,Gavia stellata,Red-throated Diver,アビ
+575,A,269,Gavia arctica,オオハム,GAVIIFORMES,GAVIIDAE,True,Gavia arctica,Arctic Loon,arcloo,True,Gavia arctica,Black-throated Diver,オオハム
+577,A,270,Gavia pacifica,シロエリオオハム,GAVIIFORMES,GAVIIDAE,True,Gavia pacifica,Pacific Loon,pacloo,True,Gavia pacifica,Pacific Diver,シロエリオオハム
+578,A,271,Gavia immer,ハシグロアビ,GAVIIFORMES,GAVIIDAE,True,Gavia immer,Common Loon,comloo,True,Gavia immer,Great Northern Diver,ハシグロアビ
+579,A,272,Gavia adamsii,ハシジロアビ,GAVIIFORMES,GAVIIDAE,True,Gavia adamsii,Yellow-billed Loon,yebloo,True,Gavia adamsii,White-billed Diver,ハシジロアビ
+583,A,273,Oceanites oceanicus,アシナガウミツバメ,PROCELLARIIFORMES,OCEANITIDAE,True,Oceanites oceanicus,Wilson's Storm-Petrel,wispet,False,,,
+587,A,274,Phoebastria immutabilis,コアホウドリ,PROCELLARIIFORMES,DIOMEDEIDAE,True,Phoebastria immutabilis,Laysan Albatross,layalb,True,Phoebastria immutabilis,Laysan Albatross,コアホウドリ
+588,A,275,Phoebastria nigripes,クロアシアホウドリ,PROCELLARIIFORMES,DIOMEDEIDAE,True,Phoebastria nigripes,Black-footed Albatross,bkfalb,True,Phoebastria nigripes,Black-footed Albatross,クロアシアホウドリ
+589,A,276,Phoebastria albatrus,アホウドリ,PROCELLARIIFORMES,DIOMEDEIDAE,True,Phoebastria albatrus,Short-tailed Albatross,shtalb,False,,,
+592,A,277,Hydrobates furcatus,ハイイロウミツバメ,PROCELLARIIFORMES,HYDROBATIDAE,True,Hydrobates furcatus,Fork-tailed Storm-Petrel,ftspet,False,,,
+594,A,278,Hydrobates monorhis,ヒメクロウミツバメ,PROCELLARIIFORMES,HYDROBATIDAE,True,Hydrobates monorhis,Swinhoe's Storm-Petrel,swspet,True,Hydrobates monorhis,Swinhoe's Storm-Petrel,ヒメクロウミツバメ
+595,A,279,Hydrobates matsudairae,クロウミツバメ,PROCELLARIIFORMES,HYDROBATIDAE,True,Hydrobates matsudairae,Matsudaira's Storm-Petrel,maspet2,False,,,
+596,A,280,Hydrobates leucorhous,コシジロウミツバメ,PROCELLARIIFORMES,HYDROBATIDAE,True,Hydrobates leucorhous,Leach's Storm-Petrel,lcspet,True,Hydrobates leucorhous,Leach's Storm-Petrel,コシジロウミツバメ
+598,A,281,Hydrobates castro,クロコシジロウミツバメ,PROCELLARIIFORMES,HYDROBATIDAE,True,Hydrobates castro,Band-rumped Storm-Petrel,barpet,True,Hydrobates castro,Band-rumped Storm-Petrel,クロコシジロウミツバメ
+599,A,282,Hydrobates tristrami,オーストンウミツバメ,PROCELLARIIFORMES,HYDROBATIDAE,True,Hydrobates tristrami,Tristram's Storm-Petrel,trspet,True,Hydrobates tristrami,Tristram's Storm-Petrel,オーストンウミツバメ
+602,A,283,Fulmarus glacialis,フルマカモメ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Fulmarus glacialis,Northern Fulmar,norful,True,Fulmarus glacialis,Northern Fulmar,フルマカモメ
+605,A,284,Pterodroma solandri,ハジロミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma solandri,Providence Petrel,solpet1,False,,,
+606,A,285,Pterodroma externa,オオシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma externa,Juan Fernandez Petrel,jufpet,True,Pterodroma externa,Juan Fernandez Petrel,オオシロハラミズナギドリ
+607,A,286,Pterodroma neglecta,カワリシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma neglecta,Kermadec Petrel,kerpet,True,Pterodroma neglecta,Kermadec Petrel,カワリシロハラミズナギドリ
+609,A,287,Pterodroma sandwichensis,ハワイシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma sandwichensis,Hawaiian Petrel,hawpet1,True,Pterodroma sandwichensis,Hawaiian Petrel,ハワイシロハラミズナギドリ
+610,A,288,Pterodroma inexpectata,マダラシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma inexpectata,Mottled Petrel,motpet,True,Pterodroma inexpectata,Mottled Petrel,マダラシロハラミズナギドリ
+611,A,289,Pterodroma cervicalis,クビワオオシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma cervicalis,White-necked Petrel,whnpet,True,Pterodroma cervicalis,White-necked Petrel,クビワオオシロハラミズナギドリ
+612,A,290,Pterodroma nigripennis,ハグロシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma nigripennis,Black-winged Petrel,bkwpet,True,Pterodroma nigripennis,Black-winged Petrel,ハグロシロハラミズナギドリ
+613,A,291,Pterodroma hypoleuca,シロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma hypoleuca,Bonin Petrel,bonpet,True,Pterodroma hypoleuca,Bonin Petrel,シロハラミズナギドリ
+614,A,292,Pterodroma longirostris,ヒメシロハラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Pterodroma longirostris,Stejneger's Petrel,stepet,False,,,
+616,A,293,Calonectris leucomelas,オオミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Calonectris leucomelas,Streaked Shearwater,strshe,False,,,
+618,A,294,Ardenna pacifica,オナガミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Ardenna pacifica,Wedge-tailed Shearwater,wetshe,True,Ardenna pacifica,Wedge-tailed Shearwater,オナガミズナギドリ
+620,A,295,Ardenna bulleri,ミナミオナガミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Ardenna bulleri,Buller's Shearwater,bulshe,True,Ardenna bulleri,Buller's Shearwater,ミナミオナガミズナギドリ
+621,A,296,Ardenna grisea,ハイイロミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Ardenna grisea,Sooty Shearwater,sooshe,True,Ardenna grisea,Sooty Shearwater,ハイイロミズナギドリ
+622,A,297,Ardenna tenuirostris,ハシボソミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Ardenna tenuirostris,Short-tailed Shearwater,shtshe,True,Ardenna tenuirostris,Short-tailed Shearwater,ハシボソミズナギドリ
+623,A,298,Ardenna creatopus,シロハラアカアシミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Ardenna creatopus,Pink-footed Shearwater,pifshe,True,Ardenna creatopus,Pink-footed Shearwater,シロハラアカアシミズナギドリ
+624,A,299,Ardenna carneipes,アカアシミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Ardenna carneipes,Flesh-footed Shearwater,flfshe,True,Ardenna carneipes,Flesh-footed Shearwater,アカアシミズナギドリ
+626,A,300,Puffinus nativitatis,コミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Puffinus nativitatis,Christmas Shearwater,chrshe,True,Puffinus nativitatis,Christmas Shearwater,コミズナギドリ
+627,A,301,Puffinus bryani,オガサワラヒメミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Puffinus bryani,Bryan's Shearwater,bryshe1,False,,,
+628,A,302,Puffinus newelli,ハワイセグロミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Puffinus newelli,Newell's Shearwater,towshe2,True,Puffinus newelli,Newell's Shearwater,ハワイセグロミズナギドリ
+629,A,303,Puffinus bannermani,オガサワラミズナギドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Puffinus bannermani,Bannerman's Shearwater,troshe4,False,,,
+631,A,304,Bulweria bulwerii,アナドリ,PROCELLARIIFORMES,PROCELLARIIDAE,True,Bulweria bulwerii,Bulwer's Petrel,bulpet,True,Bulweria bulwerii,Bulwer's Petrel,アナドリ
+635,A,305,Ciconia nigra,ナベコウ,CICONIIFORMES,CICONIIDAE,True,Ciconia nigra,Black Stork,blasto1,True,Ciconia nigra,Black Stork,ナベコウ
+636,A,306,Ciconia boyciana,コウノトリ,CICONIIFORMES,CICONIIDAE,True,Ciconia boyciana,Oriental Stork,oristo1,False,,,
+640,A,307,Fregata minor,オオグンカンドリ,SULIFORMES,FREGATIDAE,True,Fregata minor,Great Frigatebird,grefri,True,Fregata minor,Great Frigatebird,オオグンカンドリ
+642,A,308,Fregata ariel,コグンカンドリ,SULIFORMES,FREGATIDAE,True,Fregata ariel,Lesser Frigatebird,lesfri,True,Fregata ariel,Lesser Frigatebird,コグンカンドリ
+646,A,309,Sula dactylatra,アオツラカツオドリ,SULIFORMES,SULIDAE,True,Sula dactylatra,Masked Booby,masboo,True,Sula dactylatra,Masked Booby,アオツラカツオドリ
+648,A,310,Sula sula,アカアシカツオドリ,SULIFORMES,SULIDAE,True,Sula sula,Red-footed Booby,refboo,True,Sula sula,Red-footed Booby,アカアシカツオドリ
+650,A,311,Sula leucogaster,カツオドリ,SULIFORMES,SULIDAE,True,Sula leucogaster,Brown Booby,brnboo,True,Sula leucogaster,Brown Booby,カツオドリ
+655,A,312,Urile urile,チシマウガラス,SULIFORMES,PHALACROCORACIDAE,True,Urile urile,Red-faced Cormorant,refcor,False,,,
+656,A,313,Urile pelagicus,ヒメウ,SULIFORMES,PHALACROCORACIDAE,True,Urile pelagicus,Pelagic Cormorant,pelcor,False,,,
+659,A,314,Phalacrocorax capillatus,ウミウ,SULIFORMES,PHALACROCORACIDAE,True,Phalacrocorax capillatus,Japanese Cormorant,japcor1,False,,,
+660,A,315,Phalacrocorax carbo,カワウ,SULIFORMES,PHALACROCORACIDAE,True,Phalacrocorax carbo,Great Cormorant,grecor,True,Phalacrocorax carbo,Great Cormorant,カワウ
+667,A,316,Threskiornis melanocephalus,クロトキ,PELECANIFORMES,THRESKIORNITHIDAE,True,Threskiornis melanocephalus,Black-headed Ibis,blhibi1,True,Threskiornis melanocephalus,Black-headed Ibis,クロトキ
+669,A,317,Nipponia nippon,トキ,PELECANIFORMES,THRESKIORNITHIDAE,True,Nipponia nippon,Crested Ibis,creibi1,False,,,
+671,A,318,Plegadis falcinellus,ブロンズトキ,PELECANIFORMES,THRESKIORNITHIDAE,True,Plegadis falcinellus,Glossy Ibis,gloibi,True,Plegadis falcinellus,Glossy Ibis,ブロンズトキ
+673,A,319,Platalea leucorodia,ヘラサギ,PELECANIFORMES,THRESKIORNITHIDAE,True,Platalea leucorodia,Eurasian Spoonbill,eurspo1,True,Platalea leucorodia,Eurasian Spoonbill,ヘラサギ
+675,A,320,Platalea minor,クロツラヘラサギ,PELECANIFORMES,THRESKIORNITHIDAE,True,Platalea minor,Black-faced Spoonbill,blfspo1,False,,,
+678,A,321,Botaurus stellaris,サンカノゴイ,PELECANIFORMES,ARDEIDAE,True,Botaurus stellaris,Eurasian Bittern,grebit1,True,Botaurus stellaris,Great Bittern,サンカノゴイ
+681,A,322,Ixobrychus sinensis,ヨシゴイ,PELECANIFORMES,ARDEIDAE,True,Botaurus sinensis,Yellow Bittern,yelbit,True,Ixobrychus sinensis,Yellow Bittern,ヨシゴイ
+684,A,323,Ixobrychus eurhythmus,オオヨシゴイ,PELECANIFORMES,ARDEIDAE,True,Botaurus eurhythmus,Schrenck's Bittern,schbit1,True,Ixobrychus eurhythmus,Schrenck's Bittern,オオヨシゴイ
+685,A,324,Ixobrychus cinnamomeus,リュウキュウヨシゴイ,PELECANIFORMES,ARDEIDAE,True,Botaurus cinnamomeus,Cinnamon Bittern,cinbit1,True,Ixobrychus cinnamomeus,Cinnamon Bittern,リュウキュウヨシゴイ
+686,A,325,Ixobrychus flavicollis,タカサゴクロサギ,PELECANIFORMES,ARDEIDAE,True,Botaurus flavicollis,Black Bittern,blabit1,True,Ixobrychus flavicollis,Black Bittern,タカサゴクロサギ
+689,A,326,Gorsachius goisagi,ミゾゴイ,PELECANIFORMES,ARDEIDAE,True,Gorsachius goisagi,Japanese Night Heron,janher1,False,,,
+690,A,327,Gorsachius melanolophus,ズグロミゾゴイ,PELECANIFORMES,ARDEIDAE,True,Gorsachius melanolophus,Malayan Night Heron,manher1,True,Gorsachius melanolophus,Malayan Night Heron,ズグロミゾゴイ
+693,A,328,Nycticorax nycticorax,ゴイサギ,PELECANIFORMES,ARDEIDAE,True,Nycticorax nycticorax,Black-crowned Night Heron,bcnher,True,Nycticorax nycticorax,Black-crowned Night Heron,ゴイサギ
+695,A,329,Nycticorax caledonicus,ハシブトゴイ,PELECANIFORMES,ARDEIDAE,True,Nycticorax caledonicus,Nankeen Night Heron,runher1,False,,,
+699,A,330,Butorides striata,ササゴイ,PELECANIFORMES,ARDEIDAE,True,Butorides striata,Striated Heron,strher,True,Butorides striata,Striated Heron,ササゴイ
+702,A,331,Ardeola bacchus,アカガシラサギ,PELECANIFORMES,ARDEIDAE,True,Ardeola bacchus,Chinese Pond-Heron,chpher1,True,Ardeola bacchus,Chinese Pond Heron,アカガシラサギ
+704,A,332,Bubulcus ibis,アマサギ,PELECANIFORMES,ARDEIDAE,True,Ardea coromanda,Eastern Cattle-Egret,categr2,True,Bubulcus ibis,Western Cattle Egret,アマサギ
+707,A,333,Ardea cinerea,アオサギ,PELECANIFORMES,ARDEIDAE,True,Ardea cinerea,Gray Heron,graher1,True,Ardea cinerea,Grey Heron,アオサギ
+709,A,334,Ardea purpurea,ムラサキサギ,PELECANIFORMES,ARDEIDAE,True,Ardea purpurea,Purple Heron,purher1,True,Ardea purpurea,Purple Heron,ムラサキサギ
+711,A,335,Ardea alba,ダイサギ,PELECANIFORMES,ARDEIDAE,True,Ardea alba,Great Egret,greegr,True,Ardea alba,Great White Egret,ダイサギ
+715,A,336,Ardea intermedia,チュウサギ,PELECANIFORMES,ARDEIDAE,True,Ardea intermedia,Medium Egret,integr1,True,Ardea intermedia,Medium Egret,チュウサギ
+718,A,337,Egretta garzetta,コサギ,PELECANIFORMES,ARDEIDAE,True,Egretta garzetta,Little Egret,litegr,True,Egretta garzetta,Little Egret,コサギ
+720,A,338,Egretta sacra,クロサギ,PELECANIFORMES,ARDEIDAE,True,Egretta sacra,Pacific Reef-Heron,pacreh1,True,Egretta sacra,Pacific Reef-Heron,クロサギ
+722,A,339,Egretta eulophotes,カラシラサギ,PELECANIFORMES,ARDEIDAE,True,Egretta eulophotes,Chinese Egret,chiegr,True,Egretta eulophotes,Chinese Egret,カラシラサギ
+725,A,340,Pelecanus onocrotalus,モモイロペリカン,PELECANIFORMES,PELECANIDAE,True,Pelecanus onocrotalus,Great White Pelican,grwpel1,False,,,
+726,A,341,Pelecanus philippensis,ホシバシペリカン,PELECANIFORMES,PELECANIDAE,True,Pelecanus philippensis,Spot-billed Pelican,spbpel1,False,,,
+727,A,342,Pelecanus crispus,ハイイロペリカン,PELECANIFORMES,PELECANIDAE,True,Pelecanus crispus,Dalmatian Pelican,dalpel1,False,,,
+731,A,343,Pandion haliaetus,ミサゴ,ACCIPITRIFORMES,PANDIONIDAE,True,Pandion haliaetus,Osprey,osprey,True,Pandion haliaetus,Osprey,ミサゴ
+735,A,344,Pernis ptilorhynchus,ハチクマ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Pernis ptilorhynchus,Oriental Honey-buzzard,orihob2,True,Pernis ptilorhynchus,Crested Honey-buzzard,ハチクマ
+738,A,345,Aegypius monachus,クロハゲワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Aegypius monachus,Cinereous Vulture,cinvul1,True,Aegypius monachus,Black Vulture,クロハゲワシ
+740,A,346,Spilornis cheela,カンムリワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Spilornis cheela,Crested Serpent-Eagle,crseag1,True,Spilornis cheela,Crested Serpent-Eagle,カンムリワシ
+743,A,347,Nisaetus nipalensis,クマタカ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Nisaetus nipalensis,Mountain Hawk-Eagle,mouhae1,True,Nisaetus nipalensis,Mountain Hawk-Eagle,クマタカ
+746,A,348,Clanga clanga,カラフトワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Clanga clanga,Greater Spotted Eagle,grseag1,True,Clanga clanga,Greater Spotted Eagle,カラフトワシ
+748,A,349,Aquila heliaca,カタシロワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Aquila heliaca,Imperial Eagle,impeag1,True,Aquila heliaca,Imperial Eagle,カタシロワシ
+749,A,350,Aquila chrysaetos,イヌワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Aquila chrysaetos,Golden Eagle,goleag,True,Aquila chrysaetos,Golden Eagle,イヌワシ
+752,A,351,Accipiter soloensis,アカハラダカ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Tachyspiza soloensis,Chinese Sparrowhawk,grfhaw1,True,Accipiter soloensis,Chinese Sparrowhawk,アカハラダカ
+753,A,352,Accipiter gularis,ツミ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Tachyspiza gularis,Japanese Sparrowhawk,japspa1,True,Accipiter gularis,Japanese Sparrowhawk,ツミ
+757,A,353,Accipiter nisus,ハイタカ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Accipiter nisus,Eurasian Sparrowhawk,eurspa1,True,Accipiter nisus,Eurasian Sparrowhawk,ハイタカ
+759,A,354,Accipiter gentilis,オオタカ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Astur gentilis,Eurasian Goshawk,norgos1,True,Accipiter gentilis,Eurasian Goshawk,オオタカ
+763,A,355,Circus spilonotus,チュウヒ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Circus spilonotus,Eastern Marsh Harrier,easmah1,True,Circus spilonotus,Eastern Marsh Harrier,チュウヒ
+764,A,356,Circus cyaneus,ハイイロチュウヒ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Circus cyaneus,Hen Harrier,norhar1,True,Circus cyaneus,Hen Harrier,ハイイロチュウヒ
+765,A,357,Circus hudsonius,アメリカハイイロチュウヒ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Circus hudsonius,Northern Harrier,norhar2,True,Circus hudsonius,Northern Harrier,アメリカハイイロチュウヒ
+766,A,358,Circus melanoleucos,マダラチュウヒ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Circus melanoleucos,Pied Harrier,piehar1,True,Circus melanoleucos,Pied Harrier,マダラチュウヒ
+768,A,359,Milvus migrans,トビ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Milvus migrans,Black Kite,blakit1,True,Milvus migrans,Black Kite,トビ
+771,A,360,Haliaeetus pelagicus,オオワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Haliaeetus pelagicus,Steller's Sea-Eagle,stseag,True,Haliaeetus pelagicus,Steller's Sea-Eagle,オオワシ
+772,A,361,Haliaeetus albicilla,オジロワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Haliaeetus albicilla,White-tailed Eagle,whteag,True,Haliaeetus albicilla,White-tailed Eagle,オジロワシ
+774,A,362,Haliaeetus leucocephalus,ハクトウワシ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Haliaeetus leucocephalus,Bald Eagle,baleag,True,Haliaeetus leucocephalus,Bald Eagle,ハクトウワシ
+777,A,363,Butastur indicus,サシバ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Butastur indicus,Gray-faced Buzzard,gyfbuz1,True,Butastur indicus,Grey-faced Buzzard,サシバ
+779,A,364,Buteo lagopus,ケアシノスリ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Buteo lagopus,Rough-legged Hawk,rolhaw,True,Buteo lagopus,Rough-legged Buzzard,ケアシノスリ
+781,A,365,Buteo hemilasius,オオノスリ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Buteo hemilasius,Upland Buzzard,uplbuz1,False,,,
+782,A,366,Buteo japonicus,ノスリ,ACCIPITRIFORMES,ACCIPITRIDAE,True,Buteo japonicus,Eastern Buzzard,combuz6,True,Buteo japonicus,Eastern Buzzard,ノスリ
+790,A,367,Ninox japonica,アオバズク,STRIGIFORMES,STRIGIDAE,True,Ninox japonica,Northern Boobook,norboo1,True,Ninox japonica,Northern Boobook,アオバズク
+795,A,368,Aegolius funereus,キンメフクロウ,STRIGIFORMES,STRIGIDAE,True,Aegolius funereus,Boreal Owl,borowl,True,Aegolius funereus,Tengmalm's Owl,キンメフクロウ
+798,A,369,Otus sunia,コノハズク,STRIGIFORMES,STRIGIDAE,True,Otus sunia,Oriental Scops-Owl,orsowl,True,Otus sunia,Oriental Scops Owl,コノハズク
+801,A,370,Otus elegans,リュウキュウコノハズク,STRIGIFORMES,STRIGIDAE,True,Otus elegans,Ryukyu Scops-Owl,ryusco1,True,Otus elegans,Ryukyu Scops Owl,リュウキュウコノハズク
+804,A,371,Otus semitorques,オオコノハズク,STRIGIFORMES,STRIGIDAE,True,Otus semitorques,Japanese Scops-Owl,jasowl1,True,Otus semitorques,Japanese Scops Owl,オオコノハズク
+810,A,372,Asio otus,トラフズク,STRIGIFORMES,STRIGIDAE,True,Asio otus,Long-eared Owl,loeowl,True,Asio otus,Long-eared Owl,トラフズク
+812,A,373,Asio flammeus,コミミズク,STRIGIFORMES,STRIGIDAE,True,Asio flammeus,Short-eared Owl,sheowl,True,Asio flammeus,Short-eared Owl,コミミズク
+815,A,374,Bubo scandiacus,シロフクロウ,STRIGIFORMES,STRIGIDAE,True,Bubo scandiacus,Snowy Owl,snoowl1,True,Bubo scandiacus,Snowy Owl,シロフクロウ
+816,A,375,Bubo bubo,ワシミミズク,STRIGIFORMES,STRIGIDAE,True,Bubo bubo,Eurasian Eagle-Owl,eueowl1,True,Bubo bubo,Eurasian Eagle Owl,ワシミミズク
+820,A,376,Ketupa blakistoni,シマフクロウ,STRIGIFORMES,STRIGIDAE,True,Ketupa blakistoni,Blakiston's Fish-Owl,blfowl1,True,Ketupa blakistoni,Blakiston's Fish-Owl,シマフクロウ
+823,A,377,Strix uralensis,フクロウ,STRIGIFORMES,STRIGIDAE,True,Strix uralensis,Ural Owl,uraowl1,True,Strix uralensis,Ural Owl,フクロウ
+832,A,378,Upupa epops,ヤツガシラ,BUCEROTIFORMES,UPUPIDAE,True,Upupa epops,Eurasian Hoopoe,hoopoe,True,Upupa epops,Eurasian Hoopoe,ヤツガシラ
+837,A,379,Eurystomus orientalis,ブッポウソウ,CORACIIFORMES,CORACIIDAE,True,Eurystomus orientalis,Dollarbird,dollar1,True,Eurystomus orientalis,Dollarbird,ブッポウソウ
+841,A,380,Halcyon coromanda,アカショウビン,CORACIIFORMES,ALCEDINIDAE,True,Halcyon coromanda,Ruddy Kingfisher,rudkin1,True,Halcyon coromanda,Ruddy Kingfisher,アカショウビン
+844,A,381,Halcyon pileata,ヤマショウビン,CORACIIFORMES,ALCEDINIDAE,True,Halcyon pileata,Black-capped Kingfisher,blckin1,True,Halcyon pileata,Black-capped Kingfisher,ヤマショウビン
+846,A,382,Todiramphus chloris,ナンヨウショウビン,CORACIIFORMES,ALCEDINIDAE,True,Todiramphus chloris,Collared Kingfisher,colkin1,True,Todiramphus chloris,Collared Kingfisher,ナンヨウショウビン
+848,A,383,Todiramphus miyakoensis,ミヤコショウビン,CORACIIFORMES,ALCEDINIDAE,False,,,,False,,,
+850,A,384,Alcedo atthis,カワセミ,CORACIIFORMES,ALCEDINIDAE,True,Alcedo atthis,Common Kingfisher,comkin1,True,Alcedo atthis,Common Kingfisher,カワセミ
+853,A,385,Ceyx erithaca,ミツユビカワセミ,CORACIIFORMES,ALCEDINIDAE,True,Ceyx erithaca,Black-backed Dwarf-Kingfisher,bkbkin1,True,Ceyx erithaca,Black-backed Dwarf-Kingfisher,ミツユビカワセミ
+856,A,386,Megaceryle lugubris,ヤマセミ,CORACIIFORMES,ALCEDINIDAE,True,Megaceryle lugubris,Crested Kingfisher,crekin1,True,Megaceryle lugubris,Crested Kingfisher,ヤマセミ
+861,A,387,Merops philippinus,ルリオハチクイ,CORACIIFORMES,MEROPIDAE,True,Merops philippinus,Blue-tailed Bee-eater,btbeat1,True,Merops philippinus,Blue-tailed Bee-eater,ハリオハチクイ
+862,A,388,Merops ornatus,ハチクイ,CORACIIFORMES,MEROPIDAE,True,Merops ornatus,Rainbow Bee-eater,rabeat1,True,Merops ornatus,Rainbow Bee-eater,ハチクイ
+866,A,389,Jynx torquilla,アリスイ,PICIFORMES,PICIDAE,True,Jynx torquilla,Eurasian Wryneck,eurwry,True,Jynx torquilla,Eurasian Wryneck,アリスイ
+870,A,390,Yungipicus kizuki,コゲラ,PICIFORMES,PICIDAE,True,Yungipicus kizuki,Japanese Pygmy Woodpecker,pygwoo1,True,Yungipicus kizuki,Japanese Pygmy Woodpecker,コゲラ
+882,A,391,Picoides tridactylus,ミユビゲラ,PICIFORMES,PICIDAE,True,Picoides tridactylus,Eurasian Three-toed Woodpecker,ettwoo1,True,Picoides tridactylus,Eurasian Three-toed Woodpecker,ミユビゲラ
+885,A,392,Dryobates minor,コアカゲラ,PICIFORMES,PICIDAE,True,Dryobates minor,Lesser Spotted Woodpecker,leswoo1,True,Dryobates minor,Lesser Spotted Woodpecker,コアカゲラ
+888,A,393,Dendrocopos hyperythrus,チャバラアカゲラ,PICIFORMES,PICIDAE,True,Dendrocopos hyperythrus,Rufous-bellied Woodpecker,rubwoo1,True,Dendrocopos hyperythrus,Rufous-bellied Woodpecker,チャバラアカゲラ
+890,A,394,Dendrocopos major,アカゲラ,PICIFORMES,PICIDAE,True,Dendrocopos major,Great Spotted Woodpecker,grswoo,True,Dendrocopos major,Great Spotted Woodpecker,アカゲラ
+894,A,395,Dendrocopos noguchii,ノグチゲラ,PICIFORMES,PICIDAE,True,Dendrocopos noguchii,Okinawa Woodpecker,okiwoo1,False,,,
+895,A,396,Dendrocopos leucotos,オオアカゲラ,PICIFORMES,PICIDAE,True,Dendrocopos leucotos,White-backed Woodpecker,whbwoo1,True,Dendrocopos leucotos,White-backed Woodpecker,オオアカゲラ
+902,A,397,Dryocopus javensis,キタタキ,PICIFORMES,PICIDAE,True,Dryocopus javensis,White-bellied Woodpecker,whbwoo2,True,Dryocopus javensis,White-bellied Woodpecker,キタタキ
+904,A,398,Dryocopus martius,クマゲラ,PICIFORMES,PICIDAE,True,Dryocopus martius,Black Woodpecker,blawoo1,True,Dryocopus martius,Black Woodpecker,クマゲラ
+907,A,399,Picus awokera,アオゲラ,PICIFORMES,PICIDAE,True,Picus awokera,Japanese Woodpecker,japwoo1,True,Picus awokera,Japanese Woodpecker,アオゲラ
+912,A,400,Picus canus,ヤマゲラ,PICIFORMES,PICIDAE,True,Picus canus,Gray-headed Woodpecker,gyfwoo1,True,Picus canus,Grey-headed Woodpecker,ヤマゲラ
+917,A,401,Falco naumanni,ヒメチョウゲンボウ,FALCONIFORMES,FALCONIDAE,True,Falco naumanni,Lesser Kestrel,leskes1,True,Falco naumanni,Lesser Kestrel,ヒメチョウゲンボウ
+918,A,402,Falco tinnunculus,チョウゲンボウ,FALCONIFORMES,FALCONIDAE,True,Falco tinnunculus,Eurasian Kestrel,eurkes,True,Falco tinnunculus,Common Kestrel,チョウゲンボウ
+921,A,403,Falco amurensis,アカアシチョウゲンボウ,FALCONIFORMES,FALCONIDAE,True,Falco amurensis,Amur Falcon,amufal1,True,Falco amurensis,Amur Falcon,アカアシチョウゲンボウ
+922,A,404,Falco columbarius,コチョウゲンボウ,FALCONIFORMES,FALCONIDAE,True,Falco columbarius,Merlin,merlin,True,Falco columbarius,Merlin,コチョウゲンボウ
+925,A,405,Falco subbuteo,チゴハヤブサ,FALCONIFORMES,FALCONIDAE,True,Falco subbuteo,Eurasian Hobby,eurhob,True,Falco subbuteo,Eurasian Hobby,チゴハヤブサ
+927,A,406,Falco rusticolus,シロハヤブサ,FALCONIFORMES,FALCONIDAE,True,Falco rusticolus,Gyrfalcon,gyrfal,True,Falco rusticolus,Gyr Falcon,シロハヤブサ
+928,A,407,Falco peregrinus,ハヤブサ,FALCONIFORMES,FALCONIDAE,True,Falco peregrinus,Peregrine Falcon,perfal,True,Falco peregrinus,Peregrine Falcon,ハヤブサ
+937,A,408,Pitta sordida,ズグロヤイロチョウ,PASSERIFORMES,PITTIDAE,True,Pitta sordida,Western Hooded Pitta,wehpit1,True,Pitta sordida,Western Hooded Pitta,ズグロヤイロチョウ
+939,A,409,Pitta nympha,ヤイロチョウ,PASSERIFORMES,PITTIDAE,True,Pitta nympha,Fairy Pitta,faipit1,True,Pitta nympha,Fairy Pitta,ヤイロチョウ
+942,A,410,Artamus leucorynchus,モリツバメ,PASSERIFORMES,ARTAMIDAE,True,Artamus leucorynchus,White-breasted Woodswallow,whbwoo4,True,Artamus leucorynchus,White-breasted Woodswallow,モリツバメ
+946,A,411,Pericrocotus divaricatus,サンショウクイ,PASSERIFORMES,CAMPEPHAGIDAE,True,Pericrocotus divaricatus,Ashy Minivet,ashmin1,True,Pericrocotus divaricatus,Ashy Minivet,サンショウクイ
+947,A,412,Pericrocotus tegimae,リュウキュウサンショウクイ,PASSERIFORMES,CAMPEPHAGIDAE,True,Pericrocotus tegimae,Ryukyu Minivet,ryumin1,True,Pericrocotus tegimae,Ryukyu Minivet,リュウキュウサンショウクイ
+949,A,413,Lalage melaschistos,アサクラサンショウクイ,PASSERIFORMES,CAMPEPHAGIDAE,True,Lalage melaschistos,Black-winged Cuckooshrike,bkwcus1,True,Lalage melaschistos,Black-winged Cuckooshrike,アサクラサンショウクイ
+953,A,414,Oriolus chinensis,コウライウグイス,PASSERIFORMES,ORIOLIDAE,True,Oriolus chinensis,Black-naped Oriole,blnori1,True,Oriolus chinensis,Black-naped Oriole,コウライウグイス
+957,A,415,Dicrurus hottentottus,カンムリオウチュウ,PASSERIFORMES,DICRURIDAE,True,Dicrurus hottentottus,Hair-crested Drongo,hacdro1,True,Dicrurus hottentottus,Hair-crested Drongo,カンムリオウチュウ
+959,A,416,Dicrurus leucophaeus,ハイイロオウチュウ,PASSERIFORMES,DICRURIDAE,True,Dicrurus leucophaeus,Ashy Drongo,ashdro1,True,Dicrurus leucophaeus,Ashy Drongo,ハイイロオウチュウ
+961,A,417,Dicrurus macrocercus,オウチュウ,PASSERIFORMES,DICRURIDAE,True,Dicrurus macrocercus,Black Drongo,bladro1,True,Dicrurus macrocercus,Black Drongo,オウチュウ
+965,A,418,Hypothymis azurea,クロエリヒタキ,PASSERIFORMES,MONARCHIDAE,True,Hypothymis azurea,Black-naped Monarch,blnmon1,True,Hypothymis azurea,Black-naped Monarch,クロエリヒタキ
+968,A,419,Terpsiphone atrocaudata,サンコウチョウ,PASSERIFORMES,MONARCHIDAE,True,Terpsiphone atrocaudata,Black Paradise-Flycatcher,japfly1,True,Terpsiphone atrocaudata,Black Paradise-Flycatcher,サンコウチョウ
+974,A,420,Lanius sphenocercus,オオカラモズ,PASSERIFORMES,LANIIDAE,True,Lanius sphenocercus,Chinese Gray Shrike,chgshr1,True,Lanius sphenocercus,Chinese Grey Shrike,オオカラモズ
+975,A,421,Lanius borealis,オオモズ,PASSERIFORMES,LANIIDAE,True,Lanius borealis,Northern Shrike,norshr4,True,Lanius borealis,Northern Shrike,オオモズ
+978,A,422,Lanius tigrinus,チゴモズ,PASSERIFORMES,LANIIDAE,True,Lanius tigrinus,Tiger Shrike,tigshr1,True,Lanius tigrinus,Tiger Shrike,チゴモズ
+979,A,423,Lanius collurio,セアカモズ,PASSERIFORMES,LANIIDAE,True,Lanius collurio,Red-backed Shrike,rebshr1,True,Lanius collurio,Red-backed Shrike,セアカモズ
+980,A,424,Lanius cristatus,アカモズ,PASSERIFORMES,LANIIDAE,True,Lanius cristatus,Brown Shrike,brnshr,True,Lanius cristatus,Brown Shrike,アカモズ
+984,A,425,Lanius bucephalus,モズ,PASSERIFORMES,LANIIDAE,True,Lanius bucephalus,Bull-headed Shrike,buhshr1,True,Lanius bucephalus,Bull-headed Shrike,モズ
+986,A,426,Lanius schach,タカサゴモズ,PASSERIFORMES,LANIIDAE,True,Lanius schach,Long-tailed Shrike,lotshr1,True,Lanius schach,Long-tailed Shrike,タカサゴモズ
+990,A,427,Garrulus glandarius,カケス,PASSERIFORMES,CORVIDAE,True,Garrulus glandarius,Eurasian Jay,eurjay1,True,Garrulus glandarius,Eurasian Jay,カケス
+995,A,428,Garrulus lidthi,ルリカケス,PASSERIFORMES,CORVIDAE,True,Garrulus lidthi,Lidth's Jay,lidjay1,True,Garrulus lidthi,Lidth's Jay,ルリカケス
+997,A,429,Cyanopica cyanus,オナガ,PASSERIFORMES,CORVIDAE,True,Cyanopica cyanus,Azure-winged Magpie,azwmag2,True,Cyanopica cyanus,Azure-winged Magpie,オナガ
+1000,A,430,Pica serica,カササギ,PASSERIFORMES,CORVIDAE,True,Pica serica,Oriental Magpie,orimag1,True,Pica serica,Oriental Magpie,カササギ
+1002,A,431,Nucifraga caryocatactes,ホシガラス,PASSERIFORMES,CORVIDAE,True,Nucifraga caryocatactes,Northern Nutcracker,eurnut3,True,Nucifraga caryocatactes,Spotted Nutcracker,ホシガラス
+1007,A,432,Corvus monedula,ニシコクマルガラス,PASSERIFORMES,CORVIDAE,True,Coloeus monedula,Eurasian Jackdaw,eurjac,True,Corvus monedula,Eurasian Jackdaw,ニシコクマルガラス
+1009,A,433,Corvus dauuricus,コクマルガラス,PASSERIFORMES,CORVIDAE,True,Coloeus dauuricus,Daurian Jackdaw,daujac1,True,Corvus dauuricus,Daurian Jackdaw,コクマルガラス
+1010,A,434,Corvus frugilegus,ミヤマガラス,PASSERIFORMES,CORVIDAE,True,Corvus frugilegus,Rook,rook1,True,Corvus frugilegus,Rook,ミヤマガラス
+1012,A,435,Corvus corone,ハシボソガラス,PASSERIFORMES,CORVIDAE,True,Corvus corone,Carrion Crow,carcro1,True,Corvus corone,Carrion Crow,ハシボソガラス
+1015,A,436,Corvus macrorhynchos,ハシブトガラス,PASSERIFORMES,CORVIDAE,True,Corvus macrorhynchos,Large-billed Crow,labcro1,True,Corvus macrorhynchos,Large-billed Crow,ハシブトガラス
+1021,A,437,Corvus corax,ワタリガラス,PASSERIFORMES,CORVIDAE,True,Corvus corax,Common Raven,comrav,True,Corvus corax,Common Raven,ワタリガラス
+1025,A,438,Bombycilla garrulus,キレンジャク,PASSERIFORMES,BOMBYCILLIDAE,True,Bombycilla garrulus,Bohemian Waxwing,bohwax,True,Bombycilla garrulus,Bohemian Waxwing,キレンジャク
+1027,A,439,Bombycilla japonica,ヒレンジャク,PASSERIFORMES,BOMBYCILLIDAE,True,Bombycilla japonica,Japanese Waxwing,japwax1,True,Bombycilla japonica,Japanese Waxwing,ヒレンジャク
+1030,A,440,Periparus ater,ヒガラ,PASSERIFORMES,PARIDAE,True,Periparus ater,Coal Tit,coatit2,True,Periparus ater,Coal Tit,ヒガラ
+1033,A,441,Pardaliparus venustulus,キバラガラ,PASSERIFORMES,PARIDAE,True,Periparus venustulus,Yellow-bellied Tit,yebtit4,True,Periparus venustulus,Yellow-bellied Tit,キバラガラ
+1035,A,442,Sittiparus varius,ヤマガラ,PASSERIFORMES,PARIDAE,True,Sittiparus varius,Varied Tit,vartit1,True,Sittiparus varius,Varied Tit,ヤマガラ
+1044,A,443,Sittiparus olivaceus,オリイヤマガラ,PASSERIFORMES,PARIDAE,True,Sittiparus olivaceus,Iriomote Tit,vartit2,False,,,
+1046,A,444,Poecile palustris,ハシブトガラ,PASSERIFORMES,PARIDAE,True,Poecile palustris,Marsh Tit,martit2,True,Poecile palustris,Marsh Tit,ハシブトガラ
+1048,A,445,Poecile montanus,コガラ,PASSERIFORMES,PARIDAE,True,Poecile montanus,Willow Tit,wiltit1,True,Poecile montanus,Willow Tit,コガラ
+1052,A,446,Cyanistes cyanus,ルリガラ,PASSERIFORMES,PARIDAE,True,Cyanistes cyanus,Azure Tit,azutit2,True,Cyanistes cyanus,Azure Tit,ルリガラ
+1055,A,447,Parus cinereus,シジュウカラ,PASSERIFORMES,PARIDAE,True,Parus cinereus,Asian Tit,cintit13,True,Parus cinereus,Cinereous Tit,クロシジュウカラ
+1063,A,448,Remiz consobrinus,ツリスガラ,PASSERIFORMES,REMIZIDAE,True,Remiz consobrinus,Chinese Penduline-Tit,chptit1,True,Remiz consobrinus,Chinese Penduline Tit,ツリスガラ
+1066,A,449,Panurus biarmicus,ヒゲガラ,PASSERIFORMES,PANURIDAE,True,Panurus biarmicus,Bearded Reedling,bearee1,True,Panurus biarmicus,Bearded Tit,ヒゲガラ
+1070,A,450,Alauda arvensis,ヒバリ,PASSERIFORMES,ALAUDIDAE,True,Alauda arvensis,Eurasian Skylark,skylar,True,Alauda arvensis,Eurasian Skylark,ヒバリ
+1076,A,451,Eremophila alpestris,ハマヒバリ,PASSERIFORMES,ALAUDIDAE,True,Eremophila alpestris,Horned Lark,horlar,True,Eremophila alpestris,Shore Lark,ハマヒバリ
+1079,A,452,Calandrella brachydactyla,ヒメコウテンシ,PASSERIFORMES,ALAUDIDAE,True,Calandrella brachydactyla,Greater Short-toed Lark,gstlar1,True,Calandrella brachydactyla,Greater Short-toed Lark,ニシヒメコウテンシ
+1082,A,453,Melanocorypha bimaculata,クビワコウテンシ,PASSERIFORMES,ALAUDIDAE,True,Melanocorypha bimaculata,Bimaculated Lark,bimlar1,False,,,
+1083,A,454,Melanocorypha mongolica,コウテンシ,PASSERIFORMES,ALAUDIDAE,True,Melanocorypha mongolica,Mongolian Lark,monlar1,False,,,
+1085,A,455,Alaudala cheleensis,コヒバリ,PASSERIFORMES,ALAUDIDAE,True,Alaudala cheleensis,Asian Short-toed Lark,lstlar2,True,Alaudala cheleensis,Asian Short-toed Lark,アジアコヒバリ
+1089,A,456,Hypsipetes amaurotis,ヒヨドリ,PASSERIFORMES,PYCNONOTIDAE,True,Hypsipetes amaurotis,Brown-eared Bulbul,brebul1,True,Hypsipetes amaurotis,Brown-eared Bulbul,ヒヨドリ
+1100,A,457,Pycnonotus sinensis,シロガシラ,PASSERIFORMES,PYCNONOTIDAE,True,Pycnonotus sinensis,Light-vented Bulbul,livbul1,True,Pycnonotus sinensis,Light-vented Bulbul,シロガシラ
+1105,A,458,Riparia riparia,ショウドウツバメ,PASSERIFORMES,HIRUNDINIDAE,True,Riparia riparia,Bank Swallow,banswa,True,Riparia riparia,Sand Martin,ショウドウツバメ
+1107,A,459,Riparia paludicola,タイワンショウドウツバメ,PASSERIFORMES,HIRUNDINIDAE,True,Riparia paludicola,Plain Martin,plamar1,True,Riparia paludicola,Plain Martin,アフリカショウドウツバメ
+1110,A,460,Hirundo tahitica,リュウキュウツバメ,PASSERIFORMES,HIRUNDINIDAE,True,Hirundo tahitica,Tahiti Swallow,pacswa5,True,Hirundo tahitica,Pacific Swallow,リュウキュウツバメ
+1112,A,461,Hirundo rustica,ツバメ,PASSERIFORMES,HIRUNDINIDAE,True,Hirundo rustica,Barn Swallow,barswa,True,Hirundo rustica,Barn Swallow,ツバメ
+1116,A,462,Delichon dasypus,イワツバメ,PASSERIFORMES,HIRUNDINIDAE,True,Delichon dasypus,Asian House-Martin,ashmar1,True,Delichon dasypus,Asian House Martin,イワツバメ
+1119,A,463,Cecropis daurica,コシアカツバメ,PASSERIFORMES,HIRUNDINIDAE,True,Cecropis daurica,Eastern Red-rumped Swallow,y00621,True,Cecropis daurica,Red-rumped Swallow,コシアカツバメ
+1123,A,464,Horornis diphone,ウグイス,PASSERIFORMES,CETTIIDAE,True,Horornis diphone,Japanese Bush Warbler,jabwar,True,Horornis diphone,Japanese Bush Warbler,ウグイス
+1130,A,465,Horornis canturians,チョウセンウグイス,PASSERIFORMES,CETTIIDAE,True,Horornis canturians,Manchurian Bush Warbler,manbuw1,True,Horornis canturians,Manchurian Bush Warbler,チョウセンウグイス
+1133,A,466,Urosphena squameiceps,ヤブサメ,PASSERIFORMES,CETTIIDAE,True,Urosphena squameiceps,Asian Stubtail,asistu1,True,Urosphena squameiceps,Asian Stubtail,ヤブサメ
+1136,A,467,Aegithalos caudatus,エナガ,PASSERIFORMES,AEGITHALIDAE,True,Aegithalos caudatus,Long-tailed Tit,lottit1,True,Aegithalos caudatus,Long-tailed Tit,エナガ
+1144,A,468,Phylloscopus sibilatrix,モリムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus sibilatrix,Wood Warbler,woowar,True,Phylloscopus sibilatrix,Wood Warbler,モリムシクイ
+1145,A,469,Phylloscopus inornatus,キマユムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus inornatus,Yellow-browed Warbler,yebwar3,True,Phylloscopus inornatus,Yellow-browed Warbler,キマユムシクイ
+1146,A,470,Phylloscopus yunnanensis,シセンムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus yunnanensis,Chinese Leaf Warbler,chilew1,True,Phylloscopus yunnanensis,Chinese Leaf Warbler,ウンナンムシクイ
+1147,A,471,Phylloscopus proregulus,カラフトムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus proregulus,Pallas's Leaf Warbler,palwar5,True,Phylloscopus proregulus,Pallas's Warbler,カラフトムシクイ
+1148,A,472,Phylloscopus schwarzi,カラフトムジセッカ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus schwarzi,Radde's Warbler,radwar1,True,Phylloscopus schwarzi,Radde's Warbler,カラフトムジセッカ
+1149,A,473,Phylloscopus fuscatus,ムジセッカ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus fuscatus,Dusky Warbler,duswar,True,Phylloscopus fuscatus,Dusky Warbler,ムジセッカ
+1151,A,474,Phylloscopus trochilus,キタヤナギムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus trochilus,Willow Warbler,wlwwar,True,Phylloscopus trochilus,Willow Warbler,キタヤナギムシクイ
+1153,A,475,Phylloscopus collybita,チフチャフ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus collybita,Common Chiffchaff,comchi1,True,Phylloscopus collybita,Common Chiffchaff,チフチャフ
+1155,A,476,Phylloscopus coronatus,センダイムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus coronatus,Eastern Crowned Warbler,eacwar1,True,Phylloscopus coronatus,Eastern Crowned Warbler,センダイムシクイ
+1156,A,477,Phylloscopus ijimae,イイジマムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus ijimae,Ijima's Leaf Warbler,ijlwar1,True,Phylloscopus ijimae,Ijima's Leaf Warbler,イイジマムシクイ
+1157,A,478,Phylloscopus plumbeitarsus,ヤナギムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus plumbeitarsus,Two-barred Warbler,grewar2,True,Phylloscopus plumbeitarsus,Two-barred Warbler,フタオビムシクイ
+1158,A,479,Phylloscopus borealoides,エゾムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus borealoides,Sakhalin Leaf Warbler,salwar1,True,Phylloscopus borealoides,Sakhalin Leaf Warbler,エゾムシクイ
+1159,A,480,Phylloscopus tenellipes,アムールムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus tenellipes,Pale-legged Leaf Warbler,pllwar1,True,Phylloscopus tenellipes,Pale-legged Leaf Warbler,キタムシクイ
+1160,A,481,Phylloscopus xanthodryas,メボソムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus xanthodryas,Japanese Leaf Warbler,arcwar3,True,Phylloscopus xanthodryas,Japanese Leaf Warbler,メボソムシクイ
+1161,A,482,Phylloscopus examinandus,オオムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus examinandus,Kamchatka Leaf Warbler,arcwar2,True,Phylloscopus examinandus,Kamchatka Leaf Warbler,オオムシクイ
+1162,A,483,Phylloscopus borealis,コムシクイ,PASSERIFORMES,PHYLLOSCOPIDAE,True,Phylloscopus borealis,Arctic Warbler,arcwar1,True,Phylloscopus borealis,Arctic Warbler,コムシクイ
+1165,A,484,Acrocephalus orientalis,オオヨシキリ,PASSERIFORMES,ACROCEPHALIDAE,True,Acrocephalus orientalis,Oriental Reed Warbler,orrwar1,True,Acrocephalus orientalis,Oriental Reed Warbler,オオヨシキリ
+1166,A,485,Acrocephalus bistrigiceps,コヨシキリ,PASSERIFORMES,ACROCEPHALIDAE,True,Acrocephalus bistrigiceps,Black-browed Reed Warbler,bbrwar1,True,Acrocephalus bistrigiceps,Black-browed Reed Warbler,コヨシキリ
+1167,A,486,Acrocephalus schoenobaenus,スゲヨシキリ,PASSERIFORMES,ACROCEPHALIDAE,True,Acrocephalus schoenobaenus,Sedge Warbler,sedwar1,True,Acrocephalus schoenobaenus,Sedge Warbler,スゲヨシキリ
+1168,A,487,Acrocephalus tangorum,マンシュウイナダヨシキリ,PASSERIFORMES,ACROCEPHALIDAE,True,Acrocephalus tangorum,Manchurian Reed Warbler,manrew1,True,Acrocephalus tangorum,Manchurian Reed Warbler,コクリュウコウイナダヨシキリ
+1169,A,488,Acrocephalus dumetorum,ヤブヨシキリ,PASSERIFORMES,ACROCEPHALIDAE,True,Acrocephalus dumetorum,Blyth's Reed Warbler,blrwar1,True,Acrocephalus dumetorum,Blyth's Reed Warbler,ヤブヨシキリ
+1171,A,489,Arundinax aedon,ハシブトオオヨシキリ,PASSERIFORMES,ACROCEPHALIDAE,True,Arundinax aedon,Thick-billed Warbler,thbwar1,True,Arundinax aedon,Thick-billed Warbler,ハシブトヨシキリ
+1174,A,490,Iduna caligata,ヒメウタイムシクイ,PASSERIFORMES,ACROCEPHALIDAE,True,Iduna caligata,Booted Warbler,boowar1,True,Iduna caligata,Booted Warbler,ヒメウタイムシクイ
+1177,A,491,Locustella amnicola,エゾセンニュウ,PASSERIFORMES,LOCUSTELLIDAE,True,Helopsaltes amnicola,Sakhalin Grasshopper Warbler,sakwar1,False,,,
+1178,A,492,Locustella pryeri,オオセッカ,PASSERIFORMES,LOCUSTELLIDAE,True,Helopsaltes pryeri,Marsh Grassbird,margra1,True,Helopsaltes pryeri,Marsh Grassbird,オオセッカ
+1181,A,493,Locustella certhiola,シベリアセンニュウ,PASSERIFORMES,LOCUSTELLIDAE,True,Helopsaltes certhiola,Pallas's Grasshopper Warbler,pagwar1,True,Helopsaltes certhiola,Pallas's Grasshopper Warbler,シベリアセンニュウ
+1184,A,494,Locustella ochotensis,シマセンニュウ,PASSERIFORMES,LOCUSTELLIDAE,True,Helopsaltes ochotensis,Middendorff's Grasshopper Warbler,migwar,True,Helopsaltes ochotensis,Middendorff's Grasshopper Warbler,シマセンニュウ
+1185,A,495,Locustella pleskei,ウチヤマセンニュウ,PASSERIFORMES,LOCUSTELLIDAE,True,Helopsaltes pleskei,Pleske's Grasshopper Warbler,plewar1,False,,,
+1186,A,496,Locustella lanceolata,マキノセンニュウ,PASSERIFORMES,LOCUSTELLIDAE,True,Locustella lanceolata,Lanceolated Warbler,lanwar,True,Locustella lanceolata,Lanceolated Warbler,マキノセンニュウ
+1190,A,497,Cisticola juncidis,セッカ,PASSERIFORMES,CISTICOLIDAE,True,Cisticola juncidis,Zitting Cisticola,zitcis1,True,Cisticola juncidis,Zitting Cisticola,セッカ
+1194,A,498,Curruca curruca,コノドジロムシクイ,PASSERIFORMES,SYLVIIDAE,True,Curruca curruca,Lesser Whitethroat,leswhi4,True,Curruca curruca,Lesser Whitethroat,コノドジロムシクイ
+1198,A,499,Apalopteron familiare,メグロ,PASSERIFORMES,ZOSTEROPIDAE,True,Apalopteron familiare,Bonin White-eye,bonhon1,False,,,
+1202,A,500,Zosterops erythropleurus,チョウセンメジロ,PASSERIFORMES,ZOSTEROPIDAE,True,Zosterops erythropleurus,Chestnut-flanked White-eye,cfweye1,True,Zosterops erythropleurus,Chestnut-flanked White-eye,チョウセンメジロ
+1203,A,501,Zosterops japonicus,メジロ,PASSERIFORMES,ZOSTEROPIDAE,True,Zosterops japonicus,Warbling White-eye,warwhe1,True,Zosterops japonicus,Warbling White-eye,メジロ
+1213,A,502,Regulus regulus,キクイタダキ,PASSERIFORMES,REGULIDAE,True,Regulus regulus,Goldcrest,goldcr1,True,Regulus regulus,Goldcrest,キクイタダキ
+1217,A,503,Troglodytes troglodytes,ミソサザイ,PASSERIFORMES,TROGLODYTIDAE,True,Troglodytes troglodytes,Eurasian Wren,winwre4,True,Troglodytes troglodytes,Eurasian Wren,ミソサザイ
+1224,A,504,Sitta europaea,ゴジュウカラ,PASSERIFORMES,SITTIDAE,True,Sitta europaea,Eurasian Nuthatch,eurnut2,True,Sitta europaea,Eurasian Nuthatch,ゴジュウカラ
+1231,A,505,Certhia familiaris,キバシリ,PASSERIFORMES,CERTHIIDAE,True,Certhia familiaris,Eurasian Treecreeper,eurtre1,True,Certhia familiaris,Eurasian Treecreeper,キバシリ
+1236,A,506,Spodiopsar sericeus,ギンムクドリ,PASSERIFORMES,STURNIDAE,True,Spodiopsar sericeus,Red-billed Starling,rebsta1,True,Spodiopsar sericeus,Red-billed Starling,ギンムクドリ
+1237,A,507,Spodiopsar cineraceus,ムクドリ,PASSERIFORMES,STURNIDAE,True,Spodiopsar cineraceus,White-cheeked Starling,whcsta1,True,Spodiopsar cineraceus,White-cheeked Starling,ムクドリ
+1239,A,508,Agropsar sturninus,シベリアムクドリ,PASSERIFORMES,STURNIDAE,True,Agropsar sturninus,Daurian Starling,dausta1,True,Agropsar sturninus,Daurian Starling,シベリアムクドリ
+1240,A,509,Agropsar philippensis,コムクドリ,PASSERIFORMES,STURNIDAE,True,Agropsar philippensis,Chestnut-cheeked Starling,chcsta1,True,Agropsar philippensis,Chestnut-cheeked Starling,コムクドリ
+1242,A,510,Sturnia sinensis,カラムクドリ,PASSERIFORMES,STURNIDAE,True,Sturnia sinensis,White-shouldered Starling,whssta2,True,Sturnia sinensis,White-shouldered Starling,カラムクドリ
+1244,A,511,Pastor roseus,バライロムクドリ,PASSERIFORMES,STURNIDAE,True,Pastor roseus,Rosy Starling,rossta2,True,Pastor roseus,Rose-coloured Starling,バライロムクドリ
+1246,A,512,Sturnus vulgaris,ホシムクドリ,PASSERIFORMES,STURNIDAE,True,Sturnus vulgaris,European Starling,eursta,True,Sturnus vulgaris,Common Starling,ホシムクドリ
+1250,A,513,Catharus minimus,ハイイロチャツグミ,PASSERIFORMES,TURDIDAE,True,Catharus minimus,Gray-cheeked Thrush,gycthr,True,Catharus minimus,Grey-cheeked Thrush,ハイイロチャツグミ
+1253,A,514,Zoothera aurea,トラツグミ,PASSERIFORMES,TURDIDAE,True,Zoothera aurea,White's Thrush,scathr2,True,Zoothera aurea,White's Thrush,トラツグミ
+1254,A,515,Zoothera dauma,ミナミトラツグミ,PASSERIFORMES,TURDIDAE,True,Zoothera dauma,Scaly Thrush,scathr8,False,,,
+1258,A,516,Cichlopasser terrestris,オガサワラガビチョウ,PASSERIFORMES,TURDIDAE,True,Zoothera terrestris,Bonin Thrush,bonthr2,False,,,
+1260,A,517,Geokichla sibirica,マミジロ,PASSERIFORMES,TURDIDAE,True,Geokichla sibirica,Siberian Thrush,sibthr1,True,Geokichla sibirica,Siberian Thrush,マミジロ
+1263,A,518,Geokichla citrina,オレンジジツグミ,PASSERIFORMES,TURDIDAE,True,Geokichla citrina,Orange-headed Thrush,orhthr1,True,Geokichla citrina,Orange-headed Thrush,オレンジジツグミ
+1266,A,519,Turdus philomelos,ウタツグミ,PASSERIFORMES,TURDIDAE,True,Turdus philomelos,Song Thrush,sonthr1,True,Turdus philomelos,Song Thrush,ウタツグミ
+1268,A,520,Turdus viscivorus,ヤドリギツグミ,PASSERIFORMES,TURDIDAE,True,Turdus viscivorus,Mistle Thrush,misthr1,True,Turdus viscivorus,Mistle Thrush,ヤドリギツグミ
+1270,A,521,Turdus mandarinus,クロウタドリ,PASSERIFORMES,TURDIDAE,True,Turdus mandarinus,Chinese Blackbird,chibla1,True,Turdus mandarinus,Chinese Blackbird,クロウタドリ
+1272,A,522,Turdus iliacus,ワキアカツグミ,PASSERIFORMES,TURDIDAE,True,Turdus iliacus,Redwing,redwin,True,Turdus iliacus,Redwing,ワキアカツグミ
+1274,A,523,Turdus cardis,クロツグミ,PASSERIFORMES,TURDIDAE,True,Turdus cardis,Japanese Thrush,japthr1,True,Turdus cardis,Japanese Thrush,クロツグミ
+1275,A,524,Turdus hortulorum,カラアカハラ,PASSERIFORMES,TURDIDAE,True,Turdus hortulorum,Gray-backed Thrush,gybthr1,True,Turdus hortulorum,Grey-backed Thrush,カラアカハラ
+1276,A,525,Turdus obscurus,マミチャジナイ,PASSERIFORMES,TURDIDAE,True,Turdus obscurus,Eyebrowed Thrush,eyethr,True,Turdus obscurus,Eyebrowed Thrush,マミチャジナイ
+1277,A,526,Turdus pallidus,シロハラ,PASSERIFORMES,TURDIDAE,True,Turdus pallidus,Pale Thrush,palthr1,True,Turdus pallidus,Pale Thrush,シロハラ
+1278,A,527,Turdus chrysolaus,アカハラ,PASSERIFORMES,TURDIDAE,True,Turdus chrysolaus,Brown-headed Thrush,brhthr1,True,Turdus chrysolaus,Brown-headed Thrush,アカハラ
+1282,A,528,Turdus celaenops,アカコッコ,PASSERIFORMES,TURDIDAE,True,Turdus celaenops,Izu Thrush,izuthr1,True,Turdus celaenops,Izu Thrush,アカコッコ
+1283,A,529,Turdus pilaris,ノハラツグミ,PASSERIFORMES,TURDIDAE,True,Turdus pilaris,Fieldfare,fieldf,True,Turdus pilaris,Fieldfare,ノハラツグミ
+1284,A,530,Turdus atrogularis,ノドグロツグミ,PASSERIFORMES,TURDIDAE,True,Turdus atrogularis,Black-throated Thrush,datthr1,True,Turdus atrogularis,Black-throated Thrush,ノドグロツグミ
+1285,A,531,Turdus eunomus,ツグミ,PASSERIFORMES,TURDIDAE,True,Turdus eunomus,Dusky Thrush,dusthr2,True,Turdus eunomus,Dusky Thrush,ツグミ
+1286,A,532,Turdus naumanni,ハチジョウツグミ,PASSERIFORMES,TURDIDAE,True,Turdus naumanni,Naumann's Thrush,dusthr1,True,Turdus naumanni,Naumann's Thrush,ハチジョウツグミ
+1289,A,533,Muscicapa griseisticta,エゾビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Muscicapa griseisticta,Gray-streaked Flycatcher,gysfly1,True,Muscicapa griseisticta,Grey-streaked Flycatcher,エゾビタキ
+1290,A,534,Muscicapa sibirica,サメビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Muscicapa sibirica,Dark-sided Flycatcher,dasfly,True,Muscicapa sibirica,Dark-sided Flycatcher,サメビタキ
+1292,A,535,Muscicapa ferruginea,ミヤマヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Muscicapa ferruginea,Ferruginous Flycatcher,ferfly1,True,Muscicapa ferruginea,Ferruginous Flycatcher,ミヤマヒタキ
+1293,A,536,Muscicapa muttui,チャムネサメビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Muscicapa muttui,Brown-breasted Flycatcher,brbfly2,True,Muscicapa muttui,Brown-breasted Flycatcher,チャムネサメビタキ
+1294,A,537,Muscicapa dauurica,コサメビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Muscicapa dauurica,Asian Brown Flycatcher,asbfly,True,Muscicapa dauurica,Asian Brown Flycatcher,コサメビタキ
+1296,A,538,Muscicapa striata,ムナフヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Muscicapa striata,Spotted Flycatcher,spofly1,True,Muscicapa striata,Spotted Flycatcher,ムナフヒタキ
+1299,A,539,Cyanoptila cyanomelana,オオルリ,PASSERIFORMES,MUSCICAPIDAE,True,Cyanoptila cyanomelana,Blue-and-white Flycatcher,bawfly2,True,Cyanoptila cyanomelana,Blue-and-white Flycatcher,オオルリ
+1304,A,540,Eumyias thalassinus,ロクショウヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Eumyias thalassinus,Verditer Flycatcher,verfly4,True,Eumyias thalassinus,Verditer Flycatcher,ロクショウヒタキ
+1307,A,541,Erithacus rubecula,ヨーロッパコマドリ,PASSERIFORMES,MUSCICAPIDAE,True,Erithacus rubecula,European Robin,eurrob1,True,Erithacus rubecula,European Robin,ヨーロッパコマドリ
+1310,A,542,Luscinia svecica,オガワコマドリ,PASSERIFORMES,MUSCICAPIDAE,True,Luscinia svecica,Bluethroat,blueth,True,Luscinia svecica,Bluethroat,オガワコマドリ
+1313,A,543,Calliope calliope,ノゴマ,PASSERIFORMES,MUSCICAPIDAE,True,Calliope calliope,Siberian Rubythroat,sibrub,True,Calliope calliope,Siberian Rubythroat,ノゴマ
+1315,A,544,Larvivora cyane,コルリ,PASSERIFORMES,MUSCICAPIDAE,True,Larvivora cyane,Siberian Blue Robin,sibrob,True,Larvivora cyane,Siberian Blue Robin,コルリ
+1318,A,545,Larvivora akahige,コマドリ,PASSERIFORMES,MUSCICAPIDAE,True,Larvivora akahige,Japanese Robin,japrob2,True,Larvivora akahige,Japanese Robin,コマドリ
+1322,A,546,Larvivora komadori,アカヒゲ,PASSERIFORMES,MUSCICAPIDAE,True,Larvivora komadori,Ryukyu Robin,ryurob2,True,Larvivora komadori,Ryukyu Robin,アカヒゲ
+1323,A,547,Larvivora namiyei,ホントウアカヒゲ,PASSERIFORMES,MUSCICAPIDAE,True,Larvivora namiyei,Okinawa Robin,ryurob3,False,,,
+1324,A,548,Larvivora sibilans,シマゴマ,PASSERIFORMES,MUSCICAPIDAE,True,Larvivora sibilans,Rufous-tailed Robin,rutrob1,True,Larvivora sibilans,Rufous-tailed Robin,シマゴマ
+1326,A,549,Ficedula zanthopygia,マミジロキビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula zanthopygia,Yellow-rumped Flycatcher,korfly1,True,Ficedula zanthopygia,Yellow-rumped Flycatcher,マミジロキビタキ
+1327,A,550,Ficedula narcissina,キビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula narcissina,Narcissus Flycatcher,narfly2,True,Ficedula narcissina,Narcissus Flycatcher,キビタキ
+1328,A,551,Ficedula owstoni,リュウキュウキビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula owstoni,Ryukyu Flycatcher,narfly3,False,,,
+1329,A,552,Ficedula mugimaki,ムギマキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula mugimaki,Mugimaki Flycatcher,mugfly,True,Ficedula mugimaki,Mugimaki Flycatcher,ムギマキ
+1330,A,553,Ficedula parva,ニシオジロビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula parva,Red-breasted Flycatcher,rebfly,True,Ficedula parva,Red-breasted Flycatcher,ニシオジロビタキ
+1331,A,554,Ficedula albicilla,オジロビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula albicilla,Taiga Flycatcher,taifly1,True,Ficedula albicilla,Taiga Flycatcher,オジロビタキ
+1332,A,555,Ficedula hypoleuca,マダラヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Ficedula hypoleuca,European Pied Flycatcher,eupfly1,True,Ficedula hypoleuca,European Pied Flycatcher,マダラヒタキ
+1335,A,556,Tarsiger cyanurus,ルリビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Tarsiger cyanurus,Red-flanked Bluetail,refblu1,True,Tarsiger cyanurus,Red-flanked Bluetail,ルリビタキ
+1337,A,557,Phoenicurus erythronotus,セアカジョウビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Phoenicurus erythronotus,Rufous-backed Redstart,rubred2,False,,,
+1338,A,558,Phoenicurus fuliginosus,カワビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Phoenicurus fuliginosus,Plumbeous Redstart,plured1,True,Phoenicurus fuliginosus,Plumbeous Redstart,カワビタキ
+1340,A,559,Phoenicurus ochruros,クロジョウビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Phoenicurus ochruros,Black Redstart,blared1,True,Phoenicurus ochruros,Black Redstart,クロジョウビタキ
+1342,A,560,Phoenicurus phoenicurus,シロビタイジョウビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Phoenicurus phoenicurus,Common Redstart,comred2,True,Phoenicurus phoenicurus,Common Redstart,シロビタイジョウビタキ
+1344,A,561,Phoenicurus auroreus,ジョウビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Phoenicurus auroreus,Daurian Redstart,daured1,True,Phoenicurus auroreus,Daurian Redstart,ジョウビタキ
+1347,A,562,Monticola gularis,ヒメイソヒヨ,PASSERIFORMES,MUSCICAPIDAE,True,Monticola gularis,White-throated Rock-Thrush,wtrthr1,True,Monticola gularis,White-throated Rock Thrush,ヒメイソヒヨ
+1348,A,563,Monticola saxatilis,コシジロイソヒヨドリ,PASSERIFORMES,MUSCICAPIDAE,True,Monticola saxatilis,Rufous-tailed Rock-Thrush,rtrthr1,True,Monticola saxatilis,Common Rock Thrush,コシジロイソヒヨドリ
+1349,A,564,Monticola solitarius,イソヒヨドリ,PASSERIFORMES,MUSCICAPIDAE,True,Monticola solitarius,Blue Rock-Thrush,burthr,True,Monticola solitarius,Blue Rock Thrush,イソヒヨドリ
+1353,A,565,Saxicola ferreus,ヤマザキヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Saxicola ferreus,Gray Bushchat,grybus1,True,Saxicola ferreus,Grey Bushchat,ヤマザキヒタキ
+1355,A,566,Saxicola rubetra,マミジロノビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Saxicola rubetra,Whinchat,whinch1,True,Saxicola rubetra,Whinchat,マミジロノビタキ
+1356,A,567,Saxicola caprata,クロノビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Saxicola caprata,Pied Bushchat,piebus1,True,Saxicola caprata,Pied Bushchat,クロノビタキ
+1358,A,568,Saxicola stejnegeri,ノビタキ,PASSERIFORMES,MUSCICAPIDAE,True,Saxicola stejnegeri,Amur Stonechat,stonec7,True,Saxicola stejnegeri,Amur Stonechat,ノビタキ
+1360,A,569,Oenanthe oenanthe,ハシグロヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Oenanthe oenanthe,Northern Wheatear,norwhe,True,Oenanthe oenanthe,Northern Wheatear,ハシグロヒタキ
+1362,A,570,Oenanthe isabellina,イナバヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Oenanthe isabellina,Isabelline Wheatear,isawhe1,True,Oenanthe isabellina,Isabelline Wheatear,イナバヒタキ
+1363,A,571,Oenanthe deserti,サバクヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Oenanthe deserti,Desert Wheatear,deswhe1,True,Oenanthe deserti,Desert Wheatear,サバクヒタキ
+1365,A,572,Oenanthe pleschanka,セグロサバクヒタキ,PASSERIFORMES,MUSCICAPIDAE,True,Oenanthe pleschanka,Pied Wheatear,piewhe1,True,Oenanthe pleschanka,Pied Wheatear,セグロサバクヒタキ
+1368,A,573,Cinclus pallasii,カワガラス,PASSERIFORMES,CINCLIDAE,True,Cinclus pallasii,Brown Dipper,brodip1,True,Cinclus pallasii,Brown Dipper,カワガラス
+1372,A,574,Passer cinnamomeus,ニュウナイスズメ,PASSERIFORMES,PASSERIDAE,True,Passer cinnamomeus,Russet Sparrow,russpa2,True,Passer cinnamomeus,Russet Sparrow,ニュウナイスズメ
+1374,A,575,Passer montanus,スズメ,PASSERIFORMES,PASSERIDAE,True,Passer montanus,Eurasian Tree Sparrow,eutspa,True,Passer montanus,Eurasian Tree Sparrow,スズメ
+1376,A,576,Passer domesticus,イエスズメ,PASSERIFORMES,PASSERIDAE,True,Passer domesticus,House Sparrow,houspa,True,Passer domesticus,House Sparrow,イエスズメ
+1380,A,577,Prunella collaris,イワヒバリ,PASSERIFORMES,PRUNELLIDAE,True,Prunella collaris,Alpine Accentor,alpacc1,True,Prunella collaris,Alpine Accentor,イワヒバリ
+1382,A,578,Prunella montanella,ヤマヒバリ,PASSERIFORMES,PRUNELLIDAE,True,Prunella montanella,Siberian Accentor,sibacc,True,Prunella montanella,Siberian Accentor,ヤマヒバリ
+1384,A,579,Prunella rubida,カヤクグリ,PASSERIFORMES,PRUNELLIDAE,True,Prunella rubida,Japanese Accentor,japacc1,False,,,
+1387,A,580,Dendronanthus indicus,イワミセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Dendronanthus indicus,Forest Wagtail,forwag1,True,Dendronanthus indicus,Forest Wagtail,イワミセキレイ
+1389,A,581,Motacilla flava,ニシツメナガセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Motacilla flava,Western Yellow Wagtail,eaywag1,True,Motacilla flava,Western Yellow Wagtail,ニシツメナガセキレイ
+1391,A,582,Motacilla tschutschensis,ツメナガセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Motacilla tschutschensis,Eastern Yellow Wagtail,eaywag,True,Motacilla tschutschensis,Eastern Yellow Wagtail,ツメナガセキレイ
+1396,A,583,Motacilla citreola,キガシラセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Motacilla citreola,Citrine Wagtail,citwag,True,Motacilla citreola,Citrine Wagtail,キガシラセキレイ
+1399,A,584,Motacilla cinerea,キセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Motacilla cinerea,Gray Wagtail,grywag,True,Motacilla cinerea,Grey Wagtail,キセキレイ
+1401,A,585,Motacilla alba,ハクセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Motacilla alba,White Wagtail,whiwag,True,Motacilla alba,Pied Wagtail/White Wagtail,ハクセキレイ
+1407,A,586,Motacilla grandis,セグロセキレイ,PASSERIFORMES,MOTACILLIDAE,True,Motacilla grandis,Japanese Wagtail,japwag1,True,Motacilla grandis,Japanese Wagtail,セグロセキレイ
+1409,A,587,Anthus richardi,マミジロタヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus richardi,Richard's Pipit,ricpip1,True,Anthus richardi,Richard's Pipit,マミジロタヒバリ
+1410,A,588,Anthus godlewskii,コマミジロタヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus godlewskii,Blyth's Pipit,blypip1,True,Anthus godlewskii,Blyth's Pipit,コマミジロタヒバリ
+1411,A,589,Anthus pratensis,マキバタヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus pratensis,Meadow Pipit,meapip1,True,Anthus pratensis,Meadow Pipit,マキバタヒバリ
+1413,A,590,Anthus trivialis,ヨーロッパビンズイ,PASSERIFORMES,MOTACILLIDAE,True,Anthus trivialis,Tree Pipit,trepip,True,Anthus trivialis,Tree Pipit,ヨーロッパビンズイ
+1415,A,591,Anthus hodgsoni,ビンズイ,PASSERIFORMES,MOTACILLIDAE,True,Anthus hodgsoni,Olive-backed Pipit,olbpip,True,Anthus hodgsoni,Olive-backed Pipit,ビンズイ
+1419,A,592,Anthus gustavi,セジロタヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus gustavi,Pechora Pipit,pecpip,True,Anthus gustavi,Pechora Pipit,セジロタヒバリ
+1421,A,593,Anthus roseatus,ウスベニタヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus roseatus,Rosy Pipit,rospip1,True,Anthus roseatus,Rosy Pipit,ウスベニタヒバリ
+1422,A,594,Anthus cervinus,ムネアカタヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus cervinus,Red-throated Pipit,retpip,True,Anthus cervinus,Red-throated Pipit,ムネアカタヒバリ
+1423,A,595,Anthus rubescens,タヒバリ,PASSERIFORMES,MOTACILLIDAE,True,Anthus rubescens,American Pipit,amepip,True,Anthus rubescens,Buff-bellied Pipit,タヒバリ
+1428,A,596,Fringilla coelebs,ズアオアトリ,PASSERIFORMES,FRINGILLIDAE,True,Fringilla coelebs,Common Chaffinch,comcha,True,Fringilla coelebs,Common Chaffinch,ズアオアトリ
+1430,A,597,Fringilla montifringilla,アトリ,PASSERIFORMES,FRINGILLIDAE,True,Fringilla montifringilla,Brambling,brambl,True,Fringilla montifringilla,Brambling,アトリ
+1432,A,598,Coccothraustes coccothraustes,シメ,PASSERIFORMES,FRINGILLIDAE,True,Coccothraustes coccothraustes,Hawfinch,hawfin,True,Coccothraustes coccothraustes,Hawfinch,シメ
+1436,A,599,Eophona migratoria,コイカル,PASSERIFORMES,FRINGILLIDAE,True,Eophona migratoria,Yellow-billed Grosbeak,yebgro1,True,Eophona migratoria,Yellow-billed Grosbeak,コイカル
+1438,A,600,Eophona personata,イカル,PASSERIFORMES,FRINGILLIDAE,True,Eophona personata,Japanese Grosbeak,japgro1,True,Eophona personata,Japanese Grosbeak,イカル
+1442,A,601,Pinicola enucleator,ギンザンマシコ,PASSERIFORMES,FRINGILLIDAE,True,Pinicola enucleator,Pine Grosbeak,pingro,True,Pinicola enucleator,Pine Grosbeak,ギンザンマシコ
+1447,A,602,Pyrrhula pyrrhula,ウソ,PASSERIFORMES,FRINGILLIDAE,True,Pyrrhula pyrrhula,Eurasian Bullfinch,eurbul,True,Pyrrhula pyrrhula,Eurasian Bullfinch,ウソ
+1454,A,603,Leucosticte arctoa,ハギマシコ,PASSERIFORMES,FRINGILLIDAE,True,Leucosticte arctoa,Asian Rosy-Finch,asrfin1,False,,,
+1457,A,604,Carpodacus erythrinus,アカマシコ,PASSERIFORMES,FRINGILLIDAE,True,Carpodacus erythrinus,Common Rosefinch,comros,True,Carpodacus erythrinus,Common Rosefinch,アカマシコ
+1459,A,605,Carpodacus ferreorostris,オガサワラマシコ,PASSERIFORMES,FRINGILLIDAE,True,Carpodacus ferreorostris,Bonin Grosbeak,bongro1,False,,,
+1460,A,606,Carpodacus sibiricus,ベニマシコ,PASSERIFORMES,FRINGILLIDAE,True,Carpodacus sibiricus,Long-tailed Rosefinch,lotros1,True,Carpodacus sibiricus,Long-tailed Rosefinch,ベニマシコ
+1463,A,607,Carpodacus roseus,オオマシコ,PASSERIFORMES,FRINGILLIDAE,True,Carpodacus roseus,Pallas's Rosefinch,palros2,False,,,
+1466,A,608,Chloris sinica,カワラヒワ,PASSERIFORMES,FRINGILLIDAE,True,Chloris sinica,Oriental Greenfinch,origre,True,Chloris sinica,Oriental Greenfinch,カワラヒワ
+1470,A,609,Chloris kittlitzi,オガサワラカワラヒワ,PASSERIFORMES,FRINGILLIDAE,False,,,,False,,,
+1472,A,610,Acanthis flammea,ベニヒワ,PASSERIFORMES,FRINGILLIDAE,True,Acanthis flammea,Redpoll,redpol1,True,Acanthis flammea,Common Redpoll,ベニヒワ
+1476,A,611,Loxia curvirostra,イスカ,PASSERIFORMES,FRINGILLIDAE,True,Loxia curvirostra,Red Crossbill,redcro,True,Loxia curvirostra,Common Crossbill,イスカ
+1479,A,612,Loxia leucoptera,ナキイスカ,PASSERIFORMES,FRINGILLIDAE,True,Loxia leucoptera,White-winged Crossbill,whwcro,True,Loxia leucoptera,Two-barred Crossbill,ナキイスカ
+1482,A,613,Spinus spinus,マヒワ,PASSERIFORMES,FRINGILLIDAE,True,Spinus spinus,Eurasian Siskin,eursis,True,Spinus spinus,Eurasian Siskin,マヒワ
+1485,A,614,Calcarius lapponicus,ツメナガホオジロ,PASSERIFORMES,CALCARIIDAE,True,Calcarius lapponicus,Lapland Longspur,laplon,True,Calcarius lapponicus,Lapland Bunting,ツメナガホオジロ
+1488,A,615,Plectrophenax nivalis,ユキホオジロ,PASSERIFORMES,CALCARIIDAE,True,Plectrophenax nivalis,Snow Bunting,snobun,True,Plectrophenax nivalis,Snow Bunting,ユキホオジロ
+1493,A,616,Emberiza citrinella,キアオジ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza citrinella,Yellowhammer,yellow2,True,Emberiza citrinella,Yellowhammer,キアオジ
+1495,A,617,Emberiza leucocephalos,シラガホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza leucocephalos,Pine Bunting,pinbun,True,Emberiza leucocephalos,Pine Bunting,シラガホオジロ
+1497,A,618,Emberiza cioides,ホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza cioides,Meadow Bunting,meabun1,True,Emberiza cioides,Meadow Bunting,ホオジロ
+1500,A,619,Emberiza buchanani,イワバホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza buchanani,Gray-necked Bunting,gyhbun1,True,Emberiza buchanani,Grey-necked Bunting,イワバホオジロ
+1502,A,620,Emberiza hortulana,ズアオホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza hortulana,Ortolan Bunting,ortbun1,True,Emberiza hortulana,Ortolan Bunting,ズアオホオジロ
+1503,A,621,Emberiza tristrami,シロハラホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza tristrami,Tristram's Bunting,tribun1,True,Emberiza tristrami,Tristram's Bunting,シロハラホオジロ
+1504,A,622,Emberiza fucata,ホオアカ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza fucata,Chestnut-eared Bunting,chebun2,True,Emberiza fucata,Chestnut-eared Bunting,ホオアカ
+1506,A,623,Emberiza pusilla,コホオアカ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza pusilla,Little Bunting,litbun,True,Emberiza pusilla,Little Bunting,コホオアカ
+1507,A,624,Emberiza chrysophrys,キマユホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza chrysophrys,Yellow-browed Bunting,yebbun1,True,Emberiza chrysophrys,Yellow-browed Bunting,キマユホオジロ
+1508,A,625,Emberiza rustica,カシラダカ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza rustica,Rustic Bunting,rusbun,True,Emberiza rustica,Rustic Bunting,カシラダカ
+1510,A,626,Emberiza elegans,ミヤマホオジロ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza elegans,Yellow-throated Bunting,yetbun1,True,Emberiza elegans,Yellow-throated Bunting,ミヤマホオジロ
+1512,A,627,Emberiza aureola,シマアオジ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza aureola,Yellow-breasted Bunting,yebbun,True,Emberiza aureola,Yellow-breasted Bunting,シマアオジ
+1515,A,628,Emberiza rutila,シマノジコ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza rutila,Chestnut Bunting,chebun1,False,,,
+1516,A,629,Emberiza melanocephala,ズグロチャキンチョウ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza melanocephala,Black-headed Bunting,blhbun1,True,Emberiza melanocephala,Black-headed Bunting,ズグロチャキンチョウ
+1517,A,630,Emberiza bruniceps,チャキンチョウ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza bruniceps,Red-headed Bunting,rehbun1,True,Emberiza bruniceps,Red-headed Bunting,チャキンチョウ
+1518,A,631,Emberiza sulphurata,ノジコ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza sulphurata,Yellow Bunting,yelbun1,True,Emberiza sulphurata,Yellow Bunting,ノジコ
+1519,A,632,Emberiza spodocephala,シベリアアオジ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza spodocephala,Black-faced Bunting,bkfbun1,True,Emberiza spodocephala,Black-faced Bunting,シベリアアオジ
+1522,A,633,Emberiza personata,アオジ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza personata,Masked Bunting,bkfbun2,False,,,
+1523,A,634,Emberiza variabilis,クロジ,PASSERIFORMES,EMBERIZIDAE,True,Emberiza variabilis,Gray Bunting,grybun,True,Emberiza variabilis,Grey Bunting,クロジ
+1524,A,635,Emberiza pallasi,シベリアジュリン,PASSERIFORMES,EMBERIZIDAE,True,Emberiza pallasi,Pallas's Bunting,palbun,True,Emberiza pallasi,Pallas's Reed Bunting,シベリアジュリン
+1528,A,636,Emberiza yessoensis,コジュリン,PASSERIFORMES,EMBERIZIDAE,True,Emberiza yessoensis,Ochre-rumped Bunting,ocrbun1,True,Emberiza yessoensis,Ochre-rumped Bunting,コジュリン
+1531,A,637,Emberiza schoeniclus,オオジュリン,PASSERIFORMES,EMBERIZIDAE,True,Emberiza schoeniclus,Reed Bunting,reebun,True,Emberiza schoeniclus,Common Reed Bunting,オオジュリン
+1535,A,638,Passerella iliaca,ゴマフスズメ,PASSERIFORMES,PASSERELLIDAE,True,Passerella iliaca,Fox Sparrow,foxspa,True,Passerella iliaca,Fox Sparrow,ゴマフスズメ
+1538,A,639,Zonotrichia leucophrys,ミヤマシトド,PASSERIFORMES,PASSERELLIDAE,True,Zonotrichia leucophrys,White-crowned Sparrow,whcspa,True,Zonotrichia leucophrys,White-crowned Sparrow,ミヤマシトド
+1540,A,640,Zonotrichia atricapilla,キガシラシトド,PASSERIFORMES,PASSERELLIDAE,True,Zonotrichia atricapilla,Golden-crowned Sparrow,gocspa,True,Zonotrichia atricapilla,Golden-crowned Sparrow,キガシラシトド
+1542,A,641,Passerculus sandwichensis,サバンナシトド,PASSERIFORMES,PASSERELLIDAE,True,Passerculus sandwichensis,Savannah Sparrow,savspa,True,Passerculus sandwichensis,Savannah Sparrow,サバンナシトド
+1545,A,642,Melospiza melodia,ウタスズメ,PASSERIFORMES,PASSERELLIDAE,True,Melospiza melodia,Song Sparrow,sonspa,True,Melospiza melodia,Song Sparrow,ウタスズメ
+1549,A,643,Geothlypis trichas,カオグロアメリカムシクイ,PASSERIFORMES,PARULIDAE,True,Geothlypis trichas,Common Yellowthroat,comyel,True,Geothlypis trichas,Common Yellowthroat,カオグロアメリカムシクイ
+1552,A,644,Setophaga coronata,キヅタアメリカムシクイ,PASSERIFORMES,PARULIDAE,True,Setophaga coronata,Yellow-rumped Warbler,yerwar,True,Setophaga coronata,Yellow-rumped Warbler,キヅタアメリカムシクイ
+1557,B,1,Branta canadensis,カナダガン,ANSERIFORMES,ANATIDAE,True,Branta canadensis,Canada Goose,cangoo,True,Branta canadensis,Canada Goose,カナダガン
+1560,B,2,Cygnus atratus,コクチョウ,ANSERIFORMES,ANATIDAE,True,Cygnus atratus,Black Swan,blkswa,True,Cygnus atratus,Black Swan,コクチョウ
+1561,B,3,Cygnus olor,コブハクチョウ,ANSERIFORMES,ANATIDAE,True,Cygnus olor,Mute Swan,mutswa,True,Cygnus olor,Mute Swan,コブハクチョウ
+1565,B,4,Colinus virginianus,コリンウズラ,GALLIFORMES,ODONTOPHORIDAE,True,Colinus virginianus,Northern Bobwhite,norbob,True,Colinus virginianus,Northern Bobwhite,コリンウズラ
+1569,B,5,Syrmaticus soemmerringii,ヤマドリ,GALLIFORMES,PHASIANIDAE,True,Syrmaticus soemmerringii,Copper Pheasant,copphe1,False,,,
+1574,B,6,Phasianus colchicus,タイリクキジ,GALLIFORMES,PHASIANIDAE,True,Phasianus colchicus,Ring-necked Pheasant,rinphe1,True,Phasianus colchicus,Common Pheasant,コウライキジ
+1576,B,7,Phasianus versicolor,キジ,GALLIFORMES,PHASIANIDAE,True,Phasianus versicolor,Green Pheasant,rinphe2,False,,,
+1579,B,8,Pavo cristatus,インドクジャク,GALLIFORMES,PHASIANIDAE,True,Pavo cristatus,Indian Peafowl,compea,True,Pavo cristatus,Indian Peafowl,インドクジャク
+1581,B,9,Bambusicola thoracicus,コジュケイ,GALLIFORMES,PHASIANIDAE,True,Bambusicola thoracicus,Chinese Bamboo-Partridge,chbpar3,True,Bambusicola thoracicus,Chinese Bamboo-Partridge,コジュケイ
+1582,B,10,Bambusicola sonorivox,テッケイ,GALLIFORMES,PHASIANIDAE,True,Bambusicola sonorivox,Taiwan Bamboo-Partridge,taibap1,True,Bambusicola sonorivox,Taiwan Bamboo-Partridge,テッケイ
+1586,B,11,Columba livia,カワラバト（ドバト）,COLUMBIFORMES,COLUMBIDAE,True,Columba livia,Rock Pigeon,rocpig,True,Columba livia,Rock Dove,カワラバト
+1588,B,12,Streptopelia decaocto,シラコバト,COLUMBIFORMES,COLUMBIDAE,True,Streptopelia decaocto,Eurasian Collared-Dove,eucdov,True,Streptopelia decaocto,Collared Dove,シラコバト
+1592,B,13,Himantopus mexicanus,クロエリセイタカシギ,CHARADRIIFORMES,RECURVIROSTRIDAE,True,Himantopus mexicanus,Black-necked Stilt,bknsti,True,Himantopus mexicanus,Black-necked Stilt,クロエリセイタカシギ
+1597,B,14,Ciconia boyciana,コウノトリ,CICONIIFORMES,CICONIIDAE,True,Ciconia boyciana,Oriental Stork,oristo1,False,,,
+1601,B,15,Nipponia nippon,トキ,PELECANIFORMES,THRESKIORNITHIDAE,True,Nipponia nippon,Crested Ibis,creibi1,False,,,
+1605,B,16,Myiopsitta monachus,オキナインコ,PSITTACIFORMES,PSITTACIDAE,True,Myiopsitta monachus,Monk Parakeet,monpar,True,Myiopsitta monachus,Monk Parakeet,オキナインコ
+1609,B,17,Psittacula alexandri,ダルマインコ,PSITTACIFORMES,PSITTACULIDAE,True,Psittacula alexandri,Red-breasted Parakeet,rebpar4,True,Psittacula alexandri,Red-breasted Parakeet,ダルマインコ
+1611,B,18,Psittacula eupatria,オオホンセイインコ,PSITTACIFORMES,PSITTACULIDAE,True,Psittacula eupatria,Alexandrine Parakeet,alepar2,True,Psittacula eupatria,Alexandrine Parakeet,オオホンセイインコ
+1613,B,19,Psittacula krameri,ホンセイインコ,PSITTACIFORMES,PSITTACULIDAE,True,Psittacula krameri,Rose-ringed Parakeet,rorpar,True,Psittacula krameri,Ring-necked Parakeet,ホンセイインコ
+1616,B,20,Melopsittacus undulatus,セキセイインコ,PSITTACIFORMES,PSITTACULIDAE,True,Melopsittacus undulatus,Budgerigar,budger,True,Melopsittacus undulatus,Budgerigar,セキセイインコ
+1620,B,21,Urocissa caerulea,ヤマムスメ,PASSERIFORMES,CORVIDAE,True,Urocissa caerulea,Taiwan Blue-Magpie,formag1,True,Urocissa caerulea,Taiwan Blue-Magpie,ヤマムスメ
+1621,B,22,Urocissa erythroryncha,サンジャク,PASSERIFORMES,CORVIDAE,True,Urocissa erythroryncha,Red-billed Blue-Magpie,rbbmag,True,Urocissa erythroryncha,Red-billed Blue-Magpie,サンジャク
+1624,B,23,Pica serica,カササギ,PASSERIFORMES,CORVIDAE,True,Pica serica,Oriental Magpie,orimag1,True,Pica serica,Oriental Magpie,カササギ
+1627,B,24,Zosterops japonicus,メジロ,PASSERIFORMES,ZOSTEROPIDAE,True,Zosterops japonicus,Warbling White-eye,warwhe1,True,Zosterops japonicus,Warbling White-eye,メジロ
+1632,B,25,Leiothrix lutea,ソウシチョウ,PASSERIFORMES,LEIOTHRICHIDAE,True,Leiothrix lutea,Red-billed Leiothrix,reblei,True,Leiothrix lutea,Red-billed Leiothrix,ソウシチョウ
+1635,B,26,Garrulax canorus,ガビチョウ,PASSERIFORMES,LEIOTHRICHIDAE,True,Garrulax canorus,Chinese Hwamei,melthr,True,Garrulax canorus,Chinese Hwamei,ガビチョウ
+1638,B,27,Ianthocincla cineracea,ヒゲガビチョウ,PASSERIFORMES,LEIOTHRICHIDAE,True,Ianthocincla cineracea,Moustached Laughingthrush,moulau1,False,,,
+1641,B,28,Pterorhinus sannio,カオジロガビチョウ,PASSERIFORMES,LEIOTHRICHIDAE,True,Pterorhinus sannio,White-browed Laughingthrush,whblau1,True,Pterorhinus sannio,White-browed Laughingthrush,カオジロガビチョウ
+1643,B,29,Pterorhinus perspicillatus,カオグロガビチョウ,PASSERIFORMES,LEIOTHRICHIDAE,True,Pterorhinus perspicillatus,Masked Laughingthrush,maslau1,True,Pterorhinus perspicillatus,Masked Laughingthrush,カオグロガビチョウ
+1646,B,30,Acridotheres cristatellus,ハッカチョウ,PASSERIFORMES,STURNIDAE,True,Acridotheres cristatellus,Crested Myna,cremyn,True,Acridotheres cristatellus,Crested Myna,ハッカチョウ
+1648,B,31,Acridotheres javanicus,ジャワハッカ,PASSERIFORMES,STURNIDAE,True,Acridotheres javanicus,Javan Myna,whvmyn,True,Acridotheres javanicus,Javan Myna,ジャワハッカ
+1649,B,32,Acridotheres ginginianus,ハイイロハッカ,PASSERIFORMES,STURNIDAE,True,Acridotheres ginginianus,Bank Myna,banmyn1,True,Acridotheres ginginianus,Bank Myna,ハイイロハッカ
+1650,B,33,Acridotheres tristis,インドハッカ,PASSERIFORMES,STURNIDAE,True,Acridotheres tristis,Common Myna,commyn,True,Acridotheres tristis,Common Myna,インドハッカ
+1654,B,34,Ploceus intermedius,メンハタオリドリ,PASSERIFORMES,PLOCEIDAE,True,Ploceus intermedius,Lesser Masked-Weaver,lesmaw1,True,Ploceus intermedius,Lesser Masked-Weaver,メンハタオリドリ
+1657,B,35,Euplectes orix,オオキンランチョウ,PASSERIFORMES,PLOCEIDAE,True,Euplectes orix,Southern Red Bishop,redbis,True,Euplectes orix,Southern Red Bishop,オオキンランチョウ
+1660,B,36,Padda oryzivora,ブンチョウ,PASSERIFORMES,ESTRILDIDAE,True,Padda oryzivora,Java Sparrow,javspa,True,Padda oryzivora,Java Sparrow,ブンチョウ
+1662,B,37,Lonchura punctulata,シマキンパラ,PASSERIFORMES,ESTRILDIDAE,True,Lonchura punctulata,Scaly-breasted Munia,nutman,True,Lonchura punctulata,Scaly-breasted Munia,シマキンパラ
+1664,B,38,Lonchura striata,コシジロキンパラ,PASSERIFORMES,ESTRILDIDAE,True,Lonchura striata,White-rumped Munia,whrmun,True,Lonchura striata,White-rumped Munia,コシジロキンパラ
+1666,B,39,Lonchura malacca,ギンパラ,PASSERIFORMES,ESTRILDIDAE,True,Lonchura malacca,Tricolored Munia,trimun,True,Lonchura malacca,Tricoloured Munia,ギンパラ
+1667,B,40,Lonchura atricapilla,キンパラ,PASSERIFORMES,ESTRILDIDAE,True,Lonchura atricapilla,Chestnut Munia,chemun,True,Lonchura atricapilla,Chestnut Munia,キンパラ
+1669,B,41,Lonchura maja,ヘキチョウ,PASSERIFORMES,ESTRILDIDAE,True,Lonchura maja,White-headed Munia,whhmun1,True,Lonchura maja,White-headed Munia,ヘキチョウ
+1671,B,42,Estrilda melpoda,ホオアカカエデチョウ,PASSERIFORMES,ESTRILDIDAE,True,Estrilda melpoda,Orange-cheeked Waxbill,orcwax,True,Estrilda melpoda,Orange-cheeked Waxbill,ホオアカカエデチョウ
+1672,B,43,Estrilda troglodytes,カエデチョウ,PASSERIFORMES,ESTRILDIDAE,True,Estrilda troglodytes,Black-rumped Waxbill,bkrwax,True,Estrilda troglodytes,Black-rumped Waxbill,カエデチョウ
+1674,B,44,Amandava amandava,ベニスズメ,PASSERIFORMES,ESTRILDIDAE,True,Amandava amandava,Red Avadavat,redava,True,Amandava amandava,Red Avadavat,ベニスズメ
+1678,B,45,Vidua paradisaea,ホウオウジャク,PASSERIFORMES,VIDUIDAE,True,Vidua paradisaea,Eastern Paradise-Whydah,eapwhy1,False,,,
+1681,B,46,Paroaria coronata,コウカンチョウ,PASSERIFORMES,THRAUPIDAE,True,Paroaria coronata,Red-crested Cardinal,reccar,True,Paroaria coronata,Red-crested Cardinal,コウカンチョウ
