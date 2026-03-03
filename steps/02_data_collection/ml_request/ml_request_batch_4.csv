@@ -1,0 +1,902 @@
+﻿ml_asset_id,ebird_species_code,scientific_name,japanese_name,ml_rating,ml_rating_count,ml_location,ml_obs_date,ml_user,latitude,longitude,country,is_japan,catalog_number,priority_tier
+103893801,whrmun,Lonchura striata,コシジロキンパラ,2.25,4,"Anjanpura, Bengaluru Urban, Karnataka, India",9 Jun 2018,Rahul  Singh,12.8502,77.5494,India,False,ML103893801,P2
+107875101,whrmun,Lonchura striata,コシジロキンパラ,3.2,5,"Barkur Wetlands -- Bobbarya Temple, Udupi, Karnataka, India",18 Jul 2018,Ramit Singal,13.4785,74.7284,India,False,ML107875101,P2
+108045,whrmun,Lonchura striata,コシジロキンパラ,1.5,4,"Yangmingshan National Park, Taipei City, Taiwan",2 Jan 2001,Wayne Hsu,0.0,0.0,Taiwan,False,ML108045,P2
+111055251,whrmun,Lonchura striata,コシジロキンパラ,3.2,5,"五分埤段, 內溝溪, 內湖, 台北市, Taipei City, Taiwan",16 Aug 2018,ximentin chuang,25.0759,121.623,Taiwan,False,ML111055251,P2
+112484821,whrmun,Lonchura striata,コシジロキンパラ,2.5,4,"Shanthi Nagar -- Laterite Patch, Udupi, Karnataka, India",27 Aug 2018,Arun Prabhu,13.3328,74.7943,India,False,ML112484821,P2
+120599711,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Moinhos Quinta, Leiria, Leiria, Portugal",30 Sep 2018,Paulo Domingues,39.8487,-8.9134,Portugal,False,ML120599711,P2
+120921251,whrmun,Lonchura striata,コシジロキンパラ,3.25,4,"Veliyathunadu[Sub Cell-61,7,4], Ernakulam, Kerala, India",27 Oct 2018,Premchand Reghuvaran,10.138,76.3175,India,False,ML120921251,P2
+120921271,whrmun,Lonchura striata,コシジロキンパラ,2.0,4,"Veliyathunadu[Sub Cell-61,7,4], Ernakulam, Kerala, India",27 Oct 2018,Premchand Reghuvaran,10.138,76.3175,India,False,ML120921271,P2
+122114481,whrmun,Lonchura striata,コシジロキンパラ,3.5,4,"Shirali--Neerkanta, Uttara Kannada, Karnataka, India",5 Nov 2018,Vinay K L,14.023,74.536,India,False,ML122114481,P2
+122114621,whrmun,Lonchura striata,コシジロキンパラ,2.0,4,"Shirali--Neerkanta, Uttara Kannada, Karnataka, India",5 Nov 2018,Vinay K L,14.023,74.536,India,False,ML122114621,P2
+169228,whrmun,Lonchura striata,コシジロキンパラ,1.0,5,"Muong Nhe Nature Reserve, Vietnam",29 Mar 2011,Mark Robbins,22.386,102.238,Vietnam,False,ML169228,P2
+175987211,whrmun,Lonchura striata,コシジロキンパラ,3.0,5,"Pathum Thani Rice Research Center (restricted range), Pathum Thani, Thailand",7 Sep 2019,Wich’yanan Limparungpatthanakij,14.0108,100.7273,Thailand,False,ML175987211,P2
+176995731,whrmun,Lonchura striata,コシジロキンパラ,3.0,5,"A compound on Jinmei road, Shanghai, China",13 Sep 2019,Joye Zhou,31.1151,121.4071,China,False,ML176995731,P2
+180853211,whrmun,Lonchura striata,コシジロキンパラ,3.2,5,"LS🏥, Ernakulam, Kerala, India",2 Oct 2019,Renju TR,9.9192,76.3186,India,False,ML180853211,P2
+185176531,whrmun,Lonchura striata,コシジロキンパラ,3.8333333333333335,6,"Mysore City Bird Atlas 29C, Behind Yedahalli Village, Mysuru, Karnataka, India",26 Oct 2019,Sahana M,12.253,76.5882,India,False,ML185176531,P2
+199471101,whrmun,Lonchura striata,コシジロキンパラ,2.0,3,"Lat Krabang--Thap Yao paddies & aquaculture ponds, Krung Thep Maha Nakhon [Bangkok], Thailand",8 Jan 2020,Sutanan Pinmaneenopparat,13.7416,100.8124,Thailand,False,ML199471101,P2
+203971521,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"Independence Palace, Sai Gon, Vietnam",24 Jan 2016,Nicholas Talbot,10.7763,106.6963,Vietnam,False,ML203971521,P2
+215724851,whrmun,Lonchura striata,コシジロキンパラ,2.5,4,"Huben Bridge--BBSA3316-4, Yunlin County, Taiwan",15 Mar 2020,Scott (瑞興) LIN(林),23.7358,120.6009,Taiwan,False,ML215724851,P2
+220534231,whrmun,Lonchura striata,コシジロキンパラ,3.6666666666666665,3,"Paddy fields near Ilayabhagavathy temple, Kanjikode, Kerala, IN, Palakkad, Kerala, India",3 Apr 2020,Vivek Sudhakaran,10.7956,76.7315,India,False,ML220534231,P2
+224658531,whrmun,Lonchura striata,コシジロキンパラ,3.6666666666666665,3,"Near Our Residance, Nidahas Mawatha, Kalapaluwawa, Rajagiriya, Kaduwela, Colombo, Sri Lanka",18 Apr 2020,Ajith Gamage,6.9166,79.9143,Sri Lanka,False,ML224658531,P2
+227057691,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"Chikhalgaon birding area, Ratnagiri, Maharashtra, India",16 Jan 2013,Sharad Apte,17.666,73.1824,India,False,ML227057691,P2
+227059281,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Uruva,trikkaipetta, Wayanad, Kerala, India",4 May 2013,Sharad Apte,11.608,76.135,India,False,ML227059281,P2
+234863571,whrmun,Lonchura striata,コシジロキンパラ,4.75,4,"屏東--北大武山林道(新登山口-舊登山口)(Pingtung--Mt. Beidawu Forest Trail (between New & Old Hiking Entrance)), Pingtung County, Taiwan",9 May 2020,Proust Lee,22.6244,120.7141,Taiwan,False,ML234863571,P2
+242090851,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Vengalakayam, Moolathara, Kerala, IN (10.659, 76.831), Palakkad, Kerala, India",9 Jun 2020,vinodh Kambalathara,10.6586,76.8309,India,False,ML242090851,P2
+242090901,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"Vengalakayam, Moolathara, Kerala, IN (10.659, 76.831), Palakkad, Kerala, India",9 Jun 2020,vinodh Kambalathara,10.6586,76.8309,India,False,ML242090901,P2
+243199381,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Browns Hill, Matara, Matara Four Gravets, Matara, Sri Lanka",14 Jun 2020,Ragupathy Kannan,5.9429,80.5606,Sri Lanka,False,ML243199381,P2
+243199431,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Browns Hill, Matara, Matara Four Gravets, Matara, Sri Lanka",14 Jun 2020,Ragupathy Kannan,5.9429,80.5606,Sri Lanka,False,ML243199431,P2
+243940991,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"田林社区 (Tianlin Community), Shanghai, China",15 Jun 2020,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML243940991,P2
+246411841,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Cheemeni, Kasaragod, Kerala, India",28 Jun 2020,Vishnu Vinod,12.2413,75.2306,India,False,ML246411841,P2
+259635151,whrmun,Lonchura striata,コシジロキンパラ,4.333333333333333,3,"Kachani Ayiravalli, Thiruvananthapuram, Kerala, India",2 Sep 2020,Dr. ADIL A,8.5542,77.0013,India,False,ML259635151,P2
+262296741,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"Paddy fields near Ilayabhagavathy temple, Kanjikode, Kerala, IN, Palakkad, Kerala, India",12 Sep 2020,Vivek Sudhakaran,10.7956,76.7315,India,False,ML262296741,P2
+262296801,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Paddy fields near Ilayabhagavathy temple, Kanjikode, Kerala, IN, Palakkad, Kerala, India",12 Sep 2020,Vivek Sudhakaran,10.7956,76.7315,India,False,ML262296801,P2
+263391281,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Paddy fields near Ilayabhagavathy temple, Kanjikode, Kerala, IN, Palakkad, Kerala, India",17 Sep 2020,Vivek Sudhakaran,10.7956,76.7315,India,False,ML263391281,P2
+263405051,whrmun,Lonchura striata,コシジロキンパラ,1.0,2,"高雄二集團, Kaohsiung City, Taiwan",17 Sep 2020,志民 蘇,23.059,120.7336,Taiwan,False,ML263405051,P2
+264516801,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"田林社区 (Tianlin Community), Shanghai, China",31 Aug 2020,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML264516801,P2
+267191851,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"南汇东滩 (Nanhui Dongtan), Shanghai, China",27 Sep 2020,Ray Tsu 诸 仁,30.9184,121.9774,China,False,ML267191851,P2
+271447831,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"Unnamed Road, Pazhayangadi, Kerala, IN (12.035, 75.259), Kannur, Kerala, India",4 Sep 2020,Sathyan Meppayur,12.0346,75.2586,India,False,ML271447831,P2
+272898201,whrmun,Lonchura striata,コシジロキンパラ,1.0,2,"Seminary View, Mangalore, Dakshina Kannada, Karnataka, India",15 Oct 2020,Harshith JV,12.8601,74.8568,India,False,ML272898201,P2
+273681311,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"宜蘭--頂寮生態公園(Yilan--Dingliao Ecological Park), Yilan County, Taiwan",22 Oct 2020,Ko Cheng,24.6393,121.843,Taiwan,False,ML273681311,P2
+276857621,whrmun,Lonchura striata,コシジロキンパラ,2.3333333333333335,3,"天马山 (Tianma Hill), Shanghai, China",31 Oct 2020,Ray Tsu 诸 仁,31.0759,121.153,China,False,ML276857621,P2
+277767761,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Vattappoyil, Kannur, Kerala, India",5 Nov 2020,Vishnu Vinod,11.9073,75.4344,India,False,ML277767761,P2
+278597681,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Paddy fields near Ilayabhagavathy temple, Kanjikode, Kerala, IN, Palakkad, Kerala, India",9 Nov 2020,Vivek Sudhakaran,10.7956,76.7315,India,False,ML278597681,P2
+280109821,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"花蓮--綜開穿越線A, Hualien County, Taiwan",13 Nov 2020,Cheng-Ru Tsai,23.6995,121.4102,Taiwan,False,ML280109821,P2
+282053,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Kitulgala, Yatiyanthota, Kegalla, Sri Lanka",22 Mar 2016,Peter Boesman,7.0189,80.4049,Sri Lanka,False,ML282053,P2
+282064,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"Kitulgala tea plantations, Yatiyanthota, Kegalla, Sri Lanka",22 Mar 2016,Peter Boesman,6.993,80.41,Sri Lanka,False,ML282064,P2
+282169,whrmun,Lonchura striata,コシジロキンパラ,2.3333333333333335,3,"Yala National Park, Thissamaharama, Hambantota, Sri Lanka",26 Mar 2016,Peter Boesman,6.2857,81.4201,Sri Lanka,False,ML282169,P2
+288652911,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Rajeev Nagar 3rd Stage, Mysore, Mysuru, Karnataka, India",17 Dec 2020,Daniel Steff,12.3471,76.6771,India,False,ML288652911,P2
+299528051,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Muddahalli, Nanjangud Taluka ಮುದ್ದಹಳ್ಳಿ, Mysuru, Karnataka, India",20 Jan 2021,Vijaya Lakshmi,12.046,76.668,India,False,ML299528051,P2
+308360051,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"College of Avian Sciences and Management Campus , Kerala, Palakkad, Kerala, India",15 Feb 2021,Novelkumar M S,11.0435,76.3747,India,False,ML308360051,P2
+308483741,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"College of Avian Sciences and Management Campus , Kerala, Palakkad, Kerala, India",15 Feb 2021,Novelkumar M S,11.0435,76.3747,India,False,ML308483741,P2
+311843001,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"田林社区 (Tianlin Community), Shanghai, China",25 Feb 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML311843001,P2
+311946601,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Doi Suthep – Pui NP--Wat Anakhamee & fire station vicinity, Chiang Mai, Thailand",19 Feb 2021,Charley Hesse • Naturally Adventurous Podcast,18.795,98.9333,Thailand,False,ML311946601,P2
+312260781,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"田林社区 (Tianlin Community), Shanghai, China",28 Feb 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML312260781,P2
+315821751,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Annakkili Amma Research Institute--(Restricted access), Chennai, Tamil Nadu, India",12 Mar 2021,Elaya Perumal Ulagalanthaperumal,12.9161,80.1839,India,False,ML315821751,P2
+318452631,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",20 Mar 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML318452631,P2
+319243151,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"Saddle Peak, North And Middle Andaman IN-AN 13.14757, 92.94047, North and Middle Andaman, Andaman and Nicobar Islands, India",20 Mar 2021,UDAY MONDAL,13.1476,92.9405,India,False,ML319243151,P2
+320213681,whrmun,Lonchura striata,コシジロキンパラ,1.0,2,"屏東--屏東科技大學(Pingtung--Pingtung University of Science and Technology), Pingtung County, Taiwan",19 Mar 2021,志民 蘇,22.6445,120.6115,Taiwan,False,ML320213681,P2
+320516751,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"田林社区 (Tianlin Community), Shanghai, China",28 Mar 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML320516751,P2
+320669251,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"State Forest Training Institute Road, Arippa, Thiruvananthapuram, Kerala, India",28 Mar 2021,NIRMAL GEORGE,8.8363,77.0317,India,False,ML320669251,P2
+320669471,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"State Forest Training Institute Road, Arippa, Thiruvananthapuram, Kerala, India",28 Mar 2021,NIRMAL GEORGE,8.8363,77.0317,India,False,ML320669471,P2
+323546551,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Peralathvayal, Kasaragod, Kerala, India",2 Apr 2021,shyamkumar puravankara,12.349,75.0896,India,False,ML323546551,P2
+324419141,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",4 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML324419141,P2
+326184401,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"田林社区 (Tianlin Community), Shanghai, China",13 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML326184401,P2
+329215831,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"上海植物园 (Shanghai Botanical Garden), Shanghai, China",21 Apr 2021,Ray Tsu 诸 仁,31.147,121.4441,China,False,ML329215831,P2
+331449471,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",26 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML331449471,P2
+332302271,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"田林社区 (Tianlin Community), Shanghai, China",30 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332302271,P2
+332302921,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",29 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332302921,P2
+332302961,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",29 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332302961,P2
+332305001,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"田林社区 (Tianlin Community), Shanghai, China",28 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332305001,P2
+332305011,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"田林社区 (Tianlin Community), Shanghai, China",28 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332305011,P2
+332305021,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",28 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332305021,P2
+332307071,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"田林社区 (Tianlin Community), Shanghai, China",24 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332307071,P2
+332307231,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"田林社区 (Tianlin Community), Shanghai, China",24 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332307231,P2
+332307281,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",24 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332307281,P2
+332771071,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"田林社区 (Tianlin Community), Shanghai, China",1 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332771071,P2
+333107101,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"田林社区 (Tianlin Community), Shanghai, China",23 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML333107101,P2
+333107191,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"田林社区 (Tianlin Community), Shanghai, China",23 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML333107191,P2
+333107211,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"田林社区 (Tianlin Community), Shanghai, China",23 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML333107211,P2
+333959591,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"田林社区 (Tianlin Community), Shanghai, China",3 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML333959591,P2
+334167011,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"田林社区 (Tianlin Community), Shanghai, China",5 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML334167011,P2
+335868601,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Home Garden, Kotapola, Southern Province, LK (6.292, 80.547), Kotapola, Matara, Sri Lanka",20 Feb 2021,Iroshan Rupasinghe,6.2918,80.5469,Sri Lanka,False,ML335868601,P2
+335901031,whrmun,Lonchura striata,コシジロキンパラ,5.0,2,"East Pendam (Karmithang), East Sikkim, Sikkim, India",4 May 2021,Dibyendu Ash,27.214,88.5256,India,False,ML335901031,P2
+337980401,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"IN-Kerala-Kodassery - 10.34x76.346 - 19 Jul 2017 8:45 pm, Thrissur, Kerala, India",14 May 2021,raveendran kc,10.3403,76.3461,India,False,ML337980401,P2
+338008131,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"田林社区 (Tianlin Community), Shanghai, China",6 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML338008131,P2
+339168391,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"田林社区 (Tianlin Community), Shanghai, China",16 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML339168391,P2
+342713121,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"田林社区 (Tianlin Community), Shanghai, China",27 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML342713121,P2
+343362281,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"新洲区农田(30.889, 114.947), Hubei, China",29 May 2021,Xingyu Li,30.8886,114.9473,China,False,ML343362281,P2
+345528551,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"田林社区 (Tianlin Community), Shanghai, China",4 Jun 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML345528551,P2
+345585931,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"田林社区 (Tianlin Community), Shanghai, China",6 Jun 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML345585931,P2
+347721341,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Varathamanathi Dam, Palani Hills, Dindigul, Tamil Nadu, India",14 Jun 2021,karthick hari,10.3862,77.5476,India,False,ML347721341,P2
+349804071,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Kattampally, Kannur, Kerala, India",22 Jun 2021,Afsar Nayakkan,11.9341,75.3816,India,False,ML349804071,P2
+363864881,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"南投--溪頭自然教育園區全區(Nantou--Xitou Nature Education Area--All Area), Nantou County, Taiwan",24 Aug 2021,志民 蘇,23.6703,120.797,Taiwan,False,ML363864881,P2
+363864891,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"南投--溪頭自然教育園區全區(Nantou--Xitou Nature Education Area--All Area), Nantou County, Taiwan",24 Aug 2021,志民 蘇,23.6703,120.797,Taiwan,False,ML363864891,P2
+363864901,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"南投--溪頭自然教育園區全區(Nantou--Xitou Nature Education Area--All Area), Nantou County, Taiwan",24 Aug 2021,志民 蘇,23.6703,120.797,Taiwan,False,ML363864901,P2
+369157631,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"R 247402002, Dighalia, Khulna Division, BD (22.886, 89.524), Khulna bibhag, Bangladesh",12 Sep 2021,Ashikur Rahman,22.886,89.5236,Bangladesh,False,ML369157631,P2
+372623391,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"宜蘭--員山大湖(Yilan--Yuanshan Dahu), Yilan County, Taiwan",25 Sep 2021,Mei-Luan Wang,24.7388,121.6907,Taiwan,False,ML372623391,P2
+373472501,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"NICE Bangalore Mysore Expressway, Bengaluru, Karnataka, IN (12.877, 77.492), Bengaluru Urban, Karnataka, India",18 Sep 2021,Rahul  Singh,12.8766,77.4924,India,False,ML373472501,P2
+382559581,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Kattampally, Kannur, Kerala, India",24 Sep 2021,Afsar Nayakkan,11.9341,75.3816,India,False,ML382559581,P2
+382580061,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Vayakkara Kandam, Kannur, Kerala, India",24 Oct 2021,Manoj Karingamadathil,12.249,75.322,India,False,ML382580061,P2
+382580141,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Vayakkara Kandam, Kannur, Kerala, India",24 Oct 2021,Manoj Karingamadathil,12.249,75.322,India,False,ML382580141,P2
+382792011,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"台北--汐止橫科彈藥庫(Taipei--Xizhi Hengke Ammunition Depot), New Taipei City, Taiwan",9 Oct 2021,Lee-Lien WANG,25.0467,121.6381,Taiwan,False,ML382792011,P2
+385402851,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Varathamanathi Dam, Palani Hills, Dindigul, Tamil Nadu, India",5 Nov 2021,Arvindh T,10.3862,77.5476,India,False,ML385402851,P2
+386202641,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"山姐姐周邊, Kaohsiung City, Taiwan",6 Nov 2021,志民 蘇,23.0663,120.7191,Taiwan,False,ML386202641,P2
+386905171,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Kallukadavu, Nagaroor, Thiruvananthapuram, Kerala, India",24 Aug 2021,GOVIND GIRIJA,8.7336,76.8811,India,False,ML386905171,P2
+391587351,whrmun,Lonchura striata,コシジロキンパラ,4.666666666666667,3,"LK Kinda Canal 6.8901053, 79.8839385, Sri Jayawardanapura Kotte, Colombo, Sri Lanka",25 Nov 2021,Brindley de Zylva,6.8901,79.8839,Sri Lanka,False,ML391587351,P2
+392818871,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Kalikkal, Thrissur, Kerala, India",3 Dec 2021,raveendran kc,10.3403,76.346,India,False,ML392818871,P2
+396789521,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Umamaheshwara Temple Road, Manipal, Karnataka, IN (13.363, 74.791), Udupi, Karnataka, India",18 Dec 2021,Arun Prabhu,13.3634,74.7909,India,False,ML396789521,P2
+408053811,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Shanpukur, West Bengal, IN (22.863, 88.683), North 24 Parganas, West Bengal, India",14 Oct 2021,Sandip Das,22.8629,88.6827,India,False,ML408053811,P2
+408053821,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Shanpukur, West Bengal, IN (22.863, 88.683), North 24 Parganas, West Bengal, India",14 Oct 2021,Sandip Das,22.8629,88.6827,India,False,ML408053821,P2
+408112751,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Shanpukur, West Bengal, IN (22.863, 88.683), North 24 Parganas, West Bengal, India",14 Oct 2021,Sandip Das,22.8629,88.6827,India,False,ML408112751,P2
+409824051,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"铜壁关 (Tongbiguan), Yunnan, China",11 Jan 2022,Wenyi Zhou,24.6028,97.6647,China,False,ML409824051,P2
+411055531,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Pazhanisundari Garden (பழனிசுந்தரி தோட்டம்), Kondur, Madukkarai main road, Tamil Nadu, IN (11.867, 79.678), Viluppuram, Tamil Nadu, India",30 Jan 2022,Shikra Myna,11.8679,79.6773,India,False,ML411055531,P2
+411644571,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Vattappoyil, Kannur, Kerala, India",22 Jan 2022,Vishnu Vinod,11.9073,75.4344,India,False,ML411644571,P2
+418020861,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Kolarampathy Lake, Coimbatore, Tamil Nadu, India",7 Feb 2022,Karthik Ramasamy,10.9865,76.9065,India,False,ML418020861,P2
+418513211,whrmun,Lonchura striata,コシジロキンパラ,5.0,3,"Muddahalli, Nanjangud Taluka ಮುದ್ದಹಳ್ಳಿ, Mysuru, Karnataka, India",21 Feb 2022,Vijaya Lakshmi,12.046,76.668,India,False,ML418513211,P2
+426555641,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Sim to Bosan Area, Kathmandu, Bagmati, Nepal",19 Mar 2022,Arend van Riessen,27.6527,85.2658,Nepal,False,ML426555641,P2
+434460541,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Thompson Villa, Shanghai, China",16 Jun 2013,Sam Zhang,31.2202,121.6156,China,False,ML434460541,P2
+437435741,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"首义公园 (Shouyi Park), Hubei, China",10 Apr 2022,Xingyu Li,30.5427,114.3113,China,False,ML437435741,P2
+453653721,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"East Pendam (Karmithang), East Sikkim, Sikkim, India",9 Apr 2022,Dibyendu Ash,27.214,88.5256,India,False,ML453653721,P2
+453654541,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"East Pendam (Karmithang), East Sikkim, Sikkim, India",9 Apr 2022,Dibyendu Ash,27.214,88.5256,India,False,ML453654541,P2
+458110661,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Plateau near House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",10 Jun 2022,Vikrant Prabhulkar,17.5336,73.1764,India,False,ML458110661,P2
+458110731,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Plateau near House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",10 Jun 2022,Vikrant Prabhulkar,17.5336,73.1764,India,False,ML458110731,P2
+458172761,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Suwintawong 47 Alley overgrown woods & marshes, Krung Thep Maha Nakhon [Bangkok], Thailand",3 Jun 2022,Rongrong Angkaew,13.8248,100.8817,Thailand,False,ML458172761,P2
+461011151,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"屏東--東港溪老埤段(Pingtung--Donggang River Laopi Section), Pingtung County, Taiwan",15 Jun 2022,志民 蘇,22.6268,120.5965,Taiwan,False,ML461011151,P2
+467517841,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"Aanakkayam--near Cooperative Bank, Idukki, Kerala, India",10 Jul 2022,Ambady Sasi,9.84,76.7827,India,False,ML467517841,P2
+468142201,whrmun,Lonchura striata,コシジロキンパラ,1.0,2,"花蓮縣壽豐鄉豐裡村文化街, Hualien County, Taiwan",18 Jul 2022,Sheng Wun Jheng,23.8454,121.5113,Taiwan,False,ML468142201,P2
+471519141,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Vattappoyil, Kannur, Kerala, India",22 Jan 2022,Vishnu Vinod,11.9073,75.4344,India,False,ML471519141,P2
+480168891,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Muddahalli, Nanjangud Taluka ಮುದ್ದಹಳ್ಳಿ, Mysuru, Karnataka, India",31 Aug 2022,Vijaya Lakshmi,12.046,76.668,India,False,ML480168891,P2
+483719081,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Dalubari , Ambassa., Dhalai, Tripura, India",13 Sep 2022,Dipankar Dev,23.9205,91.8382,India,False,ML483719081,P2
+489185631,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Ranvi village, downhill., Ratnagiri, Maharashtra, India",30 Sep 2022,Vikrant Prabhulkar,17.5353,73.1719,India,False,ML489185631,P2
+489185641,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Ranvi village, downhill., Ratnagiri, Maharashtra, India",30 Sep 2022,Vikrant Prabhulkar,17.5353,73.1719,India,False,ML489185641,P2
+489185651,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Ranvi village, downhill., Ratnagiri, Maharashtra, India",30 Sep 2022,Vikrant Prabhulkar,17.5353,73.1719,India,False,ML489185651,P2
+489882941,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"Rangapathar, Golaghat, Assam, India",30 Sep 2022,Rofikul Islam,26.5115,93.9852,India,False,ML489882941,P2
+492696691,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Ranvi village downhill, Ratnagiri, Maharashtra, India",11 Oct 2022,Vikrant Prabhulkar,17.5353,73.1719,India,False,ML492696691,P2
+492696701,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Ranvi village downhill, Ratnagiri, Maharashtra, India",11 Oct 2022,Vikrant Prabhulkar,17.5353,73.1719,India,False,ML492696701,P2
+493919261,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Thiminaidupalem, Tirupati., Chittoor, Andhra Pradesh, India",15 Oct 2022,Vinay K L,13.6466,79.4514,India,False,ML493919261,P2
+495876761,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"Shankhu, Kabhrepalanchok, Bagmati, Nepal",17 Oct 2022,Yubin Shrestha,27.5782,85.5624,Nepal,False,ML495876761,P2
+498261851,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Pazhanisundari Garden (பழனிசுந்தரி தோட்டம்), Kondur, Madukkarai main road, Tamil Nadu, IN (11.867, 79.678), Viluppuram, Tamil Nadu, India",24 Oct 2022,Shikra Myna,11.8675,79.6781,India,False,ML498261851,P2
+501660581,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"College of Agriculture, Lembucherra, West Tripura, Tripura, India",8 Nov 2022,Chayan Debnath,23.9138,91.3192,India,False,ML501660581,P2
+502291711,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"梦清园 (Mengqing Garden), Shanghai, China",26 Oct 2022,Tiantian Zhao,31.251,121.4409,China,False,ML502291711,P2
+502291771,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"梦清园 (Mengqing Garden), Shanghai, China",26 Oct 2022,Tiantian Zhao,31.251,121.4409,China,False,ML502291771,P2
+505434031,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Great Andaman Trunk Road, Chouldari, Andaman and Nicobar Islands, IN (11.638, 92.654), South Andaman, Andaman and Nicobar Islands, India",20 Nov 2022,amrit raha the_amritography,11.6376,92.6545,India,False,ML505434031,P2
+505824311,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Paddy fields near Ilayabhagavathy temple, Kanjikode, Kerala, IN, Palakkad, Kerala, India",6 Nov 2022,Vivek Sudhakaran,10.7956,76.7315,India,False,ML505824311,P2
+510892291,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Lamni Park, Jagdalpur, Bastar, Chhattisgarh, IN (19.059, 82.024), Bastar, Chhattisgarh, India",24 Nov 2022,Ajay Sarvagnam,19.0591,82.0244,India,False,ML510892291,P2
+513490851,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"大樹腳農路, Hualien County, Taiwan",16 Dec 2022,Sheng Wun Jheng,23.8305,121.4856,Taiwan,False,ML513490851,P2
+514416291,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"笠頂山登山步道-1, Pingtung County, Taiwan",18 Dec 2022,Sheng Wun Jheng,22.6596,120.6414,Taiwan,False,ML514416291,P2
+515341791,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"花蓮縣壽豐鄉豐裡村仁愛街南段, Hualien County, Taiwan",22 Dec 2022,Sheng Wun Jheng,23.8304,121.4938,Taiwan,False,ML515341791,P2
+517367001,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Peradipallam Trekpath, Idukki, Kerala, India",19 Dec 2022,NIRMAL GEORGE,10.255,77.2111,India,False,ML517367001,P2
+521284341,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Doi Pha Klong / Huai Laeng Royal Project, Chiang Rai, Thailand",1 Jan 2023,Gregory Irving,20.0163,100.4333,Thailand,False,ML521284341,P2
+523836921,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"花蓮--白鮑溪上游(Hualien--Baibao Creek Upstream), Hualien County, Taiwan",14 Jan 2023,Sheng Wun Jheng,23.889,121.5025,Taiwan,False,ML523836921,P2
+524696411,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Aranmula Kerala, Pathanamthitta, Kerala, India",14 Jan 2023,Sreekumar Chirukandoth,9.3225,76.6986,India,False,ML524696411,P2
+524696421,whrmun,Lonchura striata,コシジロキンパラ,3.6666666666666665,3,"Aranmula Kerala, Pathanamthitta, Kerala, India",14 Jan 2023,Sreekumar Chirukandoth,9.3225,76.6986,India,False,ML524696421,P2
+524696431,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"Aranmula Kerala, Pathanamthitta, Kerala, India",14 Jan 2023,Sreekumar Chirukandoth,9.3225,76.6986,India,False,ML524696431,P2
+524696441,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"Aranmula Kerala, Pathanamthitta, Kerala, India",14 Jan 2023,Sreekumar Chirukandoth,9.3225,76.6986,India,False,ML524696441,P2
+526904311,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Tham Pha Chong Sai, 57310, Wiang Kaen TH-Chiang Rai 20.07319, 100.52866, Chiang Rai, Thailand",21 Jan 2023,Gregory Irving,20.0732,100.5287,Thailand,False,ML526904311,P2
+527413251,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"Baluchora, Shariatpur., Dhaka bibhag, Bangladesh",21 Jan 2023,Ikbal Babu,23.2043,90.3598,Bangladesh,False,ML527413251,P2
+528000971,whrmun,Lonchura striata,コシジロキンパラ,2.0,3,"新竹--竹東軟橋有機稻田區(Hsinchu--Zhudong Ruanqiao Organic Farmland), Hsinchu County, Taiwan",25 Jan 2023,Sheng Wun Jheng,24.6963,121.0988,Taiwan,False,ML528000971,P2
+531375571,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Tham Pha Chong Sai, 57310, Wiang Kaen TH-Chiang Rai 20.07319, 100.52866, Chiang Rai, Thailand",28 Jan 2023,Gregory Irving,20.0732,100.5287,Thailand,False,ML531375571,P2
+531764701,whrmun,Lonchura striata,コシジロキンパラ,3.0,3,"Shivanahalli, Bengaluru IN-KA 12.71851, 77.55877, Bengaluru Urban, Karnataka, India",4 Feb 2023,Munish Gowda,12.7185,77.5588,India,False,ML531764701,P2
+535995231,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Lingthem, Sikkim, IN (27.526, 88.504), North Sikkim, Sikkim, India",6 Oct 2022,Sandip Das,27.5263,88.5043,India,False,ML535995231,P2
+537946781,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"Kelaginakeri Wetlands and Paddyfields, Uttara Kannada, Karnataka, India",9 Feb 2023,Shwetha Bharathi,14.3772,74.4328,India,False,ML537946781,P2
+544991761,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Ramapattinam River, Coimbatore, Tamil Nadu, India",6 Mar 2023,Karthik Ramasamy,10.7123,76.919,India,False,ML544991761,P2
+550300901,whrmun,Lonchura striata,コシジロキンパラ,4.8,5,"Kumaranalloor Temple Road, Kottayam, Kerala, India",27 Mar 2023,H Nambiar,9.6206,76.5309,India,False,ML550300901,P2
+550539941,whrmun,Lonchura striata,コシジロキンパラ,4.333333333333333,3,"Auto selected 24.56873, 91.73305, Sylhet bibhag, Bangladesh",28 Mar 2022,Mazharul Alam,24.5687,91.7331,Bangladesh,False,ML550539941,P2
+562583441,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Sahyadri Conservation And Research Organization Office, Shirgaon, Chiplun, Ratnagiri, Maharashtra, India",20 Apr 2023,Vikrant Prabhulkar,17.4604,73.6224,India,False,ML562583441,P2
+565893811,whrmun,Lonchura striata,コシジロキンパラ,3.0,4,"Hazarikhil WS, Chittagong bibhag, Bangladesh",1 May 2023,Zaber Ansary -BirdingBD Tours,22.7022,91.6812,Bangladesh,False,ML565893811,P2
+581425361,whrmun,Lonchura striata,コシジロキンパラ,4.333333333333333,3,"SCRO Nature Trail - 1, Kumbharli Ghat, Ratnagiri, Maharashtra, India",30 May 2023,Vikrant Prabhulkar,17.3939,73.6678,India,False,ML581425361,P2
+588064851,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"Horhap FRH, Ranchi, Jharkhand, India",24 Jun 2023,Sushil Kumar,23.3326,85.4643,India,False,ML588064851,P2
+595690371,whrmun,Lonchura striata,コシジロキンパラ,2.3333333333333335,3,"Sankesha Mandir Road, Udupi, Karnataka, India",15 Jul 2023,Keerthi Priya,13.3408,74.7177,India,False,ML595690371,P2
+602299261,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Sahyadri Conservation And Research Organization Office, Shirgaon, Chiplun, Ratnagiri, Maharashtra, India",2 Aug 2023,Vikrant Prabhulkar,17.4604,73.6224,India,False,ML602299261,P2
+602995421,whrmun,Lonchura striata,コシジロキンパラ,2.3333333333333335,3,"雲林--梅林公園(Yunlin--Meilin Park), Yunlin County, Taiwan",13 Aug 2023,Chi-Hsuan Shao,23.7021,120.5875,Taiwan,False,ML602995421,P2
+605217221,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"嘉義--阿里山鄉,友友湖部落聯絡道路旁茶園, Chiayi County, Taiwan",19 Aug 2023,Ting-Wei (廷維) HUNG (洪),23.475,120.7143,Taiwan,False,ML605217221,P2
+609067900,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Udahamulla, Colombo District, Sri Jayawardanapura Kotte, Colombo, Sri Lanka",30 Apr 2005,Deepal Warakagoda,6.86,79.91,Sri Lanka,False,ML609067900,P2
+609070102,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Eaglenest WLS & Surroundings--Sessni, West Kameng, Arunachal Pradesh, India",11 Jan 2010,Abidur Rahman,27.0475,92.4183,India,False,ML609070102,P2
+609536559,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Khao Matsee (""Must See"") Viewpoint, Chumphon, Thailand",2 Oct 2023,Wich’yanan Limparungpatthanakij,10.4383,99.2513,Thailand,False,ML609536559,P2
+610064261,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",17 Oct 2023,Wich’yanan Limparungpatthanakij,13.7138,100.5231,Thailand,False,ML610064261,P2
+610173730,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Porora, Kannur, Kerala, India",14 Oct 2023,Vishnu Vinod,11.9624,75.5776,India,False,ML610173730,P2
+610173731,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Porora, Kannur, Kerala, India",14 Oct 2023,Vishnu Vinod,11.9624,75.5776,India,False,ML610173731,P2
+612359384,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Kodassery, Kerala, IN (10.341, 76.347), Thrissur, Kerala, India",17 Dec 2023,raveendran kc,10.341,76.3471,India,False,ML612359384,P2
+612547871,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"宜蘭--蘇澳七星嶺步道(Yilan--Su'ao Qixingling Trail), Yilan County, Taiwan",28 Nov 2023,Fang-Shuo Hu,24.6035,121.8442,Taiwan,False,ML612547871,P2
+612917334,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Ohiya, Uva Province, LK (6.818, 80.842), Welimada, Badulla, Sri Lanka",27 Dec 2023,Sunanda Vinayachandran,6.8179,80.8423,Sri Lanka,False,ML612917334,P2
+612917462,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Ohiya, Uva Province, LK (6.818, 80.842), Welimada, Badulla, Sri Lanka",27 Dec 2023,Sunanda Vinayachandran,6.8179,80.8423,Sri Lanka,False,ML612917462,P2
+613757238,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Chui Chak Paddyfields, Perak, Malaysia",6 Jan 2024,Lim Ying Hien,4.029,101.1653,Malaysia,False,ML613757238,P2
+613758928,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Chui Chak Paddyfields, Perak, Malaysia",6 Jan 2024,Lim Ying Hien,4.029,101.1653,Malaysia,False,ML613758928,P2
+613943712,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Shyamkhola, South 24 Parganas, West Bengal, India",20 Jan 2024,Suvadip Kundu,22.4232,88.3865,India,False,ML613943712,P2
+614336991,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Selangor - Sungai Besar Paddyfields, Selangor, Malaysia",7 Jan 2024,Lim Ying Hien,3.7064,101.0466,Malaysia,False,ML614336991,P2
+614504469,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"花蓮--國立東華大學(Hualien--National Dong Hwa University), Hualien County, Taiwan",7 Feb 2024,Sheng Wun Jheng,23.8989,121.5459,Taiwan,False,ML614504469,P2
+615663284,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Taksin Maharat NP--headquarters vicinity, Tak, Thailand",4 Mar 2024,Jens Toettrup,16.7817,98.9273,Thailand,False,ML615663284,P2
+615812054,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812054,P2
+615812055,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812055,P2
+615812056,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812056,P2
+615812057,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812057,P2
+615812058,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812058,P2
+615812060,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812060,P2
+615812061,whrmun,Lonchura striata,コシジロキンパラ,3.5,2,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2024,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML615812061,P2
+616058977,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Parshuram Devasthan, Chiplun, Ratnagiri, Maharashtra, India",10 Mar 2024,Nishant Bhagwat,17.5554,73.505,India,False,ML616058977,P2
+616058978,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Parshuram Devasthan, Chiplun, Ratnagiri, Maharashtra, India",10 Mar 2024,Nishant Bhagwat,17.5554,73.505,India,False,ML616058978,P2
+616058979,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Parshuram Devasthan, Chiplun, Ratnagiri, Maharashtra, India",10 Mar 2024,Nishant Bhagwat,17.5554,73.505,India,False,ML616058979,P2
+616502270,whrmun,Lonchura striata,コシジロキンパラ,3.6666666666666665,3,"Khao Lak – Lam Ru NP--Ton Chong Fa Waterfall, Phangnga, Thailand",5 Mar 2024,Arthur Gomes,8.6562,98.2864,Thailand,False,ML616502270,P2
+616583612,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"台北--貢寮德心宮(Taipei--Gongliao Dexin Temple), New Taipei City, Taiwan",27 Mar 2024,薛 國凌,25.016,121.9184,Taiwan,False,ML616583612,P2
+616819318,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Khao Lak – Lam Ru NP--Ton Chong Fa Waterfall, Phangnga, Thailand",5 Mar 2024,Gabriel Leite,8.6562,98.2864,Thailand,False,ML616819318,P2
+616847864,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Ichangu Narayan, Kathmandu, Bagmati, Nepal",3 Apr 2024,Rojin Maharjan,27.7295,85.2637,Nepal,False,ML616847864,P2
+616847865,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"Ichangu Narayan, Kathmandu, Bagmati, Nepal",3 Apr 2024,Rojin Maharjan,27.7295,85.2637,Nepal,False,ML616847865,P2
+617215798,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"Ichangu Narayan, Kathmandu, Bagmati, Nepal",11 Apr 2024,Rojin Maharjan,27.7295,85.2637,Nepal,False,ML617215798,P2
+617912755,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Wildlife Institute of India (WII)--Nature Trail & Lake, Dehradun, Uttarakhand, India",25 Apr 2024,Gaurav  Sirola,30.2864,77.9744,India,False,ML617912755,P2
+619019749,whrmun,Lonchura striata,コシジロキンパラ,1.5,2,"Sailam, Aizawl, Mizoram, India",14 Jan 2024,Zebedee Muller,23.3503,92.7992,India,False,ML619019749,P2
+619288491,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"Belonia, Tripura, IN (23.249, 91.458), South Tripura, Tripura, India",19 May 2024,Anurupa Shil,23.2489,91.4582,India,False,ML619288491,P2
+620173042,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Hetauda - Foresty Campus, Makawanpur, Bagmati, Nepal",26 Sep 2023,Amsis Panta,27.4203,85.0248,Nepal,False,ML620173042,P2
+620333402,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",12 Jun 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML620333402,P2
+620950520,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Tai Tam CP--Quarry Bay extension, Hong Kong, Hong Kong",29 Jun 2024,Matthew Cook,22.2746,114.2099,Hong Kong,False,ML620950520,P2
+621027052,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Halkar ಹಳಕಾರ್, Uttara Kannada, Karnataka, India",19 Jun 2024,Shwetha Bharathi,14.446,74.4108,India,False,ML621027052,P2
+621027053,whrmun,Lonchura striata,コシジロキンパラ,4.0,3,"Halkar ಹಳಕಾರ್, Uttara Kannada, Karnataka, India",19 Jun 2024,Shwetha Bharathi,14.446,74.4108,India,False,ML621027053,P2
+621027054,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"Halkar ಹಳಕಾರ್, Uttara Kannada, Karnataka, India",19 Jun 2024,Shwetha Bharathi,14.446,74.4108,India,False,ML621027054,P2
+621794200,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"棋盤村, 雲林縣, TW (23.682, 120.605), Yunlin County, Taiwan",23 Jul 2024,Scott (瑞興) LIN(林),23.6822,120.6055,Taiwan,False,ML621794200,P2
+621794269,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"棋盤村, 雲林縣, TW (23.682, 120.605), Yunlin County, Taiwan",23 Jul 2024,Scott (瑞興) LIN(林),23.6822,120.6055,Taiwan,False,ML621794269,P2
+621796864,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"濁水溪北岸產業道路, 修仁村, 彰化縣, TW (23.79, 120.63), Changhua County, Taiwan",21 Jul 2024,Scott (瑞興) LIN(林),23.7904,120.6299,Taiwan,False,ML621796864,P2
+621801167,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"麻竹巷, 福盛村, 南投縣, TW (23.892, 120.842), Nantou County, Taiwan",13 Apr 2024,Scott (瑞興) LIN(林),23.8924,120.8418,Taiwan,False,ML621801167,P2
+621801384,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"麻竹巷, 福盛村, 南投縣, TW (23.892, 120.842), Nantou County, Taiwan",13 Apr 2024,Scott (瑞興) LIN(林),23.8924,120.8418,Taiwan,False,ML621801384,P2
+621801635,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"麻竹巷, 福盛村, 南投縣, TW (23.892, 120.842), Nantou County, Taiwan",13 Apr 2024,Scott (瑞興) LIN(林),23.8924,120.8418,Taiwan,False,ML621801635,P2
+622005942,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",29 Jul 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML622005942,P2
+622005943,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",29 Jul 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML622005943,P2
+622005944,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",29 Jul 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML622005944,P2
+622026136,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"National Science Museum & vicinity, Pathum Thani, Thailand",1 Jul 2024,Merle Schmidt,14.0485,100.7153,Thailand,False,ML622026136,P2
+622164701,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",4 Aug 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML622164701,P2
+622164702,whrmun,Lonchura striata,コシジロキンパラ,3.3333333333333335,3,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",4 Aug 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML622164702,P2
+622164703,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"My House, Ranvi, Guhagar, Ratnagiri, Maharashtra, India",4 Aug 2024,Vikrant Prabhulkar,17.5377,73.1765,India,False,ML622164703,P2
+622286918,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"11號 粉寮巷, 御史里, Nantou County, TW (23.994, 120.696), Nantou County, Taiwan",7 Aug 2024,Cynthia Su,23.9937,120.6956,Taiwan,False,ML622286918,P2
+622349818,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"彰化縣, TW (23.865, 120.607), Changhua County, Taiwan",9 Aug 2024,Scott (瑞興) LIN(林),23.8652,120.6072,Taiwan,False,ML622349818,P2
+622349844,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"彰化縣, TW (23.865, 120.607), Changhua County, Taiwan",9 Aug 2024,Scott (瑞興) LIN(林),23.8652,120.6072,Taiwan,False,ML622349844,P2
+622349857,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"彰化縣, TW (23.865, 120.607), Changhua County, Taiwan",9 Aug 2024,Scott (瑞興) LIN(林),23.8652,120.6072,Taiwan,False,ML622349857,P2
+622349906,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"彰化縣, TW (23.865, 120.607), Changhua County, Taiwan",9 Aug 2024,Scott (瑞興) LIN(林),23.8652,120.6072,Taiwan,False,ML622349906,P2
+622386537,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"239 南田路, 赤水村, 南投縣, TW (23.864, 120.639), Nantou County, Taiwan",11 Aug 2024,Scott (瑞興) LIN(林),23.8643,120.6385,Taiwan,False,ML622386537,P2
+622568120,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"雲林湖本IBA--斗六湖山北勢坑(Huben IBA--Douliu Hushan Beishikeng), Yunlin County, Taiwan",27 Nov 2011,Cynthia Su,23.7024,120.6337,Taiwan,False,ML622568120,P2
+623060915,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Chimelong Hengqin Bay Hotel Nanhuayuan Seascape Lawn, Zhuhai CN-Guangdong (22.0976,113.5482), Guangdong, China",29 Aug 2024,Haoning Gong,22.0976,113.5482,China,False,ML623060915,P2
+623389464,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"ಮಾರಮ್ಮನ ಗುಡಿ ಬೀದಿ, ಹದಿನಾರು., Mysuru, Karnataka, India",6 Sep 2024,RAVEESHA H N,12.168,76.7441,India,False,ML623389464,P2
+623709859,whrmun,Lonchura striata,コシジロキンパラ,4.333333333333333,3,"Karumalloor, Kerala, IN (10.135, 76.289), Ernakulam, Kerala, India",14 Sep 2024,Thanu Shanavas,10.1345,76.2892,India,False,ML623709859,P2
+624496063,whrmun,Lonchura striata,コシジロキンパラ,2.3333333333333335,3,"塘朗山郊野公园--龙珠门 (Tanglangshan Country Park--Longzhu Gate), Guangdong, China",4 Oct 2024,Haoning Gong,22.5665,113.9817,China,False,ML624496063,P2
+624502722,whrmun,Lonchura striata,コシジロキンパラ,2.6666666666666665,3,"Hong Kong Wetland Park 香港濕地公園, Hong Kong, Hong Kong",4 Oct 2024,Kalvin Chan,22.4692,114.0075,Hong Kong,False,ML624502722,P2
+624828200,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"屏東--茂林國家風景區管理處/禮納里遊客中心(Pingtung--Maolin National Scenic Area Administration/Lina Village Visitor Center), Pingtung County, Taiwan",12 Oct 2024,任謙 黃,22.6996,120.6442,Taiwan,False,ML624828200,P2
+625283644,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Shilian St lot between Jinji & Dushu Lakes, SIP, Suzhou, Jiangsu, China",5 Jun 2024,Rail Whisperer,31.2921,120.7078,China,False,ML625283644,P2
+625870012,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Kattampally, Kerala, IN (11.936, 75.384), Kannur, Kerala, India",28 Oct 2024,Mohanan Choron,11.9357,75.3835,India,False,ML625870012,P2
+625899785,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"沙里仙林道, 同富村, 南投縣, TW (23.547, 120.925), Nantou County, Taiwan",12 Oct 2024,Scott (瑞興) LIN(林),23.5471,120.9248,Taiwan,False,ML625899785,P2
+625944305,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Huay Kaew Arboretum, Chiang Mai, Thailand",7 Nov 2024,Lars Mannzen,18.8094,98.9501,Thailand,False,ML625944305,P2
+626318777,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"十里斜塘 (Shili Xietang Park), Jiangsu, China",29 Oct 2024,Rail Whisperer,31.3054,120.729,China,False,ML626318777,P2
+626318778,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"十里斜塘 (Shili Xietang Park), Jiangsu, China",29 Oct 2024,Rail Whisperer,31.3054,120.729,China,False,ML626318778,P2
+626318787,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"十里斜塘 (Shili Xietang Park), Jiangsu, China",29 Oct 2024,Rail Whisperer,31.3054,120.729,China,False,ML626318787,P2
+626318788,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"十里斜塘 (Shili Xietang Park), Jiangsu, China",29 Oct 2024,Rail Whisperer,31.3054,120.729,China,False,ML626318788,P2
+626487116,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",8 Nov 2024,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML626487116,P2
+626563268,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",22 Nov 2024,Sam Hambly,13.7138,100.5231,Thailand,False,ML626563268,P2
+626950979,whrmun,Lonchura striata,コシジロキンパラ,2.0,2,"西交利物浦大学南校区 (Xi'an Jiaotong-Liverpool University - South Campus), Jiangsu, China",19 Nov 2024,Rail Whisperer,31.2699,120.7408,China,False,ML626950979,P2
+627125599,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Kalikkal, Thrissur, Kerala, India",5 Dec 2024,raveendran kc,10.3407,76.3473,India,False,ML627125599,P2
+627249391,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Ezhome, Kannur, Kerala, India",8 Dec 2024,Nishad Eshaal,12.0305,75.2933,India,False,ML627249391,P2
+627252254,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"352號 山腳路五段100巷, 平和里, 彰化縣, TW (23.871, 120.61), Changhua County, Taiwan",5 Dec 2024,Scott (瑞興) LIN(林),23.8711,120.6101,Taiwan,False,ML627252254,P2
+627345001,whrmun,Lonchura striata,コシジロキンパラ,2.5,2,"Jiuli Polder, Suzhou, Jiangsu, China",7 Dec 2024,Rail Whisperer,31.2048,120.7199,China,False,ML627345001,P2
+627355580,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"Devsar, Navsari, Gujarat, India",6 Dec 2024,jenis patel,20.7847,72.9801,India,False,ML627355580,P2
+627387352,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Chhapar substation (GETCO), Navsari, Gujarat, India",11 Dec 2024,jenis patel,20.793,72.932,India,False,ML627387352,P2
+627387353,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Chhapar substation (GETCO), Navsari, Gujarat, India",11 Dec 2024,jenis patel,20.793,72.932,India,False,ML627387353,P2
+627799395,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"南港村, 南投縣, TW (23.949, 120.851), Nantou County, Taiwan",21 Dec 2024,Scott (瑞興) LIN(林),23.9489,120.8512,Taiwan,False,ML627799395,P2
+628655340,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"KBS Point 24, Coimbatore, Tamil Nadu, India",27 Dec 2024,Karthik Ramasamy,11.1367,76.9967,India,False,ML628655340,P2
+628757301,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"花蓮--國立東華大學(Hualien--National Dong Hwa University), Hualien County, Taiwan",8 Jan 2025,Cassie Liu,23.8989,121.5459,Taiwan,False,ML628757301,P2
+628892649,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"壽豐淨水廠河段, Hualien County, Taiwan",10 Jan 2025,Sheng Wun Jheng,23.8883,121.5146,Taiwan,False,ML628892649,P2
+628960367,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"台北--田寮洋濕地(Taipei--Tianliaoyang Wetland), New Taipei City, Taiwan",12 Jan 2025,Chi-Hsuan Shao,25.0193,121.9232,Taiwan,False,ML628960367,P2
+629276948,whrmun,Lonchura striata,コシジロキンパラ,3.6666666666666665,3,"College of Veterinary and Animal Sciences, Mannuthy, Thrissur, Kerala, India",9 Nov 2024,Sreekumar Chirukandoth,10.5318,76.2667,India,False,ML629276948,P2
+629326824,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Muthyalamaduvu, Bengaluru Urban, Karnataka, India",18 Jan 2025,Munish Gowda,12.6854,77.6634,India,False,ML629326824,P2
+629343065,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Dankuni H, West Bengal, IN (22.683, 88.289), Hooghly, West Bengal, India",31 Jul 2024,Sandip Das,22.6828,88.2895,India,False,ML629343065,P2
+629583593,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Taksin Maharat NP--headquarters vicinity, Tak, Thailand",23 Jan 2025,Jens Toettrup,16.7817,98.9273,Thailand,False,ML629583593,P2
+630358772,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"臺東縣成功鎮信義里新村路都歷東管處本部, Taitung County, Taiwan",8 Feb 2025,jason wu,23.0199,121.3241,Taiwan,False,ML630358772,P2
+631994889,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"南投縣, TW (23.727, 120.767), Nantou County, Taiwan",4 Dec 2024,Cynthia Su,23.7272,120.7667,Taiwan,False,ML631994889,P2
+632345576,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"未命名的道路, 卓清村, 花蓮縣, TW (23.301, 121.28), Hualien County, Taiwan",17 Mar 2025,Scott (瑞興) LIN(林),23.3007,121.2801,Taiwan,False,ML632345576,P2
+632345590,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"未命名的道路, 卓清村, 花蓮縣, TW (23.301, 121.28), Hualien County, Taiwan",17 Mar 2025,Scott (瑞興) LIN(林),23.3007,121.2801,Taiwan,False,ML632345590,P2
+633266636,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"南投縣, TW (23.938, 120.836), Nantou County, Taiwan",5 Apr 2025,Scott (瑞興) LIN(林),23.938,120.8357,Taiwan,False,ML633266636,P2
+633732454,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Belonia, Tripura, IN (23.249, 91.458), South Tripura, Tripura, India",9 Apr 2025,Anurupa Shil,23.2489,91.4582,India,False,ML633732454,P2
+634640341,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"Kumarghat, Tripura, Near FCI Godown, Unakoti, Tripura, India",28 Apr 2025,LIPI DAS,24.1449,92.0304,India,False,ML634640341,P2
+634854814,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Halkar ಹಳಕಾರ್, Uttara Kannada, Karnataka, India",1 May 2025,Shwetha Bharathi,14.446,74.4108,India,False,ML634854814,P2
+634912565,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"liuzhuangcun, Shaanxi, China",11 May 2013,C B,33.2275,107.5407,China,False,ML634912565,P2
+635154560,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Moozhikkal, Pathanamthitta, Kerala, India",29 Oct 2022,Adarsh Ajay,9.2049,76.7711,India,False,ML635154560,P2
+635154902,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Thengamam, Pathanamthitta, Kerala, India",13 Nov 2022,Adarsh Ajay,9.1183,76.6691,India,False,ML635154902,P2
+635927665,whrmun,Lonchura striata,コシジロキンパラ,3.0,2,"嘉绿苑公园, Zhejiang, China",17 May 2025,Lucas Chen🪶,30.2779,120.119,China,False,ML635927665,P2
+636280321,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Lam Tsuen Valley 林村谷, Hong Kong, Hong Kong",25 Dec 2024,John Allcock,22.4493,114.1344,Hong Kong,False,ML636280321,P2
+636818474,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",31 May 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML636818474,P2
+636943269,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"余杭南湖 (South Lake, Yuhang), Zhejiang, China",2 Jun 2025,Lucas Chen🪶,30.2575,119.9172,China,False,ML636943269,P2
+636943270,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"余杭南湖 (South Lake, Yuhang), Zhejiang, China",2 Jun 2025,Lucas Chen🪶,30.2575,119.9172,China,False,ML636943270,P2
+637078559,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",4 Jun 2025,Patrick James,13.7138,100.5231,Thailand,False,ML637078559,P2
+637306663,whrmun,Lonchura striata,コシジロキンパラ,4.0,1,"81900, Kota Tinggi MY-Johore 1.87816, 103.91957, Johor, Malaysia",8 Jun 2025,Kim Chuah Lim,1.8782,103.9196,Malaysia,False,ML637306663,P2
+637575969,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575969,P2
+637575970,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575970,P2
+637575971,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575971,P2
+637575972,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575972,P2
+637575973,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575973,P2
+637575974,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575974,P2
+637575975,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2025,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML637575975,P2
+638174188,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"未命名的道路, 台南市, TW (23.118, 120.411), Tainan City, Taiwan",28 Jun 2025,Scott (瑞興) LIN(林),23.1181,120.4114,Taiwan,False,ML638174188,P2
+638303099,whrmun,Lonchura striata,コシジロキンパラ,4.0,1,"未命名的道路, 台東縣, TW (22.518, 120.917), Taitung County, Taiwan",28 Jun 2025,Kuan Chia Hsiu,22.5183,120.9171,Taiwan,False,ML638303099,P2
+638526006,whrmun,Lonchura striata,コシジロキンパラ,4.5,2,"കുറുങ്ങൽ വയൽ Kurungal Vayal, Kollam, Kerala, India",6 Jul 2025,Faisal Fasaludeen,8.8711,76.7168,India,False,ML638526006,P2
+639611403,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Goling Road--forest past Yebilabsta, Zhemgang, Bhutan",18 Apr 2025,Jay McGowan,27.1227,90.7273,Bhutan,False,ML639611403,P2
+640267903,whrmun,Lonchura striata,コシジロキンパラ,4.0,2,"Maredumilli. Kutrawada, Andhra Pradesh, IN (17.623, 81.749), East Godavari, Andhra Pradesh, India",14 Dec 2024,Ramu Alluri,17.6225,81.7488,India,False,ML640267903,P2
+640360653,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Huaiji, Zhaoqing CN-Guangdong (23.9058,112.1986), Guangdong, China",15 Aug 2025,Haoning Gong,23.9058,112.1986,China,False,ML640360653,P2
+640686908,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Kolachery, Kannur, Kerala, India",22 Aug 2025,Mohanan Choron,11.97,75.4202,India,False,ML640686908,P2
+640687018,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Kolachery, Kannur, Kerala, India",22 Aug 2025,Mohanan Choron,11.97,75.4202,India,False,ML640687018,P2
+642216340,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Mayyil, Kerala, IN (11.992, 75.443), Kannur, Kerala, India",21 Sep 2025,Mohanan Choron,11.9917,75.443,India,False,ML642216340,P2
+643020962,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"上林橋, 雙溪區 TW-新北市, New Taipei City, Taiwan",6 Oct 2025,Tan Chen,25.0273,121.8315,Taiwan,False,ML643020962,P2
+643058292,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Genting Highlands* general area (use more precise location), Pahang, Malaysia",6 Oct 2025,Ken Tay,3.4271,101.797,Malaysia,False,ML643058292,P2
+644118232,whrmun,Lonchura striata,コシジロキンパラ,5.0,2,"Darechok, Bagmati Province, NP (27.879, 84.591), Chitawan, Bagmati, Nepal",25 Oct 2025,Rojin Maharjan,27.8794,84.5914,Nepal,False,ML644118232,P2
+644691090,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Kannadiparamba - Mathodam wetland, Kannur, Kerala, India",5 Nov 2025,Mohanan Choron,11.9349,75.3997,India,False,ML644691090,P2
+644922314,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"宜蘭--頭城大坑自行車道(Yilan--Toucheng Dakeng Bikeway), Yilan County, Taiwan",9 Nov 2025,薛 國凌,24.855,121.8313,Taiwan,False,ML644922314,P2
+644980867,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Kannur, Kerala, IN (11.93, 75.404), Kannur, Kerala, India",10 Nov 2025,Mohanan Choron,11.9304,75.4037,India,False,ML644980867,P2
+644990829,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Bukit Fraser--Silverpark Resort, Pahang, Malaysia",10 Nov 2025,Andrew McCafferty,3.7154,101.7366,Malaysia,False,ML644990829,P2
+645982033,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"花蓮縣消防局萬榮分隊, Hualien County, Taiwan",27 Nov 2025,Sheng Wun Jheng,23.719,121.4045,Taiwan,False,ML645982033,P2
+646381920,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Basil Cafe, manipal, Udupi, Karnataka, India",19 Jun 2023,Sujith Raj Salian,13.3542,74.7843,India,False,ML646381920,P2
+646382106,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Sankesha Mandir Road, Udupi, Karnataka, India",5 Oct 2025,Sujith Raj Salian,13.3408,74.7177,India,False,ML646382106,P2
+646572728,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"home, Thrissur, Kerala, India",7 Dec 2025,raveendran kc,10.3409,76.3469,India,False,ML646572728,P2
+646695203,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Bodali Lake 2, Gadchiroli, Maharashtra, India",17 Nov 2025,Samish Dhongle,20.1858,80.0688,India,False,ML646695203,P2
+647062934,whrmun,Lonchura striata,コシジロキンパラ,4.0,1,"Koppa Rural MSDM, Chikkamagaluru, Karnataka, India",17 Dec 2025,PRABHAKAR GUJJARAPPA,13.5339,75.3674,India,False,ML647062934,P2
+647122400,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"50230, Hang Dong District TH-Chiang Mai (18.6975,98.8847), Chiang Mai, Thailand",10 Dec 2025,Scott Kramer,18.6975,98.8847,Thailand,False,ML647122400,P2
+647790484,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Teochew Cemetery (Wat Don), Krung Thep Maha Nakhon [Bangkok], Thailand",9 Nov 2024,David Darrell-Lambert,13.7138,100.5231,Thailand,False,ML647790484,P2
+647803422,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"嘉135-2鄉道, 石硦村, Chiayi County, TW (23.408, 120.561), Chiayi County, Taiwan",23 Dec 2025,Scott (瑞興) LIN(林),23.4076,120.5614,Taiwan,False,ML647803422,P2
+648038157,whrmun,Lonchura striata,コシジロキンパラ,4.0,1,"Yuen Tun Country Trail, Hong Kong, Hong Kong",27 Dec 2025,John Allcock,22.3831,114.0445,Hong Kong,False,ML648038157,P2
+648108526,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"台中大雪山IBA--恩光靈修營地(4K)(Dasyueshan IBA--Enguang Spiritual Camp (4K)), Taichung City, Taiwan",31 Dec 2025,Marco Wanke,24.2424,120.8629,Taiwan,False,ML648108526,P2
+648734862,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"柑脚溪橋, 雙溪區 TW-新北市 25.01935, 121.81287, New Taipei City, Taiwan",10 Jan 2026,Tan Chen,25.0194,121.8129,Taiwan,False,ML648734862,P2
+648746434,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"嘉義縣, TW (23.41, 120.461), Chiayi County, Taiwan",9 Jan 2026,Scott (瑞興) LIN(林),23.4099,120.4614,Taiwan,False,ML648746434,P2
+648813633,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2026,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML648813633,P2
+648813634,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2026,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML648813634,P2
+648813635,whrmun,Lonchura striata,コシジロキンパラ,4.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2026,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML648813635,P2
+648813636,whrmun,Lonchura striata,コシジロキンパラ,3.0,1,"Pannivelichira, Aranmula Wetlands, Pathanamthitta, Kerala, India",13 Jan 2026,Sreekumar Chirukandoth,9.3225,76.7045,India,False,ML648813636,P2
+648865895,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Tanglangshan Country Park, Shenzhen CN-Guangdong (22.5648,113.9838), Guangdong, China",22 Dec 2025,Haoning Gong,22.5648,113.9838,China,False,ML648865895,P2
+648865901,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Tanglangshan Country Park, Shenzhen CN-Guangdong (22.5648,113.9838), Guangdong, China",22 Dec 2025,Haoning Gong,22.5648,113.9838,China,False,ML648865901,P2
+649645315,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Mala Lodge, Nepal 28.31487, 83.79534, Kaski, Gandaki, Nepal",20 Nov 2025,Anita Gould,28.3149,83.7953,Nepal,False,ML649645315,P2
+649834176,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Phan Van Dinh Scrub & Urban Area, Da Nang, thanh pho, Vietnam",29 Jan 2026,James K,16.0899,108.1492,Vietnam,False,ML649834176,P2
+650502317,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Maaramma Temple, Bengaluru Urban, Karnataka, India",8 Feb 2026,Uma Vaijnath,12.8587,77.5087,India,False,ML650502317,P2
+650642741,whrmun,Lonchura striata,コシジロキンパラ,2.0,1,"Kamorta, Nicobar, Andaman and Nicobar Islands, India",1 May 2002,Pratap Singh,8.1323,93.4904,India,False,ML650642741,P2
+650814131,whrmun,Lonchura striata,コシジロキンパラ,1.0,1,"Katchal, Island, Nicobar, Andaman and Nicobar Islands, India",30 Apr 2002,Pratap Singh,7.9704,93.353,India,False,ML650814131,P2
+650937631,whrmun,Lonchura striata,コシジロキンパラ,0.0,0,"Bandar Bukit Puchong 2, Selangor, Malaysia",15 Feb 2026,Anonymous,2.9687,101.6179,Malaysia,False,ML650937631,P2
+68457541,whrmun,Lonchura striata,コシジロキンパラ,2.5,4,"The PJR Estate , Palakkad, Kerala, India",10 Sep 2017,Rajesh Radhakrishnan,10.7662,76.6515,India,False,ML68457541,P2
+83958461,whrmun,Lonchura striata,コシジロキンパラ,2.0,5,"PGRIAS - Kattupakkam, Chengalpattu, Tamil Nadu, India",11 Jan 2018,Sreekumar Chirukandoth,12.8319,80.0378,India,False,ML83958461,P2
+90547261,whrmun,Lonchura striata,コシジロキンパラ,2.8,10,"南投--鹿谷清水溝溪河川魚蝦保護區(Nantou--Lugu Qingshuigou Creek River Fish Reserve), Nantou County, Taiwan",17 Mar 2018,Jhih-Wei (志偉) TSAI (蔡),23.8003,120.7881,Taiwan,False,ML90547261,P2
+90684041,whrmun,Lonchura striata,コシジロキンパラ,2.6,5,"嘉義--番路隙頂二延平步道(Chiayi--Fanlu Xiding Eryanping Trail), Chiayi County, Taiwan",21 Mar 2018,Kuan-Chieh 紅冠 Hung | TaiwanBirdGuide.com,23.4243,120.6527,Taiwan,False,ML90684041,P2
+94738771,whrmun,Lonchura striata,コシジロキンパラ,2.25,4,"宜蘭--南澳朝陽(Yilan--Nan'ao Chaoyang), Yilan County, Taiwan",30 Mar 2018,智偉(Chih-Wei) 張(Chang),24.4595,121.8119,Taiwan,False,ML94738771,P2
+101273921,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,8,"Ensley Bottoms--Maxson Wastewater Lagoons/Earth Complex  (The Pits), Shelby, Tennessee, United States",20 May 2018,Michael Todd,35.0596,-90.141,United States,False,ML101273921,P2
+102289,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,10,"8.0 km S of Lubec, Maine, United States",8 Sep 1996,Charles Duncan,44.8167,-66.95,United States,False,ML102289,P2
+107882291,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.6666666666666667,9,"Mitchell Lake Audubon Center (HOTE 103), Bexar, Texas, United States",15 May 2018,Christian Walker,29.3106,-98.4997,United States,False,ML107882291,P2
+112878461,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2222222222222223,9,"Cape Island--Higbee Beach WMA, Cape May, New Jersey, United States",29 Aug 2018,Tom Johnson,38.9614,-74.9608,United States,False,ML112878461,P2
+112878481,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,9,"Cape Island--Higbee Beach WMA, Cape May, New Jersey, United States",29 Aug 2018,Tom Johnson,38.9614,-74.9608,United States,False,ML112878481,P2
+116123881,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.3125,16,"Luther Marsh--Bootlegger's Causeway and South Boat Ramp, Wellington, Ontario, Canada",11 Sep 2018,Dan J. MacNeal,43.9236,-80.4407,Canada,False,ML116123881,P2
+116123941,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.7777777777777777,9,"Luther Marsh--Bootlegger's Causeway and South Boat Ramp, Wellington, Ontario, Canada",11 Sep 2018,Dan J. MacNeal,43.9236,-80.4407,Canada,False,ML116123941,P2
+11673,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8888888888888888,9,"JAMAICA BAY WILDLIFE REFUGE; QUEENS CO., Queens, New York, United States",21 May 1979,Thomas H. Davis,0.0,0.0,United States,False,ML11673,P2
+118852971,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,8,"Myers Point, Tompkins, New York, United States",17 Sep 2018,Jay McGowan,42.5371,-76.5506,United States,False,ML118852971,P2
+120414721,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.3333333333333335,9,"Station d'épuration, Lorrainville, Témiscamingue, Quebec, Canada",22 Oct 2018,Jonathan Fréchette,47.3573,-79.3673,Canada,False,ML120414721,P2
+135327601,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.888888888888889,9,"Laguna José Ignacio--Área sur y Desembocadura, Maldonado, Uruguay",2 Nov 2009,Àlvaro Riccetto,-34.8415,-54.6746,Uruguay,False,ML135327601,P2
+136942431,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8888888888888888,9,"Bahía Bustamante, Escalante, Chubut, Argentina",19 Jan 2019,Eliot Miller,-45.1266,-66.5366,Argentina,False,ML136942431,P2
+137854,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,9,"Barrow, North Slope Borough, Alaska, United States",7 Jun 2007,Gerrit Vyn,0.0,0.0,United States,False,ML137854,P2
+137855,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.111111111111111,9,"Barrow, North Slope Borough, Alaska, United States",7 Jun 2007,Gerrit Vyn,0.0,0.0,United States,False,ML137855,P2
+137856,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,9,"Barrow, North Slope Borough, Alaska, United States",7 Jun 2007,Gerrit Vyn,0.0,0.0,United States,False,ML137856,P2
+137857,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.888888888888889,9,"Barrow, North Slope Borough, Alaska, United States",7 Jun 2007,Gerrit Vyn,0.0,0.0,United States,False,ML137857,P2
+137858,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,9,"Barrow, North Slope Borough, Alaska, United States",7 Jun 2007,Gerrit Vyn,0.0,0.0,United States,False,ML137858,P2
+138268,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,9,"Polar Bear Pass; Bathurst Island, Nunavut, Canada",16 Jun 2008,Martha Fischer,0.0,0.0,Canada,False,ML138268,P2
+141156,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.111111111111111,9,"Chatham; South Beach; bay side 3 km N of juncture with South Monomoy Island, Barnstable, Massachusetts, United States",18 Aug 2009,Michael Harvey,41.6145,-69.9757,United States,False,ML141156,P2
+141177,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.7777777777777777,9,"Chatham; South Beach; bay side 3 km N of juncture with South Monomoy Island, Barnstable, Massachusetts, United States",22 Aug 2009,Michael Harvey,41.6145,-69.9757,United States,False,ML141177,P2
+154960921,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.625,8,"Lagunas de Oxidación de Jesús de Otoro, Intibucá, Honduras",26 Apr 2019,Roselvy Juárez,14.4861,-87.9999,Honduras,False,ML154960921,P2
+155343531,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.875,8,"Lagunas de Oxidación de Jesús de Otoro, Intibucá, Honduras",26 Apr 2019,John van Dort,14.4861,-87.9999,Honduras,False,ML155343531,P2
+158177141,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,8,"LA: St. Landry Par.; Olivier Farms, St. Landry, Louisiana, United States",24 May 2018,Matt Brady,30.4837,-91.878,United States,False,ML158177141,P2
+158252121,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.125,8,"Reserva El Jicarito--Entrada principal, Choluteca, Honduras",12 May 2019,John van Dort,13.1288,-87.1985,Honduras,False,ML158252121,P2
+158268931,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4444444444444446,9,"Reserva El Jicarito--Entrada principal, Choluteca, Honduras",12 May 2019,Roselvy Juárez,13.1288,-87.1985,Honduras,False,ML158268931,P2
+161134851,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.111111111111111,9,"Creston--Duck Lake, Central Kootenay, British Columbia, Canada",26 May 2019,Craig Sandvig,49.2227,-116.6286,Canada,False,ML161134851,P2
+162892921,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.111111111111111,9,"Waneka Lake/Greenlee Preserve, Boulder, Colorado, United States",11 Jun 2012,Ted Floyd,39.997,-105.1142,United States,False,ML162892921,P2
+162892931,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,9,"Waneka Lake/Greenlee Preserve, Boulder, Colorado, United States",11 Jun 2012,Ted Floyd,39.997,-105.1142,United States,False,ML162892931,P2
+170288541,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.875,8,"Peters Rd. / Murff Turf Farm, Crosby, Harris, Texas, United States",13 May 2019,Mark W11 Kulstad,29.9822,-95.0553,United States,False,ML170288541,P2
+186586401,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.6666666666666667,9,"Knox--Aghaloma Farm, Waldo, Maine, United States",12 Oct 2019,Fyn Kynd,44.5448,-69.2385,United States,False,ML186586401,P2
+200353231,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,10,"Laguna Melincué y lagunas adyacentes--Costa ex RN 93, General López, Santa Fe, Argentina",19 Jan 2020,Martin Manassero,-33.6996,-61.407,Argentina,False,ML200353231,P2
+202234091,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4444444444444446,9,"PN Lagoa do Peixe--Trilha do Talha-Mar, Tavares, Rio Grande do Sul, Brazil",20 Nov 2019,Gabriel Leite,-31.2563,-50.9829,Brazil,False,ML202234091,P2
+204018561,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,9,"El Zurdo, Güer Aike, Santa Cruz, Argentina",3 Oct 2001,Santiago Imberti,-51.9663,-71.2161,Argentina,False,ML204018561,P2
+208140361,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,9,"PP Laguna de Rocha--Zona Sur y Barra, Rocha, Uruguay",29 Jan 2020,Martin Manassero,-34.6797,-54.2732,Uruguay,False,ML208140361,P2
+21664501,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.6,10,"South Beach, Chatham, Barnstable, Massachusetts, United States",7 Aug 2010,Ian Davies,41.626,-69.968,United States,False,ML21664501,P2
+219106551,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.6666666666666665,9,"Rio Juruá, Carauari, Amazonas, Brazil",6 Dec 2014,Gabriel Leite,-5.7557,-67.8238,Brazil,False,ML219106551,P2
+228018,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4444444444444446,9,"Bahía Bustamante, Chubut, Argentina",21 Jan 2017,Anahita Verahrami,-45.1476,-66.5074,Argentina,False,ML228018,P2
+228025,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.7777777777777777,9,"Bahía Bustamante, Chubut, Argentina",21 Jan 2017,Anahita Verahrami,-45.1476,-66.5074,Argentina,False,ML228025,P2
+228026,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8888888888888888,9,"Bahía Bustamante, Chubut, Argentina",21 Jan 2017,Anahita Verahrami,-45.1476,-66.5074,Argentina,False,ML228026,P2
+233427461,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,9,"Richland Creek WMA (N. Unit)(Freestone Co.), Freestone, Texas, United States",10 May 2020,Blaine Carnes,31.9833,-96.0819,United States,False,ML233427461,P2
+233430941,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,9,"Richland Creek WMA (N. Unit)(Freestone Co.), Freestone, Texas, United States",10 May 2020,Blaine Carnes,31.9833,-96.0819,United States,False,ML233430941,P2
+235337491,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,8,"Captain Hook's Restaurant & Shrimp Farm, Belize, Belize",15 May 2020,Isaias Morataya,17.5669,-88.2998,Belize,False,ML235337491,P2
+236998571,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.111111111111111,9,"Myers Point, Tompkins, New York, United States",18 May 2020,Jay McGowan,42.5371,-76.5506,United States,False,ML236998571,P2
+240530,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3,10,"Laguna de Limpiopungo, Cotopaxi, Ecuador",10 Oct 1983,Niels Krabbe,-0.614,-78.475,Ecuador,False,ML240530,P2
+240680,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4444444444444446,9,"Laguna de los Escarchados, Santa Cruz, Argentina",3 Feb 1984,Niels Krabbe,-50.4001,-71.5501,Argentina,False,ML240680,P2
+244632051,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,9,"NW of Brantley Lake, Eddy, New Mexico, United States",20 Jun 2020,Bob Nieman,32.5813,-104.4041,United States,False,ML244632051,P2
+25101961,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.7777777777777777,9,"Cheyenne Bottoms WA, Barton, Kansas, United States",24 May 2015,Paul Marvin,38.4634,-98.6551,United States,False,ML25101961,P2
+253550081,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,8,"Pointe à Boisvert, La Haute-Côte-Nord, Quebec, Canada",4 Aug 2020,Thierry Grandmont,48.567,-69.1569,Canada,False,ML253550081,P2
+255913071,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.875,8,"Nauset Marsh, Barnstable, Massachusetts, United States",16 Aug 2020,Nick Tepper,41.8203,-69.9538,United States,False,ML255913071,P2
+262720521,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.7777777777777777,9,"Pantanal--Pousada Piuval, Poconé, Mato Grosso, Brazil",11 Oct 2012,Andrew Spencer,-16.3786,-56.6208,Brazil,False,ML262720521,P2
+262722461,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.375,8,"Utqiaġvik--Nunavaaq Rd., North Slope Borough, Alaska, United States",29 Jun 2014,Andrew Spencer,71.2757,-156.805,United States,False,ML262722461,P2
+266606371,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,8,"Camping Domaine Florent (plage & route), Le Haut-Richelieu, Quebec, Canada",28 Sep 2020,Daniel Jauvin,45.0739,-73.1216,Canada,False,ML266606371,P2
+268750011,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.625,8,"Parc Gonzague-Drapeau, Rimouski-Neigette, Quebec, Canada",6 Oct 2020,François-Xavier Grandmont,48.4462,-68.5433,Canada,False,ML268750011,P2
+275323251,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5555555555555554,9,"Mississippi River levee at LSU, East Baton Rouge, Louisiana, United States",26 May 2008,Daniel Lane,30.4132,-91.1964,United States,False,ML275323251,P2
+276065641,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,8,"Lakefield Sewage Lagoons, Peterborough, Ontario, Canada",31 Oct 2020,Luke Berg,44.4181,-78.2587,Canada,False,ML276065641,P2
+277533191,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,8,"RNF de Pointe-au-Père, Rimouski-Neigette, Quebec, Canada",5 Nov 2020,Vincent Giroux,48.5118,-68.4663,Canada,False,ML277533191,P2
+278075711,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,8,"Saint John--Red Head Marsh, Saint John, New Brunswick, Canada",7 Nov 2020,Jim Carroll,45.262,-66.0107,Canada,False,ML278075711,P2
+28190761,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,9,"Jetty Park, Brevard, Florida, United States",4 May 2016,Paul Marvin,28.4065,-80.5925,United States,False,ML28190761,P2
+28513481,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.111111111111111,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",10 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28513481,P2
+28515671,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.111111111111111,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",10 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28515671,P2
+28516511,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,8,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",10 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28516511,P2
+28519151,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4444444444444446,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",10 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28519151,P2
+28563541,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4444444444444446,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",11 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28563541,P2
+28565181,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5555555555555554,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",11 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28565181,P2
+28565281,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",11 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28565281,P2
+28565321,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",11 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28565321,P2
+28565391,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.6666666666666665,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",11 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28565391,P2
+286855291,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.625,8,"Mar Chiquita Lake, San Justo AR-Córdoba -30.94611, -62.71484, San Justo, Córdoba, Argentina",8 Dec 2020,J. Quillen Vidoz / Tour Leader,-30.9461,-62.7148,Argentina,False,ML286855291,P2
+28749471,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.111111111111111,9,"Merritt Island NWR--Black Point Wildlife Drive, Brevard, Florida, United States",14 May 2016,Paul Marvin,28.6575,-80.7545,United States,False,ML28749471,P2
+288214,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.2222222222222223,9,"Moffett Bottoms, Sequoyah, Oklahoma, United States",24 Apr 1998,Peter Boesman,35.3828,-94.4901,United States,False,ML288214,P2
+288216,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,8,"Moffett Bottoms, Sequoyah, Oklahoma, United States",24 Apr 1998,Peter Boesman,35.3828,-94.4901,United States,False,ML288216,P2
+298870351,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.3333333333333335,9,"SN Bahía Lomas--Sector oeste, Primavera, Magallanes, Chile",22 Jan 2018,Natacha González,-52.5505,-69.3086,Chile,False,ML298870351,P2
+30229781,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.625,8,"Sanford Lagoons (open Mon. - Fri., 8 am - 3 pm, closed weekends and holidays), York, Maine, United States",15 Jun 2016,andrew aldrich,43.4123,-70.7238,United States,False,ML30229781,P2
+308800611,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.375,8,"Centro de Interpretacion Ambiental Estuario del Rio Gallegos, Güer Aike, Santa Cruz, Argentina",16 Feb 2021,Sebastián Alvarado | Tour guide,-51.6255,-69.194,Argentina,False,ML308800611,P2
+3094,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.3333333333333335,9,"LAKE ONTARIO; ELDORADO BEACH, New York, United States",13 Sep 1962,Randolph Little,0.0,0.0,United States,False,ML3094,P2
+321258531,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.857142857142857,7,"Tijucas--Foz do Rio Tijucas, Tijucas, Santa Catarina, Brazil",28 Mar 2021,Fernando Farias,-27.2471,-48.6153,Brazil,False,ML321258531,P2
+32242581,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.6,10,"Riberalta--Hamburgo, El Beni, Bolivia",30 Aug 2013,Andrew Spencer,-11.023,-66.0987,Bolivia,False,ML32242581,P2
+32242591,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.8,10,"Riberalta--Hamburgo, El Beni, Bolivia",30 Aug 2013,Andrew Spencer,-11.023,-66.0987,Bolivia,False,ML32242591,P2
+328443831,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.875,8,"Marsh Trail-10,000 Islands NWR, Collier, Florida, United States",20 Apr 2021,Bente Torvund,25.9671,-81.559,United States,False,ML328443831,P2
+334306851,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5555555555555554,9,"West Irene Road impoundments (restricted access), East Baton Rouge, Louisiana, United States",5 May 2021,Oscar Johnson,30.6057,-91.2453,United States,False,ML334306851,P2
+334550911,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,8,"West Irene Road impoundments (restricted access), East Baton Rouge, Louisiana, United States",5 May 2021,Daniel Lane,30.6057,-91.2453,United States,False,ML334550911,P2
+338241411,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.125,8,"York Co Rd 2 (NE), York, Nebraska, United States",14 May 2021,Tom Gannon,40.7129,-97.5019,United States,False,ML338241411,P2
+342692001,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.375,8,"Funk Bottoms Wildlife Area (Wayne Co.), Wayne, Ohio, United States",25 May 2021,Lucas Schrader,40.7524,-82.1058,United States,False,ML342692001,P2
+361959611,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.75,8,"Akron Fulton Airport--Akron Skate Park, Summit, Ohio, United States",17 Aug 2021,Brian T,41.0371,-81.4628,United States,False,ML361959611,P2
+363367821,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,8,"Bylot Island, Camp 1 Valley 73.14117, -80.03273, Baffin, Nunavut, Canada",7 Aug 2021,Thierry Grandmont,73.1412,-80.0327,Canada,False,ML363367821,P2
+373848261,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,8,"Yorke Bay Pond, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",25 Sep 2021,Ryan Irvine,-51.6802,-57.7837,Falkland Islands (Malvinas),False,ML373848261,P2
+382450711,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.111111111111111,9,"Yorke Bay Pond, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",21 Oct 2021,Ryan Irvine,-51.6802,-57.7837,Falkland Islands (Malvinas),False,ML382450711,P2
+394134941,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.222222222222222,9,"Ea. El Palenque, General Lavalle, Buenos Aires, Argentina",4 Dec 2021,Andrés de Miguel,-36.4821,-56.9866,Argentina,False,ML394134941,P2
+403255371,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5714285714285716,7,"Bertha's Beach and associated ponds, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",30 Dec 2021,Ryan Irvine,-51.8866,-58.3685,Falkland Islands (Malvinas),False,ML403255371,P2
+417026851,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,8,"Volunteer Point Penguin Colony, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",1 Feb 2022,Jacob C. Cooper,-51.4798,-57.8338,Falkland Islands (Malvinas),False,ML417026851,P2
+42754131,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.888888888888889,9,"Estancia San Gregorio, San Gregorio, Magallanes, Chile",26 Oct 2011,Andrew Spencer,-52.5666,-70.0707,Chile,False,ML42754131,P2
+429416841,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.888888888888889,9,"Río Elqui--Desembocadura, La Serena, Coquimbo, Chile",27 Mar 2022,Ignacio Escobar Gutiérrez,-29.8934,-71.2727,Chile,False,ML429416841,P2
+431511161,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,8,"La Paloma--Roquedales El Cabito-Los Botes, Rocha, Uruguay",3 Apr 2022,Diego Castelli,-34.6642,-54.1737,Uruguay,False,ML431511161,P2
+431511171,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,8,"La Paloma--Roquedales El Cabito-Los Botes, Rocha, Uruguay",3 Apr 2022,Diego Castelli,-34.6642,-54.1737,Uruguay,False,ML431511171,P2
+442916311,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5714285714285716,7,"Laguna Las Flores Grande (General Belgrano), Buenos Aires, General Belgrano, Buenos Aires, Argentina",30 Apr 2022,Numa Nazar,-35.5925,-59.0114,Argentina,False,ML442916311,P2
+443538301,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2857142857142856,7,"Reserva Natural Municipal Punta Rasa, La Costa, Buenos Aires, Argentina",2 Apr 2022,Diego Oscar / Sandpiper Birding & Tours,-36.2941,-56.7756,Argentina,False,ML443538301,P2
+445722231,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.3333333333333333,6,"Rice U. Campus, Harris, Texas, United States",27 Apr 2022,Cin-Ty Lee-NFC Lee,29.7145,-95.4018,United States,False,ML445722231,P2
+447637471,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.7142857142857144,7,"Torre de observación de Manglares y Embarcadero de San Miguel, Cozumel, Quintana Roo, Mexico",12 May 2022,Karl Wirth,20.5435,-86.8803,Mexico,False,ML447637471,P2
+448464931,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.7142857142857144,7,"Boca Chica Beach, Monroe, Florida, United States",14 May 2022,Kevin Christman,24.5631,-81.6774,United States,False,ML448464931,P2
+449033971,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.857142857142857,7,"Addicks Reservoir--S. Levee area, Harris, Texas, United States",14 May 2022,Karl Poetzl,29.7914,-95.6025,United States,False,ML449033971,P2
+451798251,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.142857142857143,7,"Eagle Bluffs CA, Boone, Missouri, United States",21 May 2022,Richard Stanton,38.8636,-92.4504,United States,False,ML451798251,P2
+452519211,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,6,"Lake Travis--Bob Wentz Windy Point Pk, Travis, Texas, United States",23 May 2022,Vincent O'Brien,30.4128,-97.9009,United States,False,ML452519211,P2
+453836621,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.857142857142857,7,"Sandy Point, New Haven, Connecticut, United States",27 May 2022,Andy McGann,41.2646,-72.9312,United States,False,ML453836621,P2
+455791581,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8,5,"Loess Bluffs NWR--Pelican Pool, Holt, Missouri, United States",20 May 2022,Michael S Taylor,40.0638,-95.2571,United States,False,ML455791581,P2
+456145781,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.8,5,"Scottsbluff WTP (M-F, check in at office), Scotts Bluff, Nebraska, United States",1 Jun 2022,Steven Mlodinow,41.8426,-103.6172,United States,False,ML456145781,P2
+456600141,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8,5,"Cape Island--South Cape May Meadows (SCMM), Cape May, New Jersey, United States",4 Jun 2022,Jonathan Heller,38.9359,-74.9435,United States,False,ML456600141,P2
+456992301,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992301,P2
+456992501,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992501,P2
+456992511,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992511,P2
+456992541,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992541,P2
+456992551,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992551,P2
+456992561,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992561,P2
+456992571,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Peggy Lake  (Restricted Access), Harris, Texas, United States",17 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456992571,P2
+456994231,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994231,P2
+456994251,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994251,P2
+456994291,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.166666666666667,6,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994291,P2
+456994351,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994351,P2
+456994441,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994441,P2
+456994521,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994521,P2
+456994631,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994631,P2
+456994641,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.6,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994641,P2
+456994711,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994711,P2
+456994721,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.2,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994721,P2
+456994851,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456994851,P2
+456995151,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456995151,P2
+456995161,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456995161,P2
+456995171,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456995171,P2
+456995271,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456995271,P2
+456995331,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456995331,P2
+456996751,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456996751,P2
+456996761,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456996761,P2
+456996771,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456996771,P2
+456996781,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.2,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456996781,P2
+456997081,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456997081,P2
+456997091,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.2,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456997091,P2
+456997101,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456997101,P2
+456997111,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.8,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456997111,P2
+456997121,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456997121,P2
+456998081,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Peggy Lake  (Restricted Access), Harris, Texas, United States",18 May 2022,Cin-Ty Lee,29.735,-95.0645,United States,False,ML456998081,P2
+458617291,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Agricultural Fields--SW 217th Ave. x SW 384th St., Miami-Dade, Florida, United States",11 Jun 2022,Neo Morpheus,25.4074,-80.5473,United States,False,ML458617291,P2
+459726091,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,5,"Minor E Clark Fish Hatchery (Closed to visitors on weekends in January), Rowan, Kentucky, United States",11 Jun 2022,James Wheat,38.1177,-83.547,United States,False,ML459726091,P2
+462454031,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,5,"Cass, Flooded Southwest Fargo, Cass, North Dakota, United States",2 Jun 2022,Keith Corliss,46.8549,-96.9374,United States,False,ML462454031,P2
+472640181,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.166666666666667,6,"GMNP--Coastal Trail, Northern Peninsula-St. Anthony, Newfoundland and Labrador, Canada",4 Aug 2022,Cody Power,49.6627,-57.9645,Canada,False,ML472640181,P2
+472640401,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"GMNP--Coastal Trail, Northern Peninsula-St. Anthony, Newfoundland and Labrador, Canada",4 Aug 2022,Cody Power,49.6627,-57.9645,Canada,False,ML472640401,P2
+473113491,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.8333333333333335,6,"Bon Portage Island (restricted access), Shelburne, Nova Scotia, Canada",6 Aug 2022,Kathleen MacAulay,43.4672,-65.7507,Canada,False,ML473113491,P2
+476091361,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.5,6,"Ellisville Harbor SP, Plymouth, Massachusetts, United States",17 Aug 2022,Lisa Schibley,41.8443,-70.5384,United States,False,ML476091361,P2
+476091371,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,6,"Ellisville Harbor SP, Plymouth, Massachusetts, United States",17 Aug 2022,Lisa Schibley,41.8443,-70.5384,United States,False,ML476091371,P2
+478225791,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8333333333333335,6,"Sandy Pond Outlet, Oswego, New York, United States",25 Aug 2022,Matthew Brown,43.6648,-76.1961,United States,False,ML478225791,P2
+478330341,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,6,"Eagle Bluffs CA, Boone, Missouri, United States",21 May 2022,Richard Stanton,38.8636,-92.4504,United States,False,ML478330341,P2
+481487271,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.142857142857143,7,"Bombay Hook National Wildlife Refuge, Kent, Delaware, United States",2 Sep 2022,Christopher Hinkle,39.2671,-75.4696,United States,False,ML481487271,P2
+482237231,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,6,"Benton Road, SW Crowley, Acadia, Louisiana, United States",15 May 2022,Robert Dobbs,30.1436,-92.3786,United States,False,ML482237231,P2
+483173541,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.142857142857143,7,"Rio Solimões--Ilha Nova, Iranduba, Amazonas, Brazil",4 Sep 2022,Gabriel Leite,-3.2577,-59.9139,Brazil,False,ML483173541,P2
+48603,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8888888888888888,9,"60.0 km N of Manaus; Colosso, Amazonas, Brazil",3 Oct 1989,Mario Cohn-Haft,0.0,0.0,Brazil,False,ML48603,P2
+491114671,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Paul do Cabo da Praia, Praia da Vitória, Região Autónoma dos Açores, Portugal",6 Oct 2022,Carlos Pereira,38.7063,-27.0476,Portugal,False,ML491114671,P2
+491114741,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.1666666666666665,6,"Paul do Cabo da Praia, Praia da Vitória, Região Autónoma dos Açores, Portugal",6 Oct 2022,Carlos Pereira,38.7063,-27.0476,Portugal,False,ML491114741,P2
+492559901,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,6,"Jamaica Bay, Yellow Bar Hassock, Kings, New York, United States",10 Oct 2022,Louis DeMarco,40.6089,-73.8431,United States,False,ML492559901,P2
+49733,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.888888888888889,9,"Cheyenne Bottoms WMA, Kansas, United States",2 May 1990,William Evans,0.0,0.0,United States,False,ML49733,P2
+500858031,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.1666666666666665,6,"Parc Littoral de St-Fulgence--Flèche littorale, Le Fjord-du-Saguenay, Quebec, Canada",31 Oct 2022,Germain Savard,48.4418,-70.9016,Canada,False,ML500858031,P2
+506637651,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"La Paloma--Roquedales El Cabito-Los Botes, Rocha, Uruguay",23 Nov 2022,Diego Castelli,-34.6642,-54.1737,Uruguay,False,ML506637651,P2
+52038,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.3333333333333335,9,"Santa Rosa de la Roca, Santa Cruz, Bolivia",3 Sep 1989,Ted Parker,0.0,0.0,Bolivia,False,ML52038,P2
+52041,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.7777777777777777,9,"Santa Rosa de la Roca, Santa Cruz, Bolivia",3 Sep 1989,Ted Parker,0.0,0.0,Bolivia,False,ML52041,P2
+536999211,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.857142857142857,7,"Utqiaġvik--Gas Well Rd. (East of New Landfill Rd.), North Slope Borough, Alaska, United States",15 Jul 2022,Ryan Zucker,71.2495,-156.4653,United States,False,ML536999211,P2
+540526491,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.428571428571429,7,"Desembocadura del arroyo El Gaucho--Albúfera de Reta, Tres Arroyos, Buenos Aires, Argentina",28 Feb 2023,Pablo Alejandro Pla,-38.8943,-60.3178,Argentina,False,ML540526491,P2
+540526691,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Desembocadura del arroyo El Gaucho--Albúfera de Reta, Tres Arroyos, Buenos Aires, Argentina",28 Feb 2023,Pablo Alejandro Pla,-38.8943,-60.3178,Argentina,False,ML540526691,P2
+541926851,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,6,"Jardín Botánico Municipal Ing. Lorenzo Parodi, La Capital, Santa Fe, Argentina",28 Feb 2023,Pablo Hernan Capovilla,-31.5871,-60.7073,Argentina,False,ML541926851,P2
+541927931,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,6,"Jardín Botánico Municipal Ing. Lorenzo Parodi, La Capital, Santa Fe, Argentina",28 Feb 2023,Pablo Hernan Capovilla,-31.5871,-60.7073,Argentina,False,ML541927931,P2
+547638711,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,6,"Entre Ríos, AR (-33,089, -59,263), Gualeguaychú, Entre Ríos, Argentina",19 Mar 2023,Lucas Villafañe 🐾,-33.0894,-59.263,Argentina,False,ML547638711,P2
+54773,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.1,10,"Bathurst Island, Nunavut, Canada",23 Jun 2008,Martha Fischer,75.78,-98.4883,Canada,False,ML54773,P2
+54774,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.333333333333333,12,"Bathurst Island, Nunavut, Canada",23 Jun 2008,Martha Fischer,75.78,-98.4883,Canada,False,ML54774,P2
+564976401,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8333333333333333,6,"Inmarlaca piscinas (10.128, -71.952), Zulia, Venezuela",28 Apr 2023,Luis Garcia,10.1285,-71.9516,Venezuela,False,ML564976401,P2
+567200861,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,6,"Big Pine Key--Palm Villa Park & Neighborhood, Monroe, Florida, United States",4 May 2023,Kevin Christman,24.6884,-81.3562,United States,False,ML567200861,P2
+570567491,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.1666666666666665,6,"Lagunas de Oxidación de Jesús de Otoro, Intibucá, Honduras",11 May 2023,Isaí López,14.4861,-87.9999,Honduras,False,ML570567491,P2
+570567501,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,6,"Lagunas de Oxidación de Jesús de Otoro, Intibucá, Honduras",11 May 2023,Isaí López,14.4861,-87.9999,Honduras,False,ML570567501,P2
+571672821,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8333333333333335,6,"Lagunas de Oxidación de La Paz, La Paz, Honduras",13 May 2023,Isaí López,14.3588,-87.6528,Honduras,False,ML571672821,P2
+571672831,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6666666666666665,6,"Lagunas de Oxidación de La Paz, La Paz, Honduras",13 May 2023,Isaí López,14.3588,-87.6528,Honduras,False,ML571672831,P2
+578676581,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.166666666666667,6,"Bañados de Figueroa--Desbastadero, Figueroa, Santiago del Estero, Argentina",25 May 2023,Jose Navarro,-27.0812,-63.5998,Argentina,False,ML578676581,P2
+580511511,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.857142857142857,7,"Limestone Park, Shelby, Alabama, United States",2 Jun 2023,Grace Simms  🐦‍⬛,33.1845,-86.769,United States,False,ML580511511,P2
+580642031,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.5,6,"Boca Chica Beach, Monroe, Florida, United States",3 Jun 2023,Kevin Christman,24.5631,-81.6774,United States,False,ML580642031,P2
+580642071,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.1666666666666665,6,"Boca Chica Beach, Monroe, Florida, United States",3 Jun 2023,Kevin Christman,24.5631,-81.6774,United States,False,ML580642071,P2
+581659001,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"Kingsbay Naval Submarine Base (Restricted Access), Camden, Georgia, United States",30 May 2023,Marie Hosch,30.7851,-81.5699,United States,False,ML581659001,P2
+584379921,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.1666666666666667,6,"Station d'épuration, Lorrainville, Témiscamingue, Quebec, Canada",13 Jun 2023,Jonathan Fréchette,47.3573,-79.3673,Canada,False,ML584379921,P2
+584379931,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.8333333333333333,6,"Station d'épuration, Lorrainville, Témiscamingue, Quebec, Canada",13 Jun 2023,Jonathan Fréchette,47.3573,-79.3673,Canada,False,ML584379931,P2
+584465491,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.1666666666666665,6,"Kingsbay Naval Submarine Base (Restricted Access), Camden, Georgia, United States",13 Jun 2023,Marie Hosch,30.7851,-81.5699,United States,False,ML584465491,P2
+591101091,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Patent Creek Playa, Yuma CR 58, Yuma, Colorado, United States",1 Jun 2021,Eric DeFonso 🦑,40.4119,-102.3873,United States,False,ML591101091,P2
+594862631,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,6,"75001 520 Street, Hector, Minnesota, US (44.679, -94.629), Sibley, Minnesota, United States",1 Jun 2022,Nathan Pieplow,44.679,-94.6291,United States,False,ML594862631,P2
+601237551,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,4,"Bertha's Beach and associated ponds, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",5 Mar 2022,Ryan Irvine,-51.8866,-58.3685,Falkland Islands (Malvinas),False,ML601237551,P2
+601237571,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,5,"Bertha's Beach and associated ponds, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",5 Mar 2022,Ryan Irvine,-51.8866,-58.3685,Falkland Islands (Malvinas),False,ML601237571,P2
+601237581,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.6,5,"Bertha's Beach and associated ponds, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",5 Mar 2022,Ryan Irvine,-51.8866,-58.3685,Falkland Islands (Malvinas),False,ML601237581,P2
+606349041,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.8,5,"Quai, Port-Menier, Minganie, Quebec, Canada",19 Aug 2023,Michel Robert,49.8172,-64.3559,Canada,False,ML606349041,P2
+606942501,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8333333333333335,6,"Banc de Portneuf-sur-Mer, La Haute-Côte-Nord, Quebec, Canada",25 Aug 2023,François-Xavier Grandmont,48.6088,-69.0892,Canada,False,ML606942501,P2
+609436869,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,4,"Plymouth Beach, Plymouth, Massachusetts, United States",24 Sep 2023,Trenton Voytko,41.9766,-70.6505,United States,False,ML609436869,P2
+609748361,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,4,"Belwood Lake CA--5th Line End, Wellington, Ontario, Canada",4 Oct 2023,Dan J. MacNeal,43.7667,-80.3327,Canada,False,ML609748361,P2
+609915456,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.5,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915456,P2
+609915457,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.25,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915457,P2
+609915478,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.75,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915478,P2
+609915480,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915480,P2
+609915483,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915483,P2
+609915486,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915486,P2
+609915490,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915490,P2
+609915491,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915491,P2
+609915495,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915495,P2
+609915498,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.25,4,"Canada do Quinhão Grande, Praia da Vitória, Região Autónoma dos Açores, Portugal",13 Oct 2023,Carlos Pereira,38.7108,-27.1346,Portugal,False,ML609915498,P2
+612459193,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Reserva natural Urbana Laguna de los Patos, Rió Grande, Tierra del Fuego, Argentina",16 Nov 2023,Sam Darmstadt,-53.7865,-67.7305,Argentina,False,ML612459193,P2
+612660191,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.75,4,"Tapia--A Calostra, Asturias, Principado de, Spain",29 Oct 2020,Pablo Miki Garcia Gonzalez,43.5555,-6.9619,Spain,False,ML612660191,P2
+613636949,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,4,"PN Lagoa do Peixe--Barra da Lagoa, Tavares, Rio Grande do Sul, Brazil",13 Jan 2024,Luis Weymar Junior,-31.3591,-51.0402,Brazil,False,ML613636949,P2
+613979605,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,4,"Humedal Tres Puentes, Punta Arenas, Punta Arenas, Magallanes, Chile",23 Jan 2024,Jérémy Calvo,-53.1165,-70.8807,Chile,False,ML613979605,P2
+614604020,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.2,5,"(Bahia Golondrina), Ushuaia, Ushuaia, Tierra del Fuego, Argentina",3 Feb 2024,Jérémy Calvo,-54.8346,-68.3212,Argentina,False,ML614604020,P2
+615240859,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,4,"Bahía Dirección, San Gregorio, Magallanes, Chile",22 Nov 2022,Nelson Contardo,-52.3965,-69.5303,Chile,False,ML615240859,P2
+615240861,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,4,"San Gregorio, Magallanes y la Antártica Chilena, CL (-52.386, -69.487), San Gregorio, Magallanes, Chile",22 Nov 2022,Nelson Contardo,-52.3855,-69.4873,Chile,False,ML615240861,P2
+615240862,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,4,"San Gregorio, Magallanes y la Antártica Chilena, CL (-52.386, -69.487), San Gregorio, Magallanes, Chile",22 Nov 2022,Nelson Contardo,-52.3855,-69.4873,Chile,False,ML615240862,P2
+615750247,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,4,"Desembocadura Río Pipo, Ushuaia, Tierra del Fuego, Argentina",10 Jan 2024,Daniel Garrigues,-54.8378,-68.351,Argentina,False,ML615750247,P2
+616081651,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.75,4,"Hebron Fish Hatchery and Wetlands, Licking, Ohio, United States",6 Oct 2023,Matt Mason,39.935,-82.5144,United States,False,ML616081651,P2
+616630965,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,4,"AP Laguna Garzón--El Caracol, Rocha, Uruguay",28 Mar 2024,Silvana Mallo,-34.7838,-54.5444,Uruguay,False,ML616630965,P2
+616630979,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,4,"AP Laguna Garzón--El Caracol, Rocha, Uruguay",28 Mar 2024,Silvana Mallo,-34.7838,-54.5444,Uruguay,False,ML616630979,P2
+616630988,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.75,4,"AP Laguna Garzón--El Caracol, Rocha, Uruguay",28 Mar 2024,Silvana Mallo,-34.7838,-54.5444,Uruguay,False,ML616630988,P2
+616630999,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"AP Laguna Garzón--El Caracol, Rocha, Uruguay",28 Mar 2024,Silvana Mallo,-34.7838,-54.5444,Uruguay,False,ML616630999,P2
+618286674,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Rio Grande--Praia do Cassino, Rio Grande, Rio Grande do Sul, Brazil",28 Apr 2024,Luis Weymar Junior,-32.2094,-52.1779,Brazil,False,ML618286674,P2
+61916891,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.125,8,"Edwin B. Forsythe NWR (formerly Brig), Atlantic, New Jersey, United States",29 May 2017,Jay McGowan,39.465,-74.4478,United States,False,ML61916891,P2
+619203917,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,4,"Brazos Co.--Sims Lane/Sims Lane Cutoff, Brazos, Texas, United States",17 May 2024,Tabitha Olsen,30.6767,-96.5114,United States,False,ML619203917,P2
+619288893,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Pal Rivers Road impoundments, Apalachicola, Florida, US (29.717, -85.021), Franklin, Florida, United States",19 May 2024,Natasza Fontaine,29.7165,-85.0213,United States,False,ML619288893,P2
+619288905,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.75,4,"Pal Rivers Road impoundments, Apalachicola, Florida, US (29.717, -85.021), Franklin, Florida, United States",19 May 2024,Natasza Fontaine,29.7165,-85.0213,United States,False,ML619288905,P2
+619288911,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Pal Rivers Road impoundments, Apalachicola, Florida, US (29.717, -85.021), Franklin, Florida, United States",19 May 2024,Natasza Fontaine,29.7165,-85.0213,United States,False,ML619288911,P2
+619288912,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Pal Rivers Road impoundments, Apalachicola, Florida, US (29.717, -85.021), Franklin, Florida, United States",19 May 2024,Natasza Fontaine,29.7165,-85.0213,United States,False,ML619288912,P2
+619288972,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.75,4,"Pal Rivers Road impoundments, Apalachicola, Florida, US (29.717, -85.021), Franklin, Florida, United States",19 May 2024,Natasza Fontaine,29.7165,-85.0213,United States,False,ML619288972,P2
+619380956,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"LA: WBR Par.; W of Carey (no access), West Baton Rouge, Louisiana, United States",20 May 2024,Daniel Lane,30.5017,-91.3369,United States,False,ML619380956,P2
+619399378,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,4,"LA: WBR Par.; W of Carey (no access), West Baton Rouge, Louisiana, United States",20 May 2024,David Vander Pluym,30.5017,-91.3369,United States,False,ML619399378,P2
+619399379,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,4,"LA: WBR Par.; W of Carey (no access), West Baton Rouge, Louisiana, United States",20 May 2024,David Vander Pluym,30.5017,-91.3369,United States,False,ML619399379,P2
+619482093,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.75,4,"Watermark Retention Pond, Anoka, Minnesota, United States",16 May 2024,Jason Hedlund,45.1792,-93.0403,United States,False,ML619482093,P2
+619626833,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.75,4,"Myers Point, Tompkins, New York, United States",23 May 2024,Jay McGowan,42.5371,-76.5506,United States,False,ML619626833,P2
+619645910,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.8,5,"Jamaica Bay, Ruffle Bar, Kings, New York, United States",26 May 2024,Joshua Malbin,40.599,-73.8576,United States,False,ML619645910,P2
+619937179,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4,5,"Punta Soberana, Lago Argentino, Santa Cruz, Argentina",26 Nov 2022,Cristóbal Robinson,-50.3133,-72.2925,Argentina,False,ML619937179,P2
+620228183,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.4,5,"17th St SE, Pingree US-ND 47.16795, -98.83138, Stutsman, North Dakota, United States",9 Jun 2024,Garrett MacDonald,47.168,-98.8314,United States,False,ML620228183,P2
+620265697,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Super Sod of Opelika (restricted access), Lee, Alabama, United States",9 Jun 2024,James (Jim) Holmes,32.4379,-85.4052,United States,False,ML620265697,P2
+620309220,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Dallas Southside WTP, Dallas, Texas, United States",25 May 2024,Peter Billingham,32.6457,-96.6392,United States,False,ML620309220,P2
+620343768,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.0,5,"Alvord Playa--Snowy Plover area, Harney, Oregon, United States",4 Jun 2024,Trent   Bray,42.5433,-118.5131,United States,False,ML620343768,P2
+620565967,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Jamaica Bay Wildlife Refuge--East Pond, south end, Queens, New York, United States",10 Jun 2024,E R,40.6172,-73.8225,United States,False,ML620565967,P2
+620565969,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Jamaica Bay Wildlife Refuge--East Pond, south end, Queens, New York, United States",10 Jun 2024,E R,40.6172,-73.8225,United States,False,ML620565969,P2
+620707879,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Hazel Bazemore County Park (CTC 078), Nueces, Texas, United States",4 May 2024,Liam Wolff,27.8666,-97.6416,United States,False,ML620707879,P2
+621515156,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"SFF Los Flamencos--Laguna Grande, La Guajira, Colombia",29 Apr 2024,Luke Berg,11.3795,-73.1453,Colombia,False,ML621515156,P2
+622181708,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.2,5,"Justin Hurst WMA, Brazoria, Texas, United States",11 May 2024,Gautam Apte,28.9669,-95.4433,United States,False,ML622181708,P2
+622181709,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,5,"Justin Hurst WMA, Brazoria, Texas, United States",11 May 2024,Gautam Apte,28.9669,-95.4433,United States,False,ML622181709,P2
+622181710,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.4,5,"Justin Hurst WMA, Brazoria, Texas, United States",11 May 2024,Gautam Apte,28.9669,-95.4433,United States,False,ML622181710,P2
+622987653,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.8,5,"Rainbow Dr. (Stevens Point), Portage, Wisconsin, United States",26 Aug 2024,Collin Smith,44.5419,-89.4872,United States,False,ML622987653,P2
+623207814,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,5,"Jamaica Bay, Yellow Bar Hassock, Kings, New York, United States",1 Sep 2024,Joshua Malbin,40.6089,-73.8431,United States,False,ML623207814,P2
+623292129,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.4,5,"Jamaica Bay, Ruffle Bar, Kings, New York, United States",2 Sep 2024,Joshua Malbin,40.599,-73.8576,United States,False,ML623292129,P2
+623736288,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.2,5,"Jamaica Bay, Yellow Bar Hassock, Kings, New York, United States",14 Sep 2024,Joshua Malbin,40.6089,-73.8431,United States,False,ML623736288,P2
+624001952,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2,5,"Pituamkek NPR - sandhills in Goose Harbour area, Prince, Prince Edward Island, Canada",11 Sep 2024,Burke Korol,46.7512,-64.0058,Canada,False,ML624001952,P2
+624970489,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.4,5,"Parker River NWR, Essex, Massachusetts, United States",13 Oct 2024,Sam Zhang,42.7639,-70.8023,United States,False,ML624970489,P2
+625296114,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Doane Rock, Barnstable, Massachusetts, United States",22 Oct 2024,Anonymous,41.8442,-69.9577,United States,False,ML625296114,P2
+626712919,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.2,5,"North Point SP--Visitor's Center and Crystal Pier, Baltimore, Maryland, United States",25 Nov 2024,Alex Pellegrini,39.2058,-76.4249,United States,False,ML626712919,P2
+626779589,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.4,5,"Araraquara--ETE DAAE e Arredores, Araraquara, São Paulo, Brazil",22 Oct 2024,Celso Modesto Jr.,-21.8261,-48.2461,Brazil,False,ML626779589,P2
+628076512,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.4,5,"Laguna los Palos, Punta Arenas, Magallanes, Chile",16 Dec 2024,Santiago Imberti,-52.7289,-71.0556,Chile,False,ML628076512,P2
+630822469,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,6,"Balneario Municipal intendente Bertero, Las Colonias, Santa Fe, Argentina",15 Feb 2025,Pablo Hernan Capovilla,-31.3866,-60.8982,Argentina,False,ML630822469,P2
+632659050,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Rio Grande - Bancos de Areias Canal São Gonçalo, Rio Grande, Rio Grande do Sul, Brazil",5 Jan 2025,Luis Weymar Junior,-31.7959,-52.2156,Brazil,False,ML632659050,P2
+632659051,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.6,5,"Rio Grande - Bancos de Areias Canal São Gonçalo, Rio Grande, Rio Grande do Sul, Brazil",5 Jan 2025,Luis Weymar Junior,-31.7959,-52.2156,Brazil,False,ML632659051,P2
+634259952,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,3,"John Bunker Sands Wetlands Ctr, Kaufman, Texas, United States",22 Apr 2025,Blaine Carnes,32.6137,-96.5009,United States,False,ML634259952,P2
+634295111,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,4,"Lagunas de Oxidación de La Paz, La Paz, Honduras",22 Apr 2025,John van Dort,14.3588,-87.6528,Honduras,False,ML634295111,P2
+635067405,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Rio Grande - Bancos de Areias Canal São Gonçalo, Rio Grande, Rio Grande do Sul, Brazil",16 Apr 2025,Luis Weymar Junior,-31.7959,-52.2156,Brazil,False,ML635067405,P2
+635067406,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Rio Grande - Bancos de Areias Canal São Gonçalo, Rio Grande, Rio Grande do Sul, Brazil",16 Apr 2025,Luis Weymar Junior,-31.7959,-52.2156,Brazil,False,ML635067406,P2
+635067407,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.333333333333333,3,"Rio Grande - Bancos de Areias Canal São Gonçalo, Rio Grande, Rio Grande do Sul, Brazil",16 Apr 2025,Luis Weymar Junior,-31.7959,-52.2156,Brazil,False,ML635067407,P2
+635877116,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,3,"Old Hickory Lake--Lock 3 Recreation Area, Sumner, Tennessee, United States",16 May 2025,Tim Loyd,36.2769,-86.6316,United States,False,ML635877116,P2
+636322573,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Neegronda Reservoir, Kiowa, Colorado, United States",22 May 2025,Luke Pheneger,38.3034,-102.7544,United States,False,ML636322573,P2
+636622562,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,3,"Dallas Southside WTP, Dallas, Texas, United States",26 May 2025,Karen Carpenter,32.6457,-96.6392,United States,False,ML636622562,P2
+637018034,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Zia Reservoir, Sandoval, New Mexico, United States",2 Jun 2025,Philip Kline,35.5286,-106.7578,United States,False,ML637018034,P2
+637100118,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100118,P2
+637100119,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100119,P2
+637100120,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100120,P2
+637100121,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100121,P2
+637100122,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100122,P2
+637100123,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,2,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100123,P2
+637100124,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.25,4,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100124,P2
+637100125,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100125,P2
+637100126,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.25,4,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100126,P2
+637100127,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,4,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Brian Sullivan,43.0572,-76.7247,United States,False,ML637100127,P2
+637202789,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Asilomar SB--sandy beach only, Monterey, California, United States",7 Jun 2025,Brian Sullivan,36.6168,-121.9423,United States,False,ML637202789,P2
+637287507,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,1,"Montezuma (NMWMA)--Railroad Rd. Marshes, Wayne, New York, United States",2 Jun 2025,Chris Wood,43.0572,-76.7247,United States,False,ML637287507,P2
+637292310,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Embouchure Belle-Rivière, Lac-Saint-Jean-Est, Quebec, Canada",8 Jun 2025,Sacha Balavoine,48.4829,-71.7943,Canada,False,ML637292310,P2
+637385668,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,2,"Tennessee NWR--Duck River Unit--Refuge Rd. Wildlife Loop, Humphreys, Tennessee, United States",7 Jun 2025,Alan  Troyer,35.9508,-87.9458,United States,False,ML637385668,P2
+637409777,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Marquette--Lower Harbor, Marquette, Michigan, United States",11 Jun 2025,Michael Gray,46.538,-87.3852,United States,False,ML637409777,P2
+638615050,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.5,2,"Laguna de Taiguaiguai--Planta de Tratamiento, Aragua, Venezuela",24 May 2025,Francisco Russo,10.1491,-67.4793,Venezuela,False,ML638615050,P2
+639634572,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5,2,"E1900 Road, Davidson, Oklahoma, US (34.262, -99.06), Tillman, Oklahoma, United States",11 May 2025,Nathan Pieplow,34.2616,-99.0596,United States,False,ML639634572,P2
+640118183,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Sandy Pond Outlet, Oswego, New York, United States",10 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML640118183,P2
+640253229,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.5,2,"Brown's Point Marsh, Orient, Suffolk, New York, United States",13 Aug 2025,Jay Rand,41.133,-72.2853,United States,False,ML640253229,P2
+642914160,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,1,"Sandy Pond Outlet, Oswego, New York, United States",16 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML642914160,P2
+642914185,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,1,"Sandy Pond Outlet, Oswego, New York, United States",16 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML642914185,P2
+642914191,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Sandy Pond Outlet, Oswego, New York, United States",16 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML642914191,P2
+642914205,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.5,2,"Sandy Pond Outlet, Oswego, New York, United States",16 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML642914205,P2
+642914337,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Sandy Pond Outlet, Oswego, New York, United States",16 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML642914337,P2
+642914340,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Sandy Pond Outlet, Oswego, New York, United States",16 Aug 2025,Jay McGowan,43.6648,-76.1961,United States,False,ML642914340,P2
+643445475,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,2,"Race Point, Barnstable, Massachusetts, United States",21 Aug 2024,Scott Wieman,42.0692,-70.2382,United States,False,ML643445475,P2
+644036111,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.5,2,"Vieux port de Matane--Embouchure et marina, La Matanie, Quebec, Canada",21 Oct 2025,Pierre Bergeron,48.8532,-67.5331,Canada,False,ML644036111,P2
+646214377,whrsan,Calidris fuscicollis,コシジロウズラシギ,1.0,1,"Rio Grande--Ilha da Torotama, Rio Grande, Rio Grande do Sul, Brazil",22 Oct 2021,Vinícius Domingues,-31.9227,-52.1992,Brazil,False,ML646214377,P2
+646723582,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.0,1,"Rio Grande--Ilha da Torotama, Rio Grande, Rio Grande do Sul, Brazil",29 Oct 2023,Vinícius Domingues,-31.9227,-52.1992,Brazil,False,ML646723582,P2
+647261816,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,1,"Sebasticook Lake, Penobscot, Maine, United States",19 Oct 2025,Jack Yanko,44.852,-69.2372,United States,False,ML647261816,P2
+647559971,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,1,"Neegronda Reservoir, Kiowa, Colorado, United States",22 May 2025,Jack Yanko,38.3034,-102.7544,United States,False,ML647559971,P2
+649915108,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,1,"Río Leñadura--Desembocadura, Punta Arenas, Magallanes, Chile",29 Jan 2026,Santiago Imberti,-53.2327,-70.9378,Chile,False,ML649915108,P2
+650533252,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,1,"Tapera de López, La Costa, Buenos Aires, Argentina",16 Jan 2026,Roger McNeill,-36.3217,-56.7728,Argentina,False,ML650533252,P2
+650534256,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.0,1,"Tapera de López, La Costa, Buenos Aires, Argentina",16 Jan 2026,Roger McNeill,-36.3217,-56.7728,Argentina,False,ML650534256,P2
+650771917,whrsan,Calidris fuscicollis,コシジロウズラシギ,0.0,0,"Off Road to Whale Point, Falkland Islands (Malvinas), Falkland Islands (Malvinas)",12 Feb 2026,www.aladdin .st,-51.8281,-58.3882,Falkland Islands (Malvinas),False,ML650771917,P2
+66354751,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.5555555555555554,9,"Myers Point, Tompkins, New York, United States",28 Jul 2017,Jeremy Collison,42.5371,-76.5506,United States,False,ML66354751,P2
+74678031,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.9,10,"Harvard Turf Farms (restricted, foot traffic only), York, Maine, United States",9 Nov 2017,andrew aldrich,43.3212,-70.8926,United States,False,ML74678031,P2
+76762,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.7777777777777777,9,"Austin; Hornby Bend Wastewater Treatment Plant, Travis, Texas, United States",1 Jun 1992,Curtis Marantz,0.0,0.0,United States,False,ML76762,P2
+76793911,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.125,8,"Hills Beach and Basket Island Causeway, York, Maine, United States",30 Nov 2017,Josh Fecteau,43.4528,-70.3656,United States,False,ML76793911,P2
+90626111,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,9,"River Lakes Conservation Area--Moccasin Island, Brevard, Florida, United States",26 Apr 2017,Paul Marvin,28.23,-80.8111,United States,False,ML90626111,P2
+99065091,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,9,"Fogg Rd at Conger Rd, DeSoto, Mississippi, United States",8 May 2018,Hal Mitchell,34.8456,-90.0784,United States,False,ML99065091,P2
+99456301,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.7777777777777777,9,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",10 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99456301,P2
+99496671,whrsan,Calidris fuscicollis,コシジロウズラシギ,4.111111111111111,9,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",10 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99496671,P2
+99496791,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.3333333333333335,9,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",10 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99496791,P2
+99497041,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.0,9,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",10 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99497041,P2
+99497151,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.888888888888889,9,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",10 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99497151,P2
+99625941,whrsan,Calidris fuscicollis,コシジロウズラシギ,2.75,8,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",9 May 2018,Audrey Whitlock,28.6412,-80.7774,United States,False,ML99625941,P2
+99769711,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.375,8,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",12 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99769711,P2
+99769721,whrsan,Calidris fuscicollis,コシジロウズラシギ,3.125,8,"Merritt Island NWR--Pumphouse Road, Brevard, Florida, United States",12 May 2018,Paul Marvin,28.6412,-80.7774,United States,False,ML99769721,P2
+183587171,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"天坛公园 (Temple of Heaven), Beijing, China",21 Oct 2019,PT xiao,39.881,116.412,China,False,ML183587171,P2
+189772,yebbun1,Emberiza chrysophrys,キマユホオジロ,1.0,4,"Luoshan County; Dabie Mountain; Dongzhai National Nature Reserve, Henan, China",24 Mar 2013,Roger McNeill,0.0,0.0,China,False,ML189772,P2
+204004641,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,4,"上海植物园 (Shanghai Botanical Garden), Shanghai, China",5 Jan 1996,Desmond Allen,31.147,121.4441,China,False,ML204004641,P2
+274571791,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,2,"南汇东滩 (Nanhui Dongtan), Shanghai, China",25 Oct 2020,Ray Tsu 诸 仁,30.9184,121.9774,China,False,ML274571791,P2
+274878331,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,2,"南汇东滩 (Nanhui Dongtan), Shanghai, China",25 Oct 2020,Ray Tsu 诸 仁,30.9184,121.9774,China,False,ML274878331,P2
+278242741,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.5,2,"九科绿洲 (Jiuke Lvzhou Park), Shanghai, China",7 Nov 2020,Ray Tsu 诸 仁,31.109,121.3263,China,False,ML278242741,P2
+278500901,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,2,"金門--烈嶼陵水湖(Kinmen--Lieyu Lingshui Lake), Kinmen County, Taiwan",5 Nov 2020,Ting-Wei (廷維) HUNG (洪),24.4209,118.2289,Taiwan,False,ML278500901,P2
+278501011,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"金門--中山紀念林(金門國家公園管理處/乳山故壘)(Kinmen--Sun Yat-Sen Memorial Forest (including Kinmen NP Headquarters/Rushan Fort)), Kinmen County, Taiwan",6 Nov 2020,Ting-Wei (廷維) HUNG (洪),24.4393,118.3547,Taiwan,False,ML278501011,P2
+282375681,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,2,"金門--中山紀念林(金門國家公園管理處/乳山故壘)(Kinmen--Sun Yat-Sen Memorial Forest (including Kinmen NP Headquarters/Rushan Fort)), Kinmen County, Taiwan",16 Nov 2020,Ting-Wei (廷維) HUNG (洪),24.4393,118.3547,Taiwan,False,ML282375681,P2
+282376521,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"金門--中山紀念林(金門國家公園管理處/乳山故壘)(Kinmen--Sun Yat-Sen Memorial Forest (including Kinmen NP Headquarters/Rushan Fort)), Kinmen County, Taiwan",17 Nov 2020,Ting-Wei (廷維) HUNG (洪),24.4393,118.3547,Taiwan,False,ML282376521,P2
+317855611,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"金門--中山紀念林(金門國家公園管理處/乳山故壘)(Kinmen--Sun Yat-Sen Memorial Forest (including Kinmen NP Headquarters/Rushan Fort)), Kinmen County, Taiwan",17 Mar 2021,Ting-Wei (廷維) HUNG (洪),24.4393,118.3547,Taiwan,False,ML317855611,P2
+323804431,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.5,2,"田林社区 (Tianlin Community), Shanghai, China",7 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML323804431,P2
+331449281,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",26 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML331449281,P2
+331449321,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",26 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML331449321,P2
+332302251,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.5,2,"田林社区 (Tianlin Community), Shanghai, China",30 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332302251,P2
+332302501,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",30 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332302501,P2
+332303411,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.0,2,"田林社区 (Tianlin Community), Shanghai, China",29 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332303411,P2
+332303431,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",29 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332303431,P2
+332306741,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,2,"田林社区 (Tianlin Community), Shanghai, China",25 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332306741,P2
+332771041,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",1 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332771041,P2
+332771311,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",1 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332771311,P2
+332771361,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",1 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332771361,P2
+332851141,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",2 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML332851141,P2
+333960371,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"田林社区 (Tianlin Community), Shanghai, China",3 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML333960371,P2
+333966771,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.5,2,"田林社区 (Tianlin Community), Shanghai, China",23 Apr 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML333966771,P2
+335803751,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.0,2,"田林社区 (Tianlin Community), Shanghai, China",7 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML335803751,P2
+340767141,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"田林社区 (Tianlin Community), Shanghai, China",21 May 2021,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML340767141,P2
+375178131,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.5,2,"馬祖--東引苗圃(Matsu--Dongyin Vegetable Farm), Lienchiang County, Taiwan",4 Oct 2021,志民 蘇,26.3598,120.4852,Taiwan,False,ML375178131,P2
+389148601,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"房山红领巾公园 (Fangshan Red Scarf Park), Beijing, China",1 Sep 2021,(Ai)Tao Liu,39.7232,116.0177,China,False,ML389148601,P2
+389148621,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.5,2,"房山红领巾公园 (Fangshan Red Scarf Park), Beijing, China",1 Sep 2021,(Ai)Tao Liu,39.7232,116.0177,China,False,ML389148621,P2
+488849491,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"金門--慈湖烏沙頭(Kinmen--Lake Ci Wusatou), Kinmen County, Taiwan",29 Sep 2022,Ting-Wei (廷維) HUNG (洪),24.4704,118.2916,Taiwan,False,ML488849491,P2
+490511051,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"馬祖--東引苗圃(Matsu--Dongyin Vegetable Farm), Lienchiang County, Taiwan",27 Sep 2022,志民 蘇,26.3598,120.4852,Taiwan,False,ML490511051,P2
+490511131,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.3333333333333335,3,"馬祖--東引苗圃(Matsu--Dongyin Vegetable Farm), Lienchiang County, Taiwan",27 Sep 2022,志民 蘇,26.3598,120.4852,Taiwan,False,ML490511131,P2
+490511731,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.3333333333333335,3,"馬祖--東引苗圃(Matsu--Dongyin Vegetable Farm), Lienchiang County, Taiwan",28 Sep 2022,志民 蘇,26.3598,120.4852,Taiwan,False,ML490511731,P2
+491788981,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.3333333333333335,3,"澎湖--吉貝沙尾小水塘, Penghu County, Taiwan",4 Oct 2022,Ting-Wei (廷維) HUNG (洪),23.736,119.601,Taiwan,False,ML491788981,P2
+495574101,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.6666666666666665,3,"田林社区 (Tianlin Community), Shanghai, China",14 Oct 2022,Ray Tsu 诸 仁,31.1743,121.4214,China,False,ML495574101,P2
+500221861,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,3,"老铁山 (Laotieshan), Liaoning, China",27 Sep 2022,Xingyu Li,38.7302,121.1524,China,False,ML500221861,P2
+564597491,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,3,"울산--대왕암공원(Ulsan--Daewangam Park), Ulsan, South Korea",29 Apr 2023,Marshall Iliff,35.4889,129.4371,South Korea,True,ML564597491,P2
+565411761,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,3,"울산--대왕암공원(Ulsan--Daewangam Park), Ulsan, South Korea",1 May 2023,Marshall Iliff,35.4889,129.4371,South Korea,True,ML565411761,P2
+565433641,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.6666666666666665,3,"울산--대왕암공원(Ulsan--Daewangam Park), Ulsan, South Korea",1 May 2023,Marshall Iliff,35.4889,129.4371,South Korea,True,ML565433641,P2
+609485587,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,3,"AtlasTaiwan Grid K3-2 Square 5-4 (24.4720,118.2908), Kinmen County, Taiwan",28 Sep 2023,Ting-Wei (廷維) HUNG (洪),24.472,118.2908,Taiwan,False,ML609485587,P2
+611342425,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.5,4,"台北--野柳IBA(Yeliu IBA), New Taipei City, Taiwan",18 Nov 2023,Proust Lee,25.2122,121.6984,Taiwan,False,ML611342425,P2
+615331746,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.6666666666666665,3,"海盐新四季农场 (Haiyan New Season Farm), Zhejiang, China",20 Feb 2024,Congyi Jiang,30.578,120.8943,China,False,ML615331746,P2
+618703116,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.3333333333333335,3,"昆山杜克大学 (Duke Kunshan University), Jiangsu, China",18 Apr 2024,Mu-Ming Lin,31.4172,120.8929,China,False,ML618703116,P2
+618747828,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,3,"台北--國立臺灣大學實驗農場/生態池(Taipei--NTU Experimental Farm/Ecological Pond), Taipei City, Taiwan",25 Apr 2024,u7 Liao,25.0156,121.5402,Taiwan,False,ML618747828,P2
+623463011,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.6666666666666665,3,"严家屋--融创海滨 (Yanjiawu--Sunac Coast), Zhejiang, China",8 Sep 2024,Congyi Jiang,30.5402,120.9813,China,False,ML623463011,P2
+626144519,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.6666666666666665,3,"严家屋--融创海滨 (Yanjiawu--Sunac Coast), Zhejiang, China",11 Nov 2024,Congyi Jiang,30.5402,120.9813,China,False,ML626144519,P2
+632544874,yebbun1,Emberiza chrysophrys,キマユホオジロ,1.0,1,"余杭南湖 (South Lake, Yuhang), Zhejiang, China",22 Mar 2025,Lucas Chen🪶,30.2575,119.9172,China,False,ML632544874,P2
+633488192,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.0,2,"各水口 (Geshuikou), Fujian, China",12 Mar 2025,Peter Boesman,26.4772,116.9327,China,False,ML633488192,P2
+633489078,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.5,2,"各水口 (Geshuikou), Fujian, China",13 Mar 2025,Peter Boesman,26.4772,116.9327,China,False,ML633489078,P2
+634778468,yebbun1,Emberiza chrysophrys,キマユホオジロ,5.0,3,"台北--野柳IBA(Yeliu IBA), New Taipei City, Taiwan",1 May 2025,Chi-Hsuan Shao,25.2122,121.6984,Taiwan,False,ML634778468,P2
+63828821,yebbun1,Emberiza chrysophrys,キマユホオジロ,4.333333333333333,3,"부산--태종대(Busan--Taejongdae Park), Busan, South Korea",29 Apr 2017,Stuart Fisher,35.0543,129.0917,South Korea,True,ML63828821,P2
+642050510,yebbun1,Emberiza chrysophrys,キマユホオジロ,3.0,2,"Gambell (general area), Nome Census Area, Alaska, United States",14 Sep 2025,Zak Pohlen,63.7793,-171.7215,United States,False,ML642050510,P2
+642264930,yebbun1,Emberiza chrysophrys,キマユホオジロ,0.0,0,"332 National Road, Hulun Buir CN-Nei Mongol Zizhiqu (50.3418,120.2662), Nei Mongol, China",5 Sep 2025,Haoning Gong,50.3418,120.2662,China,False,ML642264930,P2
+642664598,yebbun1,Emberiza chrysophrys,キマユホオジロ,2.0,1,"Abbotsbury Swannery, Dorset, England, United Kingdom",29 Sep 2025,Joe Stockwell,50.6542,-2.6018,United Kingdom,False,ML642664598,P2
+646181370,yebbun1,Emberiza chrysophrys,キマユホオジロ,5.0,1,"台南七股IBA--全區(Qigu IBA), Tainan City, Taiwan",19 Oct 2025,Yi-Cheng Chen,23.0773,120.061,Taiwan,False,ML646181370,P2
+648536720,yebbun1,Emberiza chrysophrys,キマユホオジロ,5.0,1,"서울--올림픽공원(Seoul--Olympic Park), Seoul, South Korea",4 May 2025,Dusky Thrush《Zylex47》,37.5203,127.1204,South Korea,True,ML648536720,P2
+104692781,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Incheon, South Korea",Unknown,Todd Burrows,0.0,0.0,South Korea,False,ML104692781,P2
+104802901,yelbit,Ixobrychus sinensis,ヨシゴイ,2.8,5,"Incheon, South Korea",Unknown,Todd Burrows,0.0,0.0,South Korea,False,ML104802901,P2
+118419471,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"Shamrao Nagar Ghuntewari, Sangli, Sangli, Maharashtra, India",7 Jul 2010,Sharad Apte,16.8322,74.5719,India,False,ML118419471,P2
+118420101,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"Shamrao Nagar Ghuntewari, Sangli, Sangli, Maharashtra, India",7 Jul 2010,Sharad Apte,16.8322,74.5719,India,False,ML118420101,P2
+118532871,yelbit,Ixobrychus sinensis,ヨシゴイ,4.333333333333333,6,"Shamrao Nagar Ghuntewari, Sangli, Sangli, Maharashtra, India",4 Jul 2010,Sharad Apte,16.8322,74.5719,India,False,ML118532871,P2
+118534201,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"Shamrao Nagar Ghuntewari, Sangli, Sangli, Maharashtra, India",10 Jul 2010,Sharad Apte,16.8322,74.5719,India,False,ML118534201,P2
+129649791,yelbit,Ixobrychus sinensis,ヨシゴイ,2.3333333333333335,3,"Kannankurichi Mookaneri கன்னங்குறிச்சி மூக்கனேரி, Salem, Tamil Nadu, India",18 Dec 2018,Ganeshwar S V,11.6875,78.1803,India,False,ML129649791,P2
+130609101,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Oussudu Lake Birds Sanctuary--PY side (ஊசுடு ஏரி பறவைகள் சரணாலயம்--புதுச்சேரிப் பகுதி), Puducherry, Puducherry, India",4 Aug 2018,Surendhar Boobalan,11.942,79.7468,India,False,ML130609101,P2
+140152,yelbit,Ixobrychus sinensis,ヨシゴイ,2.8,5,"6.0 km S of Colonia, Yap, Micronesia",14 Apr 2007,Doug Pratt,9.4865,138.0768,Micronesia,False,ML140152,P2
+152541071,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Thebi Dam, Amreli, Gujarat, India",12 Apr 2019,viral joshi,21.6226,71.2139,India,False,ML152541071,P2
+154110701,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Amreli, Gujarat, IN (21.622, 71.213), Amreli, Gujarat, India",11 Apr 2019,viral joshi,21.6217,71.2128,India,False,ML154110701,P2
+164236541,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Proddatur Chagalamarri Road, Andhra Pradesh, IN (14.778, 78.568), YSR District (Kadapa), Andhra Pradesh, India",3 Jun 2019,Sreekumar Chirukandoth,14.7781,78.5677,India,False,ML164236541,P2
+164236561,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,5,"Proddatur Chagalamarri Road, Andhra Pradesh, IN (14.778, 78.568), YSR District (Kadapa), Andhra Pradesh, India",3 Jun 2019,Sreekumar Chirukandoth,14.7781,78.5677,India,False,ML164236561,P2
+165255041,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"奥林匹克森林公园 (Olympic Forest Park), Beijing, China",20 May 2019,PT xiao,40.0226,116.392,China,False,ML165255041,P2
+181194621,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Cabayaoasan Ponds, Bugallon, Pangasinan, Philippines",9 Oct 2019,Kim Cancino,15.9657,120.2273,Philippines,False,ML181194621,P2
+187379181,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Swamp, Brgy. Bañaga, Bugallon, Pangasinan, Philippines",12 Nov 2019,Kim Cancino,15.9912,120.2338,Philippines,False,ML187379181,P2
+189954961,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"San Francisco Farms, Bugallon, Pangasinan, Philippines",26 Nov 2019,Kim Cancino,15.9587,120.2002,Philippines,False,ML189954961,P2
+190595971,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Cabayaoasan Ponds, Bugallon, Pangasinan, Philippines",30 Nov 2019,Kim Cancino,15.9657,120.2273,Philippines,False,ML190595971,P2
+192730121,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Cabayaoasan Ponds, Bugallon, Pangasinan, Philippines",12 Dec 2019,Kim Cancino,15.9657,120.2273,Philippines,False,ML192730121,P2
+194854481,yelbit,Ixobrychus sinensis,ヨシゴイ,3.4285714285714284,7,"Cabayaoasan Ponds, Bugallon, Pangasinan, Philippines",24 Dec 2019,Kim Cancino,15.9657,120.2273,Philippines,False,ML194854481,P2
+195506071,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"San Francisco Riverside, Bugallon, Pangasinan, Philippines",28 Dec 2019,Kim Cancino,15.9716,120.1914,Philippines,False,ML195506071,P2
+210554641,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"San Francisco Farms, Bugallon, Pangasinan, Philippines",20 Feb 2020,Kim Cancino,15.9587,120.2002,Philippines,False,ML210554641,P2
+232849251,yelbit,Ixobrychus sinensis,ヨシゴイ,2.3333333333333335,3,"San Francisco Farms, Bugallon, Pangasinan, Philippines",1 May 2020,Kim Cancino,15.9587,120.2002,Philippines,False,ML232849251,P2
+236445101,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,6,"San Francisco Farms, Bugallon, Pangasinan, Philippines",19 May 2020,Kim Cancino,15.9587,120.2002,Philippines,False,ML236445101,P2
+244308861,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"Rajarhat Wetland--Canal side only, North 24 Parganas, West Bengal, India",14 Jun 2020,Sandeep Biswas,22.6074,88.478,India,False,ML244308861,P2
+249700341,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,3,"Hagatna, Guam, Guam",15 Jul 2020,Shadia Constantine,13.4744,144.7551,Guam,False,ML249700341,P2
+255203931,yelbit,Ixobrychus sinensis,ヨシゴイ,4.25,4,"Unnamed Road, Kurud-2, Chhattisgarh, IN (21.265, 81.797), Raipur, Chhattisgarh, India",28 Jul 2020,Jageshwer verma,21.2646,81.7966,India,False,ML255203931,P2
+255205111,yelbit,Ixobrychus sinensis,ヨシゴイ,3.6666666666666665,3,"Unnamed Road, Kurud-2, Chhattisgarh, IN (21.265, 81.797), Raipur, Chhattisgarh, India",28 Jul 2020,Jageshwer verma,21.2646,81.7966,India,False,ML255205111,P2
+257249661,yelbit,Ixobrychus sinensis,ヨシゴイ,3.25,4,"San Francisco Riverside, Bugallon, Pangasinan, Philippines",23 Aug 2020,Kim Cancino,15.9716,120.1914,Philippines,False,ML257249661,P2
+258377901,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"San Francisco Farms, Bugallon, Pangasinan, Philippines",28 Aug 2020,Kim Cancino,15.9587,120.2002,Philippines,False,ML258377901,P2
+259774781,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"San Francisco Farms, Bugallon, Pangasinan, Philippines",3 Sep 2020,Kim Cancino,15.9587,120.2002,Philippines,False,ML259774781,P2
+285665451,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,3,"大鵬灣風景區遊客中心, Pingtung County, Taiwan",4 Dec 2020,志民 蘇,22.457,120.4789,Taiwan,False,ML285665451,P2
+30025041,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Okhla Bird Sanctuary, Gautam Buddha Nagar, Uttar Pradesh, India",1 Aug 2015,Taksh Sangwan,28.5669,77.3064,India,False,ML30025041,P2
+308749291,yelbit,Ixobrychus sinensis,ヨシゴイ,3.25,4,"Timbi Lake, Vadodara, Gujarat, India",17 Feb 2021,Sreekumar Chirukandoth,22.3074,73.279,India,False,ML308749291,P2
+320213271,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"武洛溪週邊, Pingtung County, Taiwan",25 Mar 2021,志民 蘇,22.6963,120.4598,Taiwan,False,ML320213271,P2
+322739431,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,3,"Ottiyambakkam Big Lake (ஒட்டியம்பாக்கம் பெரிய ஏரி), Chengalpattu, Tamil Nadu, India",4 Apr 2021,Sreekumar Chirukandoth,12.8672,80.1781,India,False,ML322739431,P2
+322739441,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Ottiyambakkam Big Lake (ஒட்டியம்பாக்கம் பெரிய ஏரி), Chengalpattu, Tamil Nadu, India",4 Apr 2021,Sreekumar Chirukandoth,12.8672,80.1781,India,False,ML322739441,P2
+322739911,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,3,"Ottiyambakkam Big Lake (ஒட்டியம்பாக்கம் பெரிய ஏரி), Chengalpattu, Tamil Nadu, India",4 Apr 2021,Sreekumar Chirukandoth,12.8672,80.1781,India,False,ML322739911,P2
+326157011,yelbit,Ixobrychus sinensis,ヨシゴイ,3.75,4,"San Francisco Farms, Bugallon, Pangasinan, Philippines",14 Apr 2021,Kim Cancino,15.9587,120.2002,Philippines,False,ML326157011,P2
+343971731,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,3,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",31 May 2021,Shikra Myna,11.8802,79.6979,India,False,ML343971731,P2
+346141471,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Roadside pond, Tak, Thailand",8 Jun 2021,Jens Toettrup,16.9581,99.3898,Thailand,False,ML346141471,P2
+347118091,yelbit,Ixobrychus sinensis,ヨシゴイ,2.3333333333333335,3,"南汇东滩 (Nanhui Dongtan), Shanghai, China",12 Jun 2021,ely what,30.9184,121.9774,China,False,ML347118091,P2
+347948321,yelbit,Ixobrychus sinensis,ヨシゴイ,3.25,4,"San Francisco Farms, Bugallon, Pangasinan, Philippines",15 Jun 2021,Kim Cancino,15.9587,120.2002,Philippines,False,ML347948321,P2
+349026801,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Canal At Deva , Gujarat, IN (22.628, 72.746), Anand, Gujarat, India",19 Jun 2021,Kandarp  Andharia,22.6279,72.7463,India,False,ML349026801,P2
+358159591,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"Konthipulam, Thrissur, Kerala, India",1 Aug 2021,raveendran kc,10.3771,76.243,India,False,ML358159591,P2
+358162391,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Konthipulam, Thrissur, Kerala, India",1 Aug 2021,raveendran kc,10.3771,76.243,India,False,ML358162391,P2
+358163991,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",1 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML358163991,P2
+359135471,yelbit,Ixobrychus sinensis,ヨシゴイ,2.3333333333333335,3,"Ozhandhai Lake (உழந்தை ஏரி), Puducherry, Puducherry, India",10 Apr 2021,Surendhar Boobalan,11.9171,79.7999,India,False,ML359135471,P2
+359504591,yelbit,Ixobrychus sinensis,ヨシゴイ,1.6666666666666667,3,"Nilje Lake, Thane, Maharashtra, India",7 Aug 2021,Pradnyavant Mane,19.1672,73.0799,India,False,ML359504591,P2
+359735791,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",8 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML359735791,P2
+359735801,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",8 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML359735801,P2
+359735811,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",8 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML359735811,P2
+361317641,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",15 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML361317641,P2
+362078101,yelbit,Ixobrychus sinensis,ヨシゴイ,1.3333333333333333,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",18 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML362078101,P2
+363830001,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",25 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML363830001,P2
+363830011,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",25 Aug 2021,Sudip Simha,12.8198,77.7267,India,False,ML363830011,P2
+386907361,yelbit,Ixobrychus sinensis,ヨシゴイ,3.25,4,"屏東--屏東海豐濕地(Pingtung--Pingtung Haifeng Wetland), Pingtung County, Taiwan",7 Nov 2021,志民 蘇,22.7111,120.5082,Taiwan,False,ML386907361,P2
+396072381,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Shamrao Nagar Ghuntewari, Sangli, Sangli, Maharashtra, India",3 Jul 2010,Sharad Apte,16.8322,74.5719,India,False,ML396072381,P2
+397417661,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"布袋濕地公園南側水溝, Chiayi County, Taiwan",9 Dec 2021,Jhih-Wei (志偉) TSAI (蔡),23.3616,120.1755,Taiwan,False,ML397417661,P2
+409495481,yelbit,Ixobrychus sinensis,ヨシゴイ,3.25,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Jan 2022,Shikra Myna,11.8802,79.6979,India,False,ML409495481,P2
+414232831,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Nandhivaram Lake, Chengalpattu, Tamil Nadu, India",6 Feb 2022,Sreekumar Chirukandoth,12.8364,80.078,India,False,ML414232831,P2
+414235081,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Nandhivaram Lake, Chengalpattu, Tamil Nadu, India",6 Feb 2022,Sreekumar Chirukandoth,12.8364,80.078,India,False,ML414235081,P2
+414235091,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"Nandhivaram Lake, Chengalpattu, Tamil Nadu, India",6 Feb 2022,Sreekumar Chirukandoth,12.8364,80.078,India,False,ML414235091,P2
+416371341,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",14 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML416371341,P2
+416371351,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",14 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML416371351,P2
+418885901,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Thamarai Kulam தாமரைக் குளம், Viluppuram, Tamil Nadu, India",11 Feb 2022,Shikra Myna,11.8494,79.6781,India,False,ML418885901,P2
+419272721,yelbit,Ixobrychus sinensis,ヨシゴイ,3.6,5,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272721,P2
+419272741,yelbit,Ixobrychus sinensis,ヨシゴイ,4.2,5,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272741,P2
+419272771,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272771,P2
+419272781,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272781,P2
+419272811,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272811,P2
+419272841,yelbit,Ixobrychus sinensis,ヨシゴイ,3.75,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272841,P2
+419272851,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272851,P2
+419272921,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"Nallathur Lake (நல்லாத்தூர் ஏரி), Cuddalore, Tamil Nadu, India",22 Feb 2022,Shikra Myna,11.8802,79.6979,India,False,ML419272921,P2
+419485861,yelbit,Ixobrychus sinensis,ヨシゴイ,3.857142857142857,14,"Kattampally, Kannur, Kerala, India",24 Feb 2022,Afsar Nayakkan,11.9341,75.3816,India,False,ML419485861,P2
+436499781,yelbit,Ixobrychus sinensis,ヨシゴイ,2.25,4,"Nandhivaram Lake, Chengalpattu, Tamil Nadu, India",17 Apr 2022,Sreekumar Chirukandoth,12.8364,80.078,India,False,ML436499781,P2
+446165251,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Krishnampathi Lake, Seeranaickenpalayam, Coimbatore, Tamil Nadu, India",17 Apr 2022,Gaja mohanraj,11.0065,76.9265,India,False,ML446165251,P2
+449909341,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,4,"Fox Sagar Lake, Medchal Malkajgiri, Telangana, India",17 May 2022,Srinivas Mallela,17.524,78.4693,India,False,ML449909341,P2
+467455281,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,5,"金門--農業試驗所(Kinmen--Agricultural Research Institute), Kinmen County, Taiwan",3 Jul 2022,Ting-Wei (廷維) HUNG (洪),24.4477,118.4503,Taiwan,False,ML467455281,P2
+495911221,yelbit,Ixobrychus sinensis,ヨシゴイ,2.25,4,"Mandagappattu Lake (மண்டகப்பட்டு ஏரி), Viluppuram, Tamil Nadu, India",23 Jan 2022,Shikra Myna,11.892,79.665,India,False,ML495911221,P2
+497766081,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Baruipur Marshes, South 24 Parganas, West Bengal, India",20 Oct 2022,SWARUP SAHA,22.3627,88.3906,India,False,ML497766081,P2
+514821481,yelbit,Ixobrychus sinensis,ヨシゴイ,3.75,4,"屏東--林邊崎峰(Pingtung--Linbian Qifeng), Pingtung County, Taiwan",19 Dec 2022,Sheng Wun Jheng,22.4316,120.4893,Taiwan,False,ML514821481,P2
+524399681,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Ezhome Wetlands, Kannur, Kerala, India",15 Jan 2023,Manoj Karingamadathil,12.0347,75.2892,India,False,ML524399681,P2
+538230491,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"台11丙線 10K, Hualien County, Taiwan",22 Feb 2023,Sheng Wun Jheng,23.8612,121.5285,Taiwan,False,ML538230491,P2
+5447,yelbit,Ixobrychus sinensis,ヨシゴイ,4.166666666666667,6,"Andersen South, Guam",6 Aug 1978,Doug Pratt,0.0,0.0,Guam,False,ML5447,P2
+5450,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,4,"Andersen South, Guam",6 Aug 1978,Doug Pratt,0.0,0.0,Guam,False,ML5450,P2
+5473,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,4,"Andersen AFB (Marbo Annex), Guam, Guam",31 Jul 1978,Doug Pratt,13.5137,144.8749,Guam,False,ML5473,P2
+563904091,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Nere Basthi, East Kameng, Arunachal Pradesh, India",28 Apr 2023,Chintan Sheth,27.2677,93.0394,India,False,ML563904091,P2
+563904101,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Nere Basthi, East Kameng, Arunachal Pradesh, India",28 Apr 2023,Chintan Sheth,27.2677,93.0394,India,False,ML563904101,P2
+571654631,yelbit,Ixobrychus sinensis,ヨシゴイ,3.4,5,"Kamargaon Grasslands/Padma-Char (Dhaka), Dhaka bibhag, Bangladesh",13 May 2023,Gary Allport,23.5092,90.2037,Bangladesh,False,ML571654631,P2
+577782981,yelbit,Ixobrychus sinensis,ヨシゴイ,3.6666666666666665,3,"AtlasTaiwan Grid K2-3 Square 4-5 (24.4183722,118.2302095), Kinmen County, Taiwan",27 May 2023,Ting-Wei (廷維) HUNG (洪),24.4184,118.2302,Taiwan,False,ML577782981,P2
+580962211,yelbit,Ixobrychus sinensis,ヨシゴイ,1.3333333333333333,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",4 Jun 2023,Praveen Tangirala,12.8198,77.7267,India,False,ML580962211,P2
+582758731,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"花蓮縣壽豐鄉豐裡村文化街, Hualien County, Taiwan",9 Jun 2023,Sheng Wun Jheng,23.8454,121.5113,Taiwan,False,ML582758731,P2
+583198601,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"北印旛沼 (North Lake Inbanuma), Inzai, Chiba, Japan",22 May 2023,Simon Colenutt,35.801,140.2497,Japan,True,ML583198601,P2
+583312671,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"怡園渡假村西北方池區, Hualien County, Taiwan",11 Jun 2023,Sheng Wun Jheng,23.8459,121.5214,Taiwan,False,ML583312671,P2
+589912761,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",1 Jul 2023,Sudip Simha,12.8198,77.7267,India,False,ML589912761,P2
+589912771,yelbit,Ixobrychus sinensis,ヨシゴイ,3.6666666666666665,3,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",1 Jul 2023,Sudip Simha,12.8198,77.7267,India,False,ML589912771,P2
+589912781,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",1 Jul 2023,Sudip Simha,12.8198,77.7267,India,False,ML589912781,P2
+589913071,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Muthanallur Kere, Bengaluru Urban, Karnataka, India",1 Jul 2023,Sudip Simha,12.8198,77.7267,India,False,ML589913071,P2
+596617531,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"Paipula Road, Vijayawada, Andhra Pradesh, IN (16.548, 80.64), Krishna, Andhra Pradesh, India",22 Jul 2023,Santhi  K,16.5476,80.6398,India,False,ML596617531,P2
+599413821,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,3,"Mysore City Bird Atlas 51C: Mugana Hundi Kere & Down stream ಮೂಗನ ಹುಂಡಿ ಕೆರೆ, Mysuru, Karnataka, India",27 Jul 2023,Sahana M,12.2593,76.5711,India,False,ML599413821,P2
+599414391,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Mysore City Bird Atlas 51C: Mugana Hundi Kere & Down stream ಮೂಗನ ಹುಂಡಿ ಕೆರೆ, Mysuru, Karnataka, India",27 Jul 2023,Sahana M,12.2593,76.5711,India,False,ML599414391,P2
+600774991,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"Mysore City Bird Atlas 51C: Mugana Hundi Kere & Down stream ಮೂಗನ ಹುಂಡಿ ಕೆರೆ, Mysuru, Karnataka, India",27 Jul 2023,Sahana M,12.2593,76.5711,India,False,ML600774991,P2
+611270573,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,4,"Wadi Lahami Mangroves, Al Bahr al Ahmar, Egypt",27 Apr 2012,Wieland Heim,24.2198,35.422,Egypt,False,ML611270573,P2
+612623045,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"Gandhi Smrithivanam -- Purakkad, Alappuzha, Kerala, India",13 Dec 2023,Vivek Sudhakaran,9.3452,76.3771,India,False,ML612623045,P2
+613200766,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"MAPI landfill, Saipan, Northern Mariana Islands",21 Dec 2023,Nick Komar,15.2735,145.8162,Northern Mariana Islands,False,ML613200766,P2
+614095007,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"Baruipur Marshes, South 24 Parganas, West Bengal, India",28 Jan 2024,Dibyendu Ash,22.3627,88.3906,India,False,ML614095007,P2
+614179863,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,4,"Benjakiti Park (Benchakitti Park), Krung Thep Maha Nakhon [Bangkok], Thailand",30 Jan 2024,Sam Hambly,13.7297,100.5572,Thailand,False,ML614179863,P2
+614554656,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Sampanit Fish Ponds, Bago City, Negros Occidental, Philippines",8 Feb 2024,David Morrison,10.5461,122.8559,Philippines,False,ML614554656,P2
+615344363,yelbit,Ixobrychus sinensis,ヨシゴイ,3.3333333333333335,3,"Bang Ta Then--aquaculture ponds & marshes near Wat Phai Rong Wua, Suphan Buri, Thailand",26 Feb 2024,Sam Hambly,14.1576,100.1492,Thailand,False,ML615344363,P2
+615779803,yelbit,Ixobrychus sinensis,ヨシゴイ,1.6666666666666667,3,"Nanjarayan Tank Bird Sanctuary (Koolipalayam Reservoir) நஞ்சராயன் குளம் பறவைகள் சரணாலயம், Tiruppur, Tamil Nadu, India",8 Mar 2024,Karthik Ramasamy,11.1335,77.3872,India,False,ML615779803,P2
+617612843,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Kuttanad Wetlands--Vallomkadavu, Alappuzha, Kerala, India",7 Jan 2024,Adarsh Ajay,9.2927,76.5208,India,False,ML617612843,P2
+617612848,yelbit,Ixobrychus sinensis,ヨシゴイ,4.25,4,"Kuttanad Wetlands--Vallomkadavu, Alappuzha, Kerala, India",7 Jan 2024,Adarsh Ajay,9.2927,76.5208,India,False,ML617612848,P2
+617802331,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Marina East (Gardens by the Bay: Bay East / Marina Barrage), Singapore, Singapore",30 Nov 2023,Zebedee Muller,1.2817,103.8768,Singapore,False,ML617802331,P2
+618199729,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"Putheri Lake, Kanniyakumari, Tamil Nadu, India",29 Apr 2024,Anand Birdlife,8.2072,77.4318,India,False,ML618199729,P2
+619432302,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,2,"Roadside pond, Tak, Thailand",22 May 2024,Jens Toettrup,16.9581,99.3898,Thailand,False,ML619432302,P2
+619755254,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,2,"Hagåtña--district, Guam, Guam",25 May 2024,André  Zambolli,13.4743,144.7514,Guam,False,ML619755254,P2
+620046817,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,2,"秦山海滨 (Qinshan Coast), Zhejiang, China",29 May 2024,Congyi Jiang,30.4105,120.9161,China,False,ML620046817,P2
+620046818,yelbit,Ixobrychus sinensis,ヨシゴイ,3.6666666666666665,3,"秦山海滨 (Qinshan Coast), Zhejiang, China",29 May 2024,Congyi Jiang,30.4105,120.9161,China,False,ML620046818,P2
+620046819,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"秦山海滨 (Qinshan Coast), Zhejiang, China",29 May 2024,Congyi Jiang,30.4105,120.9161,China,False,ML620046819,P2
+620046820,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"秦山海滨 (Qinshan Coast), Zhejiang, China",29 May 2024,Congyi Jiang,30.4105,120.9161,China,False,ML620046820,P2
+620340706,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Benjakiti Park (Benchakitti Park), Krung Thep Maha Nakhon [Bangkok], Thailand",12 Jun 2024,Sam Hambly,13.7297,100.5572,Thailand,False,ML620340706,P2
+620631110,yelbit,Ixobrychus sinensis,ヨシゴイ,4.75,4,"秦山海滨 (Qinshan Coast), Zhejiang, China",20 Jun 2024,Congyi Jiang,30.4105,120.9161,China,False,ML620631110,P2
+620937122,yelbit,Ixobrychus sinensis,ヨシゴイ,3.6666666666666665,3,"Roadside pond, Tak, Thailand",29 Jun 2024,Jens Toettrup,16.9581,99.3898,Thailand,False,ML620937122,P2
+621157973,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"Shishankou Reservoir, Xinyang CN-Henan (31.9980,114.3632), Henan, China",3 Jul 2024,Haoning Gong,31.998,114.3632,China,False,ML621157973,P2
+621569864,yelbit,Ixobrychus sinensis,ヨシゴイ,2.6666666666666665,3,"Roadside pond, Tak, Thailand",17 Jul 2024,Jens Toettrup,16.9581,99.3898,Thailand,False,ML621569864,P2
+621596570,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"秦山海滨 (Qinshan Coast), Zhejiang, China",16 Jul 2024,Congyi Jiang,30.4105,120.9161,China,False,ML621596570,P2
+622923702,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Chandubi Lake--General Area, Kamrup, Assam, India",4 Aug 2024,Sandeep Kumar Reddy Gangasani,25.8815,91.4235,India,False,ML622923702,P2
+624630798,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Benjakiti Park (Benchakitti Park), Krung Thep Maha Nakhon [Bangkok], Thailand",7 Oct 2024,Sam Hambly,13.7297,100.5572,Thailand,False,ML624630798,P2
+624638919,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,2,"Nong Bon Park (Bueng Nong Bon), Krung Thep Maha Nakhon [Bangkok], Thailand",5 Oct 2024,Wich’yanan Limparungpatthanakij,13.6964,100.6595,Thailand,False,ML624638919,P2
+624638921,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Nong Bon Park (Bueng Nong Bon), Krung Thep Maha Nakhon [Bangkok], Thailand",5 Oct 2024,Wich’yanan Limparungpatthanakij,13.6964,100.6595,Thailand,False,ML624638921,P2
+624638922,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Nong Bon Park (Bueng Nong Bon), Krung Thep Maha Nakhon [Bangkok], Thailand",5 Oct 2024,Wich’yanan Limparungpatthanakij,13.6964,100.6595,Thailand,False,ML624638922,P2
+625187930,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"NKK Shrine, Tinian, Northern Mariana Islands",12 Oct 2024,Willson Gaul,15.0507,145.639,Northern Mariana Islands,False,ML625187930,P2
+625599409,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"官庄公园 (Guanzhuang Park), Beijing, China",5 Jul 2024,Yixiao Wang,39.8799,116.5084,China,False,ML625599409,P2
+626073846,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"Kadekar Grasslands, Udupi, Karnataka, India",10 Nov 2024,Kaushik Kalmady,13.3295,74.7205,India,False,ML626073846,P2
+626789468,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,3,"Kochurani Padam Illichira, Alappuzha, Kerala, India",9 Dec 2023,Nishad Eshaal,9.3399,76.3871,India,False,ML626789468,P2
+627456956,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,3,"Sampanit Fish Ponds, Bago City, Negros Occidental, Philippines",13 Dec 2024,David Morrison,10.5461,122.8559,Philippines,False,ML627456956,P2
+628851057,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Lake Danao Camotes PH (10.644, 124.341), Cebu, Philippines",10 Jan 2025,Andrew Wolfe,10.6715,124.338,Philippines,False,ML628851057,P2
+629536524,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Bang Khaem aquaculture ponds, Nakhon Pathom, Thailand",13 Jan 2025,David Darrell-Lambert,13.7417,100.0434,Thailand,False,ML629536524,P2
+631205100,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Kranji Marsh, Singapore, Singapore",24 Feb 2025,Yan Ze Ng,1.4183,103.7289,Singapore,False,ML631205100,P2
+631205140,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Kranji Marsh, Singapore, Singapore",15 Feb 2025,Yan Ze Ng,1.4183,103.7289,Singapore,False,ML631205140,P2
+631905830,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Lake Cau Hai, Thua Thien-Hue, Vietnam",10 Mar 2025,Lars Mannzen,16.3158,107.8519,Vietnam,False,ML631905830,P2
+632390879,yelbit,Ixobrychus sinensis,ヨシゴイ,5.0,1,"Jakarta International Equestrian Park, Jakarta Raya, Jawa, Indonesia",20 Mar 2025,Rizky Paleo,-6.1785,106.888,Indonesia,False,ML632390879,P2
+633380580,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Jakarta International Equestrian Park, Jakarta Raya, Jawa, Indonesia",8 Apr 2025,Rizky Paleo,-6.1785,106.888,Indonesia,False,ML633380580,P2
+633538165,yelbit,Ixobrychus sinensis,ヨシゴイ,4.5,2,"Hutan Nibung Paddyfields, Pulau Pinang, Malaysia",11 Apr 2025,Lars Mannzen,5.3816,100.4311,Malaysia,False,ML633538165,P2
+633953160,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Garacharma Solar Plant, South Andaman, Andaman and Nicobar Islands, India",18 Apr 2025,Kilson Kiragori,11.6223,92.7041,India,False,ML633953160,P2
+634102295,yelbit,Ixobrychus sinensis,ヨシゴイ,2.3333333333333335,3,"Kondangi Lake, Chengalpattu, Tamil Nadu, India",20 Apr 2025,Sreekumar Chirukandoth,12.7542,80.0888,India,False,ML634102295,P2
+634155831,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"宜蘭竹安IBA--空中撈魚/王通塭(Zhu'an IBA--Kongzhonglaoyu/Wangtongwen), Yilan County, Taiwan",19 Apr 2025,Chi-Hsuan Shao,24.8231,121.8084,Taiwan,False,ML634155831,P2
+635013681,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Garacharma Solar Plant, South Andaman, Andaman and Nicobar Islands, India",24 Apr 2025,Vijaya Lakshmi,11.6223,92.7041,India,False,ML635013681,P2
+635013780,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Garacharma Solar Plant, South Andaman, Andaman and Nicobar Islands, India",24 Apr 2025,Vijaya Lakshmi,11.6223,92.7041,India,False,ML635013780,P2
+635013847,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Garacharma Solar Plant, South Andaman, Andaman and Nicobar Islands, India",24 Apr 2025,Vijaya Lakshmi,11.6223,92.7041,India,False,ML635013847,P2
+635014054,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Garacharma Solar Plant, South Andaman, Andaman and Nicobar Islands, India",24 Apr 2025,Vijaya Lakshmi,11.6223,92.7041,India,False,ML635014054,P2
+635089377,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Danao Marsh, Masbate, Philippines",4 May 2025,Justine Albao,11.9406,123.156,Philippines,False,ML635089377,P2
+635351536,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Jakarta International Equestrian Park, Jakarta Raya, Jawa, Indonesia",8 Apr 2025,Rizky Paleo,-6.1785,106.888,Indonesia,False,ML635351536,P2
+635928679,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,1,"秦山海滨 (Qinshan Coast), Zhejiang, China",2 May 2025,Congyi Jiang,30.4105,120.9161,China,False,ML635928679,P2
+636153825,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"金門--慈湖魚塭賞鳥區(Kinmen--Lake Ci Fishponds Birding Area), Kinmen County, Taiwan",20 May 2025,Ting-Wei (廷維) HUNG (洪),24.4707,118.3123,Taiwan,False,ML636153825,P2
+636796912,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,2,"秦山海滨 (Qinshan Coast), Zhejiang, China",25 May 2025,Congyi Jiang,30.4105,120.9161,China,False,ML636796912,P2
+636990756,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"秦山海滨 (Qinshan Coast), Zhejiang, China",3 Jun 2025,Congyi Jiang,30.4105,120.9161,China,False,ML636990756,P2
+637135260,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,2,"金門--烈嶼陵水湖(Kinmen--Lieyu Lingshui Lake), Kinmen County, Taiwan",6 Jun 2025,Ting-Wei (廷維) HUNG (洪),24.4209,118.2289,Taiwan,False,ML637135260,P2
+637632705,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,2,"Masalog Road, Eastern Tinian (Marpo Valley), Tinian, MP (15.015, 145.663), Tinian, Northern Mariana Islands",20 Apr 2025,Willson Gaul,15.0153,145.6633,Northern Mariana Islands,False,ML637632705,P2
+638221999,yelbit,Ixobrychus sinensis,ヨシゴイ,3.25,4,"奥林匹克森林公园南园 (Olympic Forest Park South), Beijing, China",29 Jun 2025,TaQini 🐥 Liu,40.0174,116.3938,China,False,ML638221999,P2
+638490237,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Achankulam, Coimbatore, Tamil Nadu, India",24 Jun 2025,Kilson Kiragori,11.0456,77.0965,India,False,ML638490237,P2
+638622358,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"板倉町--仲伊谷田承水溝遊水地 (Itakura--Nakaiyada Shosuiko Flood Mitigation Pond), Tatebayashi, Gunma, Japan",7 Jul 2025,HITOSHI IIZUMI,36.2547,139.619,Japan,True,ML638622358,P2
+638622472,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,2,"板倉町--仲伊谷田承水溝遊水地 (Itakura--Nakaiyada Shosuiko Flood Mitigation Pond), Tatebayashi, Gunma, Japan",7 Jul 2025,HITOSHI IIZUMI,36.2547,139.619,Japan,True,ML638622472,P2
+638885551,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,1,"崇明东滩鸟类自然保护区 (Chongming Dongtan NNR), Shanghai, China",12 Jul 2025,Lucy Zhang,31.4951,121.9647,China,False,ML638885551,P2
+638961046,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"板倉町--仲伊谷田承水溝遊水地 (Itakura--Nakaiyada Shosuiko Flood Mitigation Pond), Tatebayashi, Gunma, Japan",13 Jul 2025,Yann Muzika,36.2547,139.619,Japan,True,ML638961046,P2
+638961047,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"板倉町--仲伊谷田承水溝遊水地 (Itakura--Nakaiyada Shosuiko Flood Mitigation Pond), Tatebayashi, Gunma, Japan",13 Jul 2025,Yann Muzika,36.2547,139.619,Japan,True,ML638961047,P2
+639084765,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Kurichi Kulam, Coimbatore, Tamil Nadu, India",18 Jul 2025,Karthik Ramasamy,10.9648,76.9651,India,False,ML639084765,P2
+639084766,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Kurichi Kulam, Coimbatore, Tamil Nadu, India",18 Jul 2025,Karthik Ramasamy,10.9648,76.9651,India,False,ML639084766,P2
+639084767,yelbit,Ixobrychus sinensis,ヨシゴイ,2.3333333333333335,3,"Kurichi Kulam, Coimbatore, Tamil Nadu, India",18 Jul 2025,Karthik Ramasamy,10.9648,76.9651,India,False,ML639084767,P2
+639420989,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,1,"서울--푸른수목원(Seoul--Pureun Arboretum), Seoul, South Korea",30 May 2024,Jina Yi,37.484,126.8256,South Korea,True,ML639420989,P2
+640187397,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Aghanashini Estuary- Betkuli Gazani ಬೆಟ್ಕುಳಿ ಗಜನಿ, Uttara Kannada, Karnataka, India",12 Aug 2025,Shwetha Bharathi,14.5377,74.3792,India,False,ML640187397,P2
+640187398,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,2,"Aghanashini Estuary- Betkuli Gazani ಬೆಟ್ಕುಳಿ ಗಜನಿ, Uttara Kannada, Karnataka, India",12 Aug 2025,Shwetha Bharathi,14.5377,74.3792,India,False,ML640187398,P2
+640187399,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Aghanashini Estuary- Betkuli Gazani ಬೆಟ್ಕುಳಿ ಗಜನಿ, Uttara Kannada, Karnataka, India",12 Aug 2025,Shwetha Bharathi,14.5377,74.3792,India,False,ML640187399,P2
+640187400,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Aghanashini Estuary- Betkuli Gazani ಬೆಟ್ಕುಳಿ ಗಜನಿ, Uttara Kannada, Karnataka, India",12 Aug 2025,Shwetha Bharathi,14.5377,74.3792,India,False,ML640187400,P2
+643340947,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Ban Khlong Suan--Hwy. 3001 marshes & aquaculture ponds, Samut Prakan, Thailand",11 Oct 2025,Wich’yanan Limparungpatthanakij,13.5733,100.4607,Thailand,False,ML643340947,P2
+643474130,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Kurichi Kulam, Coimbatore, Tamil Nadu, India",21 Jul 2025,Gaja mohanraj,10.9648,76.9651,India,False,ML643474130,P2
+645593660,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"玉渊潭公园 (Yuyuantan Park), Beijing, China",9 Jun 2025,Xingyu Li,39.917,116.3173,China,False,ML645593660,P2
+645828128,yelbit,Ixobrychus sinensis,ヨシゴイ,4.0,1,"Mai Po NR--#8b Reedbed, Hong Kong, Hong Kong",17 Apr 2024,John Allcock,22.494,114.0404,Hong Kong,False,ML645828128,P2
+645828158,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Mai Po NR--#8b Reedbed, Hong Kong, Hong Kong",17 Apr 2024,John Allcock,22.494,114.0404,Hong Kong,False,ML645828158,P2
+645828520,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Mai Po NR--#8b Reedbed, Hong Kong, Hong Kong",22 May 2025,John Allcock,22.494,114.0404,Hong Kong,False,ML645828520,P2
+646952291,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Ezhome, Kannur, Kerala, India",7 Dec 2025,Afsar Nayakkan,12.0305,75.2933,India,False,ML646952291,P2
+647174413,yelbit,Ixobrychus sinensis,ヨシゴイ,5.0,1,"Skinner Plaza, Guam, Guam",19 Dec 2025,Peter Knapp,13.4756,144.7514,Guam,False,ML647174413,P2
+647452687,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,2,"Paddy Fields & Lake Danao Marsh, Camotes, San Francisco, PH (10.657, 124.355), Cebu, Philippines",23 Dec 2025,Andrew Wolfe,10.657,124.3551,Philippines,False,ML647452687,P2
+647452688,yelbit,Ixobrychus sinensis,ヨシゴイ,3.5,2,"Paddy Fields & Lake Danao Marsh, Camotes, San Francisco, PH (10.657, 124.355), Cebu, Philippines",23 Dec 2025,Andrew Wolfe,10.657,124.3551,Philippines,False,ML647452688,P2
+647459966,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,1,"Kurichi Kulam, Coimbatore, Tamil Nadu, India",19 Jul 2025,Sharang Satish,10.9648,76.9651,India,False,ML647459966,P2
+647499342,yelbit,Ixobrychus sinensis,ヨシゴイ,3.0,2,"Kattampally, Kannur, Kerala, India",24 Dec 2025,Afsar Nayakkan,11.9341,75.3816,India,False,ML647499342,P2
+648115896,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,1,"Melakottaiyur Big lake, Chengalpattu, Tamil Nadu, India",3 Jan 2026,Sreekumar Chirukandoth,12.8377,80.1437,India,False,ML648115896,P2
+648115898,yelbit,Ixobrychus sinensis,ヨシゴイ,1.5,2,"Melakottaiyur Big lake, Chengalpattu, Tamil Nadu, India",3 Jan 2026,Sreekumar Chirukandoth,12.8377,80.1437,India,False,ML648115898,P2
+649087005,yelbit,Ixobrychus sinensis,ヨシゴイ,1.0,1,"台南--安清路魚塭(Tainan--Fish Farms along Anqing Road), Tainan City, Taiwan",18 Jan 2026,Yi-Cheng Chen,23.0468,120.105,Taiwan,False,ML649087005,P2
+650106775,yelbit,Ixobrychus sinensis,ヨシゴイ,2.0,1,"Home, Hang Dong TH-Chiang Mai, Chiang Mai, Thailand",1 Feb 2026,Merle Schmidt,18.6756,98.91,Thailand,False,ML650106775,P2
+650517702,yelbit,Ixobrychus sinensis,ヨシゴイ,0.0,0,"Nong Pen, Vientiane Prefecture, Laos",6 Jul 2024,Bram Piot,17.933,102.7507,Laos,False,ML650517702,P2
+90584991,yelbit,Ixobrychus sinensis,ヨシゴイ,2.75,4,"Madambakkam Lake, Chengalpattu, Tamil Nadu, India",18 Mar 2018,Sreekumar Chirukandoth,12.8906,80.1533,India,False,ML90584991,P2
+93664311,yelbit,Ixobrychus sinensis,ヨシゴイ,2.5,4,"Oussudu Lake Birds Sanctuary--PY side (ஊசுடு ஏரி பறவைகள் சரணாலயம்--புதுச்சேரிப் பகுதி), Puducherry, Puducherry, India",8 Apr 2018,Surendhar Boobalan,11.942,79.7468,India,False,ML93664311,P2

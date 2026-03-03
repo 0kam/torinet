@@ -1,0 +1,689 @@
+﻿ebird_species_code,scientific_name,japanese_name,ebird_common_name,frequency_annual_mean,frequency_max,n_periods_detected,residence_status
+brebul1,Hypsipetes amaurotis,ヒヨドリ,Brown-eared Bulbul,0.5111802770833331,0.6408625,48.0,resident
+eutspa,Passer montanus,スズメ,Eurasian Tree Sparrow,0.4390073104166666,0.5340512,48.0,resident
+labcro1,Corvus macrorhynchos,ハシブトガラス,Large-billed Crow,0.42049534583333337,0.4688084,48.0,resident
+carcro1,Corvus corone,ハシボソガラス,Carrion Crow,0.33823260208333344,0.3670153,48.0,resident
+ortdov,Streptopelia orientalis,キジバト,Oriental Turtle-Dove,0.33818809375,0.4191287,48.0,resident
+cintit13,Parus cinereus,シジュウカラ,Asian Tit,0.332087725,0.3970279,48.0,resident
+spbduc,Anas zonorhyncha,カルガモ,Eastern Spot-billed Duck,0.3241578812500001,0.3973435,48.0,resident
+whiwag,Motacilla alba,ハクセキレイ,White Wagtail,0.3175390270833333,0.4382995,48.0,resident
+graher1,Ardea cinerea,アオサギ,Gray Heron,0.30869661666666665,0.3910774,48.0,resident
+grecor,Phalacrocorax carbo,カワウ,Great Cormorant,0.2743359541666666,0.3530565,48.0,resident
+rocpig,Columba livia,カワラバト（ドバト）,Rock Pigeon,0.26214716250000003,0.3048121,48.0,resident
+whcsta1,Spodiopsar cineraceus,ムクドリ,White-cheeked Starling,0.2557513145833333,0.364087,48.0,resident
+warwhe1,Zosterops japonicus,メジロ,Warbling White-eye,0.23966501666666673,0.3382242,48.0,resident
+warwhe1,Zosterops japonicus,メジロ,Warbling White-eye,0.23966501666666673,0.3382242,48.0,resident
+blakit1,Milvus migrans,トビ,Black Kite,0.2051017791666667,0.2555856,48.0,resident
+greegr,Ardea alba,ダイサギ,Great Egret,0.20390646250000002,0.3163265,48.0,resident
+origre,Chloris sinica,カワラヒワ,Oriental Greenfinch,0.1929800979166667,0.2914622,48.0,resident
+jabwar,Horornis diphone,ウグイス,Japanese Bush Warbler,0.18870848124999998,0.3319781,48.0,resident
+litegr,Egretta garzetta,コサギ,Little Egret,0.18644294166666667,0.2520171,48.0,resident
+barswa,Hirundo rustica,ツバメ,Barn Swallow,0.17716173750000005,0.4079656,48.0,summer
+pygwoo1,Yungipicus kizuki,コゲラ,Japanese Pygmy Woodpecker,0.16300080625,0.2080471,48.0,resident
+eurcoo,Fulica atra,オオバン,Eurasian Coot,0.16190530833333336,0.343245,48.0,winter
+mallar3,Anas platyrhynchos,マガモ,Mallard,0.15625033125,0.3006895,48.0,resident
+litgre1,Tachybaptus ruficollis,カイツブリ,Little Grebe,0.14833146041666667,0.2256082,48.0,resident
+gnwtea,Anas crecca,コガモ,Green-winged Teal,0.14436620833333336,0.2832957,48.0,winter
+buhshr1,Lanius bucephalus,モズ,Bull-headed Shrike,0.13749191249999995,0.2959019,48.0,resident
+comkin1,Alcedo atthis,カワセミ,Common Kingfisher,0.12646443124999998,0.1826988,48.0,resident
+dusthr2,Turdus eunomus,ツグミ,Dusky Thrush,0.12468135000000007,0.35146,41.0,winter
+eurwig,Mareca penelope,ヒドリガモ,Eurasian Wigeon,0.12014052708333332,0.2510273,48.0,winter
+vartit1,Sittiparus varius,ヤマガラ,Varied Tit,0.11820464375000002,0.1479041,48.0,resident
+japwag1,Motacilla grandis,セグロセキレイ,Japanese Wagtail,0.11777620833333334,0.1794697,48.0,resident
+meabun1,Emberiza cioides,ホオジロ,Meadow Bunting,0.11517433333333336,0.1727184,48.0,resident
+lottit1,Aegithalos caudatus,エナガ,Long-tailed Tit,0.10563568333333336,0.1724776,48.0,resident
+bkfbun2,Emberiza personata,アオジ,Masked Bunting,0.10041285000000004,0.1902433,48.0,resident
+daured1,Phoenicurus auroreus,ジョウビタキ,Daurian Redstart,0.09647374166666668,0.2631505,48.0,winter
+comsan,Actitis hypoleucos,イソシギ,Common Sandpiper,0.08723135625,0.1598478,48.0,resident
+burthr,Monticola solitarius,イソヒヨドリ,Blue Rock-Thrush,0.08673437708333333,0.1629945,48.0,resident
+grywag,Motacilla cinerea,キセキレイ,Gray Wagtail,0.07836755000000001,0.1356889,48.0,resident
+tufduc,Aythya fuligula,キンクロハジロ,Tufted Duck,0.07630232083333331,0.1696833,48.0,winter
+bktgul,Larus crassirostris,ウミネコ,Black-tailed Gull,0.0730928875,0.1347754,48.0,resident
+compoc,Aythya ferina,ホシハジロ,Common Pochard,0.0694781958333333,0.1824804,48.0,winter
+palthr1,Turdus pallidus,シロハラ,Pale Thrush,0.06334467083333334,0.1771873,37.0,winter
+norsho,Spatula clypeata,ハシビロガモ,Northern Shoveler,0.06081215416666666,0.1459633,48.0,winter
+norpin,Anas acuta,オナガガモ,Northern Pintail,0.05942763541666667,0.1399549,48.0,winter
+osprey,Pandion haliaetus,ミサゴ,Osprey,0.05884281249999999,0.0949503,48.0,resident
+skylar,Alauda arvensis,ヒバリ,Eurasian Skylark,0.058493975,0.119705,48.0,resident
+grcgre1,Podiceps cristatus,カンムリカイツブリ,Great Crested Grebe,0.05792439583333333,0.1355996,48.0,winter
+gadwal,Mareca strepera,オカヨシガモ,Gadwall,0.05060568541666665,0.1303698,48.0,winter
+azwmag2,Cyanopica cyanus,オナガ,Azure-winged Magpie,0.04828548124999999,0.0723585,48.0,resident
+bkhgul,Chroicocephalus ridibundus,ユリカモメ,Black-headed Gull,0.047633897916666675,0.1144938,48.0,winter
+zitcis1,Cisticola juncidis,セッカ,Zitting Cisticola,0.045406079166666675,0.1157575,48.0,resident
+commoo3,Gallinula chloropus,バン,Eurasian Moorhen,0.04510805833333332,0.0649611,48.0,resident
+grswoo,Dendrocopos major,アカゲラ,Great Spotted Woodpecker,0.04435284583333332,0.0627579,48.0,resident
+combuz6,Buteo japonicus,ノスリ,Eastern Buzzard,0.04312284583333333,0.1027397,48.0,resident
+slbgul,Larus schistisagus,オオセグロカモメ,Slaty-backed Gull,0.041055129166666676,0.086808,48.0,resident
+melthr,Garrulax canorus,ガビチョウ,Chinese Hwamei,0.040695912499999994,0.0736754,48.0,resident
+lirplo,Charadrius dubius,コチドリ,Little Ringed Plover,0.039668247916666656,0.0923335,48.0,resident
+narfly2,Ficedula narcissina,キビタキ,Narcissus Flycatcher,0.03944088541666666,0.1851956,35.0,summer
+coatit2,Periparus ater,ヒガラ,Coal Tit,0.03933776041666668,0.0764554,48.0,resident
+gresca,Aythya marila,スズガモ,Greater Scaup,0.037858449999999995,0.0730446,48.0,resident
+eurjay1,Garrulus glandarius,カケス,Eurasian Jay,0.037022527083333326,0.0730881,48.0,resident
+hawfin,Coccothraustes coccothraustes,シメ,Hawfinch,0.03601336874999999,0.0904189,48.0,winter
+rinphe2,Phasianus versicolor,キジ,Green Pheasant,0.0350995,0.1004665,48.0,resident
+rinphe2,Phasianus versicolor,キジ,Green Pheasant,0.0350995,0.1004665,48.0,resident
+eurnut2,Sitta europaea,ゴジュウカラ,Eurasian Nuthatch,0.033939616666666665,0.0525391,48.0,resident
+bcnher,Nycticorax nycticorax,ゴイサギ,Black-crowned Night Heron,0.033126187499999994,0.0590682,48.0,resident
+integr1,Ardea intermedia,チュウサギ,Medium Egret,0.03184465833333334,0.0912374,48.0,resident
+ashmar1,Delichon dasypus,イワツバメ,Asian House-Martin,0.029736437499999994,0.0897235,48.0,summer
+japwoo1,Picus awokera,アオゲラ,Japanese Woodpecker,0.029507822916666673,0.0531333,48.0,resident
+orrwar1,Acrocephalus orientalis,オオヨシキリ,Oriental Reed Warbler,0.02949846666666667,0.1312815,40.0,summer
+eurkes,Falco tinnunculus,チョウゲンボウ,Eurasian Kestrel,0.028245543749999994,0.0500376,48.0,resident
+falduc,Mareca falcata,ヨシガモ,Falcated Duck,0.027540018749999996,0.0703734,47.0,winter
+gyttat1,Tringa brevipes,キアシシギ,Gray-tailed Tattler,0.024532441666666672,0.1111264,48.0,summer
+amepip,Anthus rubescens,タヒバリ,American Pipit,0.024271550000000003,0.066466,36.0,winter
+martit2,Poecile palustris,ハシブトガラ,Marsh Tit,0.024173485416666664,0.0468194,48.0,resident
+chbpar3,Bambusicola thoracicus,コジュケイ,Chinese Bamboo-Partridge,0.023624108333333334,0.0456883,48.0,resident
+japgro1,Eophona personata,イカル,Japanese Grosbeak,0.02347610000000001,0.0389738,48.0,resident
+commer,Mergus merganser,カワアイサ,Common Merganser,0.022605764583333337,0.0601493,48.0,resident
+japcor1,Phalacrocorax capillatus,ウミウ,Japanese Cormorant,0.022519350000000004,0.0406561,48.0,resident
+reebun,Emberiza schoeniclus,オオジュリン,Reed Bunting,0.021430495833333337,0.0587515,48.0,resident
+refblu1,Tarsiger cyanurus,ルリビタキ,Red-flanked Bluetail,0.02132694583333333,0.0550652,48.0,resident
+norgos1,Accipiter gentilis,オオタカ,Eurasian Goshawk,0.02125793958333333,0.0417038,48.0,resident
+rusbun,Emberiza rustica,カシラダカ,Rustic Bunting,0.021096360416666668,0.0589416,36.0,winter
+comsni,Gallinago gallinago,タシギ,Common Snipe,0.020914139583333335,0.0431104,41.0,resident
+winwre4,Troglodytes troglodytes,ミソサザイ,Eurasian Wren,0.020708808333333335,0.0431229,48.0,resident
+eacwar1,Phylloscopus coronatus,センダイムシクイ,Eastern Crowned Warbler,0.020673747916666662,0.1190243,31.0,summer
+veggul1,Larus vegae,セグロカモメ,Vega Gull,0.02050094166666667,0.0509399,47.0,winter
+comgre,Tringa nebularia,アオアシシギ,Common Greenshank,0.02046535,0.062411,48.0,resident
+stonec7,Saxicola stejnegeri,ノビタキ,Amur Stonechat,0.019872641666666673,0.0661876,47.0,summer
+whteag,Haliaeetus albicilla,オジロワシ,White-tailed Eagle,0.019719912500000002,0.066031,48.0,resident
+brambl,Fringilla montifringilla,アトリ,Brambling,0.01951803333333333,0.0458071,35.0,winter
+rorpar,Psittacula krameri,ホンセイインコ,Rose-ringed Parakeet,0.019495216666666666,0.0279078,48.0,resident
+wiltit1,Poecile montanus,コガラ,Willow Tit,0.01947848541666667,0.0319382,48.0,resident
+brhthr1,Turdus chrysolaus,アカハラ,Brown-headed Thrush,0.01931962708333333,0.0614047,48.0,resident
+rebmer,Mergus serrator,ウミアイサ,Red-breasted Merganser,0.019140479166666665,0.0663156,48.0,winter
+dunlin,Calidris alpina,ハマシギ,Dunlin,0.0189660875,0.0422402,47.0,resident
+livbul1,Pycnonotus sinensis,シロガシラ,Light-vented Bulbul,0.018836991666666667,0.0368696,48.0,resident
+lotros1,Carpodacus sibiricus,ベニマシコ,Long-tailed Rosefinch,0.018405552083333335,0.0361174,48.0,resident
+perfal,Falco peregrinus,ハヤブサ,Peregrine Falcon,0.01822056666666667,0.0392062,48.0,resident
+eurspa1,Accipiter nisus,ハイタカ,Eurasian Sparrowhawk,0.01785335,0.0457306,48.0,resident
+bawfly2,Cyanoptila cyanomelana,オオルリ,Blue-and-white Flycatcher,0.017644662499999995,0.0946306,32.0,summer
+asbfly,Muscicapa dauurica,コサメビタキ,Asian Brown Flycatcher,0.01736636041666667,0.0668723,40.0,summer
+lobplo1,Charadrius placidus,イカルチドリ,Long-billed Plover,0.01724380625,0.0374698,48.0,resident
+kenplo1,Charadrius alexandrinus,シロチドリ,Kentish Plover,0.016845520833333332,0.0373454,48.0,resident
+pacswa5,Hirundo tahitica,リュウキュウツバメ,Tahiti Swallow,0.016565274999999997,0.0265211,48.0,resident
+whoswa,Cygnus cygnus,オオハクチョウ,Whooper Swan,0.016394758333333335,0.051231,48.0,winter
+lescuc1,Cuculus poliocephalus,ホトトギス,Lesser Cuckoo,0.016135343750000003,0.1098714,27.0,summer
+rensti,Calidris ruficollis,トウネン,Red-necked Stint,0.015903118749999997,0.0946717,48.0,summer
+eargre,Podiceps nigricollis,ハジロカイツブリ,Eared Grebe,0.01570991041666667,0.0477268,44.0,winter
+gyhlap1,Vanellus cinereus,ケリ,Gray-headed Lapwing,0.01568474791666667,0.0260734,48.0,resident
+manduc,Aix galericulata,オシドリ,Mandarin Duck,0.015442041666666668,0.0261886,48.0,resident
+y00621,Cecropis daurica,コシアカツバメ,Eastern Red-rumped Swallow,0.015312425,0.0405608,40.0,summer
+smew,Mergellus albellus,ミコアイサ,Smew,0.014885479166666667,0.0537201,46.0,winter
+bkwsti,Himantopus himantopus,セイタカシギ,Black-winged Stilt,0.014831139583333335,0.0472235,48.0,resident
+gyfbuz1,Butastur indicus,サシバ,Gray-faced Buzzard,0.014428741666666668,0.0400327,48.0,resident
+comgol,Bucephala clangula,ホオジロガモ,Common Goldeneye,0.014278977083333333,0.0543617,43.0,winter
+pelcor,Urile pelagicus,ヒメウ,Pelagic Cormorant,0.014122783333333338,0.0510887,48.0,resident
+whbpig1,Treron sieboldii,アオバト,White-bellied Green-Pigeon,0.014085106250000005,0.0389561,48.0,resident
+olbpip,Anthus hodgsoni,ビンズイ,Olive-backed Pipit,0.01382210625,0.033366,48.0,resident
+chcsta1,Agropsar philippensis,コムクドリ,Chestnut-cheeked Starling,0.013492216666666666,0.0570587,35.0,summer
+strshe,Calonectris leucomelas,オオミズナギドリ,Streaked Shearwater,0.013388556249999996,0.0329138,47.0,resident
+whimbr,Numenius phaeopus,チュウシャクシギ,Whimbrel,0.013334827083333329,0.0778023,48.0,summer
+lessap2,Charadrius mongolus,メダイチドリ,Siberian Sand-Plover,0.013329525000000002,0.0532826,48.0,summer
+bkbplo,Pluvialis squatarola,ダイゼン,Black-bellied Plover,0.013252143749999995,0.0361148,48.0,resident
+comcuc,Cuculus canorus,カッコウ,Common Cuckoo,0.013018577083333335,0.0987141,29.0,summer
+categr2,Bubulcus ibis,アマサギ,Eastern Cattle-Egret,0.012675174999999999,0.0310869,48.0,resident
+reblei,Leiothrix lutea,ソウシチョウ,Red-billed Leiothrix,0.012360081250000002,0.0224588,48.0,resident
+brodip1,Cinclus pallasii,カワガラス,Brown Dipper,0.012094458333333334,0.022245,48.0,resident
+pagplo,Pluvialis fulva,ムナグロ,Pacific Golden-Plover,0.012052572916666664,0.0406755,48.0,resident
+harduc,Histrionicus histrionicus,シノリガモ,Harlequin Duck,0.011984387500000006,0.0460998,48.0,winter
+chebun2,Emberiza fucata,ホオアカ,Chestnut-eared Bunting,0.01175036666666667,0.0385779,48.0,resident
+japthr1,Turdus cardis,クロツグミ,Japanese Thrush,0.011662570833333335,0.0549558,43.0,summer
+ryumin1,Pericrocotus tegimae,リュウキュウサンショウクイ,Ryukyu Minivet,0.011579547916666667,0.0263964,48.0,resident
+litter1,Sternula albifrons,コアジサシ,Little Tern,0.01120590208333333,0.0506098,35.0,summer
+fotswi,Apus pacificus,アマツバメ,Pacific Swift,0.011054402083333333,0.0342549,39.0,summer
+asistu1,Urosphena squameiceps,ヤブサメ,Asian Stubtail,0.010907687500000004,0.0468246,48.0,summer
+oricuc2,Cuculus optatus,ツツドリ,Oriental Cuckoo,0.010665112499999999,0.0646844,32.0,summer
+mewgul,Larus canus,カモメ,Common Gull,0.010508314583333336,0.0391348,47.0,winter
+blfspo1,Platalea minor,クロツラヘラサギ,Black-faced Spoonbill,0.01040668333333333,0.027263,48.0,resident
+rudtur,Arenaria interpres,キョウジョシギ,Ruddy Turnstone,0.01036381458333333,0.0571468,48.0,summer
+woosan,Tringa glareola,タカブシギ,Wood Sandpiper,0.010360229166666667,0.0444814,46.0,resident
+goldcr1,Regulus regulus,キクイタダキ,Goldcrest,0.010276385416666665,0.0185603,48.0,resident
+grnsan,Tringa ochropus,クサシギ,Green Sandpiper,0.010191687499999998,0.0215947,44.0,resident
+pacreh1,Egretta sacra,クロサギ,Pacific Reef-Heron,0.010009810416666669,0.0180255,48.0,resident
+blksco2,Melanitta americana,クロガモ,Black Scoter,0.009978616666666665,0.0466771,48.0,winter
+stseag,Haliaeetus pelagicus,オオワシ,Steller's Sea-Eagle,0.009966787499999998,0.0550733,33.0,winter
+mutswa,Cygnus olor,コブハクチョウ,Mute Swan,0.00971358541666667,0.0267208,48.0,resident
+mutswa,Cygnus olor,コブハクチョウ,Mute Swan,0.00971358541666667,0.0267208,48.0,resident
+ashmin1,Pericrocotus divaricatus,サンショウクイ,Ashy Minivet,0.009587645833333335,0.0556568,35.0,summer
+eursis,Spinus spinus,マヒワ,Eurasian Siskin,0.00943134375,0.0229763,47.0,resident
+euroys1,Haematopus ostralegus,ミヤコドリ,Eurasian Oystercatcher,0.009430918749999998,0.0179404,48.0,resident
+eurbul,Pyrrhula pyrrhula,ウソ,Eurasian Bullfinch,0.009417564583333333,0.019858,48.0,resident
+tersan,Xenus cinereus,ソリハシシギ,Terek Sandpiper,0.009357541666666669,0.0598745,39.0,summer
+sander,Calidris alba,ミユビシギ,Sanderling,0.008923320833333335,0.0297947,45.0,resident
+reccra1,Grus japonensis,タンチョウ,Red-crowned Crane,0.008883999999999998,0.0249039,48.0,resident
+easmah1,Circus spilonotus,チュウヒ,Eastern Marsh Harrier,0.008881175000000002,0.0243291,48.0,resident
+houswi1,Apus nipalensis,ヒメアマツバメ,House Swift,0.008824547916666668,0.0178105,48.0,resident
+japspa1,Accipiter gularis,ツミ,Japanese Sparrowhawk,0.008660720833333335,0.025817,48.0,resident
+norlap,Vanellus vanellus,タゲリ,Northern Lapwing,0.008632645833333332,0.0381413,33.0,winter
+whbwoo1,Dendrocopos leucotos,オオアカゲラ,White-backed Woodpecker,0.008630977083333333,0.0210004,48.0,resident
+russpa2,Passer cinnamomeus,ニュウナイスズメ,Russet Sparrow,0.008538283333333332,0.0270424,48.0,resident
+eurtre1,Certhia familiaris,キバシリ,Eurasian Treecreeper,0.008079797916666664,0.014075,48.0,resident
+japfly1,Terpsiphone atrocaudata,サンコウチョウ,Black Paradise-Flycatcher,0.007831833333333335,0.0352982,29.0,summer
+rubcra1,Zapornia fusca,ヒクイナ,Ruddy-breasted Crake,0.007815291666666667,0.0146365,48.0,resident
+baitea,Sibirionetta formosa,トモエガモ,Baikal Teal,0.007765320833333332,0.0294118,36.0,winter
+tunswa,Cygnus columbianus,コハクチョウ,Tundra Swan,0.007687020833333333,0.0233683,43.0,winter
+batgod,Limosa lapponica,オオソリハシシギ,Bar-tailed Godwit,0.007506585416666666,0.0287932,47.0,summer
+glagul,Larus hyperboreus,シロカモメ,Glaucous Gull,0.0072663375,0.0334424,43.0,winter
+strher,Butorides striata,ササゴイ,Striated Heron,0.007003558333333336,0.0227008,48.0,summer
+grybun,Emberiza variabilis,クロジ,Gray Bunting,0.0068895520833333335,0.0157962,48.0,resident
+gysfly1,Muscicapa griseisticta,エゾビタキ,Gray-streaked Flycatcher,0.0068505270833333345,0.0769608,22.0,passage
+rook1,Corvus frugilegus,ミヤマガラス,Rook,0.006689185416666668,0.0257857,35.0,winter
+gwfgoo,Anser albifrons,マガン,Greater White-fronted Goose,0.0066756645833333335,0.0202294,43.0,winter
+rudkin1,Halcyon coromanda,アカショウビン,Ruddy Kingfisher,0.0066173312500000005,0.0353564,27.0,summer
+bbrwar1,Acrocephalus bistrigiceps,コヨシキリ,Black-browed Reed Warbler,0.006565658333333334,0.0461422,29.0,summer
+jawpig1,Columba janthina,カラスバト,Black Wood-Pigeon,0.006501414583333334,0.0281789,48.0,resident
+salwar1,Phylloscopus borealoides,エゾムシクイ,Sakhalin Leaf Warbler,0.006345577083333335,0.0539745,29.0,summer
+glwgul,Larus glaucescens,ワシカモメ,Glaucous-winged Gull,0.0062842895833333315,0.0330155,47.0,winter
+bncrai1,Rallus indicus,クイナ,Brown-cheeked Rail,0.0062117916666666675,0.0160522,48.0,winter
+scathr2,Zoothera aurea,トラツグミ,White's Thrush,0.006069047916666665,0.0212039,48.0,resident
+lotsti,Calidris subminuta,ヒバリシギ,Long-toed Stint,0.005858233333333334,0.0299715,44.0,resident
+whgpig1,Treron formosae,ズアカアオバト,Whistling Green-Pigeon,0.005729431249999999,0.0212814,48.0,resident
+yetbun1,Emberiza elegans,ミヤマホオジロ,Yellow-throated Bunting,0.005561391666666666,0.0153666,38.0,winter
+comred1,Tringa totanus,アカアシシギ,Common Redshank,0.0054450083333333335,0.0249169,48.0,resident
+comshe,Tadorna tadorna,ツクシガモ,Common Shelduck,0.005270104166666667,0.0287403,33.0,winter
+eurcur,Numenius arquata,ダイシャクシギ,Eurasian Curlew,0.005240768749999999,0.0122549,48.0,resident
+eurspo1,Platalea leucorodia,ヘラサギ,Eurasian Spoonbill,0.00522870625,0.0192049,48.0,winter
+nutman,Lonchura punctulata,シマキンパラ,Scaly-breasted Munia,0.005173112499999999,0.0152236,48.0,resident
+norboo1,Ninox japonica,アオバズク,Northern Boobook,0.00513319375,0.0168741,48.0,resident
+sibrub,Calliope calliope,ノゴマ,Siberian Rubythroat,0.005129575,0.0272996,47.0,summer
+brnboo,Sula leucogaster,カツオドリ,Brown Booby,0.0051107354166666655,0.0245738,48.0,resident
+bkfalb,Phoebastria nigripes,クロアシアホウドリ,Black-footed Albatross,0.0050854916666666665,0.0293087,48.0,resident
+rengre,Podiceps grisegena,アカエリカイツブリ,Red-necked Grebe,0.0049350458333333345,0.0177885,47.0,winter
+eaywag,Motacilla tschutschensis,ツメナガセキレイ,Eastern Yellow Wagtail,0.004886852083333333,0.0284765,47.0,resident
+saugul2,Saundersilarus saundersi,ズグロカモメ,Saunders's Gull,0.004836477083333334,0.0154445,44.0,winter
+whbwat1,Amaurornis phoenicurus,シロハラクイナ,White-breasted Waterhen,0.00465036875,0.0126538,48.0,resident
+latsni1,Gallinago hardwickii,オオジシギ,Latham's Snipe,0.00463344375,0.0313918,31.0,summer
+hoocra1,Grus monacha,ナベヅル,Hooded Crane,0.004569231250000001,0.0235026,29.0,winter
+japrob2,Larvivora akahige,コマドリ,Japanese Robin,0.004530539583333332,0.0239731,39.0,summer
+whncra1,Antigone vipio,マナヅル,White-naped Crane,0.004503485416666667,0.0238063,30.0,winter
+ryurob3,Larvivora namiyei,ホントウアカヒゲ,Okinawa Robin,0.004490050000000001,0.0140003,48.0,resident
+sibrob,Larvivora cyane,コルリ,Siberian Blue Robin,0.0044116520833333344,0.034067,30.0,summer
+grekno,Calidris tenuirostris,オバシギ,Great Knot,0.0043450812500000005,0.0264208,34.0,summer
+arcwar3,Phylloscopus xanthodryas,メボソムシクイ,Japanese Leaf Warbler,0.004332095833333333,0.0134491,28.0,summer
+faecur,Numenius madagascariensis,ホウロクシギ,Far Eastern Curlew,0.004273014583333334,0.0121025,48.0,resident
+japacc1,Prunella rubida,カヤクグリ,Japanese Accentor,0.0042527458333333325,0.0099517,48.0,resident
+okirai1,Hypotaenidia okinawae,ヤンバルクイナ,Okinawa Rail,0.004207141666666667,0.0131253,48.0,resident
+norhar1,Circus cyaneus,ハイイロチュウヒ,Hen Harrier,0.004128977083333334,0.0151759,31.0,winter
+marsan,Tringa stagnatilis,コアオアシシギ,Marsh Sandpiper,0.00405263125,0.0182724,44.0,resident
+banswa,Riparia riparia,ショウドウツバメ,Bank Swallow,0.003927687500000001,0.0134955,41.0,summer
+lotduc,Clangula hyemalis,コオリガモ,Long-tailed Duck,0.003900750000000001,0.0224847,29.0,winter
+spegui1,Cepphus carbo,ケイマフリ,Spectacled Guillemot,0.0038523791666666665,0.0162447,47.0,resident
+sakwar1,Locustella amnicola,エゾセンニュウ,Sakhalin Grasshopper Warbler,0.003842170833333333,0.033472,23.0,summer
+oristo1,Ciconia boyciana,コウノトリ,Oriental Stork,0.003841141666666666,0.0080314,48.0,resident
+oristo1,Ciconia boyciana,コウノトリ,Oriental Stork,0.003841141666666666,0.0080314,48.0,resident
+eyethr,Turdus obscurus,マミチャジナイ,Eyebrowed Thrush,0.0038327520833333346,0.0209733,38.0,passage
+ryusco1,Otus elegans,リュウキュウコノハズク,Ryukyu Scops-Owl,0.0038120208333333326,0.0121608,48.0,resident
+rhiauk,Cerorhinca monocerata,ウトウ,Rhinoceros Auklet,0.003805445833333334,0.0184316,47.0,summer
+eurwry,Jynx torquilla,アリスイ,Eurasian Wryneck,0.0037669541666666665,0.0114763,48.0,resident
+taibeg1,Anser fabalis,ヒシクイ,Taiga Bean-Goose,0.003674197916666667,0.0123695,40.0,winter
+uraowl1,Strix uralensis,フクロウ,Ural Owl,0.003650245833333335,0.009677,48.0,resident
+orihob2,Pernis ptilorhynchus,ハチクマ,Oriental Honey-buzzard,0.0035623437500000004,0.0405229,30.0,summer
+temsti,Calidris temminckii,オジロトウネン,Temminck's Stint,0.003513622916666667,0.0095147,42.0,resident
+whwsco1,Melanitta stejnegeri,ビロードキンクロ,Stejneger's Scoter,0.0034142187499999997,0.0156539,46.0,winter
+shtshe,Ardenna tenuirostris,ハシボソミズナギドリ,Short-tailed Shearwater,0.0033976291666666662,0.019289,44.0,summer
+crekin1,Megaceryle lugubris,ヤマセミ,Crested Kingfisher,0.0033813104166666662,0.0093923,48.0,resident
+gargan,Spatula querquedula,シマアジ,Garganey,0.0032881354166666658,0.0109477,45.0,resident
+whiter2,Chlidonias hybrida,クロハラアジサシ,Whiskered Tern,0.0032714895833333333,0.0158994,46.0,summer
+grsplo,Charadrius leschenaultii,オオメダイチドリ,Greater Sand-Plover,0.00323905625,0.0169163,48.0,summer
+eurnut3,Nucifraga caryocatactes,ホシガラス,Northern Nutcracker,0.003158002083333333,0.0118652,45.0,summer
+okiwoo1,Dendrocopos noguchii,ノグチゲラ,Okinawa Woodpecker,0.0031529187500000007,0.0113752,48.0,resident
+wetshe,Ardenna pacifica,オナガミズナギドリ,Wedge-tailed Shearwater,0.003139870833333333,0.0234987,37.0,summer
+japwax1,Bombycilla japonica,ヒレンジャク,Japanese Waxwing,0.0031095375,0.0131142,33.0,winter
+bklkit,Rissa tridactyla,ミツユビカモメ,Black-legged Kittiwake,0.003056833333333333,0.009677,48.0,resident
+bulpet,Bulweria bulwerii,アナドリ,Bulwer's Petrel,0.0030020375,0.0231059,31.0,summer
+gyfwoo1,Picus canus,ヤマゲラ,Gray-headed Woodpecker,0.002963279166666667,0.0052922,48.0,resident
+lidjay1,Garrulus lidthi,ルリカケス,Lidth's Jay,0.0029030083333333335,0.0131742,48.0,resident
+cremyn,Acridotheres cristatellus,ハッカチョウ,Crested Myna,0.002849814583333334,0.0052138,48.0,resident
+comter,Sterna hirundo,アジサシ,Common Tern,0.002847808333333333,0.0110753,42.0,resident
+bktgod,Limosa limosa,オグロシギ,Black-tailed Godwit,0.002804210416666666,0.0168301,39.0,summer
+layalb,Phoebastria immutabilis,コアホウドリ,Laysan Albatross,0.002760252083333333,0.0099668,48.0,resident
+horgre,Podiceps auritus,ミミカイツブリ,Horned Grebe,0.002708535416666666,0.0090498,35.0,winter
+yelbit,Ixobrychus sinensis,ヨシゴイ,Yellow Bittern,0.002585122916666667,0.0120903,41.0,summer
+shtsan,Calidris acuminata,ウズラシギ,Sharp-tailed Sandpiper,0.002582645833333333,0.0104662,34.0,summer
+ancmur,Synthliboramphus antiquus,ウミスズメ,Ancient Murrelet,0.0025168166666666666,0.00925,46.0,resident
+arcwar2,Phylloscopus examinandus,オオムシクイ,Kamchatka Leaf Warbler,0.0024990000000000004,0.0191271,28.0,summer
+orimag1,Pica serica,カササギ,Oriental Magpie,0.002486697916666668,0.004896,48.0,resident
+orimag1,Pica serica,カササギ,Oriental Magpie,0.002486697916666668,0.004896,48.0,resident
+izuthr1,Turdus celaenops,アカコッコ,Izu Thrush,0.0024678479166666666,0.0102085,46.0,summer
+migwar,Locustella ochotensis,シマセンニュウ,Middendorff's Grasshopper Warbler,0.002458085416666666,0.0152266,25.0,summer
+brnshr,Lanius cristatus,アカモズ,Brown Shrike,0.0023870854166666675,0.009187,48.0,resident
+whtnee,Hirundapus caudacutus,ハリオアマツバメ,White-throated Needletail,0.002339439583333334,0.008868,31.0,summer
+lbbgul,Larus fuscus,ニシセグロカモメ,Lesser Black-backed Gull,0.002328941666666667,0.0084882,37.0,winter
+ruff,Calidris pugnax,エリマキシギ,Ruff,0.0023121249999999995,0.0166508,40.0,passage
+retloo,Gavia stellata,アビ,Red-throated Loon,0.0022597624999999995,0.0105308,39.0,winter
+blfowl1,Ketupa blakistoni,シマフクロウ,Blakiston's Fish-Owl,0.0022499208333333336,0.0086808,48.0,resident
+asrfin1,Leucosticte arctoa,ハギマシコ,Asian Rosy-Finch,0.0022360583333333336,0.0106753,37.0,winter
+eurwoo,Scolopax rusticola,ヤマシギ,Eurasian Woodcock,0.0022282395833333334,0.0062356,47.0,resident
+amewig,Mareca americana,アメリカヒドリ,American Wigeon,0.0022016687500000004,0.0072183,31.0,winter
+bonpet,Pterodroma hypoleuca,シロハラミズナギドリ,Bonin Petrel,0.0021201729166666666,0.0184303,35.0,summer
+ryurob2,Larvivora komadori,アカヒゲ,Ryukyu Robin,0.002113702083333333,0.0114852,46.0,resident
+shtalb,Phoebastria albatrus,アホウドリ,Short-tailed Albatross,0.0020925062500000004,0.0141635,41.0,passage
+blawoo1,Dryocopus martius,クマゲラ,Black Woodpecker,0.0020842833333333333,0.0073031,48.0,resident
+copphe1,Syrmaticus soemmerringii,ヤマドリ,Copper Pheasant,0.002076597916666667,0.0046277,48.0,resident
+copphe1,Syrmaticus soemmerringii,ヤマドリ,Copper Pheasant,0.002076597916666667,0.0046277,48.0,resident
+mouhae1,Nisaetus nipalensis,クマタカ,Mountain Hawk-Eagle,0.0020641729166666666,0.0084967,48.0,resident
+redcro,Loxia curvirostra,イスカ,Red Crossbill,0.002053820833333333,0.0089549,44.0,resident
+eursta,Sturnus vulgaris,ホシムクドリ,European Starling,0.0020146083333333334,0.0056858,39.0,winter
+spored,Tringa erythropus,ツルシギ,Spotted Redshank,0.001995585416666667,0.0088235,40.0,resident
+renpha,Phalaropus lobatus,アカエリヒレアシシギ,Red-necked Phalarope,0.0019681875,0.0094794,32.0,summer
+litbun,Emberiza pusilla,コホオアカ,Little Bunting,0.001940489583333333,0.0214496,33.0,summer
+comcra,Grus grus,クロヅル,Common Crane,0.0019291145833333341,0.0108783,25.0,winter
+pacloo,Gavia pacifica,シロエリオオハム,Pacific Loon,0.0018880645833333324,0.0075704,45.0,resident
+daujac1,Corvus dauuricus,コクマルガラス,Daurian Jackdaw,0.0018735770833333337,0.0092667,26.0,winter
+retpip,Anthus cervinus,ムネアカタヒバリ,Red-throated Pipit,0.0018600291666666668,0.0080671,36.0,resident
+dasfly,Muscicapa sibirica,サメビタキ,Dark-sided Flycatcher,0.0018480041666666662,0.0124183,28.0,summer
+ijlwar1,Phylloscopus ijimae,イイジマムシクイ,Ijima's Leaf Warbler,0.0018336958333333333,0.0102085,28.0,summer
+nohcuc1,Hierococcyx hyperythrus,ジュウイチ,Northern Hawk-Cuckoo,0.0018185020833333331,0.0149539,25.0,summer
+yelbun1,Emberiza sulphurata,ノジコ,Yellow Bunting,0.001807204166666667,0.0141595,29.0,summer
+japmur1,Synthliboramphus wumizusume,カンムリウミスズメ,Japanese Murrelet,0.0017562479166666671,0.0053274,43.0,resident
+margra1,Locustella pryeri,オオセッカ,Marsh Grassbird,0.0017513104166666672,0.0074377,43.0,summer
+brant,Branta bernicla,コクガン,Brant,0.0017457437500000004,0.0063136,34.0,winter
+loeowl,Asio otus,トラフズク,Long-eared Owl,0.0017258645833333334,0.0040917,47.0,resident
+blnter1,Sterna sumatrana,エリグロアジサシ,Black-naped Tern,0.001714472916666666,0.0107884,24.0,summer
+merlin,Falco columbarius,コチョウゲンボウ,Merlin,0.0017137395833333334,0.0066796,31.0,winter
+sancra,Antigone canadensis,カナダヅル,Sandhill Crane,0.0016963895833333334,0.0096696,25.0,winter
+rinphe1,Phasianus colchicus,タイリクキジ,Ring-necked Pheasant,0.0016815500000000002,0.0041152,48.0,resident
+sooshe,Ardenna grisea,ハイイロミズナギドリ,Sooty Shearwater,0.0016614458333333332,0.0094794,36.0,summer
+pomjae,Stercorarius pomarinus,トウゾクカモメ,Pomarine Jaeger,0.0016467083333333327,0.0061702,47.0,resident
+norful,Fulmarus glacialis,フルマカモメ,Northern Fulmar,0.0016434624999999998,0.0090772,46.0,resident
+yebwar3,Phylloscopus inornatus,キマユムシクイ,Yellow-browed Warbler,0.0016341,0.0103743,35.0,resident
+redpol1,Acanthis flammea,ベニヒワ,Redpoll,0.0016235041666666662,0.0063627,31.0,winter
+redkno,Calidris canutus,コオバシギ,Red Knot,0.0015764875,0.0121025,35.0,summer
+refboo,Sula sula,アカアシカツオドリ,Red-footed Booby,0.0015762770833333336,0.0182768,44.0,summer
+ocrbun1,Emberiza yessoensis,コジュリン,Ochre-rumped Bunting,0.0015533145833333338,0.0049917,45.0,resident
+alpacc1,Prunella collaris,イワヒバリ,Alpine Accentor,0.001537091666666667,0.0066883,43.0,summer
+arcloo,Gavia arctica,オオハム,Arctic Loon,0.0015340645833333332,0.0053274,44.0,resident
+oripra,Glareola maldivarum,ツバメチドリ,Oriental Pratincole,0.0015029854166666663,0.006339,36.0,summer
+dusthr1,Turdus naumanni,ハチジョウツグミ,Naumann's Thrush,0.0014922729166666666,0.0072013,32.0,winter
+eurhob,Falco subbuteo,チゴハヤブサ,Eurasian Hobby,0.0014895395833333335,0.0093137,34.0,summer
+rocpta1,Lagopus muta,ライチョウ,Rock Ptarmigan,0.0014692354166666668,0.0056038,34.0,summer
+lobdow,Limnodromus scolopaceus,オオハシシギ,Long-billed Dowitcher,0.0014670333333333336,0.0037954,39.0,resident
+crseag1,Spilornis cheela,カンムリワシ,Crested Serpent-Eagle,0.0014272770833333335,0.0083203,48.0,resident
+narfly3,Ficedula owstoni,リュウキュウキビタキ,Ryukyu Flycatcher,0.0013951645833333338,0.0059678,48.0,resident
+brbsan,Calidris falcinellus,キリアイ,Broad-billed Sandpiper,0.0013720937499999998,0.0121313,21.0,summer
+bohwax,Bombycilla garrulus,キレンジャク,Bohemian Waxwing,0.0013708104166666667,0.0048535,30.0,winter
+purher1,Ardea purpurea,ムラサキサギ,Purple Heron,0.00136108125,0.0055469,47.0,resident
+piggui,Cepphus columba,ウミバト,Pigeon Guillemot,0.00135525,0.0074,41.0,winter
+rebfly,Ficedula parva,ニシオジロビタキ,Red-breasted Flycatcher,0.0013344749999999997,0.0056433,31.0,winter
+cinbit1,Ixobrychus cinnamomeus,リュウキュウヨシゴイ,Cinnamon Bittern,0.00131831875,0.0049952,48.0,resident
+duswar,Phylloscopus fuscatus,ムジセッカ,Dusky Warbler,0.0012994229166666666,0.009393,34.0,resident
+commur,Uria aalge,ウミガラス,Common Murre,0.0012667375000000002,0.0052685,42.0,resident
+cacgoo1,Branta hutchinsii,シジュウカラガン,Cackling Goose,0.0012470416666666667,0.0060595,32.0,winter
+brnnod,Anous stolidus,クロアジサシ,Brown Noddy,0.0012009770833333333,0.0096722,32.0,summer
+trspet,Hydrobates tristrami,オーストンウミツバメ,Tristram's Storm-Petrel,0.0011963354166666669,0.0071519,38.0,passage
+pieavo1,Recurvirostra avosetta,ソリハシセイタカシギ,Pied Avocet,0.0011851541666666667,0.0065942,38.0,winter
+jasowl1,Otus semitorques,オオコノハズク,Japanese Scops-Owl,0.0011842708333333334,0.0026749,47.0,resident
+maspet2,Hydrobates matsudairae,クロウミツバメ,Matsudaira's Storm-Petrel,0.001155460416666667,0.0201198,23.0,summer
+mugfly,Ficedula mugimaki,ムギマキ,Mugimaki Flycatcher,0.001136827083333333,0.0107949,17.0,summer
+amawoo1,Scolopax mira,アマミヤマシギ,Amami Woodcock,0.001126495833333334,0.004504,45.0,resident
+chpher1,Ardeola bacchus,アカガシラサギ,Chinese Pond-Heron,0.0011238625,0.0050233,47.0,resident
+flfshe,Ardenna carneipes,アカアシミズナギドリ,Flesh-footed Shearwater,0.0010847645833333335,0.0034856,38.0,summer
+chptit1,Remiz consobrinus,ツリスガラ,Chinese Penduline-Tit,0.0010838395833333329,0.0065857,29.0,winter
+compea,Pavo cristatus,インドクジャク,Indian Peafowl,0.0010562708333333333,0.0045536,47.0,resident
+sibthr1,Geokichla sibirica,マミジロ,Siberian Thrush,0.0010537166666666669,0.0074377,27.0,summer
+ferduc,Aythya nyroca,メジロガモ,Ferruginous Duck,0.0010034125,0.0043094,28.0,winter
+lanwar,Locustella lanceolata,マキノセンニュウ,Lanceolated Warbler,0.0009521541666666669,0.0113464,21.0,summer
+sheowl,Asio flammeus,コミミズク,Short-eared Owl,0.0009430625,0.0041633,29.0,winter
+grynig1,Caprimulgus jotaka,ヨタカ,Gray Nightjar,0.0009097229166666665,0.005295,28.0,summer
+thbmur,Uria lomvia,ハシブトウミガラス,Thick-billed Murre,0.0008745104166666666,0.0044116,36.0,winter
+corplo,Charadrius hiaticula,ハジロコチドリ,Common Ringed Plover,0.0008630395833333334,0.0028512,38.0,resident
+whblau1,Pterorhinus sannio,カオジロガビチョウ,White-browed Laughingthrush,0.0008628916666666665,0.002277,48.0,resident
+dollar1,Eurystomus orientalis,ブッポウソウ,Dollarbird,0.00086013125,0.0061795,22.0,summer
+troshe4,Puffinus bannermani,オガサワラミズナギドリ,Bannerman's Shearwater,0.0008596125000000002,0.0096759,25.0,summer
+grpsni1,Rostratula benghalensis,タマシギ,Greater Painted-Snipe,0.0008570520833333333,0.003568,41.0,resident
+lotjae,Stercorarius longicaudus,シロハラトウゾクカモメ,Long-tailed Jaeger,0.0008546354166666667,0.0082737,32.0,summer
+lwfgoo,Anser erythropus,カリガネ,Lesser White-fronted Goose,0.00084770625,0.0037426,26.0,winter
+plewar1,Locustella pleskei,ウチヤマセンニュウ,Pleske's Grasshopper Warbler,0.0008441791666666665,0.0066434,20.0,summer
+emedov2,Chalcophaps indica,キンバト,Asian Emerald Dove,0.0008430708333333335,0.0067168,40.0,summer
+palros2,Carpodacus roseus,オオマシコ,Pallas's Rosefinch,0.0008411145833333334,0.0030935,30.0,winter
+maslau1,Pterorhinus perspicillatus,カオグロガビチョウ,Masked Laughingthrush,0.0008332416666666666,0.0018811,48.0,resident
+snogoo,Anser caerulescens,ハクガン,Snow Goose,0.0008208583333333333,0.0041232,29.0,winter
+roster,Sterna dougallii,ベニアジサシ,Roseate Tern,0.0008034479166666668,0.0049793,22.0,summer
+parjae,Stercorarius parasiticus,クロトウゾクカモメ,Parasitic Jaeger,0.0007980541666666669,0.0037863,40.0,resident
+yebbun1,Emberiza chrysophrys,キマユホオジロ,Yellow-browed Bunting,0.0007892875000000001,0.018085,13.0,summer
+lcspet,Hydrobates leucorhous,コシジロウミツバメ,Leach's Storm-Petrel,0.0007835249999999997,0.0035058,33.0,summer
+sibcra1,Leucogeranus leucogeranus,ソデグロヅル,Siberian Crane,0.0007815291666666669,0.0048348,20.0,winter
+bkfbun1,Emberiza spodocephala,シベリアアオジ,Black-faced Bunting,0.0007786625000000001,0.012337,17.0,summer
+refcor,Urile urile,チシマウガラス,Red-faced Cormorant,0.000763175,0.0027039,38.0,resident
+janher1,Gorsachius goisagi,ミゾゴイ,Japanese Night Heron,0.0007357895833333333,0.0039469,40.0,resident
+creibi1,Nipponia nippon,トキ,Crested Ibis,0.0007356041666666666,0.0029352,45.0,resident
+creibi1,Nipponia nippon,トキ,Crested Ibis,0.0007356041666666666,0.0029352,45.0,resident
+redpha1,Phalaropus fulicarius,ハイイロヒレアシシギ,Red Phalarope,0.0007333062500000002,0.0030843,40.0,summer
+solpet1,Pterodroma solandri,ハジロミズナギドリ,Providence Petrel,0.0007299249999999999,0.0029042,31.0,resident
+commyn,Acridotheres tristis,インドハッカ,Common Myna,0.0007247125000000002,0.0032935,43.0,resident
+leaauk,Aethia pusilla,コウミスズメ,Least Auklet,0.0007074583333333334,0.0054077,23.0,winter
+hazgro1,Tetrastes bonasia,エゾライチョウ,Hazel Grouse,0.0006892458333333332,0.0022415,45.0,resident
+tribun1,Emberiza tristrami,シロハラホオジロ,Tristram's Bunting,0.0006596541666666665,0.0088322,15.0,passage
+pingro,Pinicola enucleator,ギンザンマシコ,Pine Grosbeak,0.0006593833333333332,0.0030864,37.0,summer
+grebit1,Botaurus stellaris,サンカノゴイ,Eurasian Bittern,0.0006412291666666666,0.0020417,39.0,resident
+hoopoe,Upupa epops,ヤツガシラ,Eurasian Hoopoe,0.0006309166666666668,0.0043335,34.0,resident
+rolhaw,Buteo lagopus,ケアシノスリ,Rough-legged Hawk,0.0006285104166666666,0.0032731,24.0,winter
+litsti,Calidris minuta,ヨーロッパトウネン,Little Stint,0.0006111229166666667,0.0038059,35.0,resident
+solsni1,Gallinago solitaria,アオシギ,Solitary Snipe,0.00060086875,0.0041269,24.0,winter
+yebgro1,Eophona migratoria,コイカル,Yellow-billed Grosbeak,0.0005995124999999999,0.0028918,33.0,resident
+sooter1,Onychoprion fuscatus,セグロアジサシ,Sooty Tern,0.00059555625,0.0045674,29.0,summer
+ftspet,Hydrobates furcatus,ハイイロウミツバメ,Fork-tailed Storm-Petrel,0.0005865749999999999,0.0020268,37.0,resident
+barbut1,Turnix suscitator,ミフウズラ,Barred Buttonquail,0.0005859020833333333,0.0024958,36.0,resident
+rinduc,Aythya collaris,クビワキンクロ,Ring-necked Duck,0.0005835833333333334,0.0026336,22.0,winter
+cursan,Calidris ferruginea,サルハマシギ,Curlew Sandpiper,0.00055701875,0.0035053,23.0,passage
+manher1,Gorsachius melanolophus,ズグロミゾゴイ,Malayan Night Heron,0.0005527708333333332,0.0021488,42.0,resident
+grcter1,Thalasseus bergii,オオアジサシ,Great Crested Tern,0.0005460125000000001,0.0036051,29.0,resident
+creauk,Aethia cristatella,エトロフウミスズメ,Crested Auklet,0.0005452145833333334,0.0031474,26.0,resident
+swagoo1,Anser cygnoid,サカツラガン,Swan Goose,0.00054004375,0.0038947,21.0,winter
+whssta2,Sturnia sinensis,カラムクドリ,White-shouldered Starling,0.0005388562500000001,0.0017557,32.0,resident
+leswoo1,Dryobates minor,コアカゲラ,Lesser Spotted Woodpecker,0.0005347958333333333,0.0016823,44.0,resident
+bonhon1,Apalopteron familiare,メグロ,Bonin White-eye,0.00052938125,0.0029554,34.0,resident
+rebsta1,Spodiopsar sericeus,ギンムクドリ,Red-billed Starling,0.00052151875,0.0021873,34.0,resident
+ricpip1,Anthus richardi,マミジロタヒバリ,Richard's Pipit,0.0005023833333333334,0.0039254,33.0,resident
+pinbun,Emberiza leucocephalos,シラガホオジロ,Pine Bunting,0.00050179375,0.0067764,20.0,passage
+masboo,Sula dactylatra,アオツラカツオドリ,Masked Booby,0.0004957791666666667,0.0030717,30.0,resident
+chiegr,Egretta eulophotes,カラシラサギ,Chinese Egret,0.0004927708333333332,0.0024321,26.0,resident
+blkswa,Cygnus atratus,コクチョウ,Black Swan,0.0004790583333333333,0.0015,44.0,resident
+goleag,Aquila chrysaetos,イヌワシ,Golden Eagle,0.0004766270833333333,0.0015,37.0,resident
+pecsan,Calidris melanotos,アメリカウズラシギ,Pectoral Sandpiper,0.0004584520833333333,0.0022588,28.0,passage
+japqua,Coturnix japonica,ウズラ,Japanese Quail,0.00044874374999999997,0.0015,43.0,resident
+gybthr1,Turdus hortulorum,カラアカハラ,Gray-backed Thrush,0.0004338979166666667,0.0064489,20.0,passage
+sopsku1,Stercorarius maccormicki,オオトウゾクカモメ,South Polar Skua,0.00043373333333333327,0.0024584,26.0,resident
+snobun,Plectrophenax nivalis,ユキホオジロ,Snow Bunting,0.0004275874999999999,0.0021664,23.0,passage
+vartit2,Sittiparus olivaceus,オリイヤマガラ,Iriomote Tit,0.0004230041666666667,0.0015,36.0,resident
+caster1,Hydroprogne caspia,オニアジサシ,Caspian Tern,0.0004119479166666666,0.0015318,28.0,resident
+swisni1,Gallinago megala,チュウジシギ,Swinhoe's Snipe,0.00040824583333333317,0.0033302,24.0,passage
+whwter,Chlidonias leucopterus,ハジロクロハラアジサシ,White-winged Tern,0.00040696874999999994,0.0019412,27.0,resident
+rettro,Phaethon rubricauda,アカオネッタイチョウ,Red-tailed Tropicbird,0.0003962416666666666,0.0036241,19.0,passage
+grfhaw1,Accipiter soloensis,アカハラダカ,Chinese Sparrowhawk,0.00039457500000000004,0.0081699,17.0,passage
+y00478,Larus glaucoides,アイスランドカモメ,Iceland Gull,0.0003929645833333334,0.0032197,21.0,passage
+tufpuf,Fratercula cirrhata,エトピリカ,Tufted Puffin,0.00038728125,0.002213,24.0,passage
+laplon,Calcarius lapponicus,ツメナガホオジロ,Lapland Longspur,0.00038424166666666676,0.0024201,27.0,resident
+recpoc,Netta rufina,アカハシハジロ,Red-crested Pochard,0.00038020208333333335,0.0020545,19.0,passage
+swspet,Hydrobates monorhis,ヒメクロウミツバメ,Swinhoe's Storm-Petrel,0.00037941666666666674,0.0021494,19.0,passage
+palbun,Emberiza pallasi,シベリアジュリン,Pallas's Bunting,0.00037476041666666674,0.0029545,23.0,passage
+faipit1,Pitta nympha,ヤイロチョウ,Fairy Pitta,0.00036989583333333346,0.0023646,17.0,passage
+orsowl,Otus sunia,コノハズク,Oriental Scops-Owl,0.0003594208333333333,0.0018225,23.0,passage
+sllcra1,Rallina eurizonoides,オオクイナ,Slaty-legged Crake,0.00035448333333333327,0.001612,28.0,resident
+demcra1,Anthropoides virgo,アネハヅル,Demoiselle Crane,0.0003540208333333334,0.0022831,19.0,passage
+arcwar1,Phylloscopus borealis,コムシクイ,Arctic Warbler,0.00035272083333333327,0.0031046,28.0,resident
+chemun,Lonchura atricapilla,キンパラ,Chestnut Munia,0.00033800208333333335,0.0015,31.0,resident
+baepoc1,Aythya baeri,アカハジロ,Baer's Pochard,0.0003293875,0.0015292,25.0,passage
+taifly1,Ficedula albicilla,オジロビタキ,Taiga Flycatcher,0.0003276958333333333,0.0028918,27.0,resident
+yebloo,Gavia adamsii,ハシジロアビ,Yellow-billed Loon,0.00032001249999999995,0.0015737,30.0,resident
+rutrob1,Larvivora sibilans,シマゴマ,Rufous-tailed Robin,0.00031996458333333335,0.0068852,9.0,passage
+tigshr1,Lanius tigrinus,チゴモズ,Tiger Shrike,0.00031430624999999996,0.0022014,18.0,passage
+korfly1,Ficedula zanthopygia,マミジロキビタキ,Yellow-rumped Flycatcher,0.00031291666666666664,0.005095,10.0,passage
+buffle,Bucephala albeola,ヒメハジロ,Bufflehead,0.00030380208333333333,0.0028463,16.0,passage
+phtjac1,Hydrophasianus chirurgus,レンカク,Pheasant-tailed Jacana,0.0002984749999999999,0.0018984,26.0,passage
+yebbun,Emberiza aureola,シマアオジ,Yellow-breasted Bunting,0.0002867041666666666,0.0018225,19.0,passage
+canvas,Aythya valisineria,オオホシハジロ,Canvasback,0.00028290208333333337,0.0015737,20.0,passage
+whnpet,Pterodroma cervicalis,クビワオオシロハラミズナギドリ,White-necked Petrel,0.000281925,0.0015,16.0,passage
+sibacc,Prunella montanella,ヤマヒバリ,Siberian Accentor,0.0002772770833333333,0.0025922,13.0,passage
+yebtit4,Pardaliparus venustulus,キバラガラ,Yellow-bellied Tit,0.0002726770833333333,0.0015,18.0,passage
+rudshe,Tadorna ferruginea,アカツクシガモ,Ruddy Shelduck,0.0002701729166666666,0.0015,24.0,resident
+gubter2,Gelochelidon nilotica,ハシブトアジサシ,Gull-billed Tern,0.0002681395833333333,0.0015,19.0,passage
+radwar1,Phylloscopus schwarzi,カラフトムジセッカ,Radde's Warbler,0.00026356458333333334,0.0029042,12.0,passage
+palwar5,Phylloscopus proregulus,カラフトムシクイ,Pallas's Leaf Warbler,0.00026308750000000007,0.0040656,11.0,passage
+norshr4,Lanius borealis,オオモズ,Northern Shrike,0.00025969583333333333,0.0015,21.0,passage
+wispet,Oceanites oceanicus,アシナガウミツバメ,Wilson's Storm-Petrel,0.00025807083333333333,0.0019364,17.0,passage
+comros,Carpodacus erythrinus,アカマシコ,Common Rosefinch,0.00025608125,0.0027428,16.0,passage
+recdov1,Streptopelia tranquebarica,ベニバト,Red Collared-Dove,0.00025593750000000003,0.0015,25.0,resident
+lobmur,Brachyramphus perdix,マダラウミスズメ,Long-billed Murrelet,0.00023990625,0.0015,22.0,resident
+briter1,Onychoprion anaethetus,マミジロアジサシ,Bridled Tern,0.00022415416666666662,0.0015,20.0,passage
+gstlar1,Calandrella brachydactyla,ヒメコウテンシ,Greater Short-toed Lark,0.00021607083333333337,0.0020332,13.0,passage
+forwag1,Dendronanthus indicus,イワミセキレイ,Forest Wagtail,0.00021550208333333333,0.0015,21.0,resident
+asidow1,Limnodromus semipalmatus,シベリアオオハシシギ,Asian Dowitcher,0.0002143916666666667,0.0015,13.0,passage
+pitsni,Gallinago stenura,ハリオシギ,Pin-tailed Snipe,0.00020897916666666664,0.0015,28.0,resident
+lesfri,Fregata ariel,コグンカンドリ,Lesser Frigatebird,0.00020482083333333334,0.0015,17.0,passage
+chebun1,Emberiza rutila,シマノジコ,Chestnut Bunting,0.00020471875,0.0026164,12.0,passage
+eucdov,Streptopelia decaocto,シラコバト,Eurasian Collared-Dove,0.0002015041666666667,0.0015,23.0,resident
+eucdov,Streptopelia decaocto,シラコバト,Eurasian Collared-Dove,0.0002015041666666667,0.0015,23.0,resident
+barpet,Hydrobates castro,クロコシジロウミツバメ,Band-rumped Storm-Petrel,0.00019902291666666668,0.0015,12.0,passage
+scsmer1,Mergus squamatus,コウライアイサ,Scaly-sided Merganser,0.0001972166666666667,0.001604,18.0,passage
+citwag,Motacilla citreola,キガシラセキレイ,Citrine Wagtail,0.00019447291666666665,0.0015,17.0,resident
+lessca,Aythya affinis,コスズガモ,Lesser Scaup,0.00019398750000000002,0.0015,22.0,resident
+spbsan1,Calidris pygmaea,ヘラシギ,Spoon-billed Sandpiper,0.00019328333333333333,0.0015,12.0,passage
+budger,Melopsittacus undulatus,セキセイインコ,Budgerigar,0.0001896916666666667,0.0015,17.0,passage
+greyel,Tringa melanoleuca,オオキアシシギ,Greater Yellowlegs,0.00018947916666666668,0.0016303,13.0,passage
+blnori1,Oriolus chinensis,コウライウグイス,Black-naped Oriole,0.0001856770833333333,0.0026164,12.0,passage
+norgre1,Tringa guttifer,カラフトアオアシシギ,Nordmann's Greenshank,0.0001745208333333333,0.0026103,12.0,passage
+comchi1,Phylloscopus collybita,チフチャフ,Common Chiffchaff,0.00017420208333333333,0.0015,21.0,resident
+wantat1,Tringa incana,メリケンキアシシギ,Wandering Tattler,0.0001714875,0.0020655,11.0,passage
+leswhi4,Curruca curruca,コノドジロムシクイ,Lesser Whitethroat,0.00016988958333333332,0.0015,17.0,passage
+deswhe1,Oenanthe deserti,サバクヒタキ,Desert Wheatear,0.00016689375,0.0019117,14.0,passage
+wessan,Calidris mauri,ヒメハマシギ,Western Sandpiper,0.00016549791666666666,0.0016611,14.0,passage
+rocsan,Calidris ptilocnemis,チシマシギ,Rock Sandpiper,0.00016140833333333333,0.0015,15.0,passage
+savspa,Passerculus sandwichensis,サバンナシトド,Savannah Sparrow,0.00015725416666666667,0.0015,12.0,passage
+grefri,Fregata minor,オオグンカンドリ,Great Frigatebird,0.00015613333333333332,0.0015,9.0,passage
+blasto1,Ciconia nigra,ナベコウ,Black Stork,0.00015211874999999998,0.0015,14.0,passage
+comrav,Corvus corax,ワタリガラス,Common Raven,0.000150925,0.001473,18.0,passage
+aleter1,Onychoprion aleuticus,コシジロアジサシ,Aleutian Tern,0.00014605625000000002,0.0015,9.0,passage
+chibla1,Turdus mandarinus,クロウタドリ,Chinese Blackbird,0.00014279374999999998,0.0019067,16.0,passage
+norwhe,Oenanthe oenanthe,ハシグロヒタキ,Northern Wheatear,0.00014256041666666665,0.0015421,7.0,passage
+baicra1,Zapornia pusilla,ヒメクイナ,Baillon's Crake,0.00014100833333333332,0.0015,12.0,passage
+gocspa,Zonotrichia atricapilla,キガシラシトド,Golden-crowned Sparrow,0.00013750833333333332,0.0015,7.0,passage
+horlar,Eremophila alpestris,ハマヒバリ,Horned Lark,0.00013624583333333334,0.0015,16.0,passage
+lotshr1,Lanius schach,タカサゴモズ,Long-tailed Shrike,0.00013241458333333335,0.0015,14.0,passage
+chgshr1,Lanius sphenocercus,オオカラモズ,Chinese Gray Shrike,0.00012920416666666667,0.0015,15.0,passage
+pecpip,Anthus gustavi,セジロタヒバリ,Pechora Pipit,0.00012847291666666667,0.0015,9.0,passage
+relkit,Rissa brevirostris,アカアシミツユビカモメ,Red-legged Kittiwake,0.00012809999999999997,0.0015,11.0,passage
+bladro1,Dicrurus macrocercus,オウチュウ,Black Drongo,0.00012769375000000002,0.0016524,11.0,passage
+fieldf,Turdus pilaris,ノハラツグミ,Fieldfare,0.00012399791666666668,0.0015654,13.0,passage
+bryshe1,Puffinus bryani,オガサワラヒメミズナギドリ,Bryan's Shearwater,0.000123125,0.0015,13.0,resident
+gragoo,Anser anser,ハイイロガン,Graylag Goose,0.00012268125,0.0008921,15.0,passage
+uplbuz1,Buteo hemilasius,オオノスリ,Upland Buzzard,0.00011870208333333335,0.0015,15.0,passage
+trepip,Anthus trivialis,ヨーロッパビンズイ,Tree Pipit,0.00011604791666666667,0.0012617,10.0,passage
+amufal1,Falco amurensis,アカアシチョウゲンボウ,Amur Falcon,0.00011441666666666665,0.0015,10.0,passage
+whrmun,Lonchura striata,コシジロキンパラ,White-rumped Munia,0.00011388750000000001,0.0015,13.0,passage
+asikoe2,Eudynamys scolopaceus,オニカッコウ,Asian Koel,0.00011356041666666667,0.0015,10.0,passage
+kerpet,Pterodroma neglecta,カワリシロハラミズナギドリ,Kermadec Petrel,0.00011238958333333332,0.002611,13.0,passage
+grseag1,Clanga clanga,カラフトワシ,Greater Spotted Eagle,0.0001118166666666667,0.0015,11.0,passage
+whinch1,Saxicola rubetra,マミジロノビタキ,Whinchat,0.00011033333333333334,0.0016424,4.0,vagrant
+piehar1,Circus melanoleucos,マダラチュウヒ,Pied Harrier,0.00010973749999999999,0.0015,16.0,resident
+sursco,Melanitta perspicillata,アラナミキンクロ,Surf Scoter,0.00010970833333333333,0.0015,11.0,passage
+rosgul,Rhodostethia rosea,ヒメクビワカモメ,Ross's Gull,0.00010461875,0.0015,9.0,passage
+whttro,Phaethon lepturus,シラオネッタイチョウ,White-tailed Tropicbird,0.00010308541666666667,0.0015,13.0,passage
+schbit1,Ixobrychus eurhythmus,オオヨシゴイ,Schrenck's Bittern,9.67e-05,0.0015,12.0,passage
+redwin,Turdus iliacus,ワキアカツグミ,Redwing,9.372083333333336e-05,0.0015,8.0,passage
+gbhgul2,Ichthyaetus ichthyaetus,オオズグロカモメ,Pallas's Gull,9.342500000000001e-05,0.0015,9.0,passage
+cfweye1,Zosterops erythropleurus,チョウセンメジロ,Chestnut-flanked White-eye,9.121249999999999e-05,0.0009804,10.0,passage
+steeid,Polysticta stelleri,コケワタガモ,Steller's Eider,8.868124999999999e-05,0.0015,10.0,passage
+whwcro,Loxia leucoptera,ナキイスカ,White-winged Crossbill,8.857083333333334e-05,0.0015,8.0,passage
+bubsan,Calidris subruficollis,コモンシギ,Buff-breasted Sandpiper,8.793125e-05,0.0012519,7.0,passage
+waterc1,Gallicrex cinerea,ツルクイナ,Watercock,8.680416666666668e-05,0.0005702,17.0,resident
+gloibi,Plegadis falcinellus,ブロンズトキ,Glossy Ibis,8.513333333333332e-05,0.0015,6.0,passage
+manbuw1,Horornis canturians,チョウセンウグイス,Manchurian Bush Warbler,8.235833333333335e-05,0.0015421,7.0,passage
+litcur,Numenius minutus,コシャクシギ,Little Curlew,8.183958333333334e-05,0.001794,7.0,passage
+colkin1,Todiramphus chloris,ナンヨウショウビン,Collared Kingfisher,7.958125e-05,0.0015,11.0,passage
+blueth,Luscinia svecica,オガワコマドリ,Bluethroat,7.880625e-05,0.0004713,18.0,resident
+whwsco2,Melanitta deglandi,アメリカビロードキンクロ,White-winged Scoter,7.723333333333333e-05,0.0015,10.0,passage
+jacsni,Lymnocryptes minimus,コシギ,Jack Snipe,7.646250000000001e-05,0.0015,5.0,passage
+horpuf,Fratercula corniculata,ツノメドリ,Horned Puffin,7.494375e-05,0.0011065,10.0,passage
+lesyel,Tringa flavipes,コキアシシギ,Lesser Yellowlegs,7.435833333333334e-05,0.0015,5.0,passage
+sonthr1,Turdus philomelos,ウタツグミ,Song Thrush,7.407916666666665e-05,0.0015,7.0,passage
+comyel,Geothlypis trichas,カオグロアメリカムシクイ,Common Yellowthroat,7.398125e-05,0.0015,5.0,passage
+blhibi1,Threskiornis melanocephalus,クロトキ,Black-headed Ibis,7.385208333333334e-05,0.0015,5.0,passage
+blhbun1,Emberiza melanocephala,ズグロチャキンチョウ,Black-headed Bunting,7.318541666666668e-05,0.0015,7.0,passage
+towshe2,Puffinus newelli,ハワイセグロミズナギドリ,Newell's Shearwater,7.248541666666666e-05,0.0015,4.0,vagrant
+woowar,Phylloscopus sibilatrix,モリムシクイ,Wood Warbler,7.123333333333333e-05,0.0015,7.0,passage
+blrwar1,Acrocephalus dumetorum,ヤブヨシキリ,Blyth's Reed Warbler,6.970833333333334e-05,0.0012471,6.0,passage
+blabit1,Ixobrychus flavicollis,タカサゴクロサギ,Black Bittern,6.958125e-05,0.0015,3.0,vagrant
+stepet,Pterodroma longirostris,ヒメシロハラミズナギドリ,Stejneger's Petrel,6.518125e-05,0.0015,3.0,vagrant
+whrsan,Calidris fuscicollis,コシジロウズラシギ,White-rumped Sandpiper,6.385208333333333e-05,0.0016639,2.0,vagrant
+laugul,Leucophaeus atricilla,ワライカモメ,Laughing Gull,6.346041666666667e-05,0.0005702,11.0,passage
+brtcur,Numenius tahitiensis,ハリモモチュウシャク,Bristle-thighed Curlew,6.25e-05,0.0015,2.0,vagrant
+isawhe1,Oenanthe isabellina,イナバヒタキ,Isabelline Wheatear,6.25e-05,0.0015,2.0,vagrant
+dausta1,Agropsar sturninus,シベリアムクドリ,Daurian Starling,6.230416666666667e-05,0.0012393,7.0,passage
+bulshe,Ardenna bulleri,ミナミオナガミズナギドリ,Buller's Shearwater,5.915e-05,0.0015,6.0,passage
+pllwar1,Phylloscopus tenellipes,アムールムシクイ,Pale-legged Leaf Warbler,5.6260416666666664e-05,0.0009639,5.0,passage
+eurrob1,Erithacus rubecula,ヨーロッパコマドリ,European Robin,5.439375e-05,0.0015,4.0,vagrant
+ashdro1,Dicrurus leucophaeus,ハイイロオウチュウ,Ashy Drongo,5.424791666666667e-05,0.0015,6.0,passage
+blypip1,Anthus godlewskii,コマミジロタヒバリ,Blyth's Pipit,5.3777083333333334e-05,0.0017901,4.0,vagrant
+pagwar1,Locustella certhiola,シベリアセンニュウ,Pallas's Grasshopper Warbler,5.337708333333334e-05,0.0015,4.0,vagrant
+blknod,Anous minutus,ヒメクロアジサシ,Black Noddy,5.271250000000001e-05,0.0007248,9.0,passage
+wlwwar,Phylloscopus trochilus,キタヤナギムシクイ,Willow Warbler,5.21125e-05,0.000817,6.0,passage
+gyrfal,Falco rusticolus,シロハヤブサ,Gyrfalcon,5.149166666666667e-05,0.0015,7.0,passage
+rehbun1,Emberiza bruniceps,チャキンチョウ,Red-headed Bunting,5.0812499999999995e-05,0.0015,3.0,vagrant
+lstlar2,Alaudala cheleensis,コヒバリ,Asian Short-toed Lark,5.0641666666666667e-05,0.0006536,8.0,resident
+boowar1,Iduna caligata,ヒメウタイムシクイ,Booted Warbler,5.0343749999999994e-05,0.0015,4.0,vagrant
+whhmun1,Lonchura maja,ヘキチョウ,White-headed Munia,4.963125e-05,0.0015,5.0,passage
+eugplo,Pluvialis apricaria,ヨーロッパムナグロ,European Golden-Plover,4.959166666666667e-05,0.0015,6.0,passage
+piewhe1,Oenanthe pleschanka,セグロサバクヒタキ,Pied Wheatear,4.926041666666667e-05,0.0015,5.0,passage
+leater1,Sternula antillarum,アメリカコアジサシ,Least Tern,4.747708333333333e-05,0.0015,3.0,vagrant
+litgul,Hydrocoloeus minutus,ヒメカモメ,Little Gull,4.666041666666666e-05,0.001224,5.0,passage
+moulau1,Ianthocincla cineracea,ヒゲガビチョウ,Moustached Laughingthrush,4.3941666666666666e-05,0.0015,5.0,passage
+redava,Amandava amandava,ベニスズメ,Red Avadavat,4.320833333333333e-05,0.0015,3.0,vagrant
+wtrthr1,Monticola gularis,ヒメイソヒヨ,White-throated Rock-Thrush,4.30375e-05,0.0011016,5.0,passage
+swirai1,Coturnicops exquisitus,シマクイナ,Swinhoe's Rail,4.264166666666667e-05,0.0015,4.0,vagrant
+misthr1,Turdus viscivorus,ヤドリギツグミ,Mistle Thrush,4.217916666666667e-05,0.0015,2.0,vagrant
+indcuc1,Cuculus micropterus,セグロカッコウ,Indian Cuckoo,4.195208333333333e-05,0.0005833,5.0,passage
+blkter,Chlidonias niger,ハシグロクロハラアジサシ,Black Tern,4.188125e-05,0.0015,3.0,vagrant
+truswa,Cygnus buccinator,ナキハクチョウ,Trumpeter Swan,3.923125e-05,0.0015,4.0,vagrant
+oriplo1,Charadrius veredus,オオチドリ,Oriental Plover,3.8175e-05,0.0010293,5.0,passage
+eupfly1,Ficedula hypoleuca,マダラヒタキ,European Pied Flycatcher,3.798125e-05,0.0015,3.0,vagrant
+rbbmag,Urocissa erythroryncha,サンジャク,Red-billed Blue-Magpie,3.6731249999999995e-05,0.0015,3.0,vagrant
+rebshr1,Lanius collurio,セアカモズ,Red-backed Shrike,3.6358333333333334e-05,0.0015,3.0,vagrant
+bnhgul1,Chroicocephalus brunnicephalus,チャガシラカモメ,Brown-headed Gull,3.572916666666666e-05,0.001224,2.0,vagrant
+bearee1,Panurus biarmicus,ヒゲガラ,Bearded Reedling,3.4860416666666666e-05,0.0015,2.0,vagrant
+blckin1,Halcyon pileata,ヤマショウビン,Black-capped Kingfisher,3.473958333333333e-05,0.0005608,6.0,passage
+slbgul1,Chroicocephalus genei,ハシボソカモメ,Slender-billed Gull,3.3904166666666666e-05,0.0015,2.0,vagrant
+cangoo,Branta canadensis,カナダガン,Canada Goose,3.374166666666667e-05,0.0015,2.0,vagrant
+cangoo,Branta canadensis,カナダガン,Canada Goose,3.374166666666667e-05,0.0015,2.0,vagrant
+bkwpet,Pterodroma nigripennis,ハグロシロハラミズナギドリ,Black-winged Petrel,3.1970833333333336e-05,0.0008731,4.0,vagrant
+sibnee1,Hirundapus cochinchinensis,クロビタイハリオアマツバメ,Silver-backed Needletail,3.125e-05,0.0015,1.0,vagrant
+trimun,Lonchura malacca,ギンパラ,Tricolored Munia,3.125e-05,0.0015,1.0,vagrant
+sedwar1,Acrocephalus schoenobaenus,スゲヨシキリ,Sedge Warbler,3.125e-05,0.0015,1.0,vagrant
+ettwoo1,Picoides tridactylus,ミユビゲラ,Eurasian Three-toed Woodpecker,3.125e-05,0.0015,1.0,vagrant
+eueowl1,Bubo bubo,ワシミミズク,Eurasian Eagle-Owl,3.125e-05,0.0015,1.0,vagrant
+manrew1,Acrocephalus tangorum,マンシュウイナダヨシキリ,Manchurian Reed Warbler,3.125e-05,0.0015,1.0,vagrant
+norhar2,Circus hudsonius,アメリカハイイロチュウヒ,Northern Harrier,3.125e-05,0.0015,1.0,vagrant
+chilew1,Phylloscopus yunnanensis,シセンムシクイ,Chinese Leaf Warbler,3.125e-05,0.0015,1.0,vagrant
+verfly4,Eumyias thalassinus,ロクショウヒタキ,Verditer Flycatcher,2.7350000000000004e-05,0.0005347,4.0,vagrant
+datthr1,Turdus atrogularis,ノドグロツグミ,Black-throated Thrush,2.4479166666666668e-05,0.0004641,4.0,vagrant
+whcspa,Zonotrichia leucophrys,ミヤマシトド,White-crowned Sparrow,2.063541666666667e-05,0.0004207,4.0,vagrant
+stisan,Calidris himantopus,アシナガシギ,Stilt Sandpiper,1.9322916666666668e-05,0.0004106,3.0,vagrant
+sabgul,Xema sabini,クビワカモメ,Sabine's Gull,1.8162499999999998e-05,0.0005154,2.0,vagrant
+whvmyn,Acridotheres javanicus,ジャワハッカ,Javan Myna,1.674375e-05,0.0003497,3.0,vagrant
+spofly1,Muscicapa striata,ムナフヒタキ,Spotted Flycatcher,1.55125e-05,0.0003476,3.0,vagrant
+rossta2,Pastor roseus,バライロムクドリ,Rosy Starling,1.4816666666666665e-05,0.0002573,4.0,vagrant
+eaywag1,Motacilla flava,ニシツメナガセキレイ,Western Yellow Wagtail,1.4447916666666666e-05,0.0004131,2.0,vagrant
+meapip1,Anthus pratensis,マキバタヒバリ,Meadow Pipit,1.4108333333333333e-05,0.0003736,3.0,vagrant
+semplo,Charadrius semipalmatus,ミズカキチドリ,Semipalmated Plover,1.2772916666666666e-05,0.0002577,3.0,vagrant
+arcter,Sterna paradisaea,キョクアジサシ,Arctic Tern,1.2666666666666667e-05,0.000608,1.0,vagrant
+parauk,Aethia psittacula,ウミオウム,Parakeet Auklet,1.0854166666666668e-05,0.0001637,4.0,vagrant
+chwcuc1,Clamator coromandus,カンムリカッコウ,Chestnut-winged Cuckoo,9.641666666666666e-06,0.0001634,3.0,vagrant
+baisan,Calidris bairdii,ヒメウズラシギ,Baird's Sandpiper,8.8375e-06,0.0002504,2.0,vagrant
+blared1,Phoenicurus ochruros,クロジョウビタキ,Black Redstart,8.799999999999999e-06,0.0001626,3.0,vagrant
+javspa,Padda oryzivora,ブンチョウ,Java Sparrow,7.764583333333333e-06,0.0002027,2.0,vagrant
+bkwcus1,Lalage melaschistos,アサクラサンショウクイ,Black-winged Cuckooshrike,7.495833333333334e-06,0.0001898,2.0,vagrant
+grybus1,Saxicola ferreus,ヤマザキヒタキ,Gray Bushchat,6.308333333333333e-06,0.0001626,2.0,vagrant
+ferfly1,Muscicapa ferruginea,ミヤマヒタキ,Ferruginous Flycatcher,6.120833333333333e-06,0.0001536,2.0,vagrant
+yerwar,Setophaga coronata,キヅタアメリカムシクイ,Yellow-rumped Warbler,6.068749999999999e-06,0.0001626,2.0,vagrant
+bimlar1,Melanocorypha bimaculata,クビワコウテンシ,Bimaculated Lark,6.0500000000000005e-06,0.000165,2.0,vagrant
+borowl,Aegolius funereus,キンメフクロウ,Boreal Owl,5.839583333333333e-06,0.0001458,2.0,vagrant
+chrshe,Puffinus nativitatis,コミズナギドリ,Christmas Shearwater,5.033333333333333e-06,0.0002416,1.0,vagrant
+baleag,Haliaeetus leucocephalus,ハクトウワシ,Bald Eagle,4.414583333333333e-06,0.000116,2.0,vagrant
+eurdot,Eudromias morinellus,コバシチドリ,Eurasian Dotterel,4.241666666666667e-06,0.0001077,2.0,vagrant
+rubred2,Phoenicurus erythronotus,セアカジョウビタキ,Rufous-backed Redstart,3.620833333333333e-06,0.0001738,1.0,vagrant
+comred2,Phoenicurus phoenicurus,シロビタイジョウビタキ,Common Redstart,3.3604166666666663e-06,0.0001613,1.0,vagrant
+impeag1,Aquila heliaca,カタシロワシ,Imperial Eagle,3.2e-06,0.0001536,1.0,vagrant
+rebgoo1,Branta ruficollis,アオガン,Red-breasted Goose,3.0479166666666668e-06,0.0001463,1.0,vagrant
+lewduc1,Dendrocygna javanica,リュウキュウガモ,Lesser Whistling-Duck,2.920833333333333e-06,0.0001402,1.0,vagrant
+monlar1,Melanocorypha mongolica,コウテンシ,Mongolian Lark,2.920833333333333e-06,0.0001402,1.0,vagrant
+fragul,Leucophaeus pipixcan,アメリカズグロカモメ,Franklin's Gull,2.9145833333333337e-06,0.0001399,1.0,vagrant
+ivogul,Pagophila eburnea,ゾウゲカモメ,Ivory Gull,2.9145833333333337e-06,0.0001399,1.0,vagrant
+grwpel1,Pelecanus onocrotalus,モモイロペリカン,Great White Pelican,2.802083333333333e-06,0.0001345,1.0,vagrant
+shbdow,Limnodromus griseus,アメリカオオハシシギ,Short-billed Dowitcher,2.802083333333333e-06,0.0001345,1.0,vagrant
+norbob,Colinus virginianus,コリンウズラ,Northern Bobwhite,2.6812500000000004e-06,0.0001287,1.0,vagrant
+hacdro1,Dicrurus hottentottus,カンムリオウチュウ,Hair-crested Drongo,2.4916666666666664e-06,0.0001196,1.0,vagrant
+dalpel1,Pelecanus crispus,ハイイロペリカン,Dalmatian Pelican,2.4166666666666667e-06,0.000116,1.0,vagrant
+cinvul1,Aegypius monachus,クロハゲワシ,Cinereous Vulture,2.3458333333333335e-06,0.0001126,1.0,vagrant
+copgoo1,Nettapus coromandelianus,ナンキンオシ,Cotton Pygmy-Goose,2.3458333333333335e-06,0.0001126,1.0,vagrant
+grewar2,Phylloscopus plumbeitarsus,ヤナギムシクイ,Two-barred Warbler,2.3458333333333335e-06,0.0001126,1.0,vagrant
+bahgoo,Anser indicus,インドガン,Bar-headed Goose,,,,undetected
+empgoo,Anser canagicus,ミカドガン,Emperor Goose,,,,undetected
+creshe1,Tadorna cristata,カンムリツクシガモ,Crested Shelduck,,,,undetected
+buwtea,Spatula discors,ミカヅキシマアジ,Blue-winged Teal,,,,undetected
+phiduc1,Anas luzonica,アカノドカルガモ,Philippine Duck,,,,undetected
+redhea,Aythya americana,アメリカホシハジロ,Redhead,,,,undetected
+kineid,Somateria spectabilis,ケワタガモ,King Eider,,,,undetected
+hoomer,Lophodytes cucullatus,オウギアイサ,Hooded Merganser,,,,undetected
+grebus1,Otis tarda,ノガン,Great Bustard,,,,undetected
+litbus1,Tetrax tetrax,ヒメノガン,Little Bustard,,,,undetected
+lescou1,Centropus bengalensis,バンケン,Lesser Coucal,,,,undetected
+lotkoe1,Urodynamis taitensis,キジカッコウ,Long-tailed Koel,,,,undetected
+placuc1,Cacomantis merulinus,ヒメカッコウ,Plaintive Cuckoo,,,,undetected
+larhac2,Hierococcyx sparverioides,オオジュウイチ,Large Hawk-Cuckoo,,,,undetected
+palsan1,Syrrhaptes paradoxus,サケイ,Pallas's Sandgrouse,,,,undetected
+stodov1,Columba oenas,ヒメモリバト,Stock Dove,,,,undetected
+bonpig1,Columba versicolor,オガサワラカラスバト,Bonin Pigeon,,,,undetected
+ryupig1,Columba jouyi,リュウキュウカラスバト,Ryukyu Pigeon,,,,undetected
+bcfdov1,Ptilinopus leclancheri,クロアゴヒメアオバト,Black-chinned Fruit-Dove,,,,undetected
+corcra,Crex crex,ウズラクイナ,Corn Crake,,,,undetected
+slbrai1,Lewinia striata,ミナミクイナ,Slaty-breasted Rail,,,,undetected
+babcra1,Zapornia paykullii,コウライクイナ,Band-bellied Crake,,,,undetected
+whbcra1,Poliolimnas cinereus,マミジロクイナ,White-browed Crake,,,,undetected
+piesti1,Himantopus leucocephalus,オーストラリアセイタカシギ,Pied Stilt,,,,undetected
+slbcur,Numenius tenuirostris,シロハラチュウシャクシギ,Slender-billed Curlew,,,,undetected
+hudgod,Limosa haemastica,アメリカオグロシギ,Hudsonian Godwit,,,,undetected
+wilpha,Phalaropus tricolor,アメリカヒレアシシギ,Wilson's Phalarope,,,,undetected
+sposan,Actitis macularius,アメリカイソシギ,Spotted Sandpiper,,,,undetected
+bugnod,Anous ceruleus,ハイイロアジサシ,Blue-gray Noddy,,,,undetected
+whiter,Gygis alba,シロアジサシ,White Tern,,,,undetected
+bongul,Chroicocephalus philadelphia,ボナパルトカモメ,Bonaparte's Gull,,,,undetected
+relgul2,Ichthyaetus relictus,ゴビズキンカモメ,Relict Gull,,,,undetected
+lecter2,Thalasseus bengalensis,ベンガルアジサシ,Lesser Crested Tern,,,,undetected
+gybter1,Onychoprion lunatus,ナンヨウマミジロアジサシ,Gray-backed Tern,,,,undetected
+doveki,Alle alle,ヒメウミスズメ,Dovekie,,,,undetected
+casauk,Ptychoramphus aleuticus,アメリカウミスズメ,Cassin's Auklet,,,,undetected
+whiauk,Aethia pygmaea,シラヒゲウミスズメ,Whiskered Auklet,,,,undetected
+comloo,Gavia immer,ハシグロアビ,Common Loon,,,,undetected
+jufpet,Pterodroma externa,オオシロハラミズナギドリ,Juan Fernandez Petrel,,,,undetected
+hawpet1,Pterodroma sandwichensis,ハワイシロハラミズナギドリ,Hawaiian Petrel,,,,undetected
+motpet,Pterodroma inexpectata,マダラシロハラミズナギドリ,Mottled Petrel,,,,undetected
+pifshe,Ardenna creatopus,シロハラアカアシミズナギドリ,Pink-footed Shearwater,,,,undetected
+runher1,Nycticorax caledonicus,ハシブトゴイ,Nankeen Night Heron,,,,undetected
+spbpel1,Pelecanus philippensis,ホシバシペリカン,Spot-billed Pelican,,,,undetected
+snoowl1,Bubo scandiacus,シロフクロウ,Snowy Owl,,,,undetected
+bkbkin1,Ceyx erithaca,ミツユビカワセミ,Black-backed Dwarf-Kingfisher,,,,undetected
+btbeat1,Merops philippinus,ルリオハチクイ,Blue-tailed Bee-eater,,,,undetected
+rabeat1,Merops ornatus,ハチクイ,Rainbow Bee-eater,,,,undetected
+rubwoo1,Dendrocopos hyperythrus,チャバラアカゲラ,Rufous-bellied Woodpecker,,,,undetected
+whbwoo2,Dryocopus javensis,キタタキ,White-bellied Woodpecker,,,,undetected
+leskes1,Falco naumanni,ヒメチョウゲンボウ,Lesser Kestrel,,,,undetected
+wehpit1,Pitta sordida,ズグロヤイロチョウ,Western Hooded Pitta,,,,undetected
+whbwoo4,Artamus leucorynchus,モリツバメ,White-breasted Woodswallow,,,,undetected
+blnmon1,Hypothymis azurea,クロエリヒタキ,Black-naped Monarch,,,,undetected
+eurjac,Corvus monedula,ニシコクマルガラス,Eurasian Jackdaw,,,,undetected
+azutit2,Cyanistes cyanus,ルリガラ,Azure Tit,,,,undetected
+plamar1,Riparia paludicola,タイワンショウドウツバメ,Plain Martin,,,,undetected
+thbwar1,Arundinax aedon,ハシブトオオヨシキリ,Thick-billed Warbler,,,,undetected
+gycthr,Catharus minimus,ハイイロチャツグミ,Gray-cheeked Thrush,,,,undetected
+scathr8,Zoothera dauma,ミナミトラツグミ,Scaly Thrush,,,,undetected
+bonthr2,Cichlopasser terrestris,オガサワラガビチョウ,Bonin Thrush,,,,undetected
+orhthr1,Geokichla citrina,オレンジジツグミ,Orange-headed Thrush,,,,undetected
+brbfly2,Muscicapa muttui,チャムネサメビタキ,Brown-breasted Flycatcher,,,,undetected
+plured1,Phoenicurus fuliginosus,カワビタキ,Plumbeous Redstart,,,,undetected
+rtrthr1,Monticola saxatilis,コシジロイソヒヨドリ,Rufous-tailed Rock-Thrush,,,,undetected
+piebus1,Saxicola caprata,クロノビタキ,Pied Bushchat,,,,undetected
+houspa,Passer domesticus,イエスズメ,House Sparrow,,,,undetected
+rospip1,Anthus roseatus,ウスベニタヒバリ,Rosy Pipit,,,,undetected
+comcha,Fringilla coelebs,ズアオアトリ,Common Chaffinch,,,,undetected
+bongro1,Carpodacus ferreorostris,オガサワラマシコ,Bonin Grosbeak,,,,undetected
+yellow2,Emberiza citrinella,キアオジ,Yellowhammer,,,,undetected
+gyhbun1,Emberiza buchanani,イワバホオジロ,Gray-necked Bunting,,,,undetected
+ortbun1,Emberiza hortulana,ズアオホオジロ,Ortolan Bunting,,,,undetected
+foxspa,Passerella iliaca,ゴマフスズメ,Fox Sparrow,,,,undetected
+sonspa,Melospiza melodia,ウタスズメ,Song Sparrow,,,,undetected
+taibap1,Bambusicola sonorivox,テッケイ,Taiwan Bamboo-Partridge,,,,undetected
+bknsti,Himantopus mexicanus,クロエリセイタカシギ,Black-necked Stilt,,,,undetected
+monpar,Myiopsitta monachus,オキナインコ,Monk Parakeet,,,,undetected
+rebpar4,Psittacula alexandri,ダルマインコ,Red-breasted Parakeet,,,,undetected
+alepar2,Psittacula eupatria,オオホンセイインコ,Alexandrine Parakeet,,,,undetected
+formag1,Urocissa caerulea,ヤマムスメ,Taiwan Blue-Magpie,,,,undetected
+banmyn1,Acridotheres ginginianus,ハイイロハッカ,Bank Myna,,,,undetected
+lesmaw1,Ploceus intermedius,メンハタオリドリ,Lesser Masked-Weaver,,,,undetected
+redbis,Euplectes orix,オオキンランチョウ,Southern Red Bishop,,,,undetected
+orcwax,Estrilda melpoda,ホオアカカエデチョウ,Orange-cheeked Waxbill,,,,undetected
+bkrwax,Estrilda troglodytes,カエデチョウ,Black-rumped Waxbill,,,,undetected
+eapwhy1,Vidua paradisaea,ホウオウジャク,Eastern Paradise-Whydah,,,,undetected
+reccar,Paroaria coronata,コウカンチョウ,Red-crested Cardinal,,,,undetected

@@ -1,0 +1,78 @@
+# Step 02: 訓練データ収集 設定ファイル
+
+nas_base: ~/NAS/nasbi/ToriNET
+
+# 種リスト
+species_list: steps/01_species_list/species_list.csv
+
+# APIキー
+xc_api_key_file: keys/xenocant_api.key
+
+# Xeno-canto
+xeno_canto:
+  api_url: https://xeno-canto.org/api/3/recordings
+  per_page: 50
+  rate_limit_sec: 1.0
+  metadata_dir: audio/xeno-canto/metadata
+  wav_dir: audio/xeno-canto/wav
+  # ダウンロードフィルタ
+  download_filter:
+    min_quality: C        # A, B, C まで（D, E は除外）
+    allowed_licenses:     # CC系ライセンスのみ
+      - //creativecommons.org
+  # 並列ダウンロード
+  download:
+    max_concurrent: 5
+    rate_limit_sec: 0.5
+
+# iNat Sounds 2024
+inat_sounds:
+  annotation_urls:
+    train: https://ml-inat-competition-datasets.s3.amazonaws.com/sounds/2024/train.json.tar.gz
+    val: https://ml-inat-competition-datasets.s3.amazonaws.com/sounds/2024/val.json.tar.gz
+  annotations_dir: audio/inat-sounds/annotations
+  raw_dir: audio/inat-sounds/raw
+  filtered_dir: audio/inat-sounds/filtered
+  s3_bucket: ml-inat-competition-datasets
+  s3_prefix: sounds/2024
+
+# iNat API (直接観察検索で Sounds 2024 を補完)
+inat_api:
+  api_url: https://api.inaturalist.org/v1/observations
+  per_page: 200
+  rate_limit_sec: 1.0
+  metadata_dir: audio/inat-api/metadata
+  audio_dir: audio/inat-api/audio
+  allowed_licenses:
+    - cc-by
+    - cc-by-nc
+    - cc-by-sa
+    - cc-by-nd
+    - cc-by-nc-sa
+    - cc-by-nc-nd
+    - cc0
+  download:
+    max_concurrent: 1
+    rate_limit_sec: 0.5
+    hourly_limit_gb: 4.5   # 5GB/hour 制限に余裕を持たせる
+
+# Macaulay Library (Cornell Lab / eBird)
+macaulay:
+  search_api: https://search.macaulaylibrary.org/api/v1/search
+  per_page: 100
+  rate_limit_sec: 1.0
+  metadata_dir: audio/macaulay/metadata
+  audio_dir: audio/macaulay/audio
+  download:
+    max_concurrent: 3
+    rate_limit_sec: 0.5
+
+# 統合メタデータ
+unified_metadata: metadata/unified_metadata.parquet
+
+# 日本国内判定（緯度経度の大まかな範囲）
+japan_bounds:
+  lat_min: 24.0
+  lat_max: 46.0
+  lon_min: 122.0
+  lon_max: 154.0
