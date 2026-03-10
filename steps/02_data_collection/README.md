@@ -7,11 +7,14 @@ Perch 2.0を参考に、Xeno-canto + iNat Sounds 2024 を主力データソー�
 
 ## データソース
 
-| ソース | 種カバレッジ | 推定録音数 | 日本録音 | 優先度 |
-|--------|------------|-----------|---------|--------|
-| **Xeno-canto** | 658/688 (95.6%) | 290,810件 | 2,730件/239種 | **1** |
-| **iNat Sounds 2024** | 412/688 (59.9%) | 33,917件 | 381件/105種 | **2** |
-| FSD50K | — (環境音) | 51K clips | — | 3 |
+| ソース | 種カバレッジ | メタデータ録音数 | DL可能 | 日本録音 |
+|--------|------------|----------------|--------|---------|
+| **Xeno-canto** | 658/688 (95.6%) | 290,810件 | 290,810件 | 2,730件/239種 |
+| **iNat Sounds S3** | 412/688 (59.9%) | 33,917件 | 33,917件 | 381件/105種 |
+| **iNat API** | 567/688 (82.4%) | 335,657件 | 335,657件 | — |
+| **Macaulay Library** | 646/688 (93.9%) | 503,206件 | 25,968件 (304種) | 3,082件 |
+| FSD50K | — (環境音) | 51K clips | — | — |
+| **合計 (DL可能)** | **668/688 (97.1%)** | — | **686,352件** | — |
 
 ## 実行方法
 
@@ -119,23 +122,61 @@ bash steps/02_data_collection/download_all.sh --wav
 - **未カバー種**: 21/688（海鳥・絶滅種・希少種が中心）
 - **注意**: API v3のlongitudeフィールド名修正済み（`lng` → `lon`）。既存データのis_japanはcountryフィールドから再計算
 
-### XC + iNat 合算カバレッジ
+### Macaulay Library
 
-- **合計種カバレッジ**: XC 658種 + iNat 412種 = 合算 660/688 (95.9%)（重複410種）
-- **合計録音数**: 290,810 + 33,917 = 324,727件
-- **合計日本録音**: 2,730 + 381 = 3,111件
+- **メタデータ**: 503,206件 (646/688種, 98.7% of eBird-matched)
+- **ダウンロード済み**: 25,968件 (304種) — P1/P2優先種向けに正式申請
+  - WAV: 20,078件, MP3: 3,224件, M4A: 2,595件
+  - 合計容量: 176 GB (5バッチ)
+  - 日本録音: 3,082件
+- **注意**: Cornell Lab研究ライセンス（eBird Any Lab Use）
+
+### 全ソース合算カバレッジ（DL可能ベース）
+
+- **合計種カバレッジ**: 668/688 (97.1%)
+- **合計DL可能録音数**: 686,352件
+- **優先度ティア分布（定期観察種515種）**:
+  - P1 (DL可能 < 50): 72種
+  - P2 (DL可能 50-99): 68種
+  - P3 (DL可能 ≥ 100): 375種
+
+### 統合メタデータ
+
+- **総録音数**: 556,914件（DL済み・重複除去後）
+- **種カバレッジ**: 667種
+- **日本録音**: 9,171件
+- **ソース内訳**:
+  - Xeno-canto: 262,038件 (642種)
+  - iNat API: 235,062件 (528種)
+  - iNat Sounds S3: 33,917件 (412種)
+  - Macaulay: 25,897件 (304種)
+- **種ごとの録音数**: Mean 835, Median 181, Min 1, Max 39,826
+- **重複除去**:
+  - XC: 2,762件（同一レコーディングの重複行）
+  - iNat API: 12,651件（同一音声ファイルが複数観察に紐づくケース）
+  - Macaulay: 71件（メタデータ内の重複）
+- **ファイル存在率**: 100%（1,000件サンプルチェック）
 
 ## ファイル構成
 
 ```
 steps/02_data_collection/
-├── README.md           # 本ファイル
-├── config.yaml         # 設定（NASパス、APIエンドポイント等）
-├── utils.py            # 共通ユーティリティ
-├── collect_xc.py       # XC メタデータ収集 + 音声DL
-├── collect_inat.py     # iNat アノテーション解析 + 音声DL
-├── download_all.sh     # 一括DL（リトライ・ログ付き）
-└── logs/               # DLログ（自動生成）
+├── README.md                # 本ファイル
+├── config.yaml              # 設定（NASパス、APIエンドポイント等）
+├── utils.py                 # 共通ユーティリティ
+├── collect_xc.py            # XC メタデータ収集 + 音声DL
+├── collect_inat.py          # iNat アノテーション解析 + 音声DL
+├── collect_inat_api.py      # iNat API 直接検索
+├── collect_macaulay.py      # ML メタデータ収集 + 音声DL
+├── generate_ml_request.py   # ML申請用カタログリスト生成
+├── analyze_coverage_gaps.py # カバレッジギャップ分析
+├── visualize_coverage.py    # カバレッジ可視化
+├── build_unified_metadata.py # 統合メタデータ構築
+├── organize_macaulay.py     # ML tar展開 → 種別ディレクトリ整理
+├── download_all.sh          # 一括DL（リトライ・ログ付き）
+├── ml_request/              # ML申請用CSV（4バッチ）
+├── figures/                 # 分析結果の可視化
+└── logs/                    # DLログ（自動生成）
 ```
 
 ## NASデータ構成
@@ -150,9 +191,15 @@ steps/02_data_collection/
 │   │   ├── annotations/         # train.json, val.json, inat_metadata.parquet
 │   │   ├── raw/                 # S3からの元データ
 │   │   └── filtered/{species_code}/  # マッチ種のみ
+│   ├── inat-api/
+│   │   ├── metadata/            # inat_api_metadata.parquet
+│   │   └── audio/{species_code}/
+│   ├── macaulay/
+│   │   ├── metadata/            # ml_metadata.parquet, collection_progress.json
+│   │   └── audio/{species_code}/ # 展開済み音声 (25,897件, 304種)
 │   └── fsd50k/                  # 後続
 └── metadata/
-    └── unified_metadata.parquet # XC + iNat 統合（後続）
+    └── unified_metadata.parquet # 統合メタデータ (556,914件, 667種)
 ```
 
 ## TODO
@@ -160,5 +207,11 @@ steps/02_data_collection/
 - [x] 共通ユーティリティ・設定ファイル作成
 - [x] iNat Sounds 2024 アノテーション解析
 - [x] Xeno-canto APIキー配置 → メタデータ収集
-- [ ] メタデータ確認後、音声ダウンロード判断
+- [x] iNat API 直接検索
+- [x] Macaulay Library メタデータ収集
+- [x] Macaulay Library 正式申請 → ダウンロード完了 (25,968件, 304種)
+- [x] カバレッジギャップ分析更新
+- [x] Macaulay tar 展開 → 種別ディレクトリに整理 (25,897件, 304種)
+- [x] 全ソース音声ダウンロード（XC + iNat S3 + iNat API）完了
+- [x] 統合メタデータ作成 (556,914件, 667種, ファイル存在率100%)
 - [ ] FSD50K 環境音の取得（後続ステップ）

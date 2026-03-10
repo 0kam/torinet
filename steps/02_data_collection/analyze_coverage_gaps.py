@@ -4,21 +4,20 @@
 eBird頻度データ（日本国内）と各ソースの録音数（全世界）を突き合わせ、
 訓練データが不足している種を特定する。
 
-優先度ティア:
-  P1 (< 50 total recordings) — 最優先
-  P2 (50-99 total recordings) — 次に優先
-  P3 (≥ 100 total recordings) — 十分
+優先度ティア（downloadable recordings 基準）:
+  P1 (< 50 downloadable recordings) — 最優先
+  P2 (50-99 downloadable recordings) — 次に優先
+  P3 (≥ 100 downloadable recordings) — 十分
 
 使い方:
   python analyze_coverage_gaps.py
 
 出力:
   - coverage_gap_analysis.csv   — 全種の頻度・録音数・優先度ティア
-  - ml_request_priority.csv     — ML申請用の優先リスト（P1/P2のみ）
   - figures/coverage_gap_*.png  — 可視化
 """
 
-import math
+import csv
 from pathlib import Path
 
 import matplotlib
@@ -73,90 +72,85 @@ def load_all_counts(cfg: dict) -> pd.DataFrame:
     return counts
 
 
+def load_ml_downloaded_counts() -> pd.DataFrame:
+    """ML申請バッチCSVからダウンロード済み録音数を種別に集計する。"""
+    reqdir = STEP_DIR / "ml_request"
+    species_total = {}
+    species_japan = {}
+
+    batch_files = sorted(reqdir.glob("ml_request_batch_*.csv"))
+    # _ids.csv は除外
+    batch_files = [f for f in batch_files if "_ids" not in f.name]
+
+    for fpath in batch_files:
+        with open(fpath, encoding="utf-8-sig") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                sc = row["ebird_species_code"]
+                species_total[sc] = species_total.get(sc, 0) + 1
+                if row.get("is_japan", "").lower() == "true":
+                    species_japan[sc] = species_japan.get(sc, 0) + 1
+
+    df = pd.DataFrame({
+        "ebird_species_code": list(species_total.keys()),
+        "ml_downloaded": [species_total[k] for k in species_total],
+        "ml_downloaded_japan": [species_japan.get(k, 0) for k in species_total],
+    })
+    return df.set_index("ebird_species_code")
+
+
 def compute_priority(merged: pd.DataFrame) -> pd.DataFrame:
     """優先度ティアと補助スコアを算出する。
 
-    ティア（total recordings 基準）:
+    ティア（downloadable recordings 基準）:
     - P1: < 50  — 最優先
     - P2: 50-99 — 次に優先
     - P3: ≥ 100 — 十分
 
     補助スコア（同一ティア内の並べ替え用）:
-    - priority_score = frequency / log2(total_recordings + 2)
+    - priority_score = frequency / log2(downloadable + 2)
     - 頻度が高く、録音が少ない種ほどスコアが高い
     """
     df = merged.copy()
 
-    # 合計録音数
+    # 合計録音数（メタデータ上の全録音）
     total_cols = [c for c in df.columns if c.endswith("_total")]
-    japan_cols = [c for c in df.columns if c.endswith("_japan")]
+    japan_cols = [c for c in df.columns if c.endswith("_japan")
+                  and not c.startswith("ml_downloaded")]
     df["recordings_total"] = df[total_cols].sum(axis=1)
     df["recordings_japan"] = df[japan_cols].sum(axis=1) if japan_cols else 0
 
-    # DL可能な録音数（XC + iNat S3 + iNat API、MLは未DLなので除外）
+    # DL可能な録音数 = XC + iNat S3 + iNat API + ML downloaded
     dl_cols = [c for c in total_cols if c != "ml_total"]
     df["recordings_downloadable"] = df[dl_cols].sum(axis=1)
+    if "ml_downloaded" in df.columns:
+        df["recordings_downloadable"] += df["ml_downloaded"]
+        dl_japan = df[[c for c in japan_cols if c != "ml_japan"]].sum(axis=1)
+        df["recordings_japan_downloadable"] = dl_japan + df["ml_downloaded_japan"]
+    else:
+        df["recordings_japan_downloadable"] = (
+            df[japan_cols].sum(axis=1) if japan_cols else 0
+        )
 
     freq = df["frequency_annual_mean"].fillna(0)
 
-    # 優先度ティア（total recordings 基準）
+    # 優先度ティア（downloadable recordings 基準）
     df["priority_tier"] = pd.cut(
-        df["recordings_total"],
+        df["recordings_downloadable"],
         bins=[-1, 49, 99, float("inf")],
         labels=["P1", "P2", "P3"],
     )
 
-    # 補助スコア = 頻度 / log2(total録音数 + 2)
-    df["priority_score"] = freq / np.log2(df["recordings_total"] + 2)
+    # 補助スコア = 頻度 / log2(downloadable + 2)
+    df["priority_score"] = freq / np.log2(df["recordings_downloadable"] + 2)
 
-    # ML で追加取得可能な録音数
-    df["ml_available"] = df.get("ml_total", 0)
-
-    # MLの日本録音数
-    df["ml_japan_available"] = df.get("ml_japan", 0)
-
-    # ML で追加取得すると何件になるか
-    df["recordings_with_ml"] = df["recordings_downloadable"] + df["ml_available"]
+    # ML metadata 上の総録音数（未DL含む）
+    df["ml_metadata_total"] = df.get("ml_total", 0)
+    df["ml_metadata_japan"] = df.get("ml_japan", 0)
 
     return df
 
 
-def generate_ml_request_list(df: pd.DataFrame) -> pd.DataFrame:
-    """ML申請用の優先リストを生成する。
-
-    条件:
-    - undetected/vagrant以外（日本で定期的に観察される種）
-    - P1またはP2ティア（total recordings < 100）
-    - ML録音がある種のみ
-    - ティア→補助スコア順
-    """
-    # フィルタ: 日本で定期的に観察される種
-    regular = df[~df["residence_status"].isin(["undetected", "vagrant", ""])].copy()
-
-    # P1/P2のみ（total recordings < 100）
-    need_more = regular[regular["priority_tier"].isin(["P1", "P2"])].copy()
-
-    # MLに録音がある種のみ
-    has_ml = need_more[need_more["ml_available"] > 0].copy()
-
-    # ソート: P1 → P2、同一ティア内はスコア降順
-    tier_order = {"P1": 0, "P2": 1}
-    has_ml["_tier_order"] = has_ml["priority_tier"].map(tier_order)
-    has_ml = has_ml.sort_values(
-        ["_tier_order", "priority_score"], ascending=[True, False],
-    )
-
-    # 申請用カラム
-    out = has_ml[[
-        "ebird_species_code", "japanese_name", "scientific_name",
-        "ebird_common_name", "residence_status", "priority_tier",
-        "frequency_annual_mean", "frequency_max", "n_periods_detected",
-        "recordings_total", "recordings_japan", "recordings_downloadable",
-        "ml_available", "ml_japan_available",
-        "recordings_with_ml", "priority_score",
-    ]].copy()
-
-    return out
 
 
 def plot_gap_analysis(df: pd.DataFrame):
@@ -166,7 +160,7 @@ def plot_gap_analysis(df: pd.DataFrame):
     regular = df[~df["residence_status"].isin(["undetected", "vagrant", ""])]
     rare = df[df["residence_status"].isin(["undetected", "vagrant"])]
 
-    # --- Figure 1: 頻度 vs 全録音数 scatter（P1/P2/P3ティア帯付き）---
+    # --- Figure 1: 頻度 vs DL可能録音数 scatter（P1/P2/P3ティア帯付き）---
     fig, ax = plt.subplots(figsize=(12, 8))
 
     # ティア帯をハイライト
@@ -189,20 +183,20 @@ def plot_gap_analysis(df: pd.DataFrame):
         subset = regular[regular["residence_status"] == status]
         ax.scatter(
             subset["frequency_annual_mean"],
-            subset["recordings_total"] + 1,
+            subset["recordings_downloadable"] + 1,
             alpha=0.6, s=30, c=color, label=status,
         )
 
     ax.scatter(
         rare["frequency_annual_mean"],
-        rare["recordings_total"] + 1,
+        rare["recordings_downloadable"] + 1,
         alpha=0.3, s=15, c="gray", label="vagrant/undetected",
     )
 
     ax.set_xlabel("eBird Frequency (Japan annual mean)")
-    ax.set_ylabel("Total Recordings (all sources, log scale)")
+    ax.set_ylabel("Downloadable Recordings (log scale)")
     ax.set_yscale("log")
-    ax.set_title("Recording Coverage vs eBird Frequency (Total Recordings)")
+    ax.set_title("Recording Coverage vs eBird Frequency (Downloadable Recordings)")
     ax.legend(loc="upper left")
     ax.grid(True, alpha=0.3)
 
@@ -212,7 +206,7 @@ def plot_gap_analysis(df: pd.DataFrame):
     for _, row in top_p1.iterrows():
         ax.annotate(
             row["japanese_name"],
-            (row["frequency_annual_mean"], row["recordings_total"] + 1),
+            (row["frequency_annual_mean"], row["recordings_downloadable"] + 1),
             fontsize=7, alpha=0.8,
             xytext=(5, 5), textcoords="offset points",
         )
@@ -250,7 +244,7 @@ def plot_gap_analysis(df: pd.DataFrame):
         ("xc_total", "#4CAF50", "XC"),
         ("inat_total", "#FF9800", "iNat S3"),
         ("inat_api_total", "#2196F3", "iNat API"),
-        ("ml_total", "#9C27B0", "ML (metadata)"),
+        ("ml_downloaded", "#9C27B0", "ML (downloaded)"),
     ]:
         if col in show.columns:
             total_cols_plot.append(col)
@@ -268,8 +262,8 @@ def plot_gap_analysis(df: pd.DataFrame):
     ax.set_yticks(y_pos)
     ax.set_yticklabels(labels, fontsize=7)
     ax.invert_yaxis()
-    ax.set_xlabel("Total Recordings (all sources)")
-    ax.set_title("P1/P2 Species: Total Recordings by Source")
+    ax.set_xlabel("Downloadable Recordings")
+    ax.set_title("P1/P2 Species: Downloadable Recordings by Source")
     ax.legend(loc="lower right", fontsize=8)
 
     # 右: eBird頻度
@@ -348,6 +342,15 @@ def main():
     print("Loading recording counts...")
     counts = load_all_counts(cfg)
 
+    print("\nLoading ML downloaded counts...")
+    ml_dl = load_ml_downloaded_counts()
+    if len(ml_dl) > 0:
+        print(f"  {len(ml_dl)} species, {ml_dl['ml_downloaded'].sum():,} recordings")
+        counts = counts.join(ml_dl, how="left")
+        counts[["ml_downloaded", "ml_downloaded_japan"]] = (
+            counts[["ml_downloaded", "ml_downloaded_japan"]].fillna(0).astype(int)
+        )
+
     print("\nLoading eBird frequency data...")
     freq = pd.read_csv(STEP_DIR / "ebird_frequency.csv")
     freq = freq.drop_duplicates(subset="ebird_species_code", keep="first")
@@ -383,12 +386,6 @@ def main():
     )
     print(f"  → {out_path} ({len(result)} species)")
 
-    # ML申請用優先リスト
-    ml_list = generate_ml_request_list(result)
-    ml_path = STEP_DIR / "ml_request_priority.csv"
-    ml_list.to_csv(ml_path, index=False, encoding="utf-8-sig")
-    print(f"  → {ml_path} ({len(ml_list)} species)")
-
     # ── レポート ──
     print(f"\n{'='*60}")
     print("Coverage Gap Analysis Report")
@@ -398,78 +395,62 @@ def main():
     print(f"\n日本で定期的に観察される種: {len(regular)}")
 
     # ティア別集計
-    print(f"\n--- 優先度ティア（total recordings 基準）---")
+    print(f"\n--- 優先度ティア（downloadable recordings 基準）---")
     for tier, desc in [("P1", "< 50"), ("P2", "50-99"), ("P3", "≥ 100")]:
-        n = (regular["priority_tier"] == tier).sum()
-        print(f"  {tier} ({desc:>6}): {n} species")
+        n_all = (result["priority_tier"] == tier).sum()
+        n_reg = (regular["priority_tier"] == tier).sum()
+        print(f"  {tier} ({desc:>6}): {n_reg} species (全体: {n_all})")
 
-    # P1トップ（最優先）
-    p1_species = ml_list[ml_list["priority_tier"] == "P1"]
-    p2_species = ml_list[ml_list["priority_tier"] == "P2"]
+    # P1/P2 の詳細
+    p1 = regular[regular["priority_tier"] == "P1"].sort_values(
+        "priority_score", ascending=False)
+    p2 = regular[regular["priority_tier"] == "P2"].sort_values(
+        "priority_score", ascending=False)
 
-    print(f"\n--- P1 最優先種（< 50 recordings, ML録音あり）: {len(p1_species)} 種 ---")
-    print(f"{'種コード':>12} {'和名':>12} {'ティア':>4} {'頻度':>6} "
-          f"{'総録音':>6} {'DL済':>6} {'ML録音':>6} {'+ML後':>6}")
-    print("-" * 72)
-    for _, r in p1_species.head(30).iterrows():
-        print(f"{r['ebird_species_code']:>12} {r['japanese_name']:>12} "
-              f"{r['priority_tier']:>4} {r['frequency_annual_mean']:>6.3f} "
-              f"{r['recordings_total']:>6.0f} {r['recordings_downloadable']:>6.0f} "
-              f"{r['ml_available']:>6.0f} {r['recordings_with_ml']:>6.0f}")
+    if len(p1) > 0:
+        print(f"\n--- P1 最優先種（DL可能 < 50）: {len(p1)} 種 ---")
+        header = (f"{'種コード':>12} {'和名':>14} {'頻度':>6} "
+                  f"{'DL可能':>6} {'ML_DL':>6} {'ML全体':>6}")
+        print(header)
+        print("-" * len(header.encode("utf-8")))
+        for _, r in p1.head(30).iterrows():
+            ml_dl_val = r.get("ml_downloaded", 0)
+            ml_meta = r.get("ml_metadata_total", 0)
+            print(f"{r['ebird_species_code']:>12} {r['japanese_name']:>14} "
+                  f"{r['frequency_annual_mean']:>6.3f} "
+                  f"{r['recordings_downloadable']:>6.0f} "
+                  f"{ml_dl_val:>6.0f} {ml_meta:>6.0f}")
 
-    print(f"\n--- P2 次優先種（50-99 recordings, ML録音あり）: {len(p2_species)} 種 ---")
-    for _, r in p2_species.head(20).iterrows():
-        print(f"{r['ebird_species_code']:>12} {r['japanese_name']:>12} "
-              f"{r['priority_tier']:>4} {r['frequency_annual_mean']:>6.3f} "
-              f"{r['recordings_total']:>6.0f} {r['recordings_downloadable']:>6.0f} "
-              f"{r['ml_available']:>6.0f} {r['recordings_with_ml']:>6.0f}")
-
-    # MLなし P1種
-    p1_no_ml = regular[
-        (regular["priority_tier"] == "P1") & (regular["ml_available"] == 0)
-    ]
-    if len(p1_no_ml) > 0:
-        print(f"\n--- P1 だがML録音なし: {len(p1_no_ml)} 種（要別途対応）---")
-        for _, r in p1_no_ml.iterrows():
-            print(f"  {r['ebird_species_code']:>12} {r['japanese_name']:>12} "
-                  f"total={r['recordings_total']:.0f} freq={r['frequency_annual_mean']:.3f}")
+    if len(p2) > 0:
+        print(f"\n--- P2 次優先種（DL可能 50-99）: {len(p2)} 種 ---")
+        for _, r in p2.head(20).iterrows():
+            ml_dl_val = r.get("ml_downloaded", 0)
+            ml_meta = r.get("ml_metadata_total", 0)
+            print(f"{r['ebird_species_code']:>12} {r['japanese_name']:>14} "
+                  f"{r['frequency_annual_mean']:>6.3f} "
+                  f"{r['recordings_downloadable']:>6.0f} "
+                  f"{ml_dl_val:>6.0f} {ml_meta:>6.0f}")
 
     # 可視化
     print(f"\nGenerating figures...")
     plot_gap_analysis(result)
 
-    # ML申請の概要
-    print(f"\n--- ML申請用サマリ ---")
-    print(f"申請対象種: {len(ml_list)} (P1: {len(p1_species)}, P2: {len(p2_species)})")
-    total_ml = ml_list["ml_available"].sum()
-    total_ml_jp = ml_list["ml_japan_available"].sum()
-    print(f"ML録音合計: {total_ml:,.0f} (うち日本: {total_ml_jp:,.0f})")
-
-    # ML取得後の改善見込み
-    would_reach_50 = (ml_list["recordings_with_ml"] >= 50).sum()
-    would_reach_100 = (ml_list["recordings_with_ml"] >= 100).sum()
-    print(f"ML取得後 ≥ 50 到達: {would_reach_50}/{len(ml_list)} species")
-    print(f"ML取得後 ≥ 100 到達: {would_reach_100}/{len(ml_list)} species")
-
-    # 40K/100種の制限に合わせたバッチ分割案
-    print(f"\n--- バッチ分割案（ML申請上限: 40K件/100種）---")
-    batch_size = 100
-    cumulative = 0
-    batch_num = 1
-    batch_start = 0
-    for i, (_, row) in enumerate(ml_list.iterrows()):
-        cumulative += row["ml_available"]
-        if cumulative >= 40000 or (i - batch_start + 1) >= batch_size:
-            print(f"  Batch {batch_num}: species {batch_start+1}-{i+1} "
-                  f"({i - batch_start + 1} species, ~{cumulative:,.0f} recordings)")
-            batch_num += 1
-            batch_start = i + 1
-            cumulative = 0
-    if batch_start < len(ml_list):
-        remaining = len(ml_list) - batch_start
-        print(f"  Batch {batch_num}: species {batch_start+1}-{len(ml_list)} "
-              f"({remaining} species, ~{cumulative:,.0f} recordings)")
-    print(f"  Total: {batch_num} batches")
+    # ソース別サマリ
+    print(f"\n--- ソース別サマリ ---")
+    for col, name in [
+        ("xc_total", "Xeno-canto"),
+        ("inat_total", "iNat Sounds S3"),
+        ("inat_api_total", "iNat API"),
+        ("ml_downloaded", "ML (downloaded)"),
+        ("ml_total", "ML (metadata)"),
+    ]:
+        if col in result.columns:
+            total = result[col].sum()
+            n_species = (result[col] > 0).sum()
+            print(f"  {name:20s}: {total:>10,.0f} recordings, {n_species:>4} species")
+    dl_total = result["recordings_downloadable"].sum()
+    dl_species = (result["recordings_downloadable"] > 0).sum()
+    print(f"  {'DL可能合計':20s}: {dl_total:>10,.0f} recordings, {dl_species:>4} species")
 
 
 if __name__ == "__main__":
