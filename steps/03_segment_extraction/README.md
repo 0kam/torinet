@@ -1,134 +1,218 @@
-# Step 03: クリーンセグメント抽出
+# Step 03: クリーンセグメント抽出 (Pipeline v3)
 
 ## 目的
 
-Step 02で収集した556,914件の録音から、各種の鳴き声を正確に切り出した**クリーンセグメント**を作成する。
-後続のサウンドスケープシミュレーション（セグメンテーションタスク）で訓練データとして使用するため、
-各セグメントは鳴き声の区間ピッタリに切り出す必要がある。
+Step 02 で収集した録音から、各種の鳴き声を正確に切り出した **クリーンセグメント** を作成し、
+後続のサウンドスケープシミュレーション（セグメンテーションタスク）で訓練データとして使う。
 
 ## ゴール
 
-- 各種 **最低50個、最大100個**のクリーンセグメントを用意
-- 50個に満たない種はできるだけ多く集める
+- 各種 **最低 50 個、最大 100 個** のクリーンセグメントを用意
 - 対象種の鳴き声のみを含み、他種の鳴き声や過度な雑音がないこと
-- セグメント長は鳴き声の長さと一致（固定長ではない）
-- 各セグメントの元録音ID（recording_id）を必ず記録する（将来のtrain/eval分割でリーク防止）
+- セグメント長は鳴き声の長さに一致（固定長ではない）
+- 各セグメントの元録音 ID を記録（train/eval 分割でリーク防止）
 
-## 種の優先順位
+## 設計の肝 — Early routing
 
-録音数50以上の種について、eBirdの日本におけるオカレンス確率（年平均）上位から処理する。
-50未満の種はできるだけ多く集めるが、優先度は下げる。
+BirdNET で十分に検出できる種（B-1）には Perch プロトタイプは不要。重い処理
+（Perch 埋め込み・HDBSCAN クラスタリング）は **B-2 種にのみ** 限定する。
+振り分けは `species_routing.csv` を経由して明示化され、閾値は CLI から変更可能。
 
-優先順位リスト: `species_priority.csv`
+| 判定 | 条件 | 選定ゲート |
+|---|---|---|
+| **B-1** | BirdNET 登録 & ヒット率 ≥ 0.3 & ヒット数 ≥ 10 | BirdNET conf ≥ 0.2 |
+| **B-2** | BirdNET 非登録 / ヒット不足 | Perch プロトタイプ cosine ≥ 0.3 |
 
-## アプローチ: 半自動パイプライン
+ランキングはいずれも `gate_score × bioacoustic_quality`。Bioacoustic quality は
+`σ(0.3·(SNR−10)) × max((NDSI+1)/2, 0.3)` で SNR を対数的に、NDSI を低周波種
+保護のため下限クリップしたもの。
 
-全て手動は非現実的（667種 × 100個）だが、品質が重要なため完全自動も不可。
-**自動抽出 → 人手で確認・選別** のワークフローを採用する。
-
-### Phase 1: セグメント抽出手法のプロトタイピング
-
-テスト用音源（優先度上位50種 × 各5ファイル = 250ファイル）で複数の抽出手法を試し、
-最適な手法・パラメータの組み合わせを決定する。
-
-#### テスト用音源
-
-- `test_samples/` に優先度上位50種から各5ファイルをランダムサンプリング
-- 選定スクリプト: `select_test_samples.py`
-
-#### 候補手法（5つ）
-
-| # | 手法名 | 概要 | 向き |
-|---|--------|------|------|
-| 1 | 帯域エネルギー・ヒステリシスVAD | 帯域制限エネルギー + 適応しきい値 + ヒステリシス | 高SNRフォーカル録音 |
-| 2 | PCENマスク・連結成分 | PCEN正規化 + 2値化 + 形態学処理 | さえずり・トリル |
-| 3 | Flux-Anchor境界推定 | スペクトルフラックスonset + エネルギー谷でoffset | 短いコール・地鳴き |
-| 4 | NMF前景分離 | NMF分解で鳥成分を選別 + 活性しきい値 | ノイジー環境・海鳥 |
-| 5 | 多特徴量CUSUM | RMS/flux/flatness等の多特徴 + 変化点検出 | 多様な鳴き型 |
-
-各手法の詳細な実装スケッチは `prototype_segmentation.py` に実装。
-テスト音源でスペクトログラム + セグメント境界を可視化し、比較評価する。
-
-recall重視のため、複数手法のOR統合も検討する。
-
-#### 評価方法
-
-- スペクトログラム上にセグメント境界を描画して目視確認
-- 境界精度は人のキュレーションで最終判断（定量指標は設けない）
-- 各手法の検出漏れ・過検出の傾向を把握
-
-### Phase 2: 全種一括の自動抽出
-
-Phase 1で確定した手法を全種に適用する。
-
-1. **録音の優先選択**
-   - XC品質 A > B > C の順で優先
-   - 1録音から複数セグメントの抽出も可
-2. **候補の選出**
-   - 種ごとにスコア上位 150〜200 個を候補として出力
-   - 50個未満の種にはフラグを立てる
-3. **出力**
-   - セグメントWAV + スペクトログラムPNG
-   - メタデータ（recording_id, onset, offset, source, quality等）
-
-### Phase 3: 手動キュレーションツール（htmx Webアプリ）
-
-自動抽出の候補を人が確認し、Accept/Rejectする軽量Webツール。
-
-- **表示**: スペクトログラム画像をタイル状に一覧表示
-- **操作**: 各セグメントにチェック（Accept）を入れる
-- **音声再生**: クリックで再生確認
-- **onset/offset微調整**: 必要に応じて境界を修正
-- **進捗管理**: 種ごとのAccept数を表示（50個でComplete）
-- **技術スタック**: Python (FastAPI) + htmx + SQLite
-
-### Phase 4: 最終データセット構築
-
-キュレーション済みセグメントをまとめる。
-
-- 統一フォーマット（WAV, モノラル, 統一サンプリングレート）
-- メタデータ: recording_id, species_code, onset, offset, source, quality
-- 種ごとのセグメント数サマリ
-
-## 出力先
+## パイプライン全体図
 
 ```
-~/NAS/nasbi/ToriNET/
-├── segments/
-│   ├── candidates/          # Phase 2: 自動抽出候補
-│   │   └── {species_code}/  # セグメントWAV + スペクトログラムPNG
-│   ├── curated/             # Phase 3: キュレーション済み
-│   │   └── {species_code}/
-│   └── metadata/
-│       ├── candidates.parquet   # 候補一覧 + スコア
-│       └── curated.parquet      # 最終採用セグメント
+┌──────────────────────────────────────────────────────────────┐
+│ 1. separate                    Bird-MixIT 4-source separation │
+│                                → birdmixit_sources/           │
+│                                                               │
+│ 2. compute-acoustic-features   SNR / NDSI / bird_ratio        │
+│                                (librosa + TweetyNet r2)       │
+│                                → acoustic_features/           │
+│                                                               │
+│ 3. birdnet-score               BirdNET v2.4 × 4ch             │
+│                                (登録種のみ, subprocess)        │
+│                                → birdnet_scores/              │
+│                                                               │
+│ 4. route-species               B-1 / B-2 判定                 │
+│                                → species_routing.csv          │
+├──────────────────────────────────────────────────────────────┤
+│ 5. compute-perch-embeddings    Perch v2 埋め込み (B-2 のみ)   │
+│                                → perch_embeddings/            │
+│                                                               │
+│ 6. build-prototypes            HDBSCAN (B-2 のみ)             │
+│                                → species_prototypes/          │
+├──────────────────────────────────────────────────────────────┤
+│ 7. channel-select              focal_channel gate+rank         │
+│                                → channel_selection/           │
+│                                                               │
+│ 8. segment                     TweetyNet r2 で focal_ch 予測  │
+│                                note → bout                    │
+│                                → tweetynet_segments/          │
+│                                                               │
+│ 9. select                      rank_score 上位を export       │
+│                                → birdmixit_pipeline_results.csv│
+│                                → birdmixit_selected/          │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-## ファイル構成（予定）
+`select` サブコマンドは 3〜9 までを必要に応じて自動で走らせ（キャッシュ有効）、
+`all` は 1〜9 を一気通貫で実行する。
+
+## ファイル構成
+
+### 現役（v3 パイプライン）
 
 ```
 steps/03_segment_extraction/
-├── README.md                    # 本ファイル
-├── config.yaml                  # 設定
-├── select_test_samples.py       # テスト用音源サンプリング
-├── species_priority.csv         # 種の優先順位リスト
-├── prototype_segmentation.py    # Phase 1: 5手法のプロトタイプ
-├── extract_segments.py          # Phase 2: 全種一括抽出
-├── curation_app/                # Phase 3: htmxキュレーションツール
-│   ├── app.py                   # FastAPI サーバー
-│   ├── templates/               # htmx テンプレート
-│   ├── static/                  # CSS/JS
-│   └── db.py                    # SQLite 管理
-└── build_final_dataset.py       # Phase 4: 最終データセット構築
+├── README.md                    本ファイル
+├── README_phaseA.md             Phase A (TweetyNet bootstrap) の作業記録
+│
+├── birdmixit_pipeline.py        v3 パイプライン本体（9 サブコマンド）
+├── prototype_tweetynet.py       TweetyNet の学習・予測（新規学習用、現行は推論のみ使用）
+├── taxonomy_maps.py             eBird/BirdNET 分類マッピング
+├── cluster_selector.py          B-2 種のクラスタ目視選定 Web UI
+├── separation_viewer.py         分離結果・選定 bout の Web UI
+├── select_test_samples.py       種優先度 + テストサンプリング
+│
+├── species_priority.csv         種の優先順位
+├── test_samples.csv             選定された録音一覧
+├── birdmixit_pipeline_results.csv  最終選定 bout (latest run)
+│
+├── models/                      Phase A 由来の TweetyNet 重み
+│   └── tweetynet_r2_best.pt     現行使用モデル
+└── species_prototypes/          build-prototypes の出力（B-2 種のみ）
 ```
 
-## TODO
+### Legacy（v2 および Phase A 作業成果物）
 
-- [ ] Phase 1: プロトタイピング
-  - [ ] 種の優先順位リスト作成（eBird頻度 × 録音数50以上）
-  - [ ] テスト用音源の選定（上位50種 × 5ファイル）
-  - [ ] 5手法のプロトタイプ実装
-  - [ ] テスト音源での比較評価・手法選定
-- [ ] Phase 2: 全種一括の自動抽出
-- [ ] Phase 3: htmxキュレーションツール開発
-- [ ] Phase 4: 最終データセット構築
+```
+legacy/
+├── self_training.py, prototype_segmentation.py, ...
+├── bout_pipeline.py, bout_embedding.py, ...
+├── results_viewer.py, method_viewer.py, method_comparison.py
+├── pseudo_labels/, refined_pseudo_labels/, self_train_labels_r{1,2}/
+├── cluster_visualizations/, note_cluster_visualizations/
+├── precompute_features.py       （birdmixit_pipeline.py に統合済み）
+└── *.csv                        旧手法の比較結果
+```
+
+## NAS 上の出力先 (`~/NAS/nasbi/ToriNET/segments/`)
+
+```
+segments/
+├── birdmixit_sources/           1. 4ch 分離 WAV
+├── acoustic_features/           2. SNR/NDSI/bird_ratio npz
+├── birdnet_scores/              3. BirdNET 4ch conf CSV
+├── species_routing.csv          4. B-1 / B-2 判定結果
+├── perch_embeddings/            5. Perch v2 1280-d npz (B-2 種のみ)
+├── channel_selection/           7. 採用 focal_channel per recording
+├── tweetynet_segments/          8. bout-level note grouping
+└── birdmixit_selected/          9. 最終選定 bout WAV
+```
+
+## npz フォーマット
+
+### `acoustic_features/{sp}/{rec}_src{ch}.npz`
+
+| キー | 型 | 形状 | 内容 |
+|---|---|---|---|
+| `snr` | float32 | (n_windows,) | 窓ごとの SNR (dB) |
+| `ndsi` | float32 | (n_windows,) | NDSI (−1 ~ +1) |
+| `bird_ratio` | float32 | (n_windows,) | P(bird)>0.5 のフレーム比率 |
+| `window_starts` | int32 | (n_windows,) | 先頭サンプル位置（MIXIT_SR=22050基準）|
+
+### `perch_embeddings/{sp}/{rec}_src{ch}.npz`
+
+| キー | 型 | 形状 | 内容 |
+|---|---|---|---|
+| `embeddings` | float32 | (n_windows, 1280) | L2 正規化済み Perch v2 埋め込み |
+| `window_starts` | int32 | (n_windows,) | `acoustic_features` と同じ基準 |
+
+## 使い方
+
+### 代表的なコマンド
+
+```bash
+# 全パイプライン (1→9)
+python birdmixit_pipeline.py all
+
+# stage 3-9 のみ（分離と acoustic features は既存想定）
+python birdmixit_pipeline.py select
+
+# ルーティング閾値を変更して再判定
+python birdmixit_pipeline.py route-species \
+    --birdnet-hit-rate-min 0.5 --birdnet-hit-count-min 15
+
+# B-2 種の目視でクラスタ選定（B-2 にルーティングされた種のみ対象）
+python cluster_selector.py --port 8053
+
+# 最終選定結果の閲覧
+python separation_viewer.py --port 8052
+```
+
+### 1 種だけ試す
+
+```bash
+python birdmixit_pipeline.py all --species azwmag2
+```
+
+`--species` は `separate` 以外のすべてのサブコマンドでも有効。
+
+### 途中から再開
+
+各ステージは出力の存在をチェックするため、同じコマンドを再実行すれば未処理分
+のみが走る。`--force` ですべて再計算。
+
+## 成果物フォーマット
+
+### `birdmixit_pipeline_results.csv` 主要カラム
+
+| カラム | 説明 |
+|---|---|
+| `species_code`, `scientific_name` | eBird コード / 学名 |
+| `recording_id`, `safe_id`, `focal_channel` | 元録音と採用 channel |
+| `method` | `B1` / `B2` |
+| `species_score` | BirdNET conf（B-1）または proto cos sim（B-2）|
+| `bout_snr`, `bout_ndsi`, `bout_quality` | note 連結音声の品質 |
+| `rank_score` | `species_score × bout_quality` |
+| `bout_onset`, `bout_offset`, `bout_duration` | bout 時刻 (秒) |
+| `notes_json` | bout 内の note (onset, offset) リスト |
+
+### `species_routing.csv`
+
+| カラム | 説明 |
+|---|---|
+| `route` | `B1` or `B2` |
+| `reason` | `birdnet_sufficient` / `birdnet_unregistered` / `birdnet_low_hit_rate` / `birdnet_low_hit_count` / `birdnet_not_scored` |
+| `birdnet_coverage` | `both` / `birdnet` / `ebird` / `none` |
+| `n_recordings`, `n_valid_scored`, `n_above_gate`, `hit_rate` | 判定根拠 |
+| `hit_rate_threshold`, `hit_count_threshold` | 使用した閾値（監査用）|
+
+## 実装上の注意
+
+- **BirdNET TFLite は FD リーク** するので必ず subprocess で呼ぶ（`birdmixit_pipeline.py` 内で spawn process + batch=20）。
+- **Perch v2 は TF2 Hub から動的ロード**。初回は ~数十秒。
+- **Bird-MixIT は TF1 CPU 限定**。TF1 ワーカープロセスでは `CUDA_VISIBLE_DEVICES=-1` を設定し、PyTorch GPU の可用性に影響しないよう隔離。
+- **長尺録音は 10 分で打ち切り**（`MAX_SEPARATE_DURATION_S`）。Bird-MixIT は 45 分級の入力で TDCN++ 中間テンソルが爆発して OOM するため、`librosa.load(..., duration=...)` で先頭のみを読み込む。各録音から 50–100 本の bout を取れれば十分なので 10 分で事足りる。
+- **SNR/NDSI と Perch 埋め込みは独立 npz** に分離（v3 でリファクタ済み）。B-1 種では Perch 埋め込みを生成しない。
+- **低周波種保護**：`_bioacoustic_quality` で `ndsi_norm` を 0.3 でクリップし、1-2 kHz の anthrophony と鳴き声がオーバーラップする種でも quality がゼロに潰れないように調整。
+
+## Phase A (Bootstrap) 履歴
+
+現行の `models/tweetynet_r2_best.pt` は、2025 Phase A で以下の手順で学習された：
+
+1. 信号処理 7 手法のアンサンブル疑似ラベルで TweetyNet を初期学習
+2. Teacher 評価で F1 ≥ 0.4 の 5 手法を選定、精製ラベル生成
+3. 信頼度フィルタ付き self-training を 3 ラウンド反復
+4. `tweetynet_r2_best.pt` を最終成果物として採用
+
+詳細は [README_phaseA.md](README_phaseA.md)。Phase A 関連コードは `legacy/` 配下。

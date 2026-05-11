@@ -1,0 +1,5 @@
+{
+  "completed_rounds": 3,
+  "last_model_path": "/home/okamoto/Projects/torinet/steps/03_segment_extraction/models/tweetynet_r2_best.pt",
+  "last_bird_ratio": 0.36709962664079154
+}

@@ -97,7 +97,7 @@ class TweetyNet(nn.Module):
         conv1_filters: int = 32,
         conv2_filters: int = 64,
         kernel_size: Tuple[int, int] = (5, 5),
-        pool_size: Tuple[int, int] = (8, 1),
+        pool_size: Tuple[int, int] = (4, 1),
         lstm_hidden: int = 128,
         lstm_layers: int = 2,
         dropout: float = 0.2,
@@ -192,11 +192,18 @@ def normalize_spectrogram(S_db: np.ndarray) -> np.ndarray:
 # ===========================================================================
 
 
-def _generate_ensemble_labels(y: np.ndarray, sr: int) -> np.ndarray:
+def _generate_ensemble_labels(
+    y: np.ndarray, sr: int, method_ids: Optional[List[int]] = None,
+) -> np.ndarray:
     """Generate frame-level pseudo-labels by OR-ensembling signal-processing methods.
 
     Uses the methods from prototype_segmentation.py to create initial labels.
     A frame is labeled as 'bird' if >= 2 out of 7 methods detect activity there.
+
+    Args:
+        y: Audio waveform
+        sr: Sample rate
+        method_ids: If provided, only use these method IDs (subset of METHOD_FUNCS)
 
     Returns:
         Boolean array of shape (n_frames,) where True = bird vocalization
@@ -207,10 +214,11 @@ def _generate_ensemble_labels(y: np.ndarray, sr: int) -> np.ndarray:
         postprocess_segments,
     )
 
-    n_frames = 1 + len(y) // HOP_LENGTH
+    n_frames = 1 + int(len(y) / sr * SR / HOP_LENGTH)
     votes = np.zeros(n_frames, dtype=int)
 
-    for method_id, method_func in METHOD_FUNCS.items():
+    methods = {mid: METHOD_FUNCS[mid] for mid in method_ids} if method_ids else METHOD_FUNCS
+    for method_id, method_func in methods.items():
         try:
             with warnings.catch_warnings():
                 warnings.simplefilter("ignore")
@@ -321,9 +329,11 @@ class BirdFrameDataset(Dataset):
         npz_files: List[Path],
         context_frames: int = CONTEXT_FRAMES,
         augment: bool = False,
+        mask_key: Optional[str] = None,
     ):
         self.context_frames = context_frames
         self.augment = augment
+        self.mask_key = mask_key
         self.items: List[Tuple[Path, int]] = []
 
         # Collect valid start positions
@@ -341,11 +351,16 @@ class BirdFrameDataset(Dataset):
     def __len__(self) -> int:
         return len(self.items)
 
-    def __getitem__(self, idx: int) -> Tuple[torch.Tensor, torch.Tensor]:
+    def __getitem__(self, idx: int):
         npz_path, n_frames = self.items[idx]
         data = np.load(str(npz_path))
         S_db = data["spectrogram"]
         labels = data["labels"]
+        if self.mask_key is not None:
+            if self.mask_key in data:
+                mask = data[self.mask_key]
+            else:
+                mask = np.ones(len(labels), dtype=np.float32)
         data.close()
 
         # Random crop
@@ -359,7 +374,7 @@ class BirdFrameDataset(Dataset):
         # Normalize patch
         spec_patch = normalize_spectrogram(spec_patch)
 
-        # Simple augmentation
+        # Augmentation
         if self.augment:
             # Time masking
             if np.random.random() < 0.3:
@@ -373,14 +388,33 @@ class BirdFrameDataset(Dataset):
                 f_len = np.random.randint(5, 15)
                 spec_patch[f_start:f_start + f_len, :] = 0.0
 
-            # Additive noise
+            # Additive Gaussian noise
             if np.random.random() < 0.2:
                 noise = np.random.randn(*spec_patch.shape) * 0.1
                 spec_patch = spec_patch + noise
 
+            # Background noise mix: overlay background region from same file
+            # onto bird regions to make model robust to noise
+            if np.random.random() < 0.3:
+                bg_mask = label_patch == 0
+                if bg_mask.sum() > 10:
+                    bg_spec = spec_patch[:, bg_mask]
+                    # Tile background to match full length
+                    n_bg = bg_spec.shape[1]
+                    if n_bg > 0:
+                        reps = self.context_frames // n_bg + 1
+                        bg_tiled = np.tile(bg_spec, (1, reps))[:, :self.context_frames]
+                        mix_weight = np.random.uniform(0.1, 0.4)
+                        spec_patch = spec_patch * (1 - mix_weight) + bg_tiled * mix_weight
+
         # Add channel dim: (1, n_mels, context_frames)
         spec_tensor = torch.from_numpy(spec_patch[np.newaxis].astype(np.float32))
         label_tensor = torch.from_numpy(label_patch.astype(np.int64))
+
+        if self.mask_key is not None:
+            mask_patch = mask[start:end]
+            mask_tensor = torch.from_numpy(mask_patch.astype(np.float32))
+            return spec_tensor, label_tensor, mask_tensor
 
         return spec_tensor, label_tensor
 
@@ -415,12 +449,17 @@ class BirdFullFileDataset(Dataset):
 # ===========================================================================
 
 
-def _compute_class_weights_from_files(npz_files: List[Path]) -> torch.Tensor:
+def _compute_class_weights_from_files(
+    npz_files: List[Path], mask_key: Optional[str] = None,
+) -> torch.Tensor:
     """Compute inverse-frequency class weights for imbalanced labels."""
     total = np.array([0, 0], dtype=np.float64)
     for npz_path in npz_files:
         data = np.load(str(npz_path))
         labels = data["labels"]
+        if mask_key and mask_key in data:
+            mask = data[mask_key] > 0
+            labels = labels[mask]
         data.close()
         total[0] += (labels == 0).sum()
         total[1] += (labels == 1).sum()
@@ -441,12 +480,15 @@ def train_model(args: argparse.Namespace) -> None:
     device = torch.device(args.device if torch.cuda.is_available() else "cpu")
     print(f"Training on device: {device}")
 
-    if not LABELS_DIR.exists() or not any(LABELS_DIR.rglob("*.npz")):
-        print("ERROR: No pseudo-labels found. Run 'generate-labels' first.")
+    labels_dir = Path(args.labels_dir) if args.labels_dir else LABELS_DIR
+    model_name = args.model_name
+
+    if not labels_dir.exists() or not any(labels_dir.rglob("*.npz")):
+        print(f"ERROR: No pseudo-labels found in {labels_dir}. Run 'generate-labels' first.")
         sys.exit(1)
 
     # Split into train/val (80/20 by species directory)
-    species_dirs = sorted([d for d in LABELS_DIR.iterdir() if d.is_dir()])
+    species_dirs = sorted([d for d in labels_dir.iterdir() if d.is_dir()])
     np.random.seed(42)
     np.random.shuffle(species_dirs)
     split_idx = max(1, int(len(species_dirs) * 0.8))
@@ -483,13 +525,17 @@ def train_model(args: argparse.Namespace) -> None:
 
     # Model
     model = TweetyNet(num_classes=2, num_freqbins=N_MELS).to(device)
+    if args.resume:
+        print(f"Resuming from {args.resume}")
+        model.load_state_dict(torch.load(args.resume, map_location=device, weights_only=True))
     total_params = sum(p.numel() for p in model.parameters())
     print(f"Model parameters: {total_params:,}")
 
     # Class-weighted loss
     class_weights = _compute_class_weights_from_files(train_files).to(device)
     criterion = nn.CrossEntropyLoss(weight=class_weights)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-4)
+    lr = args.lr if args.lr is not None else LEARNING_RATE
+    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(
         optimizer, mode="min", factor=0.5, patience=2,
     )
@@ -556,7 +602,7 @@ def train_model(args: argparse.Namespace) -> None:
             if avg_val_loss < best_val_loss:
                 best_val_loss = avg_val_loss
                 epochs_no_improve = 0
-                torch.save(model.state_dict(), MODEL_DIR / "tweetynet_best.pt")
+                torch.save(model.state_dict(), MODEL_DIR / f"{model_name}_best.pt")
             else:
                 epochs_no_improve += 1
                 if epochs_no_improve >= PATIENCE:
@@ -564,15 +610,15 @@ def train_model(args: argparse.Namespace) -> None:
                     break
         else:
             print(f"Epoch {epoch+1:3d}/{args.epochs}: train_loss={avg_train_loss:.4f}")
-            torch.save(model.state_dict(), MODEL_DIR / "tweetynet_best.pt")
+            torch.save(model.state_dict(), MODEL_DIR / f"{model_name}_best.pt")
 
     # Save final model and history
-    torch.save(model.state_dict(), MODEL_DIR / "tweetynet_final.pt")
-    with open(MODEL_DIR / "training_history.json", "w") as f:
+    torch.save(model.state_dict(), MODEL_DIR / f"{model_name}_final.pt")
+    with open(MODEL_DIR / f"{model_name}_history.json", "w") as f:
         json.dump(history, f, indent=2)
 
     # Plot training curves
-    _plot_training_curves(history, MODEL_DIR / "training_curves.png")
+    _plot_training_curves(history, MODEL_DIR / f"{model_name}_curves.png")
 
     print(f"\nModels saved to {MODEL_DIR}")
     print(f"Best validation loss: {best_val_loss:.4f}")
@@ -946,6 +992,10 @@ def main() -> None:
     sub = subparsers.add_parser("train", help="Train TweetyNet on pseudo-labels")
     sub.add_argument("--epochs", type=int, default=NUM_EPOCHS)
     sub.add_argument("--device", type=str, default="cuda")
+    sub.add_argument("--resume", type=str, default=None, help="Path to checkpoint to resume from")
+    sub.add_argument("--lr", type=float, default=None, help="Override learning rate")
+    sub.add_argument("--labels-dir", type=str, default=None, help="Override pseudo-labels directory")
+    sub.add_argument("--model-name", type=str, default="tweetynet", help="Base name for saved model files")
 
     # predict
     sub = subparsers.add_parser("predict", help="Run TweetyNet prediction on test samples")

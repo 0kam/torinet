@@ -1,0 +1,69 @@
+{
+  "selected_method_ids": [
+    1,
+    2,
+    6,
+    8
+  ],
+  "f1_threshold": 0.4,
+  "excluded_method_ids": [3],
+  "exclusion_reason": "M3 Flux-Anchor removed: Precision=0.347 too low, contaminates pseudo-labels with noise FPs",
+  "metrics": [
+    {
+      "method_id": 1,
+      "method_name": "Band Energy Hysteresis",
+      "precision": 0.6541,
+      "recall": 0.6096,
+      "f1": 0.6311,
+      "n_evaluated": 194
+    },
+    {
+      "method_id": 2,
+      "method_name": "PCEN Connected Components",
+      "precision": 0.5863,
+      "recall": 0.604,
+      "f1": 0.595,
+      "n_evaluated": 194
+    },
+    {
+      "method_id": 3,
+      "method_name": "Flux-Anchor Boundary",
+      "precision": 0.3468,
+      "recall": 0.8679,
+      "f1": 0.4956,
+      "n_evaluated": 194
+    },
+    {
+      "method_id": 6,
+      "method_name": "REPET-lite Foreground",
+      "precision": 0.6333,
+      "recall": 0.7639,
+      "f1": 0.6925,
+      "n_evaluated": 194
+    },
+    {
+      "method_id": 8,
+      "method_name": "2-State HMM (Viterbi)",
+      "precision": 0.5974,
+      "recall": 0.7626,
+      "f1": 0.67,
+      "n_evaluated": 194
+    },
+    {
+      "method_id": 12,
+      "method_name": "Spectral Entropy",
+      "precision": 0.6394,
+      "recall": 0.2154,
+      "f1": 0.3223,
+      "n_evaluated": 194
+    },
+    {
+      "method_id": 14,
+      "method_name": "Median Clipping (Lasseck)",
+      "precision": 0.4924,
+      "recall": 0.2342,
+      "f1": 0.3174,
+      "n_evaluated": 194
+    }
+  ]
+}

@@ -139,8 +139,11 @@ def build_priority_list() -> pd.DataFrame:
     return priority_df
 
 
-def select_test_samples() -> pd.DataFrame:
+def select_test_samples(samples_per_species: int = SAMPLES_PER_SPECIES) -> pd.DataFrame:
     """Select test samples from top species in the priority list.
+
+    Args:
+        samples_per_species: Number of samples to select per species.
 
     Returns the test samples DataFrame (also saved to CSV).
     """
@@ -187,7 +190,7 @@ def select_test_samples() -> pd.DataFrame:
         high_q = sp_df[sp_df["_quality_rank"] <= 1]
         rest = sp_df[sp_df["_quality_rank"] > 1]
 
-        n_needed = SAMPLES_PER_SPECIES
+        n_needed = samples_per_species
 
         selected = []
         # First, sample from high-quality recordings
@@ -290,19 +293,27 @@ def main():
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     subparsers.add_parser("priority", help="Create species_priority.csv (Part A)")
-    subparsers.add_parser("samples", help="Select test samples (Part B, requires Part A)")
-    subparsers.add_parser("all", help="Run both Part A and Part B")
+    samples_parser = subparsers.add_parser("samples", help="Select test samples (Part B, requires Part A)")
+    samples_parser.add_argument(
+        "--samples-per-species", type=int, default=SAMPLES_PER_SPECIES,
+        help=f"Number of samples per species (default: {SAMPLES_PER_SPECIES})",
+    )
+    all_parser = subparsers.add_parser("all", help="Run both Part A and Part B")
+    all_parser.add_argument(
+        "--samples-per-species", type=int, default=SAMPLES_PER_SPECIES,
+        help=f"Number of samples per species (default: {SAMPLES_PER_SPECIES})",
+    )
 
     args = parser.parse_args()
 
     if args.command == "priority":
         build_priority_list()
     elif args.command == "samples":
-        select_test_samples()
+        select_test_samples(samples_per_species=args.samples_per_species)
     elif args.command == "all":
         build_priority_list()
         print("\n" + "=" * 60 + "\n")
-        select_test_samples()
+        select_test_samples(samples_per_species=args.samples_per_species)
 
 
 if __name__ == "__main__":

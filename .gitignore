@@ -50,3 +50,9 @@ Thumbs.db
 .env
 
 keys/
+
+# Phase A intermediate labels (~5.5 GB of npz, regeneratable from legacy/self_training.py)
+steps/03_segment_extraction/legacy/pseudo_labels/
+steps/03_segment_extraction/legacy/refined_pseudo_labels/
+steps/03_segment_extraction/legacy/self_train_labels_r1/
+steps/03_segment_extraction/legacy/self_train_labels_r2/

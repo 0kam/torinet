@@ -30,6 +30,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from scipy.ndimage import binary_closing, binary_opening, label
 
 # Suppress TF warnings
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
@@ -67,35 +68,42 @@ BIRDNET_SEGMENT_S = 3.0
 def extract_notes(
     probs: np.ndarray,
     threshold: float = 0.5,
-    min_dur: float = 0.02,
+    min_dur: float = 0.03,
+    merge_gap: float = 0.05,
 ) -> list[tuple[float, float]]:
     """Extract note-level segments from frame probabilities.
+
+    Uses morphological operations matching TweetyNet's _probs_to_segments:
+    binary_closing to fill short gaps, binary_opening to remove short bursts.
 
     Args:
         probs: 1D array of frame-level probabilities.
         threshold: Binarization threshold.
         min_dur: Minimum note duration in seconds.
+        merge_gap: Maximum gap to fill between detections in seconds.
 
     Returns:
         List of (onset, offset) tuples in seconds.
     """
     binary = probs >= threshold
-    min_frames = max(1, int(min_dur / FRAME_DUR))
 
+    # Morphological cleanup (matching TweetyNet's _probs_to_segments)
+    gap_frames = int(merge_gap / FRAME_DUR)
+    if gap_frames > 1:
+        binary = binary_closing(binary, structure=np.ones(gap_frames))
+    min_frames = int(min_dur / FRAME_DUR)
+    if min_frames > 1:
+        binary = binary_opening(binary, structure=np.ones(min_frames))
+
+    # Extract segments using connected component labeling
+    lab_arr, n = label(binary)
     notes = []
-    in_note = False
-    start = 0
-    for i, val in enumerate(binary):
-        if val and not in_note:
-            start = i
-            in_note = True
-        elif not val and in_note:
-            if (i - start) >= min_frames:
-                notes.append((start * FRAME_DUR, i * FRAME_DUR))
-            in_note = False
-    # Handle note at end
-    if in_note and (len(binary) - start) >= min_frames:
-        notes.append((start * FRAME_DUR, len(binary) * FRAME_DUR))
+    for k in range(1, n + 1):
+        idx = np.where(lab_arr == k)[0]
+        onset = idx[0] * FRAME_DUR
+        offset = (idx[-1] + 1) * FRAME_DUR
+        if offset - onset >= min_dur:
+            notes.append((onset, offset))
 
     return notes
 
@@ -157,7 +165,20 @@ def _split_bout_if_needed(
         return [bout]
 
     if len(notes) <= 1:
-        return [bout]
+        # Force-split single notes that exceed max_bout_duration
+        onset, offset = notes[0]
+        note_dur = offset - onset
+        if note_dur <= max_bout_duration:
+            return [bout]
+        # Split into max_bout_duration chunks
+        chunks = []
+        t = onset
+        while t < offset:
+            end = min(t + max_bout_duration, offset)
+            if end - t >= 0.1:  # skip tiny tail segments
+                chunks.append(_make_bout_dict([(t, end)]))
+            t = end
+        return chunks if chunks else [bout]
 
     # Find the largest gap to split at
     gaps = [(notes[i + 1][0] - notes[i][1], i) for i in range(len(notes) - 1)]
@@ -240,7 +261,8 @@ def process_group_bouts(
             "n_frames": len(probs),
             "parameters": {
                 "threshold": 0.5,
-                "min_note_dur": 0.02,
+                "min_note_dur": 0.03,
+                "merge_gap": 0.05,
                 "max_gap": max_gap,
                 "max_bout_duration": max_bout_duration,
                 "max_silence_ratio": max_silence_ratio,
@@ -546,15 +568,31 @@ def process_classify_bouts(df: pd.DataFrame) -> pd.DataFrame:
 # Visualization
 # ===========================================================================
 
-VERDICT_COLORS = {
-    "accept": "#2ecc71",   # green
-    "review": "#f1c40f",   # yellow
-    "reject": "#e74c3c",   # red
-}
+CLUSTER_PALETTE = [
+    "#2ecc71", "#3498db", "#e74c3c", "#f1c40f", "#9b59b6",
+    "#1abc9c", "#e67e22", "#34495e", "#e91e63", "#00bcd4",
+]
+NOISE_COLOR = "#999999"
+
+
+def _load_selected_notes(species: str, rec_id: str) -> set[tuple[int, int]]:
+    """Load set of (bout_idx, note_idx) for selected notes in this recording."""
+    csv_path = STEP_DIR / "selected_notes.csv"
+    if not csv_path.exists():
+        return set()
+    df = pd.read_csv(csv_path)
+    mask = (df["species_code"] == species) & (df["recording_id"] == rec_id)
+    return set(zip(df.loc[mask, "bout_idx"].astype(int), df.loc[mask, "note_idx"].astype(int)))
+
+
+SELECTED_COLOR = "#00ff88"
 
 
 def visualize_recording(row: pd.Series) -> bool:
-    """Generate spectrogram + bout overlay for a single recording.
+    """Generate spectrogram with note-level cluster overlay and selection markers.
+
+    Each note is colored by its note cluster. Selected notes get a bright
+    green highlight to distinguish them from non-selected notes.
 
     Returns True if visualization was created, False otherwise.
     """
@@ -571,6 +609,9 @@ def visualize_recording(row: pd.Series) -> bool:
         bout_data = json.load(f)
 
     bouts = bout_data["bouts"]
+
+    # Load selected notes for this recording
+    selected = _load_selected_notes(species, rec_id)
 
     # Load audio for spectrogram
     y, _ = librosa.load(audio_path, sr=SR)
@@ -593,41 +634,54 @@ def visualize_recording(row: pd.Series) -> bool:
         fmin=150, fmax=12000, cmap="magma",
     )
 
-    # Overlay bouts
-    for i, bout in enumerate(bouts):
-        onset = bout["bout_onset"]
-        offset = bout["bout_offset"]
-        verdict = bout.get("birdnet_verdict", "review")
-        color = VERDICT_COLORS.get(verdict, "#999999")
-        score = bout.get("birdnet_score", None)
+    # Overlay notes (colored by note cluster, highlighted if selected)
+    n_selected = 0
+    for bi, bout in enumerate(bouts):
+        note_clusters = bout.get("note_clusters", {})
 
-        # Draw bout rectangle
-        ax.axvspan(onset, offset, alpha=0.25, color=color, zorder=2)
-        ax.axvline(onset, color=color, linewidth=0.8, alpha=0.7, zorder=3)
-        ax.axvline(offset, color=color, linewidth=0.8, alpha=0.7, zorder=3)
+        # Draw thin bout boundary lines
+        ax.axvline(bout["bout_onset"], color="#555555", linewidth=0.3,
+                   alpha=0.4, linestyle=":", zorder=2)
+        ax.axvline(bout["bout_offset"], color="#555555", linewidth=0.3,
+                   alpha=0.4, linestyle=":", zorder=2)
 
-        # Draw note-level masks
-        for note_on, note_off in bout["notes"]:
-            ax.axvspan(
-                note_on, note_off, ymin=0, ymax=0.05,
-                color=color, alpha=0.8, zorder=4,
-            )
+        for ni, (note_on, note_off) in enumerate(bout["notes"]):
+            is_selected = (bi, ni) in selected
+            nc = note_clusters.get(str(ni))
 
-        # Score label
-        if score is not None:
-            label_text = f"{score:.2f}"
-            mid = (onset + offset) / 2
-            ax.text(
-                mid, ax.get_ylim()[1] * 0.92, label_text,
-                ha="center", va="top", fontsize=7,
-                color="white", fontweight="bold",
-                bbox=dict(boxstyle="round,pad=0.2", fc=color, alpha=0.8),
-                zorder=5,
-            )
+            if nc is not None:
+                cluster_id = nc["cluster_id"]
+                if cluster_id >= 0:
+                    color = CLUSTER_PALETTE[cluster_id % len(CLUSTER_PALETTE)]
+                else:
+                    color = NOISE_COLOR
+            else:
+                color = NOISE_COLOR
+                cluster_id = -1
+
+            if is_selected:
+                # Selected note: bright green highlight
+                ax.axvspan(note_on, note_off, alpha=0.45, color=SELECTED_COLOR, zorder=4)
+                ax.axvline(note_on, color=SELECTED_COLOR, linewidth=1.2, alpha=0.9, zorder=5)
+                ax.axvline(note_off, color=SELECTED_COLOR, linewidth=1.2, alpha=0.9, zorder=5)
+                # Bottom bar in cluster color
+                ax.axvspan(note_on, note_off, ymin=0, ymax=0.06,
+                           color=color, alpha=0.9, zorder=6)
+                # Top marker
+                ax.axvspan(note_on, note_off, ymin=0.94, ymax=1.0,
+                           color=SELECTED_COLOR, alpha=0.9, zorder=6)
+                n_selected += 1
+            else:
+                # Non-selected note: subtle cluster color overlay
+                ax.axvspan(note_on, note_off, alpha=0.15, color=color, zorder=3)
+                # Bottom bar
+                ax.axvspan(note_on, note_off, ymin=0, ymax=0.04,
+                           color=color, alpha=0.6, zorder=4)
 
     ax.set_title(
         f"{species} / {safe_id} — "
-        f"{len(bouts)} bouts "
+        f"{sum(b['n_notes'] for b in bouts)} notes, "
+        f"{n_selected} selected "
         f"({row['scientific_name']})",
         fontsize=10,
     )

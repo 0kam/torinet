@@ -1,0 +1,557 @@
+Separating 2 recordings with 8 workers (skipped 4998 already done)...
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING:tensorflow:From /home/okamoto/Projects/torinet/.venv/lib/python3.12/site-packages/tensorflow/python/compat/v2_compat.py:98: disable_resource_variables (from tensorflow.python.ops.resource_variables_toggle) is deprecated and will be removed in a future version.
+Instructions for updating:
+non-resource variables are not supported in the long term
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.291627  101749 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.296257  101754 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.299869  101751 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.302993  101752 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.303772  101755 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.304871  101753 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.306169  101756 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1776328902.307033  101750 mlir_graph_optimization_pass.cc:437] MLIR V1 optimization pass is not enabled
+  [1/2] tufduc/xc_488113 -> 4 sources (269.1s)
+  [2/2] tufduc/xc_488112 -> 4 sources (269.1s)
+Done: 2 recordings separated in 4m 34s
+Loading TweetyNet for bird_ratio computation...
+Computing acoustic features for 18804 source files...
+
+[barswa]
+
+[bkfbun2]
+  Progress: 200/18804 (5.1 files/s, 4 errors)
+  Progress: 400/18804 (6.3 files/s, 4 errors)
+
+[bkhgul]
+  Progress: 600/18804 (5.6 files/s, 4 errors)
+  Progress: 800/18804 (5.7 files/s, 4 errors)
+
+[bktgul]
+  Progress: 1000/18804 (5.9 files/s, 4 errors)
+  Progress: 1200/18804 (6.4 files/s, 4 errors)
+
+[blakit1]
+  Progress: 1400/18804 (6.0 files/s, 4 errors)
+  Progress: 1600/18804 (5.9 files/s, 4 errors)
+
+[brebul1]
+  Progress: 1800/18804 (5.9 files/s, 4 errors)
+  Progress: 2000/18804 (5.9 files/s, 4 errors)
+
+[buhshr1]
+  Progress: 2200/18804 (6.1 files/s, 4 errors)
+  Progress: 2400/18804 (6.3 files/s, 4 errors)
+
+[burthr]
+  Progress: 2600/18804 (6.2 files/s, 4 errors)
+  Progress: 2800/18804 (6.1 files/s, 4 errors)
+
+[carcro1]
+  Progress: 3000/18804 (6.0 files/s, 4 errors)
+  Progress: 3200/18804 (6.0 files/s, 4 errors)
+
+[cintit13]
+  Progress: 3400/18804 (6.0 files/s, 4 errors)
+  Progress: 3600/18804 (6.1 files/s, 4 errors)
+
+[comkin1]
+  Progress: 3800/18804 (6.3 files/s, 4 errors)
+  Progress: 4000/18804 (6.4 files/s, 4 errors)
+
+[compoc]
+  Progress: 4200/18804 (6.4 files/s, 4 errors)
+  Progress: 4400/18804 (6.4 files/s, 4 errors)
+
+[comsan]
+  Progress: 4600/18804 (6.4 files/s, 4 errors)
+  Progress: 4800/18804 (6.4 files/s, 4 errors)
+
+[daured1]
+  Progress: 5000/18804 (6.3 files/s, 4 errors)
+  Progress: 5200/18804 (6.4 files/s, 4 errors)
+
+[dusthr2]
+  Progress: 5400/18804 (6.3 files/s, 4 errors)
+  Progress: 5600/18804 (6.4 files/s, 4 errors)
+
+[eurcoo]
+  Progress: 5800/18804 (6.4 files/s, 4 errors)
+  Progress: 6000/18804 (6.4 files/s, 4 errors)
+
+[eurwig]
+  Progress: 6200/18804 (6.5 files/s, 4 errors)
+  Progress: 6400/18804 (6.5 files/s, 4 errors)
+
+[eutspa]
+  Progress: 6600/18804 (6.4 files/s, 4 errors)
+  Progress: 6800/18804 (6.3 files/s, 4 errors)
+
+[gadwal]
+  Progress: 7000/18804 (6.3 files/s, 4 errors)
+  Progress: 7200/18804 (6.3 files/s, 4 errors)
+
+[gnwtea]
+  Progress: 7400/18804 (6.3 files/s, 4 errors)
+  Progress: 7600/18804 (6.4 files/s, 4 errors)
+
+[graher1]
+  Progress: 7800/18804 (6.4 files/s, 4 errors)
+  Progress: 8000/18804 (6.4 files/s, 12 errors)
+
+[grcgre1]
+  Progress: 8200/18804 (6.4 files/s, 12 errors)
+  Progress: 8400/18804 (6.5 files/s, 12 errors)
+
+[grecor]
+  Progress: 8600/18804 (6.3 files/s, 12 errors)
+  Progress: 8800/18804 (6.3 files/s, 12 errors)
+
+[greegr]
+  Progress: 9000/18804 (6.4 files/s, 12 errors)
+  Progress: 9200/18804 (6.5 files/s, 16 errors)
+
+[grywag]
+  Progress: 9400/18804 (6.5 files/s, 16 errors)
+  Progress: 9600/18804 (6.5 files/s, 16 errors)
+
+[jabwar]
+  Progress: 9800/18804 (6.5 files/s, 16 errors)
+  Progress: 10000/18804 (6.4 files/s, 16 errors)
+
+[japwag1]
+  Progress: 10200/18804 (6.5 files/s, 16 errors)
+  Progress: 10400/18804 (6.5 files/s, 16 errors)
+
+[labcro1]
+  Progress: 10600/18804 (6.5 files/s, 16 errors)
+  Progress: 10800/18804 (6.5 files/s, 16 errors)
+
+[litegr]
+  Progress: 11000/18804 (6.6 files/s, 16 errors)
+  Progress: 11200/18804 (6.6 files/s, 16 errors)
+
+[litgre1]
+  Progress: 11400/18804 (6.7 files/s, 16 errors)
+  Progress: 11600/18804 (6.7 files/s, 16 errors)
+
+[lottit1]
+  Progress: 11800/18804 (6.6 files/s, 16 errors)
+  Progress: 12000/18804 (6.6 files/s, 16 errors)
+
+[mallar3]
+  Progress: 12200/18804 (6.6 files/s, 16 errors)
+  Progress: 12400/18804 (6.7 files/s, 16 errors)
+
+[meabun1]
+  Progress: 12600/18804 (6.6 files/s, 16 errors)
+  Progress: 12800/18804 (6.6 files/s, 16 errors)
+
+[norpin]
+  Progress: 13000/18804 (6.6 files/s, 16 errors)
+  Progress: 13200/18804 (6.6 files/s, 16 errors)
+
+[norsho]
+  Progress: 13400/18804 (6.6 files/s, 16 errors)
+  Progress: 13600/18804 (6.7 files/s, 16 errors)
+
+[origre]
+  Progress: 13800/18804 (6.6 files/s, 16 errors)
+  Progress: 14000/18804 (6.6 files/s, 16 errors)
+
+[ortdov]
+  Progress: 14200/18804 (6.7 files/s, 16 errors)
+  Progress: 14400/18804 (6.7 files/s, 16 errors)
+
+[osprey]
+  Progress: 14600/18804 (6.7 files/s, 16 errors)
+  Progress: 14800/18804 (6.7 files/s, 16 errors)
+
+[palthr1]
+  Progress: 15000/18804 (6.7 files/s, 16 errors)
+  Progress: 15200/18804 (6.7 files/s, 16 errors)
+
+[pygwoo1]
+  Progress: 15400/18804 (6.7 files/s, 16 errors)
+  Progress: 15600/18804 (6.7 files/s, 16 errors)
+
+[rocpig]
+  Progress: 15800/18804 (6.7 files/s, 16 errors)
+  Progress: 16000/18804 (6.7 files/s, 16 errors)
+
+[skylar]
+  Progress: 16200/18804 (6.7 files/s, 16 errors)
+  Progress: 16400/18804 (6.6 files/s, 16 errors)
+
+[tufduc]
+  Progress: 16600/18804 (6.6 files/s, 16 errors)
+  Progress: 16800/18804 (6.6 files/s, 16 errors)
+
+[vartit1]
+  Progress: 17000/18804 (6.6 files/s, 16 errors)
+  Progress: 17200/18804 (6.6 files/s, 16 errors)
+
+[warwhe1]
+  Progress: 17400/18804 (6.6 files/s, 16 errors)
+  Progress: 17600/18804 (6.6 files/s, 16 errors)
+
+[whcsta1]
+  Progress: 17800/18804 (6.6 files/s, 16 errors)
+  Progress: 18000/18804 (6.6 files/s, 16 errors)
+
+[whiwag]
+  Progress: 18200/18804 (6.6 files/s, 16 errors)
+  Progress: 18400/18804 (6.6 files/s, 16 errors)
+
+[zitcis1]
+  Progress: 18600/18804 (6.6 files/s, 16 errors)
+  Progress: 18800/18804 (6.6 files/s, 16 errors)
+  Progress: 18804/18804 (6.6 files/s, 16 errors)
+
+Done: 18788 files written in 2842.9s (16 errors) -> /home/okamoto/NAS/nasbi/ToriNET/segments/acoustic_features
+Running BirdNET scoring for 50 species...
+  azwmag2: EXISTS (skip)
+  barswa: EXISTS (skip)
+  bkfbun2: no BirdNET coverage (skip)
+  bkhgul: 100 recs, 93 above gate (662.9s)
+  bktgul: EXISTS (skip)
+  blakit1: 100 recs, 91 above gate (680.1s)
+  brebul1: 100 recs, 97 above gate (618.6s)
+  buhshr1: 100 recs, 62 above gate (556.7s)
+  burthr: 100 recs, 81 above gate (659.2s)
+  carcro1: 100 recs, 92 above gate (652.8s)
+  cintit13: 100 recs, 68 above gate (581.9s)
+  comkin1: 100 recs, 91 above gate (547.4s)
+  compoc: 100 recs, 78 above gate (621.5s)
+  comsan: 100 recs, 95 above gate (632.7s)
+  daured1: 100 recs, 79 above gate (628.5s)
+  dusthr2: 100 recs, 36 above gate (633.3s)
+  eurcoo: 100 recs, 80 above gate (607.1s)
+  eurwig: 100 recs, 77 above gate (612.9s)
+  eutspa: 100 recs, 87 above gate (716.5s)
+  gadwal: 100 recs, 85 above gate (608.2s)
+  gnwtea: 100 recs, 81 above gate (613.0s)
+  graher1: 100 recs, 90 above gate (606.6s)
+  grcgre1: 100 recs, 88 above gate (601.7s)
+  grecor: 100 recs, 83 above gate (704.5s)
+  greegr: 100 recs, 80 above gate (545.2s)
+  grywag: 100 recs, 92 above gate (587.9s)
+  jabwar: 100 recs, 96 above gate (692.4s)
+  japwag1: 100 recs, 63 above gate (568.2s)
+  labcro1: 100 recs, 93 above gate (618.5s)
+  litegr: 100 recs, 61 above gate (563.5s)
+  litgre1: 100 recs, 68 above gate (558.0s)
+  lottit1: 100 recs, 98 above gate (693.1s)
+  mallar3: 100 recs, 92 above gate (587.4s)
+  meabun1: 100 recs, 95 above gate (684.5s)
+  norpin: 100 recs, 74 above gate (581.2s)
+  norsho: 100 recs, 74 above gate (579.5s)
+  origre: 100 recs, 80 above gate (647.3s)
+  ortdov: 100 recs, 79 above gate (564.0s)
+  osprey: 100 recs, 91 above gate (640.1s)
+  palthr1: 100 recs, 55 above gate (629.1s)
+  pygwoo1: 100 recs, 36 above gate (591.8s)
+  rocpig: 100 recs, 82 above gate (635.6s)
+  skylar: 100 recs, 91 above gate (706.2s)
+  spbduc: EXISTS (skip)
+  tufduc: 100 recs, 79 above gate (626.6s)
+  vartit1: 100 recs, 85 above gate (603.7s)
+  warwhe1: 100 recs, 79 above gate (693.5s)
+  whcsta1: 100 recs, 33 above gate (588.2s)
+  whiwag: 100 recs, 92 above gate (612.2s)
+  zitcis1: 100 recs, 85 above gate (624.6s)
+
+Done: 45 species scored, 5 skipped -> /home/okamoto/NAS/nasbi/ToriNET/segments/birdnet_scores
+Routing: 48 B-1 (BirdNET) + 2 B-2 (prototype) -> /home/okamoto/NAS/nasbi/ToriNET/segments/species_routing.csv
+  B-2 reasons: birdnet_unregistered=1, birdnet_low_hit_rate=1
+Routing-restricted: 2 B-2 species selected
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1776359995.044814  101658 gpu_device.cc:2431] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+TF GPU devices: ['/physical_device:GPU:0']
+Loading Perch v2 model from TF Hub...
+W0000 00:00:1776359995.555743  101658 gpu_device.cc:2431] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 12.0. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+I0000 00:00:1776359995.573279  101658 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 29596 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 5090, pci bus id: 0000:01:00.0, compute capability: 12.0
+Perch v2 loaded (embedding dim=1280)
+Computing Perch embeddings for 400 source files...
+
+[bkfbun2]
+I0000 00:00:1776360002.387469  774783 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+  Progress: 100/400 (6.2 files/s, 0 errors)
+  Progress: 200/400 (9.5 files/s, 0 errors)
+  Progress: 300/400 (11.4 files/s, 0 errors)
+  Progress: 400/400 (13.0 files/s, 0 errors)
+
+Done: 400 files written in 30.7s (0 errors) -> /home/okamoto/NAS/nasbi/ToriNET/segments/perch_embeddings
+Routing-restricted: 2 B-2 species selected
+Building prototypes for 2 species (filter: bird_ratio>0.0)...
+  bkfbun2: 2166 embs → 3 clusters, 1 prototypes, noise=1487
+  spbduc: EXISTS (skip)
+
+Done: 2 prototypes built, 0 few-data, 0 skipped → /home/okamoto/Projects/torinet/steps/03_segment_extraction/species_prototypes
+=== Stage: acoustic features (SNR/NDSI/bird_ratio) ===
+Loading TweetyNet for bird_ratio computation...
+Computing acoustic features for 16 source files...
+
+[barswa]
+
+[graher1]
+
+[greegr]
+
+Done: 0 files written in 10.5s (16 errors) -> /home/okamoto/NAS/nasbi/ToriNET/segments/acoustic_features
+=== Stage: BirdNET scores ===
+Running BirdNET scoring for 50 species...
+  azwmag2: EXISTS (skip)
+  barswa: EXISTS (skip)
+  bkfbun2: no BirdNET coverage (skip)
+  bkhgul: EXISTS (skip)
+  bktgul: EXISTS (skip)
+  blakit1: EXISTS (skip)
+  brebul1: EXISTS (skip)
+  buhshr1: EXISTS (skip)
+  burthr: EXISTS (skip)
+  carcro1: EXISTS (skip)
+  cintit13: EXISTS (skip)
+  comkin1: EXISTS (skip)
+  compoc: EXISTS (skip)
+  comsan: EXISTS (skip)
+  daured1: EXISTS (skip)
+  dusthr2: EXISTS (skip)
+  eurcoo: EXISTS (skip)
+  eurwig: EXISTS (skip)
+  eutspa: EXISTS (skip)
+  gadwal: EXISTS (skip)
+  gnwtea: EXISTS (skip)
+  graher1: EXISTS (skip)
+  grcgre1: EXISTS (skip)
+  grecor: EXISTS (skip)
+  greegr: EXISTS (skip)
+  grywag: EXISTS (skip)
+  jabwar: EXISTS (skip)
+  japwag1: EXISTS (skip)
+  labcro1: EXISTS (skip)
+  litegr: EXISTS (skip)
+  litgre1: EXISTS (skip)
+  lottit1: EXISTS (skip)
+  mallar3: EXISTS (skip)
+  meabun1: EXISTS (skip)
+  norpin: EXISTS (skip)
+  norsho: EXISTS (skip)
+  origre: EXISTS (skip)
+  ortdov: EXISTS (skip)
+  osprey: EXISTS (skip)
+  palthr1: EXISTS (skip)
+  pygwoo1: EXISTS (skip)
+  rocpig: EXISTS (skip)
+  skylar: EXISTS (skip)
+  spbduc: EXISTS (skip)
+  tufduc: EXISTS (skip)
+  vartit1: EXISTS (skip)
+  warwhe1: EXISTS (skip)
+  whcsta1: EXISTS (skip)
+  whiwag: EXISTS (skip)
+  zitcis1: EXISTS (skip)
+
+Done: 0 species scored, 50 skipped -> /home/okamoto/NAS/nasbi/ToriNET/segments/birdnet_scores
+=== Stage: Species routing ===
+  routing cached: species_routing.csv
+=== Stage: Perch embeddings (B-2 species) ===
+Routing-restricted: 2 B-2 species selected
+No Perch embeddings to compute (all up to date).
+=== Stage: Prototypes (B-2 species) ===
+Routing-restricted: 2 B-2 species selected
+Building prototypes for 2 species (filter: bird_ratio>0.0)...
+  bkfbun2: EXISTS (skip)
+  spbduc: EXISTS (skip)
+
+Done: 2 prototypes built, 0 few-data, 0 skipped → /home/okamoto/Projects/torinet/steps/03_segment_extraction/species_prototypes
+=== Stage: Channel selection ===
+Running channel selection for 50 species...
+  azwmag2: EXISTS (skip)
+  barswa: [B1] ch0:80/ch1:11/ch3:4, 95 recordings selected
+  bkfbun2: [B2] ch0:42/ch1:29/ch2:13/ch3:13, 97 recordings selected
+  bkhgul: [B1] ch0:76/ch1:7/ch3:10, 93 recordings selected
+  bktgul: [B1] ch0:29/ch1:4/ch3:10, 43 recordings selected
+  blakit1: [B1] ch0:75/ch1:7/ch3:9, 91 recordings selected
+  brebul1: [B1] ch0:76/ch1:17/ch3:4, 97 recordings selected
+  buhshr1: [B1] ch0:54/ch1:7/ch3:1, 62 recordings selected
+  burthr: [B1] ch0:74/ch1:4/ch3:3, 81 recordings selected
+  carcro1: [B1] ch0:77/ch1:2/ch3:13, 92 recordings selected
+  cintit13: [B1] ch0:55/ch1:13, 68 recordings selected
+  comkin1: [B1] ch0:76/ch1:15, 91 recordings selected
+  compoc: [B1] ch0:68/ch1:4/ch3:6, 78 recordings selected
+  comsan: [B1] ch0:78/ch1:16/ch2:1, 95 recordings selected
+  daured1: [B1] ch0:67/ch1:11/ch2:1, 79 recordings selected
+  dusthr2: [B1] ch0:27/ch1:6/ch3:3, 36 recordings selected
+  eurcoo: [B1] ch0:64/ch1:9/ch2:1/ch3:6, 80 recordings selected
+  eurwig: [B1] ch0:71/ch1:5/ch3:1, 77 recordings selected
+  eutspa: [B1] ch0:70/ch1:15/ch3:2, 87 recordings selected
+  gadwal: [B1] ch0:73/ch1:3/ch3:9, 85 recordings selected
+  gnwtea: [B1] ch0:74/ch1:4/ch3:3, 81 recordings selected
+  graher1: [B1] ch0:79/ch1:7/ch3:4, 90 recordings selected
+  grcgre1: [B1] ch0:62/ch1:8/ch3:18, 88 recordings selected
+  grecor: [B1] ch0:40/ch1:7/ch2:9/ch3:27, 83 recordings selected
+  greegr: [B1] ch0:57/ch1:4/ch2:1/ch3:18, 80 recordings selected
+  grywag: [B1] ch0:63/ch1:28/ch3:1, 92 recordings selected
+  jabwar: [B1] ch0:84/ch1:10/ch3:2, 96 recordings selected
+  japwag1: [B1] ch0:56/ch1:5/ch2:1/ch3:1, 63 recordings selected
+  labcro1: [B1] ch0:68/ch1:2/ch3:23, 93 recordings selected
+  litegr: [B1] ch0:36/ch1:2/ch2:1/ch3:22, 61 recordings selected
+  litgre1: [B1] ch0:57/ch1:7/ch3:4, 68 recordings selected
+  lottit1: [B1] ch0:52/ch1:42/ch3:4, 98 recordings selected
+  mallar3: [B1] ch0:82/ch1:8/ch3:2, 92 recordings selected
+  meabun1: [B1] ch0:65/ch1:30, 95 recordings selected
+  norpin: [B1] ch0:51/ch1:5/ch3:18, 74 recordings selected
+  norsho: [B1] ch0:32/ch1:9/ch2:7/ch3:26, 74 recordings selected
+  origre: [B1] ch0:49/ch1:23/ch2:2/ch3:6, 80 recordings selected
+  ortdov: [B1] ch1:6/ch2:5/ch3:68, 79 recordings selected
+  osprey: [B1] ch0:84/ch1:2/ch3:5, 91 recordings selected
+  palthr1: [B1] ch0:37/ch1:18, 55 recordings selected
+  pygwoo1: [B1] ch0:22/ch1:9/ch3:5, 36 recordings selected
+  rocpig: [B1] ch0:3/ch1:3/ch2:12/ch3:64, 82 recordings selected
+  skylar: [B1] ch0:81/ch1:7/ch2:1/ch3:2, 91 recordings selected
+  spbduc: EXISTS (skip)
+  tufduc: [B1] ch0:60/ch1:1/ch3:18, 79 recordings selected
+  vartit1: [B1] ch0:51/ch1:31/ch3:3, 85 recordings selected
+  warwhe1: [B1] ch0:55/ch1:23/ch3:1, 79 recordings selected
+  whcsta1: [B1] ch0:26/ch1:6/ch3:1, 33 recordings selected
+  whiwag: [B1] ch0:65/ch1:26/ch3:1, 92 recordings selected
+  zitcis1: [B1] ch0:47/ch1:38, 85 recordings selected
+
+Done: 48 species, 2 skipped -> /home/okamoto/NAS/nasbi/ToriNET/segments/channel_selection
+=== Stage: TweetyNet segmentation ===
+Loading TweetyNet from tweetynet_r2_best.pt (device=cuda)...
+Running TweetyNet segmentation for 50 species...
+  azwmag2: EXISTS (skip)
+  barswa: 95 recordings -> 2659 bouts
+  bkfbun2: 97 recordings -> 1290 bouts
+  bkhgul: 93 recordings -> 2184 bouts
+  bktgul: 43 recordings -> 938 bouts
+  blakit1: 91 recordings -> 2351 bouts
+  brebul1: 97 recordings -> 1596 bouts
+  buhshr1: 62 recordings -> 617 bouts
+  burthr: 81 recordings -> 1632 bouts
+  carcro1: 92 recordings -> 1844 bouts
+  cintit13: 68 recordings -> 988 bouts
+  comkin1: 91 recordings -> 848 bouts
+  compoc: 78 recordings -> 1694 bouts
+  comsan: 95 recordings -> 1645 bouts
+  daured1: 79 recordings -> 1865 bouts
+  dusthr2: 36 recordings -> 975 bouts
+  eurcoo: 80 recordings -> 1811 bouts
+  eurwig: 77 recordings -> 1223 bouts
+  eutspa: 87 recordings -> 2691 bouts
+  gadwal: 85 recordings -> 1533 bouts
+  gnwtea: 81 recordings -> 1941 bouts
+  graher1: 90 recordings -> 1590 bouts
+  grcgre1: 88 recordings -> 1344 bouts
+  grecor: 83 recordings -> 2786 bouts
+  greegr: 80 recordings -> 904 bouts
+  grywag: 92 recordings -> 1355 bouts
+  jabwar: 96 recordings -> 2489 bouts
+  japwag1: 63 recordings -> 895 bouts
+  labcro1: 93 recordings -> 1512 bouts
+  litegr: 61 recordings -> 925 bouts
+  litgre1: 68 recordings -> 774 bouts
+  lottit1: 98 recordings -> 2879 bouts
+  mallar3: 92 recordings -> 1473 bouts
+  meabun1: 95 recordings -> 2374 bouts
+  norpin: 74 recordings -> 1388 bouts
+  norsho: 74 recordings -> 1215 bouts
+  origre: 80 recordings -> 1892 bouts
+  ortdov: 79 recordings -> 696 bouts
+  osprey: 91 recordings -> 1870 bouts
+  palthr1: 55 recordings -> 1367 bouts
+  pygwoo1: 36 recordings -> 807 bouts
+  rocpig: 82 recordings -> 1805 bouts
+  skylar: 91 recordings -> 1715 bouts
+  spbduc: EXISTS (skip)
+  tufduc: 79 recordings -> 2206 bouts
+  vartit1: 85 recordings -> 1312 bouts
+  warwhe1: 79 recordings -> 1640 bouts
+  whcsta1: 33 recordings -> 665 bouts
+  whiwag: 92 recordings -> 1856 bouts
+  zitcis1: 85 recordings -> 2644 bouts
+
+Done: 48 species segmented, 2 skipped -> /home/okamoto/NAS/nasbi/ToriNET/segments/tweetynet_segments
+=== Stage: Rank bouts and export ===
+Resuming: 1 species already done, 49 remaining
+  azwmag2: [B1] ch0:1278/ch1:593/ch3:256, sp_score=0.859, bq=0.294, 2127 bouts -> 75 selected
+  barswa: [B1] ch0:2239/ch1:360/ch3:60, sp_score=0.978, bq=0.552, 2659 bouts -> 75 selected
+  bkfbun2: [B2] ch0:673/ch1:304/ch2:146/ch3:167, sp_score=0.623, bq=0.289, 1290 bouts -> 75 selected
+  bkhgul: [B1] ch0:1464/ch1:524/ch3:196, sp_score=0.768, bq=0.231, 2184 bouts -> 75 selected
+  bktgul: [B1] ch0:624/ch1:86/ch3:228, sp_score=0.753, bq=0.225, 938 bouts -> 75 selected
+  blakit1: [B1] ch0:1426/ch1:411/ch3:514, sp_score=0.892, bq=0.214, 2351 bouts -> 75 selected
+  brebul1: [B1] ch0:1110/ch1:418/ch3:68, sp_score=0.937, bq=0.364, 1596 bouts -> 75 selected
+  buhshr1: [B1] ch0:531/ch1:79/ch3:7, sp_score=0.843, bq=0.501, 617 bouts -> 75 selected
+  burthr: [B1] ch0:1501/ch1:56/ch3:75, sp_score=0.799, bq=0.413, 1632 bouts -> 75 selected
+  carcro1: [B1] ch0:1495/ch1:103/ch3:246, sp_score=0.809, bq=0.081, 1844 bouts -> 75 selected
+  cintit13: [B1] ch0:828/ch1:160, sp_score=0.753, bq=0.444, 988 bouts -> 75 selected
+  comkin1: [B1] ch0:650/ch1:198, sp_score=0.855, bq=0.507, 848 bouts -> 75 selected
+  compoc: [B1] ch0:1536/ch1:113/ch3:45, sp_score=0.887, bq=0.328, 1694 bouts -> 75 selected
+  comsan: [B1] ch0:1111/ch1:512/ch2:22, sp_score=0.958, bq=0.363, 1645 bouts -> 75 selected
+  daured1: [B1] ch0:1544/ch1:283/ch2:38, sp_score=0.802, bq=0.629, 1865 bouts -> 75 selected
+  dusthr2: [B1] ch0:741/ch1:123/ch3:111, sp_score=0.660, bq=0.397, 975 bouts -> 75 selected
+  eurcoo: [B1] ch0:1126/ch1:518/ch2:15/ch3:152, sp_score=0.913, bq=0.318, 1811 bouts -> 75 selected
+  eurwig: [B1] ch0:1114/ch1:94/ch3:15, sp_score=0.932, bq=0.294, 1223 bouts -> 75 selected
+  eutspa: [B1] ch0:1999/ch1:630/ch3:62, sp_score=0.900, bq=0.628, 2691 bouts -> 75 selected
+  gadwal: [B1] ch0:1193/ch1:67/ch3:273, sp_score=0.966, bq=0.266, 1533 bouts -> 75 selected
+  gnwtea: [B1] ch0:1819/ch1:108/ch3:14, sp_score=0.973, bq=0.401, 1941 bouts -> 75 selected
+  graher1: [B1] ch0:878/ch1:141/ch3:571, sp_score=0.846, bq=0.197, 1590 bouts -> 75 selected
+  grcgre1: [B1] ch0:819/ch1:121/ch3:404, sp_score=0.920, bq=0.269, 1344 bouts -> 75 selected
+  grecor: [B1] ch0:759/ch1:328/ch2:227/ch3:1472, sp_score=0.857, bq=0.107, 2786 bouts -> 75 selected
+  greegr: [B1] ch0:652/ch1:73/ch2:4/ch3:175, sp_score=0.811, bq=0.112, 904 bouts -> 75 selected
+  grywag: [B1] ch0:631/ch1:687/ch3:37, sp_score=0.968, bq=0.475, 1355 bouts -> 75 selected
+  jabwar: [B1] ch0:1968/ch1:471/ch3:50, sp_score=0.917, bq=0.338, 2489 bouts -> 75 selected
+  japwag1: [B1] ch0:773/ch1:102/ch2:19/ch3:1, sp_score=0.756, bq=0.423, 895 bouts -> 75 selected
+  labcro1: [B1] ch0:1093/ch1:14/ch3:405, sp_score=0.900, bq=0.088, 1512 bouts -> 75 selected
+  litegr: [B1] ch0:432/ch1:15/ch2:5/ch3:473, sp_score=0.829, bq=0.072, 925 bouts -> 75 selected
+  litgre1: [B1] ch0:592/ch1:128/ch3:54, sp_score=0.782, bq=0.277, 774 bouts -> 75 selected
+  lottit1: [B1] ch0:1123/ch1:1645/ch3:111, sp_score=0.921, bq=0.534, 2879 bouts -> 75 selected
+  mallar3: [B1] ch0:1352/ch1:76/ch3:45, sp_score=0.872, bq=0.233, 1473 bouts -> 75 selected
+  meabun1: [B1] ch0:1614/ch1:760, sp_score=0.962, bq=0.523, 2374 bouts -> 75 selected
+  norpin: [B1] ch0:1033/ch1:75/ch3:280, sp_score=0.855, bq=0.158, 1388 bouts -> 75 selected
+  norsho: [B1] ch0:399/ch1:97/ch2:242/ch3:477, sp_score=0.902, bq=0.189, 1215 bouts -> 75 selected
+  origre: [B1] ch0:1049/ch1:612/ch2:31/ch3:200, sp_score=0.815, bq=0.441, 1892 bouts -> 75 selected
+  ortdov: [B1] ch1:29/ch2:34/ch3:633, sp_score=0.835, bq=0.059, 696 bouts -> 75 selected
+  osprey: [B1] ch0:1671/ch1:37/ch3:162, sp_score=0.918, bq=0.427, 1870 bouts -> 75 selected
+  palthr1: [B1] ch0:956/ch1:411, sp_score=0.728, bq=0.355, 1367 bouts -> 75 selected
+  pygwoo1: [B1] ch0:341/ch1:321/ch3:145, sp_score=0.617, bq=0.271, 807 bouts -> 75 selected
+  rocpig: [B1] ch0:43/ch1:18/ch2:312/ch3:1432, sp_score=0.900, bq=0.098, 1805 bouts -> 75 selected
+  skylar: [B1] ch0:1189/ch1:333/ch2:109/ch3:84, sp_score=0.885, bq=0.418, 1715 bouts -> 75 selected
+  tufduc: [B1] ch0:1858/ch1:28/ch3:320, sp_score=0.662, bq=0.166, 2206 bouts -> 75 selected
+  vartit1: [B1] ch0:870/ch1:404/ch3:38, sp_score=0.892, bq=0.311, 1312 bouts -> 75 selected
+  warwhe1: [B1] ch0:1164/ch1:467/ch3:9, sp_score=0.829, bq=0.426, 1640 bouts -> 75 selected
+  whcsta1: [B1] ch0:459/ch1:166/ch3:40, sp_score=0.655, bq=0.355, 665 bouts -> 75 selected
+  whiwag: [B1] ch0:1050/ch1:799/ch3:7, sp_score=0.956, bq=0.528, 1856 bouts -> 75 selected
+  zitcis1: [B1] ch0:1316/ch1:1328, sp_score=0.955, bq=0.705, 2644 bouts -> 75 selected
+
+Done: 3750 bouts -> birdmixit_pipeline_results.csv

@@ -1,0 +1,8 @@
+method_id,method_name,precision,recall,f1,n_evaluated
+1,Band Energy Hysteresis,0.6541,0.6096,0.6311,194
+2,PCEN Connected Components,0.5863,0.604,0.595,194
+3,Flux-Anchor Boundary,0.3468,0.8679,0.4956,194
+6,REPET-lite Foreground,0.6333,0.7639,0.6925,194
+8,2-State HMM (Viterbi),0.5974,0.7626,0.67,194
+12,Spectral Entropy,0.6394,0.2154,0.3223,194
+14,Median Clipping (Lasseck),0.4924,0.2342,0.3174,194

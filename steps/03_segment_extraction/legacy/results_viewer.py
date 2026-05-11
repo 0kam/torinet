@@ -2,8 +2,8 @@
 Segmentation results viewer — lightweight web app.
 
 Browse and compare segmentation results across methods (signal-processing
-baseline, PANNs, TweetyNet, Bout pipeline) for each species and recording.
-Includes Japanese species names and audio playback.
+baseline, TweetyNet, Bout pipeline, HDBSCAN clusters) for each species
+and recording. Includes Japanese species names and audio playback.
 
 Usage:
     python results_viewer.py [--port 8050]
@@ -25,16 +25,18 @@ TEST_SAMPLES_DIR = NAS_BASE / "segments" / "test_samples"
 # Result directories
 VIS_DIRS = {
     "signal_processing": NAS_BASE / "segments" / "test_samples_results_v2",
-    "panns": NAS_BASE / "segments" / "test_samples_results_panns",
     "tweetynet": NAS_BASE / "segments" / "test_samples_results_tweetynet",
     "bouts": NAS_BASE / "segments" / "test_samples_results_bouts",
+    "clusters": STEP_DIR / "cluster_visualizations",
+    "note_clusters": STEP_DIR / "note_cluster_visualizations",
 }
 
 METHOD_LABELS = {
     "signal_processing": "Signal Processing (7 methods)",
-    "panns": "PANNs (zero-shot SED)",
-    "tweetynet": "TweetyNet (pseudo-label)",
-    "bouts": "Bout Pipeline (TweetyNet + BirdNET)",
+    "tweetynet": "TweetyNet (self-trained)",
+    "bouts": "Bout Pipeline",
+    "clusters": "Bout Clusters (Perch v2 + HDBSCAN)",
+    "note_clusters": "Note Clusters (Spectral + HDBSCAN)",
 }
 
 # ---------------------------------------------------------------------------
@@ -76,17 +78,29 @@ def load_results() -> dict:
         ).reset_index()
         data["signal_processing"] = sp_agg
 
-    panns_csv = STEP_DIR / "prototype_results_panns.csv"
-    if panns_csv.exists():
-        data["panns"] = pd.read_csv(panns_csv)
-
     tw_csv = STEP_DIR / "tweetynet_results.csv"
     if tw_csv.exists():
         data["tweetynet"] = pd.read_csv(tw_csv)
 
-    bout_csv = STEP_DIR / "classify_results.csv"
+    bout_csv = STEP_DIR / "bout_results.csv"
     if bout_csv.exists():
         data["bouts"] = pd.read_csv(bout_csv)
+
+    selected_csv = STEP_DIR / "selected_bouts.csv"
+    if selected_csv.exists():
+        data["selected_bouts"] = pd.read_csv(selected_csv)
+
+    cluster_csv = STEP_DIR / "cluster_results.csv"
+    if cluster_csv.exists():
+        data["clusters"] = pd.read_csv(cluster_csv)
+
+    selected_notes_csv = STEP_DIR / "selected_notes.csv"
+    if selected_notes_csv.exists():
+        data["selected_notes"] = pd.read_csv(selected_notes_csv)
+
+    note_cluster_csv = STEP_DIR / "note_cluster_results.csv"
+    if note_cluster_csv.exists():
+        data["note_clusters"] = pd.read_csv(note_cluster_csv)
 
     return data
 
@@ -95,6 +109,8 @@ def build_species_index(data: dict) -> dict:
     """Build {species_code: [recording_ids]} from available data."""
     all_recs = set()
     for key, df in data.items():
+        if "recording_id" not in df.columns:
+            continue
         sp_col = "ebird_species_code" if "ebird_species_code" in df.columns else "species_code"
         for _, row in df.iterrows():
             sp = row[sp_col]
@@ -144,7 +160,6 @@ def find_image(method_key: str, species_code: str, recording_id: str) -> str | N
     safe_id = recording_id.replace(":", "_").replace("/", "_")
     patterns = [
         f"{safe_id}_comparison.png",
-        f"{safe_id}_panns.png",
         f"{safe_id}_tweetynet.png",
         f"{safe_id}_bouts.png",
     ]
@@ -196,29 +211,29 @@ INDEX_TEMPLATE = Template("""\
 <body>
 <div class="header">
   <h1>Segmentation Results Viewer</h1>
-  <p>Step 03 — {{ n_species }} species, {{ n_recordings }} recordings, 4 methods</p>
+  <p>Step 03 — {{ n_species }} species, {{ n_recordings }} recordings</p>
 </div>
 <div class="container">
   <div class="summary">
     <div class="summary-card">
-      <h3>Signal Processing</h3>
-      <div class="value">{{ sp_stats.total_segments }}</div>
-      <div class="sub">segments (7 methods combined), {{ sp_stats.mean_per_file }} mean/file</div>
-    </div>
-    <div class="summary-card">
-      <h3>PANNs (zero-shot)</h3>
-      <div class="value">{{ panns_stats.total_segments }}</div>
-      <div class="sub">segments, {{ panns_stats.mean_per_file }} mean/file, {{ panns_stats.mean_dur }}s mean dur</div>
-    </div>
-    <div class="summary-card">
-      <h3>TweetyNet (pseudo-label)</h3>
+      <h3>TweetyNet (self-trained)</h3>
       <div class="value">{{ tw_stats.total_segments }}</div>
       <div class="sub">segments, {{ tw_stats.mean_per_file }} mean/file</div>
     </div>
     <div class="summary-card">
-      <h3>Bout Pipeline</h3>
+      <h3>Bouts</h3>
       <div class="value">{{ bout_stats.total_bouts }}</div>
-      <div class="sub">bouts: {{ bout_stats.accept }} accept, {{ bout_stats.review }} review, {{ bout_stats.reject }} reject</div>
+      <div class="sub">bouts, {{ bout_stats.median_dur }}s median dur</div>
+    </div>
+    <div class="summary-card">
+      <h3>Note Clusters</h3>
+      <div class="value">{{ note_cluster_stats.total_clusters }}</div>
+      <div class="sub">clusters, {{ note_cluster_stats.noise_pct }}% noise (spectral features)</div>
+    </div>
+    <div class="summary-card">
+      <h3>Selected Notes</h3>
+      <div class="value">{{ note_selected_stats.total_selected }}</div>
+      <div class="sub">from {{ note_selected_stats.n_species }} species (quality-scored)</div>
     </div>
   </div>
 
@@ -299,7 +314,7 @@ SPECIES_TEMPLATE = Template("""\
   <a href="/">&larr; Back</a>
   <div>
     <h1>{{ ja_name }}</h1>
-    <div class="sub">{{ species_code }} — <em>{{ sci_name }}</em></div>
+    <div class="sub">{{ species_code }} — <em>{{ sci_name }}</em> — {{ cluster_info }}</div>
   </div>
 </div>
 <div class="container">
@@ -313,27 +328,36 @@ SPECIES_TEMPLATE = Template("""\
   <table class="stats-table">
     <tr>
       <th>Recording</th>
-      <th>SP Segments</th>
-      <th>PANNs</th>
-      <th>TweetyNet</th>
-      <th>Bouts (A/R/J)</th>
+      <th>TweetyNet Segments</th>
+      <th>Bouts</th>
+      <th>Notes Selected</th>
     </tr>
     {% for rec in recordings %}
     <tr>
       <td><strong>{{ rec.recording_id }}</strong></td>
-      <td>{{ rec.sp_segments }}</td>
-      <td>{{ rec.panns_segments }}</td>
       <td>{{ rec.tw_segments }}</td>
-      <td>{{ rec.bout_count }} ({{ rec.bout_verdict }})</td>
+      <td>{{ rec.bout_count }}</td>
+      <td>{% if rec.n_selected > 0 %}<span style="color:#2ecc71;font-weight:bold">{{ rec.n_selected }}</span>{% else %}-{% endif %}</td>
     </tr>
     {% endfor %}
   </table>
+
+  {% if cluster_image %}
+  <div class="recording" style="margin-bottom: 24px;">
+    <div class="recording-header">
+      <span>Note Clusters (Spectral Features + HDBSCAN t-SNE)</span>
+    </div>
+    <div class="recording-body">
+      <img src="/image?path={{ cluster_image }}" style="max-width: 100%; height: auto; border: 1px solid #eee; border-radius: 4px;" loading="lazy">
+    </div>
+  </div>
+  {% endif %}
 
   {% for rec in recordings %}
   {% set rec_idx = loop.index %}
   <div class="recording" id="rec-{{ rec_idx }}">
     <div class="recording-header" onclick="this.parentElement.classList.toggle('collapsed')">
-      <span>{{ rec.recording_id }}</span>
+      <span>{{ rec.recording_id }}{% if rec.n_selected > 0 %} <span style="color:#2ecc71">&#9733;{{ rec.n_selected }} selected</span>{% endif %}</span>
       <span style="font-weight:normal;color:#7f8c8d;">click to toggle</span>
     </div>
     <div class="recording-body">
@@ -355,9 +379,9 @@ SPECIES_TEMPLATE = Template("""\
         <div class="no-image">No visualization available</div>
         {% endif %}
       </div>
-      <button class="toggle-others" onclick="this.nextElementSibling.classList.toggle('open'); this.textContent = this.nextElementSibling.classList.contains('open') ? 'Hide other methods' : 'Show other methods (SP / PANNs / TweetyNet)';">Show other methods (SP / PANNs / TweetyNet)</button>
+      <button class="toggle-others" onclick="this.nextElementSibling.classList.toggle('open'); this.textContent = this.nextElementSibling.classList.contains('open') ? 'Hide other methods' : 'Show other methods (SP / TweetyNet)';">Show other methods (SP / TweetyNet)</button>
       <div class="other-methods">
-        {% for method_key in ['signal_processing', 'panns', 'tweetynet'] %}
+        {% for method_key in ['signal_processing', 'tweetynet'] %}
         <div class="method-row">
           <h3>{{ methods[method_key] }}</h3>
           {% if rec.images[method_key] %}
@@ -452,29 +476,27 @@ def startup():
 
 @app.get("/", response_class=HTMLResponse)
 def index():
-    sp_df = _data.get("signal_processing")
-    panns_df = _data.get("panns")
     tw_df = _data.get("tweetynet")
     bout_df = _data.get("bouts")
+    note_cluster_df = _data.get("note_clusters")
+    note_selected_df = _data.get("selected_notes")
 
-    sp_stats = {
-        "total_segments": int(sp_df["sp_total_segments"].sum()) if sp_df is not None else 0,
-        "mean_per_file": f"{sp_df['sp_total_segments'].mean():.1f}" if sp_df is not None else "N/A",
-    }
-    panns_stats = {
-        "total_segments": int(panns_df["n_segments"].sum()) if panns_df is not None else 0,
-        "mean_per_file": f"{panns_df['n_segments'].mean():.1f}" if panns_df is not None else "N/A",
-        "mean_dur": f"{panns_df['mean_segment_dur'].mean():.2f}" if panns_df is not None and "mean_segment_dur" in panns_df.columns else "N/A",
-    }
     tw_stats = {
         "total_segments": int(tw_df["n_segments"].sum()) if tw_df is not None else 0,
         "mean_per_file": f"{tw_df['n_segments'].mean():.1f}" if tw_df is not None else "N/A",
     }
     bout_stats = {
         "total_bouts": int(bout_df["n_bouts"].sum()) if bout_df is not None else 0,
-        "accept": int(bout_df["n_accept"].sum()) if bout_df is not None else 0,
-        "review": int(bout_df["n_review"].sum()) if bout_df is not None else 0,
-        "reject": int(bout_df["n_reject"].sum()) if bout_df is not None else 0,
+        "median_dur": f"{bout_df['median_bout_dur'].median():.2f}" if bout_df is not None else "N/A",
+    }
+    note_cluster_stats = {
+        "total_clusters": int(note_cluster_df["n_clusters"].sum()) if note_cluster_df is not None else 0,
+        "n_species": len(note_cluster_df) if note_cluster_df is not None else 0,
+        "noise_pct": f"{note_cluster_df['noise_ratio'].mean() * 100:.1f}" if note_cluster_df is not None else "N/A",
+    }
+    note_selected_stats = {
+        "total_selected": len(note_selected_df) if note_selected_df is not None else 0,
+        "n_species": note_selected_df["species_code"].nunique() if note_selected_df is not None else 0,
     }
 
     return INDEX_TEMPLATE.render(
@@ -482,10 +504,10 @@ def index():
         n_recordings=sum(len(v) for v in _species_recs.values()),
         species_recs=_species_recs,
         species_names=_species_names,
-        sp_stats=sp_stats,
-        panns_stats=panns_stats,
         tw_stats=tw_stats,
         bout_stats=bout_stats,
+        note_cluster_stats=note_cluster_stats,
+        note_selected_stats=note_selected_stats,
     )
 
 
@@ -496,28 +518,23 @@ def species_page(species_code: str):
     ja_name = names.get("ja", "") or species_code
     sci_name = names.get("sci", "")
 
-    sp_df = _data.get("signal_processing")
-    panns_df = _data.get("panns")
     tw_df = _data.get("tweetynet")
     bout_df = _data.get("bouts")
+    note_cluster_df = _data.get("note_clusters")
+
+    # Note cluster info for header
+    cluster_info = ""
+    if note_cluster_df is not None:
+        c_row = note_cluster_df[note_cluster_df["species_code"] == species_code]
+        if len(c_row) > 0:
+            n_notes = int(c_row["n_notes_filtered"].iloc[0])
+            n_clusters = int(c_row["n_clusters"].iloc[0])
+            n_noise = int(c_row["n_noise"].iloc[0])
+            cluster_info = f"{n_notes} notes, {n_clusters} clusters, {n_noise} noise ({n_noise/n_notes*100:.0f}%)" if n_notes > 0 else ""
 
     recordings = []
     for rid in recs:
         rec_info = {"recording_id": rid, "images": {}}
-
-        # Signal processing
-        if sp_df is not None:
-            sp_row = sp_df[(sp_df["recording_id"] == rid) & (sp_df["ebird_species_code"] == species_code)]
-            rec_info["sp_segments"] = int(sp_row["sp_total_segments"].iloc[0]) if len(sp_row) > 0 else "-"
-        else:
-            rec_info["sp_segments"] = "-"
-
-        # PANNs
-        if panns_df is not None:
-            p_row = panns_df[(panns_df["recording_id"] == rid) & (panns_df["ebird_species_code"] == species_code)]
-            rec_info["panns_segments"] = int(p_row["n_segments"].iloc[0]) if len(p_row) > 0 else "-"
-        else:
-            rec_info["panns_segments"] = "-"
 
         # TweetyNet
         if tw_df is not None:
@@ -529,16 +546,20 @@ def species_page(species_code: str):
         # Bouts
         if bout_df is not None:
             b_row = bout_df[(bout_df["recording_id"] == rid) & (bout_df["species_code"] == species_code)]
-            if len(b_row) > 0:
-                rec_info["bout_count"] = int(b_row["n_bouts"].iloc[0])
-                a, rv, rj = int(b_row["n_accept"].iloc[0]), int(b_row["n_review"].iloc[0]), int(b_row["n_reject"].iloc[0])
-                rec_info["bout_verdict"] = f"{a}/{rv}/{rj}"
-            else:
-                rec_info["bout_count"] = "-"
-                rec_info["bout_verdict"] = "-"
+            rec_info["bout_count"] = int(b_row["n_bouts"].iloc[0]) if len(b_row) > 0 else "-"
         else:
             rec_info["bout_count"] = "-"
-            rec_info["bout_verdict"] = "-"
+
+        # Selected notes
+        selected_notes_df = _data.get("selected_notes")
+        if selected_notes_df is not None:
+            sel_count = len(selected_notes_df[
+                (selected_notes_df["species_code"] == species_code) &
+                (selected_notes_df["recording_id"] == rid)
+            ])
+            rec_info["n_selected"] = sel_count
+        else:
+            rec_info["n_selected"] = 0
 
         # Audio path
         audio_path = find_audio_path(species_code, rid, _samples_df)
@@ -550,6 +571,10 @@ def species_page(species_code: str):
 
         recordings.append(rec_info)
 
+    note_vis_dir = STEP_DIR / "note_cluster_visualizations"
+    note_cluster_image_path = note_vis_dir / f"{species_code}_note_clusters.png"
+    cluster_image = str(note_cluster_image_path) if note_cluster_image_path.exists() else None
+
     return SPECIES_TEMPLATE.render(
         species_code=species_code,
         ja_name=ja_name,
@@ -558,14 +583,16 @@ def species_page(species_code: str):
         methods=METHOD_LABELS,
         all_species=sorted(_species_recs.keys()),
         species_names=_species_names,
+        cluster_image=cluster_image,
+        cluster_info=cluster_info,
     )
 
 
 @app.get("/image")
 def serve_image(path: str):
-    """Serve an image file from the NAS."""
-    p = Path(path)
-    if not str(p).startswith(str(NAS_BASE)):
+    """Serve an image file from the NAS or step directory."""
+    p = Path(path).resolve()
+    if not (str(p).startswith(str(NAS_BASE.resolve())) or str(p).startswith(str(STEP_DIR.resolve()))):
         return Response(status_code=403)
     if not p.exists():
         return Response(status_code=404)
@@ -575,8 +602,8 @@ def serve_image(path: str):
 @app.get("/audio")
 def serve_audio(path: str):
     """Serve an audio file from the NAS."""
-    p = Path(path)
-    if not str(p).startswith(str(NAS_BASE)):
+    p = Path(path).resolve()
+    if not str(p).startswith(str(NAS_BASE.resolve())):
         return Response(status_code=403)
     if not p.exists():
         return Response(status_code=404)
